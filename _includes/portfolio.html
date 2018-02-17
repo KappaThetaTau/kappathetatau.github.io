@@ -1,5 +1,8 @@
 <div id="portfolio">
-    <p>
-        Quisque vitae euismod tortor, nec posuere ligula. Quisque hendrerit sed quam ut molestie. Aenean luctus id ante in fermentum. Proin ut ex maximus mi aliquet fringilla. Proin accumsan, odio nec bibendum egestas, ex neque sodales odio, et ultrices dui tortor id tortor. Curabitur et ullamcorper dui. Praesent in nisi condimentum, suscipit ipsum eget, maximus mi. Maecenas bibendum imperdiet tristique. Sed laoreet arcu nec urna convallis tincidunt.
-    </p>
+    <h1> Companies we go to </h1>
+    {% assign image_files = site.static_files | where: "company_image", true %}
+    {% for myimage in image_files %}
+    {% capture image_path %}.{{ myimage.path }}{% endcapture %}
+    <img src="{{ image_path }}">
+    {% endfor %}
 </div>

@@ -15,20 +15,21 @@ $title-fontsize: 3em;
         "hero"
         "about"
         "brothers"
-        "stats"
-        "posts"
         "portfolio"
+        "posts"
+        "stats"
         "rush"
         "contact"
         "faq";
+    color: black;
 
     & > div {
-        background: #eee;
+        background: white;
     }
 
-    & > div:nth-child(odd) {
-        background: #ddd;
-    }
+    //& > div:nth-child(odd) {
+        //background: #ddd;
+    //}
 
     #hero {
         height: 23em;
@@ -120,38 +121,72 @@ $title-fontsize: 3em;
     }
 
     #about {
+        display: grid;
         grid-area: about;
+        text-align: center;
         padding: 3em;
+        p {
+            font-size: 1.25em;
+        }
     }
 
     #stats {
         grid-area: stats;
-        grid-row: 4/5;
-        padding: 3em;
+        padding: 2em;
+        text-align: center;
+        ul {
+            list-style: none;
+            li {
+                font-weight: 400;
+                margin: 6px;
+            }
+        }
     }
 
     #contact {
         grid-area: contact;
         padding: 3em;
+        font-size: 0.8em;
+        &-list {
+            list-style: none;
+            .contact-list-name {
+                font-weight: 400;
+            }
+            .contact-list-title {
+                font-weight: 400;
+                font-style: oblique;
+                font-size: 1.05em;
+            }
+        }
+        ul {
+            li {
+                margin: 0.25em;
+            }
+        }
     }
 
     #portfolio {
         grid-area: portfolio;
-        padding: 3em;
+        padding: 2em;
+        text-align: center;
+
+        img {
+            margin: 3px;
+            width: 64px;
+        }
     }
 }
 
 @media screen and (min-width: 800px) {
     #home {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
-         "hero hero hero hero hero hero"
-         ". about about about about ."
-         "brothers brothers brothers posts posts posts"
-         ". stats stats stats stats ."
-         "rush rush rush faq faq faq"
-         "portfolio portfolio portfolio contact contact contact";
-
+         "hero hero"
+         "about about"
+         "brothers posts"
+         "portfolio portfolio"
+         "rush faq"
+         "stats contact";
         #hero {
             height: 30em;
             font-size: 1.7em;
@@ -160,6 +195,12 @@ $title-fontsize: 3em;
         
         #faq {
             display: block;
+        }
+
+        #portfolio {
+            img {
+                width: 128px;
+            }
         }
     }
 }

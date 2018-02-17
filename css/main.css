@@ -256,11 +256,10 @@
 #home {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "hero" "about" "brothers" "stats" "posts" "portfolio" "rush" "contact" "faq"; }
+  grid-template-areas: "hero" "about" "brothers" "portfolio" "posts" "stats" "rush" "contact" "faq";
+  color: black; }
   #home > div {
-    background: #eee; }
-  #home > div:nth-child(odd) {
-    background: #ddd; }
+    background: white; }
   #home #hero {
     height: 23em;
     padding: none;
@@ -342,29 +341,55 @@
     position: relative;
     grid-area: rush; }
   #home #about {
+    display: grid;
     grid-area: about;
+    text-align: center;
     padding: 3em; }
+    #home #about p {
+      font-size: 1.25em; }
   #home #stats {
     grid-area: stats;
-    grid-row: 4/5;
-    padding: 3em; }
+    padding: 2em;
+    text-align: center; }
+    #home #stats ul {
+      list-style: none; }
+      #home #stats ul li {
+        font-weight: 400;
+        margin: 6px; }
   #home #contact {
     grid-area: contact;
-    padding: 3em; }
+    padding: 3em;
+    font-size: 0.8em; }
+    #home #contact-list {
+      list-style: none; }
+      #home #contact-list .contact-list-name {
+        font-weight: 400; }
+      #home #contact-list .contact-list-title {
+        font-weight: 400;
+        font-style: oblique;
+        font-size: 1.05em; }
+    #home #contact ul li {
+      margin: 0.25em; }
   #home #portfolio {
     grid-area: portfolio;
-    padding: 3em; }
+    padding: 2em;
+    text-align: center; }
+    #home #portfolio img {
+      margin: 3px;
+      width: 64px; }
 
 @media screen and (min-width: 800px) {
   #home {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "hero hero hero hero hero hero" ". about about about about ." "brothers brothers brothers posts posts posts" ". stats stats stats stats ." "rush rush rush faq faq faq" "portfolio portfolio portfolio contact contact contact"; }
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "hero hero" "about about" "brothers posts" "portfolio portfolio" "rush faq" "stats contact"; }
     #home #hero {
       height: 30em;
       font-size: 1.7em;
       grid-area: hero; }
     #home #faq {
-      display: block; } }
+      display: block; }
+    #home #portfolio img {
+      width: 128px; } }
 
 * {
   margin: 0;
