@@ -1,7 +1,7 @@
 name: Kappa Theta Tau
 markdown: redcarpet
 highlighter: pygments # or rouge or null
-exclude: ["node_modules", "gulpfile.js", "package.json"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "README.md"]
 
 defaults:
   - scope:
