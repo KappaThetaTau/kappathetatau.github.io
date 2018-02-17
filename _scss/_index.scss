@@ -123,10 +123,23 @@ $title-fontsize: 3em;
     #about {
         display: grid;
         grid-area: about;
-        text-align: center;
         padding: 3em;
+        position: relative;
         p {
             font-size: 1.25em;
+        }
+
+        &::after {
+            background-position: center;
+            background-repeat: no-repeat;
+            content: "";
+            background-image: url('../assets/imgs/thetatau.png');
+            opacity: 0.025;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
         }
     }
 
@@ -135,12 +148,24 @@ $title-fontsize: 3em;
         padding: 2em;
         text-align: center;
         font-size: 1.75em;
+        position: relative;
+
         ul {
             list-style: none;
             li {
                 font-weight: 400;
                 margin: 6px;
             }
+        }
+        &::after {
+            content: "";
+            background-image: url('../assets/imgs/gear.png');
+            opacity: 0.025;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
         }
     }
 
@@ -189,7 +214,7 @@ $title-fontsize: 3em;
          "rush faq"
          "stats contact";
         #hero {
-            height: 30em;
+            height: 27em;
             font-size: 1.7em;
             grid-area: hero;
         }

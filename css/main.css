@@ -343,20 +343,41 @@
   #home #about {
     display: grid;
     grid-area: about;
-    text-align: center;
-    padding: 3em; }
+    padding: 3em;
+    position: relative; }
     #home #about p {
       font-size: 1.25em; }
+    #home #about::after {
+      background-position: center;
+      background-repeat: no-repeat;
+      content: "";
+      background-image: url("../assets/imgs/thetatau.png");
+      opacity: 0.025;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute; }
   #home #stats {
     grid-area: stats;
     padding: 2em;
     text-align: center;
-    font-size: 1.75em; }
+    font-size: 1.75em;
+    position: relative; }
     #home #stats ul {
       list-style: none; }
       #home #stats ul li {
         font-weight: 400;
         margin: 6px; }
+    #home #stats::after {
+      content: "";
+      background-image: url("../assets/imgs/gear.png");
+      opacity: 0.025;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute; }
   #home #contact {
     grid-area: contact;
     padding: 3em;
@@ -384,7 +405,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "hero hero" "about about" "brothers posts" "portfolio portfolio" "rush faq" "stats contact"; }
     #home #hero {
-      height: 30em;
+      height: 27em;
       font-size: 1.7em;
       grid-area: hero; }
     #home #faq {

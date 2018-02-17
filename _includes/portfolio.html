@@ -1,5 +1,5 @@
 <div id="portfolio">
-    <h1> Companies we go to </h1>
+    <h1> We work here...</h1>
     {% assign image_files = site.static_files | where: "company_image", true %}
     {% for myimage in image_files %}
     {% capture image_path %}.{{ myimage.path }}{% endcapture %}
