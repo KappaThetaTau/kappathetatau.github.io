@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,400");
 .highlight {
   background: #ffffff; }
@@ -260,8 +261,35 @@
   #home > div {
     background: white;
     color: #714d4d; }
-  #home .image-button {
-    margin: 0.50em; }
+  #home .image-button-wrapper {
+    display: block;
+    position: relative;
+    margin: 0.50em;
+    cursor: pointer;
+    transition: all 0.5s; }
+    #home .image-button-wrapper:hover .image-button-text {
+      padding-right: 50px; }
+    #home .image-button-wrapper:hover .image-button-text:after {
+      opacity: 1;
+      right: 0; }
+  #home .image-button-text {
+    display: inline-block;
+    font-size: 5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 0.5s;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: white; }
+    #home .image-button-text:after {
+      content: '»';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s; }
   #home #hero {
     height: 23em;
     padding: none;

@@ -1,4 +1,5 @@
 $title-fontsize: 3em;
+
 @mixin background-image-base() {
     background-position: center;
     background-repeat: no-repeat;
@@ -8,6 +9,7 @@ $title-fontsize: 3em;
     background-image: url($url);
     @include background-image-base();
 }
+
 #home {
     display: grid;
     grid-template-columns: 1fr;
@@ -28,7 +30,44 @@ $title-fontsize: 3em;
     }
 
     .image-button {
-        margin: 0.50em;
+        &-wrapper{
+            display: block;
+            position: relative;
+            margin: 0.50em;
+            cursor: pointer;
+            transition: all 0.5s;
+
+            &:hover {
+                .image-button-text {
+                    padding-right: 50px;
+                }
+                .image-button-text:after {
+                    opacity: 1;
+                    right: 0;
+                }
+            }
+        }
+
+        &-text {
+            display: inline-block;
+            font-size: 5em;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transition: 0.5s;
+            transform: translate(-50%, -50%);
+            text-decoration: none;
+            color: white;
+
+            &:after {
+                content: '»';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+        }
     }
 
     #hero {
