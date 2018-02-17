@@ -145,7 +145,7 @@ $title-fontsize: 3em;
 
     #stats {
         grid-area: stats;
-        padding: 2em;
+        padding: 0.5em 2em 2em;
         text-align: center;
         font-size: 1.75em;
         position: relative;
@@ -193,7 +193,7 @@ $title-fontsize: 3em;
 
     #portfolio {
         grid-area: portfolio;
-        padding: 6em 1.5em;
+        padding: 2em 1.5em;
         text-align: center;
 
         img {
@@ -218,9 +218,17 @@ $title-fontsize: 3em;
             font-size: 1.7em;
             grid-area: hero;
         }
+
+        #about {
+            padding: 3em 10em;
+        }
+
+        #portfolio {
+            padding: 6em 1.5em;
+        }
         
         #faq {
-            display: block;
+            display: block; // Show this block on desktop
         }
 
         #portfolio {

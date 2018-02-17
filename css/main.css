@@ -360,7 +360,7 @@
       position: absolute; }
   #home #stats {
     grid-area: stats;
-    padding: 2em;
+    padding: 0.5em 2em 2em;
     text-align: center;
     font-size: 1.75em;
     position: relative; }
@@ -394,7 +394,7 @@
       margin: 0.25em; }
   #home #portfolio {
     grid-area: portfolio;
-    padding: 6em 1.5em;
+    padding: 2em 1.5em;
     text-align: center; }
     #home #portfolio img {
       margin: 3px;
@@ -408,6 +408,10 @@
       height: 27em;
       font-size: 1.7em;
       grid-area: hero; }
+    #home #about {
+      padding: 3em 10em; }
+    #home #portfolio {
+      padding: 6em 1.5em; }
     #home #faq {
       display: block; }
     #home #portfolio img {
