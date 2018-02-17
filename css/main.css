@@ -265,7 +265,7 @@
     height: 23em;
     padding: none;
     font-size: 1.3em;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/assets/imgs/hero.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../assets/imgs/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,7 +310,7 @@
       content: 'family'; }
   #home #brothers {
     height: 25em;
-    background-image: url("/assets/imgs/group_1.jpg");
+    background-image: url("../assets/imgs/group_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -318,7 +318,7 @@
     grid-area: brothers; }
   #home #posts {
     height: 25em;
-    background-image: url("/assets/imgs/orchard_2.jpg");
+    background-image: url("../assets/imgs/orchard_2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -327,7 +327,7 @@
   #home #faq {
     display: none;
     height: 25em;
-    background-image: url("/assets/imgs/christmas_1.jpg");
+    background-image: url("../assets/imgs/christmas_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -335,7 +335,7 @@
     grid-area: faq; }
   #home #rush {
     height: 25em;
-    background-image: url("/assets/imgs/fun_1.jpg");
+    background-image: url("../assets/imgs/fun_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

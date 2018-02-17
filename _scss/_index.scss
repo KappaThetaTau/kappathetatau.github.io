@@ -34,7 +34,7 @@ $title-fontsize: 3em;
         height: 23em;
         padding: none;
         font-size: 1.3em;
-        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url(/assets/imgs/hero.jpg);
+        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url(../assets/imgs/hero.jpg);
         @include background-image-base();
         position: relative;
         color: white;
@@ -92,14 +92,14 @@ $title-fontsize: 3em;
 
     #brothers {
         height: 25em;
-        @include background-button-image-style("/assets/imgs/group_1.jpg");
+        @include background-button-image-style("../assets/imgs/group_1.jpg");
         position: relative;
         grid-area: brothers;
     }
 
     #posts {
         height: 25em;
-        @include background-button-image-style("/assets/imgs/orchard_2.jpg");
+        @include background-button-image-style("../assets/imgs/orchard_2.jpg");
         position: relative;
         grid-area: posts;
     }
@@ -107,14 +107,14 @@ $title-fontsize: 3em;
     #faq {
         display: none;
         height: 25em;
-        @include background-button-image-style("/assets/imgs/christmas_1.jpg");
+        @include background-button-image-style("../assets/imgs/christmas_1.jpg");
         position: relative;
         grid-area: faq;
     }
 
     #rush {
         height: 25em;
-        @include background-button-image-style("/assets/imgs/fun_1.jpg");
+        @include background-button-image-style("../assets/imgs/fun_1.jpg");
         position: relative;
         grid-area: rush;
     }
