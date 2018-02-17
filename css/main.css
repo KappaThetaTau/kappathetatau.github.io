@@ -257,7 +257,7 @@
 #home {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "hero" "about" "brothers" "posts" "portfolio" "stats" "faq" "rush" "contact"; }
+  grid-template-areas: "hero" "about" "brothers" "posts" "stats" "portfolio" "faq" "rush" "contact"; }
   #home > div {
     background: white;
     color: #714d4d; }
@@ -360,8 +360,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    grid-area: faq;
-    margin-top: 0; }
+    grid-area: faq; }
   #home #rush {
     height: 25em;
     background-image: url("../assets/imgs/fun_1.jpg");
@@ -401,8 +400,8 @@
         margin: 6px; }
     #home #stats::after {
       content: "";
-      background-image: url("../assets/imgs/gear.png");
-      opacity: 0.025;
+      background-image: linear-gradient(transparent, white), url("../assets/imgs/gear.png");
+      opacity: 0.125;
       top: 0;
       left: 0;
       bottom: 0;
@@ -434,6 +433,11 @@
   #home {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "hero hero" "about about" "brothers posts" "portfolio portfolio" "faq rush" "stats contact"; }
+    #home .image-button-text {
+      padding-right: 50px; }
+    #home .image-button-text:after {
+      opacity: 1;
+      right: 0; }
     #home #hero {
       height: 27em;
       font-size: 1.7em;
@@ -442,6 +446,9 @@
       padding: 3em 10em; }
     #home #stats {
       padding: 1.25em; }
+      #home #stats::after {
+        background-image: url("../assets/imgs/gear.png");
+        opacity: 0.025; }
     #home #portfolio {
       padding: 6em 1.5em; }
       #home #portfolio img {

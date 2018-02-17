@@ -18,8 +18,8 @@ $title-fontsize: 3em;
     "about"
     "brothers"
     "posts"
-    "portfolio"
     "stats"
+    "portfolio"
     "faq"
     "rush"
     "contact";
@@ -149,7 +149,6 @@ $title-fontsize: 3em;
         @include background-button-image-style("../assets/imgs/christmas_1.jpg");
         position: relative;
         grid-area: faq;
-        margin-top: 0; // Sit flush with stats block
     }
 
     #rush {
@@ -198,8 +197,8 @@ $title-fontsize: 3em;
         }
         &::after {
             content: "";
-            background-image: url('../assets/imgs/gear.png');
-            opacity: 0.025;
+            background-image: linear-gradient( rgba(0, 0, 0, 0.0), rgba(255, 255, 255, 1) ), url('../assets/imgs/gear.png');
+            opacity: 0.125;
             top: 0;
             left: 0;
             bottom: 0;
@@ -252,6 +251,7 @@ $title-fontsize: 3em;
         "portfolio portfolio"
         "faq rush"
         "stats contact";
+
         #hero {
             height: 27em;
             font-size: 1.7em;
@@ -263,6 +263,10 @@ $title-fontsize: 3em;
         }
 
         #stats {
+            &::after {
+                background-image: url('../assets/imgs/gear.png');
+                opacity: 0.025;
+            }
             padding: 1.25em;
         }
 
