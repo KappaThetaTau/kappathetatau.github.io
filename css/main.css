@@ -350,7 +350,8 @@
   #home #stats {
     grid-area: stats;
     padding: 2em;
-    text-align: center; }
+    text-align: center;
+    font-size: 1.75em; }
     #home #stats ul {
       list-style: none; }
       #home #stats ul li {
