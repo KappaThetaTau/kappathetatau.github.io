@@ -11,25 +11,25 @@ $title-fontsize: 3em;
 #home {
     display: grid;
     grid-template-columns: 1fr;
-        grid-template-areas: 
-        "hero"
-        "about"
-        "brothers"
-        "posts"
-        "portfolio"
-        "stats"
-        "rush"
-        "contact"
-        "faq";
-    color: black;
+    grid-template-areas: 
+    "hero"
+    "about"
+    "brothers"
+    "posts"
+    "portfolio"
+    "stats"
+    "faq"
+    "rush"
+    "contact";
 
     & > div {
         background: white;
+        color: #714d4d;
     }
 
-    //& > div:nth-child(odd) {
-        //background: #ddd;
-    //}
+    .image-button {
+        margin: 0.50em;
+    }
 
     #hero {
         height: 23em;
@@ -106,11 +106,11 @@ $title-fontsize: 3em;
     }
 
     #faq {
-        display: none;
         height: 25em;
         @include background-button-image-style("../assets/imgs/christmas_1.jpg");
         position: relative;
         grid-area: faq;
+        margin-top: 0; // Sit flush with stats block
     }
 
     #rush {
@@ -207,12 +207,12 @@ $title-fontsize: 3em;
     #home {
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
-         "hero hero"
-         "about about"
-         "brothers posts"
-         "portfolio portfolio"
-         "rush faq"
-         "stats contact";
+        "hero hero"
+        "about about"
+        "brothers posts"
+        "portfolio portfolio"
+        "faq rush"
+        "stats contact";
         #hero {
             height: 27em;
             font-size: 1.7em;
@@ -223,18 +223,20 @@ $title-fontsize: 3em;
             padding: 3em 10em;
         }
 
-        #portfolio {
-            padding: 6em 1.5em;
-        }
-        
-        #faq {
-            display: block; // Show this block on desktop
+        #stats {
+            padding: 1.25em;
         }
 
         #portfolio {
+            padding: 6em 1.5em;
             img {
                 width: 128px;
             }
         }
+
+        #faq {
+            margin-top: auto;
+        }
+
     }
 }
