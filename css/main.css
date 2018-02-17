@@ -256,7 +256,7 @@
 #home {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "hero" "about" "brothers" "portfolio" "posts" "stats" "rush" "contact" "faq";
+  grid-template-areas: "hero" "about" "brothers" "posts" "portfolio" "stats" "rush" "contact" "faq";
   color: black; }
   #home > div {
     background: white; }
@@ -352,7 +352,7 @@
       background-repeat: no-repeat;
       content: "";
       background-image: url("../assets/imgs/thetatau.png");
-      opacity: 0.025;
+      opacity: 0.05;
       top: 0;
       left: 0;
       bottom: 0;
