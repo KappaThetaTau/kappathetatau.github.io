@@ -272,6 +272,11 @@
     #home .image-button-wrapper:hover .image-button-text:after {
       opacity: 1;
       right: 0; }
+  #home .image-button-animation .image-button-text {
+    padding-right: 50px; }
+  #home .image-button-animation .image-button-text:after {
+    opacity: 1;
+    right: 0; }
   #home .image-button-text {
     display: inline-block;
     font-size: 5em;

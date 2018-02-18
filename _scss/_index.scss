@@ -48,6 +48,16 @@ $title-fontsize: 3em;
             }
         }
 
+        &-animation{
+                .image-button-text {
+                    padding-right: 50px;
+                }
+                .image-button-text:after {
+                    opacity: 1;
+                    right: 0;
+                }
+        }
+
         &-text {
             display: inline-block;
             font-size: 5em;
