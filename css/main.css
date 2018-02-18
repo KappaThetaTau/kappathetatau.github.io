@@ -433,11 +433,6 @@
   #home {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "hero hero" "about about" "brothers posts" "portfolio portfolio" "faq rush" "stats contact"; }
-    #home .image-button-text {
-      padding-right: 50px; }
-    #home .image-button-text:after {
-      opacity: 1;
-      right: 0; }
     #home #hero {
       height: 27em;
       font-size: 1.7em;
