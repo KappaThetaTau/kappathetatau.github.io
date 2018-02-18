@@ -15,7 +15,8 @@ function checkAnimation() {
     for (var i = 0; i < $elems.length; i++) {
         $elem = $elems[i];
 
-        if (isElementInViewport($elem)) {
+        // Only do this for screen sizes less than 800px
+        if (isElementInViewport($elem) && !window.matchMedia("(min-width: 800px)").matches) {
             // Start the animation
             $elem.className += " image-button-animation";
         } else {

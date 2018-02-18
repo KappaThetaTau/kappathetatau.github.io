@@ -48,7 +48,7 @@ $title-fontsize: 3em;
             }
         }
 
-        &-animation{
+        &-animation {
                 .image-button-text {
                     padding-right: 50px;
                 }
@@ -74,7 +74,7 @@ $title-fontsize: 3em;
                 position: absolute;
                 opacity: 0;
                 top: 0;
-                right: -20px;
+                right: -50px;
                 transition: 0.5s;
             }
         }
