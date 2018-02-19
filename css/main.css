@@ -309,7 +309,7 @@
       right: -50px;
       transition: 0.30s; }
   #home #hero {
-    height: 23em;
+    height: 27em;
     padding: none;
     font-size: 1.3em;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../assets/imgs/hero.jpg);
@@ -476,7 +476,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "hero hero" "about about" "brothers posts" "portfolio portfolio" "faq rush" "stats contact"; }
     #home #hero {
-      height: 27em;
       font-size: 1.7em;
       grid-area: hero; }
     #home #about {
