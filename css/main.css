@@ -449,6 +449,8 @@
     padding: 1em 0em;
     font-size: 1.50em;
     overflow: hidden; }
+    #home #portfolio a {
+      text-decoration: none; }
     #home #portfolio-photobanner-1 {
       -webkit-animation: bannermove 30s linear infinite;
               animation: bannermove 30s linear infinite; }

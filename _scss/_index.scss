@@ -256,6 +256,9 @@ $desktop-trigger: 800px;
         padding: 1em 0em;
         font-size: 1.50em;
         overflow: hidden;
+        a {
+            text-decoration: none;
+        }
 
         &-photobanner-1 {
             animation: bannermove 30s linear infinite;
