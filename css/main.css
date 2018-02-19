@@ -486,6 +486,108 @@
     #home #faq {
       margin-top: auto; } }
 
+#brothers {
+  display: grid;
+  grid-template-columns: 1fr; }
+  #brothers #hero {
+    height: 27em;
+    padding: none;
+    font-size: 1.3em;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../assets/imgs/orchard_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white; }
+    #brothers #hero-social {
+      top: 95%;
+      left: 50%;
+      position: absolute;
+      -webkit-transform: translate(-50%, -95%);
+              transform: translate(-50%, -95%);
+      font-size: 1.25em; }
+      #brothers #hero-social #ilogo {
+        height: 1em;
+        vertical-align: -.125em; }
+      #brothers #hero-social a {
+        margin: .125em;
+        text-decoration: none;
+        color: white;
+        opacity: .7; }
+        #brothers #hero-social a:hover {
+          opacity: 1; }
+    #brothers #hero-title {
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      position: absolute;
+      font-weight: 400;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      width: 100%;
+      font-size: 3.5em; }
+    #brothers #hero-main {
+      letter-spacing: -0.125em; }
+    #brothers #hero-subtitle {
+      display: block;
+      font-weight: 100;
+      font-size: 0.25em; }
+    #brothers #hero-brothers {
+      font-weight: 100; }
+  #brothers #members {
+    padding: .75em; }
+    #brothers #members img {
+      width: 100px; }
+    #brothers #members .members-class-title {
+      display: block;
+      font-size: 2em;
+      width: 100%;
+      text-align: center; }
+    #brothers #members .members-class-brothers {
+      padding: .50em;
+      height: -webkit-max-content;
+      height: -moz-max-content;
+      height: max-content;
+      text-align: center; }
+    #brothers #members .members-class-brother {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: #bbbbbb 0px 2px 5px;
+      color: white;
+      position: relative;
+      margin: 10px;
+      border-radius: 2px;
+      display: inline-block;
+      text-align: initial;
+      width: 145px;
+      height: 250px;
+      line-height: 1em; }
+      #brothers #members .members-class-brother figure {
+        height: 100%;
+        width: 100%; }
+      #brothers #members .members-class-brother-major {
+        font-size: 0.8em; }
+      #brothers #members .members-class-brother-name {
+        font-weight: 400;
+        font-size: 1.2em; }
+      #brothers #members .members-class-brother-hometown {
+        font-size: 0.8em; }
+      #brothers #members .members-class-brother-overlay {
+        position: absolute;
+        padding: 10px;
+        bottom: 0;
+        left: 0;
+        height: 20;
+        width: 100%;
+        border-radius: 0 0 2px 2px;
+        background-color: rgba(0, 0, 0, 0.6);
+        box-sizing: border-box; }
+
+@media screen and (min-width: 800px) {
+  #brothers #members .members-class-brother {
+    width: 180px; } }
+
 * {
   margin: 0;
   padding: 0; }

@@ -2,17 +2,6 @@ $title-fontsize: 3em;
 $text-color: #714d4d;
 $desktop-trigger: 800px;
 
-@mixin background-image-base() {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@mixin background-button-image-style($url) {
-    background-image: url($url);
-    @include background-image-base();
-}
-
 #home {
     display: grid;
     grid-template-columns: 1fr;
