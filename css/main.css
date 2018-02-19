@@ -458,9 +458,6 @@
       width: -webkit-max-content;
       width: -moz-max-content;
       width: max-content; }
-      #home #portfolio-photobanner:hover #portfolio-photobanner-1 {
-        -webkit-animation-play-state: paused;
-                animation-play-state: paused; }
     #home #portfolio h2 {
       text-align: center;
       margin-bottom: 15px; }
@@ -488,6 +485,9 @@
       padding: 1.50em; }
     #home #portfolio {
       padding: 3em 0em; }
+      #home #portfolio-photobanner:hover #portfolio-photobanner-1 {
+        -webkit-animation-play-state: paused;
+                animation-play-state: paused; }
     #home #faq {
       margin-top: auto; } }
 

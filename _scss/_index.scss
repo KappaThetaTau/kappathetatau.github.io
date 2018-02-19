@@ -266,11 +266,6 @@ $desktop-trigger: 800px;
 
         &-photobanner {
             width: max-content;
-            &:hover {
-                #portfolio-photobanner-1 {
-                    animation-play-state: paused;
-                }
-            }
         }
 
         h2 {
@@ -320,6 +315,14 @@ $desktop-trigger: 800px;
 
         #portfolio {
             padding: 3em 0em;
+
+            &-photobanner {
+                &:hover {
+                    #portfolio-photobanner-1 {
+                        animation-play-state: paused;
+                    }
+                }
+            }
         }
 
         #faq {
