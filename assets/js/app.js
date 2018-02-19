@@ -18,7 +18,7 @@ function checkAnimation() {
         // Only do this for screen sizes less than 800px
         if (isElementInViewport($elem) && !window.matchMedia("(min-width: 800px)").matches) {
             // Start the animation
-            $elem.className += " image-button-animation";
+            $elem.className = "image-button-wrapper image-button-animation";
         } else {
             $elem.className = "image-button-wrapper";
         }
