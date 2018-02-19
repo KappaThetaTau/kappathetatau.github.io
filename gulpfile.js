@@ -3,7 +3,6 @@ var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
 var cp          = require('child_process');
-var deploy      = require("gulp-gh-pages");
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
@@ -60,18 +59,6 @@ gulp.task('watch', function () {
     gulp.watch('_scss/*.scss', ['sass']);
     gulp.watch(['*.html', '_layouts/*.html', '_posts/*', '_data/*', 'assets/**', '_includes/**'], ['jekyll-rebuild']);
 });
-
-/*
- * Deploy _site folder to github
- */
-gulp.task("deploy", ["jekyll-build"], function () {
-    return gulp.src("./_site/**/*")
-        .pipe(deploy({
-            'remoteUrl': 'https://github.com/Kappa-Theta-Tau/Kappa-Theta-Tau.github.io.git',
-            'branch': 'master'
-        }));
-});
-
 
 /**
  * Default task, running just `gulp` will compile the sass,
