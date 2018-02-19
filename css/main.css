@@ -351,10 +351,6 @@
       display: block;
       font-weight: 100;
       font-size: 0.25em; }
-    #home #hero #family:after {
-      content: 'fraternity'; }
-    #home #hero #family:active:after {
-      content: 'family'; }
   #home #brothers {
     height: 25em;
     background-image: url("../assets/imgs/group_1.jpg");

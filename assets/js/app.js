@@ -29,3 +29,10 @@ function checkAnimation() {
 $(window).scroll(function(){
     checkAnimation();
 });
+
+$(document).ready(function(){
+    $('#hero #family').click(function(){
+        $('#hero').css('background-image', 'linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url(../assets/imgs/hero_family.jpg)');
+        $(this).text('family');
+    })
+})
