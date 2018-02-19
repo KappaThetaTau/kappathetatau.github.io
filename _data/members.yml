@@ -1,4 +1,4 @@
- classes: 
+classes: 
     - Spring 2017: 
         - name: 'Dylan Huang'
           major: 'Computer Engineering'
@@ -117,8 +117,33 @@
           major: 'Computer Engineering'
           hometown: 'Seattle, Washington'
           picture: 'alyssa_gunn.jpg'
+    - Spring 2016:
+        - name: 'Dylan Huang'
+          major: 'Computer Engineering'
+          hometown: 'Palo Alto, Calfornia'
+          picture: 'dylan_huang.jpg'
     - Fall 2015:
-        - name: 'Rishab Pohane'
-          major: 'Computer Science'
-          hometown: 'Princeton, New Jersey'
-          picture: 'rishab_pohane.jpg'
+        - name: 'Dylan Huang'
+          major: 'Computer Engineering'
+          hometown: 'Palo Alto, Calfornia'
+          picture: 'dylan_huang.jpg'
+    - Spring 2015:
+        - name: 'Dylan Huang'
+          major: 'Computer Engineering'
+          hometown: 'Palo Alto, Calfornia'
+          picture: 'dylan_huang.jpg'
+    - Fall 2015:
+        - name: 'Dylan Huang'
+          major: 'Computer Engineering'
+          hometown: 'Palo Alto, Calfornia'
+          picture: 'dylan_huang.jpg'
+    - Spring 2014:
+        - name: 'Dylan Huang'
+          major: 'Computer Engineering'
+          hometown: 'Palo Alto, Calfornia'
+          picture: 'dylan_huang.jpg'
+    - Fall 2014:
+        - name: 'Dylan Huang'
+          major: 'Computer Engineering'
+          hometown: 'Palo Alto, Calfornia'
+          picture: 'dylan_huang.jpg'
