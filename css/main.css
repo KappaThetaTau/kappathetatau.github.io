@@ -492,7 +492,7 @@
   #brothers #hero {
     height: 27em;
     padding: none;
-    font-size: 1.7em;
+    font-size: 1.3em;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../assets/imgs/orchard_1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -586,7 +586,9 @@
 
 @media screen and (min-width: 800px) {
   #brothers #members .members-class-brother {
-    width: 180px; } }
+    width: 180px; }
+  #brothers #hero {
+    font-size: 1.7em; } }
 
 * {
   margin: 0;
