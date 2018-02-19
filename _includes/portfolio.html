@@ -1,8 +1,14 @@
 <div id="portfolio">
     <h2> We work here... </h2>
-    {% assign image_files = site.static_files | where: "company_image", true %}
-    {% for myimage in image_files %}
-    {% capture image_path %}.{{ myimage.path }}{% endcapture %}
-    <img src="{{ image_path }}">
-    {% endfor %}
+    <div id="portfolio-photobanner">
+        {% assign image_files = site.static_files | where: "company_image", true %}
+        {% for myimage in image_files %}
+        {% capture image_path %}.{{ myimage.path }}{% endcapture %}
+        <img id="portfolio-photobanner-{{forloop.index}}" src="{{ image_path }}">
+        {% endfor %}
+        {% for myimage in image_files %}
+        {% capture image_path %}.{{ myimage.path }}{% endcapture %}
+        <img id="portfolio-photobanner-after" src="{{ image_path }}">
+        {% endfor %}
+    </div>
 </div>

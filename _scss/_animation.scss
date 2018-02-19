@@ -1,0 +1,11 @@
+$banner-move-dist: -100% / 2;
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: $banner-move-dist;
+ }
+ 
+}
