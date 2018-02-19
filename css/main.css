@@ -312,7 +312,7 @@
     height: 27em;
     padding: none;
     font-size: 1.3em;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../assets/imgs/hero.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/assets/imgs/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -353,7 +353,7 @@
       font-size: 0.25em; }
   #home #brothers {
     height: 25em;
-    background-image: url("../assets/imgs/group_1.jpg");
+    background-image: url("/assets/imgs/group_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -361,7 +361,7 @@
     grid-area: brothers; }
   #home #posts {
     height: 25em;
-    background-image: url("../assets/imgs/orchard_2.jpg");
+    background-image: url("/assets/imgs/orchard_2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -369,7 +369,7 @@
     grid-area: posts; }
   #home #faq {
     height: 25em;
-    background-image: url("../assets/imgs/christmas_1.jpg");
+    background-image: url("/assets/imgs/christmas_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -377,7 +377,7 @@
     grid-area: faq; }
   #home #rush {
     height: 25em;
-    background-image: url("../assets/imgs/fun_1.jpg");
+    background-image: url("/assets/imgs/fun_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -394,7 +394,7 @@
       background-position: center;
       background-repeat: no-repeat;
       content: "";
-      background-image: url("../assets/imgs/thetatau.png");
+      background-image: url("/assets/imgs/thetatau.png");
       opacity: 0.05;
       top: 0;
       left: 0;
@@ -493,7 +493,7 @@
     height: 27em;
     padding: none;
     font-size: 1.3em;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../assets/imgs/orchard_1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/assets/imgs/orchard_1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

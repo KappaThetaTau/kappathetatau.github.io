@@ -3,15 +3,13 @@
     <div id="portfolio-photobanner">
         {% assign image_files = site.static_files | where: "company_image", true %}
         {% for myimage in image_files %}
-        {% capture image_path %}.{{ myimage.path }}{% endcapture %}
         <a target="blank" href="http://www.google.com/search?q={{myimage.basename}}&btnI">
-            <img id="portfolio-photobanner-{{forloop.index}}" src="{{ image_path }}">
+            <img id="portfolio-photobanner-{{forloop.index}}" src="{{ myimage.path }}">
         </a>
         {% endfor %}
         {% for myimage in image_files %}
-        {% capture image_path %}.{{ myimage.path }}{% endcapture %}
         <a target="blank" href="http://www.google.com/search?q={{myimage.basename}}&btnI">
-            <img id="portfolio-photobanner-after" src="{{ image_path }}">
+            <img id="portfolio-photobanner-after" src="{{ myimage.path }}">
         </a>
         {% endfor %}
     </div>

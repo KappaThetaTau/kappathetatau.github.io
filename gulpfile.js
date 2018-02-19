@@ -66,7 +66,10 @@ gulp.task('watch', function () {
  */
 gulp.task("deploy", ["jekyll-build"], function () {
     return gulp.src("./_site/**/*")
-        .pipe(deploy());
+        .pipe(deploy({
+            'remoteUrl': 'https://github.com/Kappa-Theta-Tau/Kappa-Theta-Tau.github.io.git',
+            'branch': 'master'
+        }));
 });
 
 
