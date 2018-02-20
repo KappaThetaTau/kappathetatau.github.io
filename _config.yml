@@ -1,6 +1,5 @@
 name: Kappa Theta Tau
-markdown: redcarpet
-highlighter: pygments # or rouge or null
+highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "README.md"]
 permalink: /:year/:title/
 
