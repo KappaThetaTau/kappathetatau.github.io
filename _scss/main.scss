@@ -1,8 +1,21 @@
+@import "mixins";
+
+//HTML Should reach the corner of the windows!
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    font-family: 'Raleway', Helvetica;
+    font-weight: 100;
+    padding-top: $navbar-height + $navbar-border-height;
+}
+
 @import "syntax";
 @import "animation";
-@import "mixins";
 @import "navbar";
-
 @import "default";
 @import "index";
 @import "brothers";
@@ -11,20 +24,3 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
-//HTML Should reach the corner of the windows!
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body, html {
-    height: 100%;
-}
-
-body {
-    background: white;
-    font-family: 'Raleway', Helvetica;
-    font-weight: 100;
-    position: relative;
-    top: $navbar-height + $navbar-border-height;
-}
