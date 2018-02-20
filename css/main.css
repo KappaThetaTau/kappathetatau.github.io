@@ -406,6 +406,7 @@
     grid-template-columns: 1fr 1fr;
     grid-area: stats;
     padding: .50em;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     text-align: center;
     font-size: 1.50em;
     position: relative; }
