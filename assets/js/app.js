@@ -38,22 +38,24 @@ $(document).ready(function(){
     $( ".cross" ).hide();
     $( ".menu" ).hide();
 
+    let speed = "fast";
+
     $( ".menu li" ).click(function() {
         $( ".cross" ).hide();
         $( ".hamburger" ).show();
-        $( ".menu" ).slideToggle( "slow");
+        $( ".menu" ).slideToggle(speed);
     });
 
     $( ".hamburger" ).click(function() {
         $( ".hamburger" ).hide();
         $( ".cross" ).show();
-        $( ".menu" ).slideToggle( "slow");
+        $( ".menu" ).slideToggle(speed);
     });
 
     $( ".cross" ).click(function() {
         $( ".cross" ).hide();
         $( ".hamburger" ).show();
-        $( ".menu" ).slideToggle( "slow");
+        $( ".menu" ).slideToggle(speed);
     });
 
 })
