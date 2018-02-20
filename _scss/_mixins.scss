@@ -3,6 +3,8 @@ $hero-desktop-font-size: 1.6em;
 $title-fontsize: 3em;
 $text-color: #714d4d;
 $desktop-trigger: 800px;
+$navbar-height: 50px;
+$navbar-border-height: 2px;
 
 
 @mixin background-image-base() {
@@ -18,4 +20,18 @@ $desktop-trigger: 800px;
 
 @mixin box-shadow() {
     box-shadow: #bbbbbb 0px 2px 5px;
+}
+
+@mixin icon-styling() {
+    font-size: 1.8em;
+    background:none;
+    position:absolute;
+    top:0;
+    right:0;
+    color: $text-color;
+    border:0;
+    cursor:pointer;
+    outline:none;
+    height: $navbar-height;
+    width: $navbar-height;
 }

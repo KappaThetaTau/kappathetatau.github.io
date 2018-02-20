@@ -37,6 +37,13 @@ $(document).ready(function(){
     })
     $( ".cross" ).hide();
     $( ".menu" ).hide();
+
+    $( ".menu li" ).click(function() {
+        $( ".cross" ).hide();
+        $( ".hamburger" ).show();
+        $( ".menu" ).slideToggle( "slow");
+    });
+
     $( ".hamburger" ).click(function() {
         $( ".hamburger" ).hide();
         $( ".cross" ).show();
