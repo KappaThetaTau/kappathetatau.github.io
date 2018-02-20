@@ -9,5 +9,16 @@ defaults:
     values:
       company_image: true
 
-#SEO STUFF
+# SEO STUFF
 description: Theta Tau is the oldest, largest, and foremost Fraternity for Engineers. Since its founding at the University of Minnesota in 1904, over 40,000 have been initiated over the years. With emphasis on quality and a strong fraternal bond, the Fraternity has chapters only at ABET accredited schools and limits the number of student members in any one of its chapters across the nation.
+
+# NAV STUFF
+nav: 
+    home: '/'
+    about: '/#about'
+    brothers: '/brothers'
+    blog: '/blog'
+    faq: '/2018/faq'
+    rush: '/2018/fall-2018-rush/'
+    contact: '/#contact'
+

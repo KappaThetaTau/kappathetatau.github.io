@@ -16,7 +16,7 @@
         <!-- -Imported JS -->
         <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="/assets/js/app.js"></script>
 
         <meta name="author" content="{{ site.name }}">
@@ -29,6 +29,21 @@
         <meta property="og:type" content="blog">
 
     </head>
+
+    <header>
+        <a href="/"><img src="/assets/imgs/thetatau.png"></a>
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+    </header>
+
+    <div class="menu">
+        <ul>
+            {% for nav in site.nav %}
+            <a href="{{nav[1]}}"><li>{{nav[0]}}</li></a>
+            {% endfor %}
+        </ul>
+    </div> 
+
     <body>
 
         <div class="site">

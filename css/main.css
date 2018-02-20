@@ -290,6 +290,92 @@
   100% {
     margin-left: -50%; } }
 
+header {
+  width: 100%;
+  background: #ffffff;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #dddddd; }
+  header img {
+    height: 66%;
+    margin-left: 20px;
+    vertical-align: middle; }
+
+.hamburger {
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 45px;
+  padding: 5px 15px 0px 15px;
+  color: #714d4d;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none; }
+
+.cross {
+  background: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  padding: 7px 15px 0px 15px;
+  color: #714d4d;
+  border: 0;
+  font-size: 3em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none; }
+
+.menu {
+  z-index: 1000000;
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 100%;
+  background: #f1f1f1;
+  position: absolute;
+  text-align: center;
+  font-size: 12px; }
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none; }
+
+.menu li {
+  display: block;
+  padding: 15px 0 15px 0;
+  border-bottom: #dddddd 1px solid; }
+
+.menu li:hover {
+  display: block;
+  background: #ffffff;
+  padding: 15px 0 15px 0;
+  border-bottom: #dddddd 1px solid; }
+
+.menu ul li a {
+  text-decoration: none;
+  margin: 0px;
+  color: #714d4d; }
+
+.menu ul li a:hover {
+  color: #714d4d;
+  text-decoration: none; }
+
+.menu a {
+  text-decoration: none;
+  color: #714d4d; }
+
+.menu a:hover {
+  text-decoration: none;
+  color: #714d4d; }
+
+header {
+  font-size: 12px; }
+
 #home {
   display: grid;
   grid-template-columns: 1fr;
@@ -336,7 +422,7 @@
   #home #hero {
     height: 27em;
     padding: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/assets/imgs/hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -507,7 +593,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "hero hero" "about about" "brothers posts" "portfolio portfolio" "faq rush" "stats contact"; }
     #home #hero {
-      font-size: 1.7em;
+      font-size: 1.6em;
       grid-area: hero; }
     #home #about {
       padding: 3em 10em; }
@@ -525,7 +611,7 @@
   #brothers #hero {
     height: 27em;
     padding: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/assets/imgs/orchard_1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -621,7 +707,7 @@
   #brothers #members .members-class-brother {
     width: 180px; }
   #brothers #hero {
-    font-size: 1.7em; } }
+    font-size: 1.6em; } }
 
 #blog {
   display: grid;
@@ -629,7 +715,7 @@
   #blog #hero {
     height: 27em;
     padding: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/assets/imgs/orchard_3.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -716,7 +802,7 @@
 
 @media screen and (min-width: 800px) {
   #blog #hero {
-    font-size: 1.7em; } }
+    font-size: 1.6em; } }
 
 @media screen and (min-width: 1000px) {
   #blog #posts {

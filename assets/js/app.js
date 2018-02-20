@@ -35,8 +35,23 @@ $(document).ready(function(){
         $('#hero').css('background-image', 'linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url(./assets/imgs/hero_family.jpg)');
         $(this).text('family');
     })
+    $( ".cross" ).hide();
+    $( ".menu" ).hide();
+    $( ".hamburger" ).click(function() {
+        $( ".hamburger" ).hide();
+        $( ".cross" ).show();
+        $( ".menu" ).slideToggle( "slow");
+    });
+
+    $( ".cross" ).click(function() {
+        $( ".cross" ).hide();
+        $( ".hamburger" ).show();
+        $( ".menu" ).slideToggle( "slow");
+    });
+
 })
 
 particlesJS.load('stats-particles', '/assets/js/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
+
