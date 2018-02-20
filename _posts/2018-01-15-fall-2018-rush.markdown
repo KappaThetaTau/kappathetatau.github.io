@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-04-20
+title:  "Fall 2018 Rush Scheudle"
+date:   2018-01-15
+image: "rush-2018.jpg"
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

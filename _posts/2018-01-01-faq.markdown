@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Frequently Asked Questions"
+faq: true
+date:   2018-01-01
+image: "faq.png"
+---
+
+Here is a long list of frequently asked questions here at illinois
+
+Blah blah 
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah
+Blah blah

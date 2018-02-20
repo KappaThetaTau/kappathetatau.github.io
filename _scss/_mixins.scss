@@ -1,3 +1,10 @@
+$hero-mobile-font-size: 1.3em;
+$hero-desktop-font-size: 1.7em;
+$title-fontsize: 3em;
+$text-color: #714d4d;
+$desktop-trigger: 800px;
+
+
 @mixin background-image-base() {
     background-position: center;
     background-repeat: no-repeat;
@@ -7,4 +14,8 @@
 @mixin background-button-image-style($url) {
     background-image: url($url);
     @include background-image-base();
+}
+
+@mixin box-shadow() {
+    box-shadow: #bbbbbb 0px 2px 5px;
 }

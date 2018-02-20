@@ -1,0 +1,21 @@
+<div id="posts">
+    {% for post in site.posts %}
+    {% assign words = post.content | number_of_words %}
+
+
+    <article class="post">
+        {% if post.image %}
+        <a href="{{post.url}}" class="post-thumbnail" style="background-image: url('/assets/imgs/posts/{{post.image}}');"></a>
+        {% else %}
+        {% endif %}
+        <div class="post-content">
+            <h2 class="post-title"><a href="{{post.url}}">{{post.title}}</a></h2>
+            <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+            <div class="post-meta">
+                <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+                <span class="post-words">{% if words < 360 %} 1 min {% else %} {{ words | divided_by:180 }} mins {% endif %} </span>
+            </div>
+        </div>
+    </article>
+    {% endfor %}
+</div>

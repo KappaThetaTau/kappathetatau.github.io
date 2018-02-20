@@ -5,7 +5,7 @@
     #hero {
         height: 27em;
         padding: none;
-        font-size: 1.3em;
+        font-size: $hero-mobile-font-size;
         background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url(/assets/imgs/orchard_1.jpg);
         @include background-image-base();
         position: relative;
@@ -82,7 +82,7 @@
 
             &-brother {
                 @include background-image-base();
-                box-shadow: #bbbbbb 0px 2px 5px;
+                @include box-shadow();
                 color: white;
                 position: relative;
                 margin: 10px;
@@ -138,7 +138,7 @@
         }
 
         #hero {
-            font-size: 1.7em;
+            font-size: $hero-desktop-font-size;
         }
     }
 }
