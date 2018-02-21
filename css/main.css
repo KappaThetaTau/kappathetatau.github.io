@@ -512,7 +512,7 @@ header {
   #home #about {
     display: grid;
     grid-area: about;
-    padding: 3em;
+    padding: 1.5em;
     position: relative; }
     #home #about p {
       font-size: 1.25em; }
