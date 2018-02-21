@@ -595,6 +595,8 @@
       grid-area: hero; }
     #home #about {
       padding: 3em 10em; }
+    #home #contact {
+      margin: auto; }
     #home #stats {
       padding: 1.50em; }
     #home #portfolio {
