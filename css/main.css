@@ -399,15 +399,12 @@
   font-size: 1.2em; }
   .post .meta {
     font-weight: 100; }
-  .post h1 img {
-    height: 1.2em;
-    vertical-align: bottom; }
+  .post img {
+    width: 100%;
+    box-shadow: #bbbbbb 0px 2px 5px; }
   .post .content p {
     margin-top: 1.2em;
     margin-bottom: 1.2em; }
-  .post .content img {
-    margin-top: 1.2em;
-    max-width: 100%; }
   .post .content pre {
     padding: 1.2em; }
   .post .content ol {

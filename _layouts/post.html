@@ -2,10 +2,10 @@
 layout: default
 ---
 <div class="post">
+    <img src="/assets/imgs/posts/{{ page.image }}">
     <h1>
         {{ page.title }}
         {% if page.image %}
-        <img src="/assets/imgs/posts/{{ page.image }}">
         {% else %}{% endif %}
     </h1>
     <p class="meta">{{ page.date | date_to_string }}</p>

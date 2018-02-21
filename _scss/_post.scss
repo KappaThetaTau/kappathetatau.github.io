@@ -11,22 +11,15 @@ $post-font-color: rgba(0,0,0,.84);
         font-weight: 100;
     }
 
-    h1 {
-        img {
-            height: $post-font-size;
-            vertical-align: bottom;
-        }
+    img {
+        width: 100%;
+        @include box-shadow();
     }
 
     .content {
         p {
             margin-top: $post-font-size;
             margin-bottom: $post-font-size;
-        }
-
-        img {
-            margin-top: $post-font-size;
-            max-width: 100%;
         }
 
         pre {
