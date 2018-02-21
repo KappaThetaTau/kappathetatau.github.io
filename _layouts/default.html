@@ -12,12 +12,7 @@
         <!--Theta Tau logo -->
         <link rel="icon" type="image/ico" href="/assets/imgs/favicon.ico">
 
-        <!-- -Imported JS -->
-        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript" src="/assets/js/app.js"></script>
-
+        <!-- SEO STUFF -->
         <meta name="author" content="{{ site.name }}">
         <meta name="description" content="{{ site.description }}">
         <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}">
@@ -52,4 +47,6 @@
         </div>
 
     </body>
+
+    {% include footer.html %}
 </html>
