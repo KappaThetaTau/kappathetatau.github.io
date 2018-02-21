@@ -1,2 +1,21 @@
-
+.header-socials {
+    top: 95%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -95%);
+    font-size: 1.25em;
+    #ilogo {
+        height: 1em;
+        vertical-align: -.125em;
+    }
+    a {
+        margin: .125em;
+        text-decoration: none;
+        color: white;
+        opacity: .7;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
 

@@ -391,6 +391,24 @@ header {
 header {
   font-size: 12px; }
 
+.header-socials {
+  top: 95%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -95%);
+          transform: translate(-50%, -95%);
+  font-size: 1.25em; }
+  .header-socials #ilogo {
+    height: 1em;
+    vertical-align: -.125em; }
+  .header-socials a {
+    margin: .125em;
+    text-decoration: none;
+    color: white;
+    opacity: .7; }
+    .header-socials a:hover {
+      opacity: 1; }
+
 #home {
   display: grid;
   grid-template-columns: 1fr;
@@ -444,23 +462,6 @@ header {
     background-size: cover;
     position: relative;
     color: white; }
-    #home #hero-social {
-      top: 95%;
-      left: 50%;
-      position: absolute;
-      -webkit-transform: translate(-50%, -95%);
-              transform: translate(-50%, -95%);
-      font-size: 1.25em; }
-      #home #hero-social #ilogo {
-        height: 1em;
-        vertical-align: -.125em; }
-      #home #hero-social a {
-        margin: .125em;
-        text-decoration: none;
-        color: white;
-        opacity: .7; }
-        #home #hero-social a:hover {
-          opacity: 1; }
     #home #hero-title {
       top: 57%;
       left: 50%;
@@ -633,23 +634,6 @@ header {
     background-size: cover;
     position: relative;
     color: white; }
-    #brothers #hero-social {
-      top: 95%;
-      left: 50%;
-      position: absolute;
-      -webkit-transform: translate(-50%, -95%);
-              transform: translate(-50%, -95%);
-      font-size: 1.25em; }
-      #brothers #hero-social #ilogo {
-        height: 1em;
-        vertical-align: -.125em; }
-      #brothers #hero-social a {
-        margin: .125em;
-        text-decoration: none;
-        color: white;
-        opacity: .7; }
-        #brothers #hero-social a:hover {
-          opacity: 1; }
     #brothers #hero-title {
       top: 50%;
       left: 50%;
@@ -737,23 +721,6 @@ header {
     background-size: cover;
     position: relative;
     color: white; }
-    #blog #hero-social {
-      top: 95%;
-      left: 50%;
-      position: absolute;
-      -webkit-transform: translate(-50%, -95%);
-              transform: translate(-50%, -95%);
-      font-size: 1.25em; }
-      #blog #hero-social #ilogo {
-        height: 1em;
-        vertical-align: -.125em; }
-      #blog #hero-social a {
-        margin: .125em;
-        text-decoration: none;
-        color: white;
-        opacity: .7; }
-        #blog #hero-social a:hover {
-          opacity: 1; }
     #blog #hero-title {
       top: 50%;
       left: 50%;
