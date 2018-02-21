@@ -35,3 +35,33 @@ $navbar-border-height: 2px;
     height: $navbar-height;
     width: $navbar-height;
 }
+
+@mixin hero-styling($background-image, $distance-from-top) {
+    height: 27em;
+    padding: none;
+    font-size: $hero-mobile-font-size;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url($background-image);
+    @include background-image-base();
+    position: relative;
+    color: white;
+
+    &-title {
+        top: $distance-from-top;
+        left: 50%;
+        text-align: center;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 3.5em;
+    }
+
+    &-main {
+        font-weight: 400;
+        letter-spacing: -0.125em;
+    }
+
+    &-subtitle {
+        display: block;
+        font-size: 0.25em;
+    }
+}

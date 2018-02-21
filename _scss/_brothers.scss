@@ -3,38 +3,7 @@
     grid-template-columns: 1fr;
 
     #hero {
-        height: 27em;
-        padding: none;
-        font-size: $hero-mobile-font-size;
-        background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url(/assets/imgs/orchard_1.jpg);
-        @include background-image-base();
-        position: relative;
-        color: white;
-
-        &-title {
-            top: 50%;
-            left: 50%;
-            text-align: center;
-            position: absolute;
-            font-weight: 400;
-            transform: translate(-50%, -50%);
-            width: 100%;
-            font-size: 3.5em;
-        }
-
-        &-main {
-            letter-spacing: -0.125em;
-        }
-
-        &-subtitle {
-            display: block;
-            font-weight: 100;
-            font-size: 0.25em;
-        }
-
-        &-brothers {
-            font-weight: 100;
-        }
+        @include hero-styling('/assets/imgs/orchard_1.jpg', 50%);
     }
 
     #members {
