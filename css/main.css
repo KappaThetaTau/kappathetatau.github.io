@@ -398,7 +398,8 @@
   color: rgba(0, 0, 0, 0.84);
   font-size: 1.2em; }
   .post .meta {
-    font-weight: 100; }
+    font-weight: 100;
+    font-size: 1em; }
   .post img {
     width: 100%;
     box-shadow: #bbbbbb 0px 2px 5px; }
