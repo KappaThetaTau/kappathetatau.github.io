@@ -33,9 +33,6 @@ $(window).scroll(function(){
 $(document).ready(function(){
     let speed = "fast";
 
-    $( ".cross" ).hide();
-    $( ".menu" ).hide();
-
     $( ".menu li" ).click(function() {
         $( ".cross" ).hide();
         $( ".hamburger" ).show();

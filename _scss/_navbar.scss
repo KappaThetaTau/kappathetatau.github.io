@@ -22,13 +22,53 @@ header{
 }
 .cross{
     @include icon-styling();
+    display: none;
 }
-.menu{z-index:1000000; top: $navbar-height + $navbar-border-height; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:fixed; text-align:center; font-size:12px;}
-.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-.menu ul li a { text-decoration:none;  margin: 0px; color:$text-color;}
-.menu ul li a:hover {  color: $text-color; text-decoration:none;}
-.menu a{text-decoration:none; color:$text-color;}
-.menu a:hover{text-decoration:none; color:$text-color;}
-header{ font-size:12px;}
+.menu{
+    z-index:1000000;
+    top: $navbar-height + $navbar-border-height;
+    font-weight:bold;
+    font-size:0.8em;
+    width:100%;
+    background:#f1f1f1;
+    display: none;
+    position:fixed;
+    text-align:center;
+    font-size:12px;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+.menu li {
+    display: block;
+    padding:15px 0 15px 0;
+    border-bottom:#dddddd 1px solid;
+}
+.menu li:hover{
+    display: block;
+    background:#ffffff;
+    padding:15px 0 15px 0;
+    border-bottom:#dddddd 1px solid;
+}
+.menu ul li a {
+    text-decoration:none;
+    margin: 0px;
+    color:$text-color;
+}
+.menu ul li a:hover {
+    color: $text-color;
+    text-decoration:none;
+}
+.menu a{
+    text-decoration:none;
+    color:$text-color;
+}
+.menu a:hover{
+    text-decoration:none;
+color:$text-color;}
+header{
+    font-size:12px;
+}
