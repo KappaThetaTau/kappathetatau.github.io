@@ -55,14 +55,15 @@ $(document).ready(function(){
         $(this).text('family');
     })
 
-    $('html').click(function() {
+    $('html').on('click touchstart', function() {
+        console.log('clicked html');
         if ($('.menu').is(':visible')) {
             $( ".cross" ).hide();
             $( ".hamburger" ).show();
             $( ".menu" ).slideToggle(speed);
         }
     });
-    $('#nav-wrapper').click(function(event){
+    $('#nav-wrapper').on('click touchstart', function() {
         event.stopPropagation();
     });
 })
