@@ -1,4 +1,4 @@
-name: Kappa Theta Tau
+title: UIUC Theta Tau
 highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "README.md"]
 permalink: /:year/:title/
