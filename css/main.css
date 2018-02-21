@@ -596,8 +596,8 @@
     #home #portfolio a {
       text-decoration: none; }
     #home #portfolio-photobanner-1 {
-      -webkit-animation: bannermove 45s linear infinite;
-              animation: bannermove 45s linear infinite; }
+      -webkit-animation: bannermove 60s linear infinite;
+              animation: bannermove 60s linear infinite; }
     #home #portfolio-photobanner {
       width: -webkit-max-content;
       width: -moz-max-content;
