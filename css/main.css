@@ -342,18 +342,18 @@
     grid-template-columns: 1fr; }
     #blog #posts a {
       text-decoration: none; }
-    #blog #posts .post {
+    #blog #posts .post-preview {
       margin: 1em;
       border-radius: 5px;
       position: relative;
       overflow: hidden;
       transition: all .3s ease;
       box-shadow: #bbbbbb 0px 2px 5px; }
-      #blog #posts .post:hover {
+      #blog #posts .post-preview:hover {
         -webkit-transform: translate(0px, -2px);
                 transform: translate(0px, -2px);
         box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2); }
-      #blog #posts .post-thumbnail {
+      #blog #posts .post-preview-thumbnail {
         width: 100%;
         min-height: 10em;
         background-size: cover;
@@ -361,19 +361,19 @@
         display: block;
         background-position: 50% 50%;
         box-sizing: border-box; }
-      #blog #posts .post-content {
+      #blog #posts .post-preview-content {
         padding: 1em;
         font-weight: 300;
         color: #515151; }
-        #blog #posts .post-content p {
+        #blog #posts .post-preview-content p {
           margin-bottom: 1em; }
-      #blog #posts .post-title {
+      #blog #posts .post-preview-title {
         margin: 0 0 5px; }
-        #blog #posts .post-title a {
+        #blog #posts .post-preview-title a {
           color: #714d4d; }
-      #blog #posts .post-date {
+      #blog #posts .post-preview-date {
         font-size: .8em; }
-      #blog #posts .post-words {
+      #blog #posts .post-preview-words {
         font-size: .8em; }
 
 @media screen and (min-width: 600px) {
@@ -391,6 +391,35 @@
 @media screen and (min-width: 1400px) {
   #blog #posts {
     grid-template-columns: 1fr 1fr 1fr 1fr; } }
+
+.post {
+  padding: 20px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.84);
+  font-size: 1.2em; }
+  .post .meta {
+    font-weight: 100; }
+  .post h1 img {
+    height: 1.2em;
+    vertical-align: bottom; }
+  .post .content p {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em; }
+  .post .content img {
+    margin-top: 1.2em;
+    max-width: 100%; }
+  .post .content pre {
+    padding: 1.2em; }
+  .post .content ol {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em; }
+    .post .content ol li {
+      list-style-position: inside; }
+
+@media screen and (min-width: 800px) {
+  .post {
+    width: 700px;
+    margin: auto; } }
 
 #home {
   display: grid;
