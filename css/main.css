@@ -1,15 +1,35 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400");
-* {
-  margin: 0;
-  padding: 0; }
+.header-socials {
+  top: 95%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -95%);
+          transform: translate(-50%, -95%);
+  font-size: 1.25em; }
+  .header-socials #ilogo {
+    height: 1em;
+    vertical-align: -.125em; }
+  .header-socials a {
+    margin: .125em;
+    text-decoration: none;
+    color: white;
+    opacity: .7; }
+    .header-socials a:hover {
+      opacity: 1; }
 
-body {
-  background: white;
-  font-family: 'Raleway', Helvetica;
-  font-weight: 100;
-  padding-top: 52px; }
+@-webkit-keyframes "bannermove" {
+  0% {
+    margin-left: 0px; }
+  100% {
+    margin-left: -50%; } }
+
+@keyframes "bannermove" {
+  0% {
+    margin-left: 0px; }
+  100% {
+    margin-left: -50%; } }
 
 .highlight {
   background-color: #002b36;
@@ -289,125 +309,88 @@ body {
   color: #2aa198; }
 
 /* Literal.Number.Integer.Long */
-@-webkit-keyframes "bannermove" {
-  0% {
-    margin-left: 0px; }
-  100% {
-    margin-left: -50%; } }
-@keyframes "bannermove" {
-  0% {
-    margin-left: 0px; }
-  100% {
-    margin-left: -50%; } }
+#blog {
+  display: grid;
+  grid-template-columns: 1fr; }
+  #blog #hero {
+    height: 27em;
+    padding: none;
+    font-size: 1.2em;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/orchard_3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white; }
+    #blog #hero-title {
+      top: 50%;
+      left: 50%;
+      text-align: center;
+      position: absolute;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      width: 100%;
+      font-size: 3.5em; }
+    #blog #hero-main {
+      font-weight: 400;
+      letter-spacing: -0.125em; }
+    #blog #hero-subtitle {
+      display: block;
+      font-size: 0.25em; }
+  #blog #posts {
+    display: grid;
+    grid-template-columns: 1fr; }
+    #blog #posts a {
+      text-decoration: none; }
+    #blog #posts .post {
+      margin: 1em;
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden;
+      transition: all .3s ease;
+      box-shadow: #bbbbbb 0px 2px 5px; }
+      #blog #posts .post:hover {
+        -webkit-transform: translate(0px, -2px);
+                transform: translate(0px, -2px);
+        box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2); }
+      #blog #posts .post-thumbnail {
+        width: 100%;
+        min-height: 10em;
+        background-size: cover;
+        background-color: transparent;
+        display: block;
+        background-position: 50% 50%;
+        box-sizing: border-box; }
+      #blog #posts .post-content {
+        padding: 1em;
+        font-weight: 300;
+        color: #515151; }
+        #blog #posts .post-content p {
+          margin-bottom: 1em; }
+      #blog #posts .post-title {
+        margin: 0 0 5px; }
+        #blog #posts .post-title a {
+          color: #714d4d; }
+      #blog #posts .post-date {
+        font-size: .8em; }
+      #blog #posts .post-words {
+        font-size: .8em; }
 
-header {
-  width: 100%;
-  background: #ffffff;
-  height: 50px;
-  line-height: 50px;
-  top: 0;
-  z-index: 10000;
-  position: fixed;
-  border-bottom: 2px solid #dddddd; }
-  header a {
-    text-decoration: none;
-    color: #714d4d; }
-  header img {
-    height: 66%;
-    margin-left: 20px;
-    vertical-align: middle; }
+@media screen and (min-width: 600px) {
+  #blog #posts {
+    grid-template-columns: 1fr 1fr; } }
 
-.hamburger {
-  font-size: 1.8em;
-  background: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: #714d4d;
-  border: 0;
-  cursor: pointer;
-  outline: none;
-  height: 50px;
-  width: 50px; }
+@media screen and (min-width: 800px) {
+  #blog #hero {
+    font-size: 1.6em; } }
 
-.cross {
-  font-size: 1.8em;
-  background: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: #714d4d;
-  border: 0;
-  cursor: pointer;
-  outline: none;
-  height: 50px;
-  width: 50px; }
+@media screen and (min-width: 1000px) {
+  #blog #posts {
+    grid-template-columns: 1fr 1fr 1fr; } }
 
-.menu {
-  z-index: 1000000;
-  top: 52px;
-  font-weight: bold;
-  font-size: 0.8em;
-  width: 100%;
-  background: #f1f1f1;
-  position: fixed;
-  text-align: center;
-  font-size: 12px; }
-
-.menu ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  list-style-image: none; }
-
-.menu li {
-  display: block;
-  padding: 15px 0 15px 0;
-  border-bottom: #dddddd 1px solid; }
-
-.menu li:hover {
-  display: block;
-  background: #ffffff;
-  padding: 15px 0 15px 0;
-  border-bottom: #dddddd 1px solid; }
-
-.menu ul li a {
-  text-decoration: none;
-  margin: 0px;
-  color: #714d4d; }
-
-.menu ul li a:hover {
-  color: #714d4d;
-  text-decoration: none; }
-
-.menu a {
-  text-decoration: none;
-  color: #714d4d; }
-
-.menu a:hover {
-  text-decoration: none;
-  color: #714d4d; }
-
-header {
-  font-size: 12px; }
-
-.header-socials {
-  top: 95%;
-  left: 50%;
-  position: absolute;
-  -webkit-transform: translate(-50%, -95%);
-          transform: translate(-50%, -95%);
-  font-size: 1.25em; }
-  .header-socials #ilogo {
-    height: 1em;
-    vertical-align: -.125em; }
-  .header-socials a {
-    margin: .125em;
-    text-decoration: none;
-    color: white;
-    opacity: .7; }
-    .header-socials a:hover {
-      opacity: 1; }
+@media screen and (min-width: 1400px) {
+  #blog #posts {
+    grid-template-columns: 1fr 1fr 1fr 1fr; } }
 
 #home {
   display: grid;
@@ -456,7 +439,7 @@ header {
     height: 27em;
     padding: none;
     font-size: 1.2em;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/assets/imgs/hero.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -467,16 +450,15 @@ header {
       left: 50%;
       text-align: center;
       position: absolute;
-      font-weight: 400;
-      -webkit-transform: translate(-50%, -57%);
-              transform: translate(-50%, -57%);
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
       width: 100%;
       font-size: 3.5em; }
     #home #hero-main {
+      font-weight: 400;
       letter-spacing: -0.125em; }
     #home #hero-subtitle {
       display: block;
-      font-weight: 100;
       font-size: 0.25em; }
   #home #brothers {
     height: 25em;
@@ -585,8 +567,8 @@ header {
     #home #portfolio a {
       text-decoration: none; }
     #home #portfolio-photobanner-1 {
-      -webkit-animation: bannermove 30s linear infinite;
-              animation: bannermove 30s linear infinite; }
+      -webkit-animation: bannermove 45s linear infinite;
+              animation: bannermove 45s linear infinite; }
     #home #portfolio-photobanner {
       width: -webkit-max-content;
       width: -moz-max-content;
@@ -621,6 +603,99 @@ header {
         -webkit-animation-play-state: paused;
                 animation-play-state: paused; } }
 
+header {
+  width: 100%;
+  background: #ffffff;
+  height: 50px;
+  line-height: 50px;
+  top: 0;
+  z-index: 10000;
+  position: fixed;
+  border-bottom: 2px solid #dddddd; }
+  header a {
+    text-decoration: none;
+    color: #714d4d; }
+  header img {
+    height: 66%;
+    margin-left: 20px;
+    vertical-align: middle; }
+
+.hamburger {
+  font-size: 1.8em;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #714d4d;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  height: 50px;
+  width: 50px; }
+
+.cross {
+  font-size: 1.8em;
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #714d4d;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  height: 50px;
+  width: 50px;
+  display: none; }
+
+.menu {
+  z-index: 1000000;
+  top: 52px;
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 100%;
+  background: #f1f1f1;
+  display: none;
+  position: fixed;
+  text-align: center;
+  font-size: 12px; }
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none; }
+
+.menu li {
+  display: block;
+  padding: 15px 0 15px 0;
+  border-bottom: #dddddd 1px solid; }
+
+.menu li:hover {
+  display: block;
+  background: #ffffff;
+  padding: 15px 0 15px 0;
+  border-bottom: #dddddd 1px solid; }
+
+.menu ul li a {
+  text-decoration: none;
+  margin: 0px;
+  color: #714d4d; }
+
+.menu ul li a:hover {
+  color: #714d4d;
+  text-decoration: none; }
+
+.menu a {
+  text-decoration: none;
+  color: #714d4d; }
+
+.menu a:hover {
+  text-decoration: none;
+  color: #714d4d; }
+
+header {
+  font-size: 12px; }
+
 #brothers {
   display: grid;
   grid-template-columns: 1fr; }
@@ -628,7 +703,7 @@ header {
     height: 27em;
     padding: none;
     font-size: 1.2em;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/assets/imgs/orchard_1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/orchard_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -639,19 +714,16 @@ header {
       left: 50%;
       text-align: center;
       position: absolute;
-      font-weight: 400;
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
       width: 100%;
       font-size: 3.5em; }
     #brothers #hero-main {
+      font-weight: 400;
       letter-spacing: -0.125em; }
     #brothers #hero-subtitle {
       display: block;
-      font-weight: 100;
       font-size: 0.25em; }
-    #brothers #hero-brothers {
-      font-weight: 100; }
   #brothers #members {
     padding: .75em; }
     #brothers #members img {
@@ -708,88 +780,12 @@ header {
   #brothers #hero {
     font-size: 1.6em; } }
 
-#blog {
-  display: grid;
-  grid-template-columns: 1fr; }
-  #blog #hero {
-    height: 27em;
-    padding: none;
-    font-size: 1.2em;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(/assets/imgs/orchard_3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    color: white; }
-    #blog #hero-title {
-      top: 50%;
-      left: 50%;
-      text-align: center;
-      position: absolute;
-      font-weight: 400;
-      -webkit-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%);
-      width: 100%;
-      font-size: 3.5em; }
-    #blog #hero-main {
-      letter-spacing: -0.125em; }
-    #blog #hero-subtitle {
-      display: block;
-      font-weight: 100;
-      font-size: 0.25em; }
-    #blog #hero-blog {
-      font-weight: 100; }
-  #blog #posts {
-    display: grid;
-    grid-template-columns: 1fr; }
-    #blog #posts a {
-      text-decoration: none; }
-    #blog #posts .post {
-      margin: 1em;
-      border-radius: 5px;
-      position: relative;
-      overflow: hidden;
-      transition: all .3s ease;
-      box-shadow: #bbbbbb 0px 2px 5px; }
-      #blog #posts .post:hover {
-        -webkit-transform: translate(0px, -2px);
-                transform: translate(0px, -2px);
-        box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2); }
-      #blog #posts .post-thumbnail {
-        width: 100%;
-        min-height: 10em;
-        background-size: cover;
-        background-color: transparent;
-        display: block;
-        background-position: 50% 50%;
-        box-sizing: border-box; }
-      #blog #posts .post-content {
-        padding: 1em;
-        font-weight: 300;
-        color: #515151; }
-        #blog #posts .post-content p {
-          margin-bottom: 1em; }
-      #blog #posts .post-title {
-        margin: 0 0 5px; }
-        #blog #posts .post-title a {
-          color: #714d4d; }
-      #blog #posts .post-date {
-        font-size: .8em; }
-      #blog #posts .post-words {
-        font-size: .8em; }
+* {
+  margin: 0;
+  padding: 0; }
 
-@media screen and (min-width: 600px) {
-  #blog #posts {
-    grid-template-columns: 1fr 1fr; } }
-
-@media screen and (min-width: 800px) {
-  #blog #hero {
-    font-size: 1.6em; } }
-
-@media screen and (min-width: 1000px) {
-  #blog #posts {
-    grid-template-columns: 1fr 1fr 1fr; } }
-
-@media screen and (min-width: 1400px) {
-  #blog #posts {
-    grid-template-columns: 1fr 1fr 1fr 1fr; } }
+body {
+  background: white;
+  font-family: 'Raleway', Helvetica;
+  font-weight: 100;
+  padding-top: 52px; }
