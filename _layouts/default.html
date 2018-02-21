@@ -24,19 +24,21 @@
 
     </head>
 
-    <header>
-        <a href="/"><img src="/assets/imgs/thetatau.png"> theta tau</a>
-        <button class="hamburger">&#9776;</button>
-        <button class="cross">x</button>
-    </header>
+    <div id="nav-wrapper">
+        <header>
+            <a href="/"><img src="/assets/imgs/thetatau.png"> theta tau</a>
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">x</button>
+        </header>
 
-    <div class="menu">
-        <ul>
-            {% for nav in site.nav %}
-            <a href="{{nav[1]}}"><li>{{nav[0]}}</li></a>
-            {% endfor %}
-        </ul>
-    </div> 
+        <div class="menu">
+            <ul>
+                {% for nav in site.nav %}
+                <a href="{{nav[1]}}"><li>{{nav[0]}}</li></a>
+                {% endfor %}
+            </ul>
+        </div> 
+    </div>
 
     <body>
 

@@ -32,7 +32,6 @@ $(window).scroll(function(){
 
 $(document).ready(function(){
     let speed = "fast";
-
     $( ".menu li" ).click(function() {
         $( ".cross" ).hide();
         $( ".hamburger" ).show();
@@ -55,6 +54,17 @@ $(document).ready(function(){
         $('#hero').css('background-image', 'linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url(./assets/imgs/hero_family.jpg)');
         $(this).text('family');
     })
+
+    $('html').click(function() {
+        if ($('.menu').is(':visible')) {
+            $( ".cross" ).hide();
+            $( ".hamburger" ).show();
+            $( ".menu" ).slideToggle(speed);
+        }
+    });
+    $('#nav-wrapper').click(function(event){
+        event.stopPropagation();
+    });
 })
 
 particlesJS.load('stats-particles', '/assets/js/particles.json', function() {
