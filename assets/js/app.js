@@ -31,14 +31,10 @@ $(window).scroll(function(){
 });
 
 $(document).ready(function(){
-    $('#hero #family').click(function(){
-        $('#hero').css('background-image', 'linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url(./assets/imgs/hero_family.jpg)');
-        $(this).text('family');
-    })
+    let speed = "fast";
+
     $( ".cross" ).hide();
     $( ".menu" ).hide();
-
-    let speed = "fast";
 
     $( ".menu li" ).click(function() {
         $( ".cross" ).hide();
@@ -58,9 +54,12 @@ $(document).ready(function(){
         $( ".menu" ).slideToggle(speed);
     });
 
+    $('#hero #family').click(function(){
+        $('#hero').css('background-image', 'linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url(./assets/imgs/hero_family.jpg)');
+        $(this).text('family');
+    })
 })
 
 particlesJS.load('stats-particles', '/assets/js/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
-
