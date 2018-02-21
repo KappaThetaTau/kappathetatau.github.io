@@ -495,7 +495,7 @@
   #home #about {
     display: grid;
     grid-area: about;
-    padding: 1.5em;
+    padding: 1em 20px;
     position: relative; }
     #home #about p {
       font-size: 1.25em; }
@@ -547,7 +547,7 @@
         margin: 0 auto; }
   #home #contact {
     grid-area: contact;
-    padding: 3em;
+    padding: 1em 20px;
     font-size: 0.8em; }
     #home #contact-list {
       list-style: none; }
