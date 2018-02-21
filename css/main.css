@@ -495,7 +495,7 @@
   #home #about {
     display: grid;
     grid-area: about;
-    padding: 4em 20px;
+    padding: 4.5em 20px;
     position: relative; }
     #home #about p {
       font-size: 1.25em; }
@@ -514,10 +514,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-area: stats;
-    padding: 4em 1em;
+    padding: 4.5em 0;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     text-align: center;
-    font-size: 1.50em;
     position: relative; }
     #home #stats-particles {
       z-index: 100;
@@ -564,9 +563,8 @@
     grid-area: portfolio;
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 4em;
+    padding-bottom: 4.5em;
     padding-top: 0;
-    font-size: 1.50em;
     overflow: hidden; }
     #home #portfolio a {
       text-decoration: none; }
@@ -577,7 +575,7 @@
       width: -webkit-max-content;
       width: -moz-max-content;
       width: max-content; }
-    #home #portfolio h2 {
+    #home #portfolio h1 {
       text-align: center;
       margin-bottom: 15px; }
     #home #portfolio img {
@@ -598,7 +596,7 @@
       font-size: 1.6em;
       grid-area: hero; }
     #home #about {
-      padding: 4em 10em; }
+      padding: 4.5em 10em; }
     #home #contact {
       margin: auto;
       font-size: 1em; }
@@ -606,7 +604,7 @@
       padding: 1em;
       font-size: 1.2em; }
     #home #portfolio {
-      padding: 4em 0em; }
+      padding: 4.5em 0em; }
       #home #portfolio-photobanner:hover #portfolio-photobanner-1 {
         -webkit-animation-play-state: paused;
                 animation-play-state: paused; } }

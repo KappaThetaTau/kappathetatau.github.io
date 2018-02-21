@@ -130,10 +130,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-area: stats;
-        padding: $up-down-padding 1em;
+        padding: $up-down-padding 0;
         -webkit-tap-highlight-color: rgba(255, 255, 255, 0); // Make it so mobile tap does not highlight the div
         text-align: center;
-        font-size: 1.50em;
         position: relative;
 
         &-particles {
@@ -201,7 +200,6 @@
         padding-right: 0;
         padding-bottom: $up-down-padding;
         padding-top: 0;
-        font-size: 1.50em;
         overflow: hidden;
 
         a {
@@ -216,7 +214,7 @@
             width: max-content;
         }
 
-        h2 {
+        h1 {
             text-align: center;
             margin-bottom: 15px;
         }
