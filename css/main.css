@@ -399,7 +399,8 @@
   font-size: 1.2em; }
   .post .meta {
     font-weight: 100;
-    font-size: 0.92308em; }
+    font-size: 0.92308em;
+    margin-bottom: 1.2em; }
   .post img {
     width: 100%;
     box-shadow: #bbbbbb 0px 2px 5px; }
@@ -410,8 +411,17 @@
     padding: 1.2em; }
   .post .content ol {
     margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    margin-top: 1.2em;
     margin-bottom: 1.2em; }
     .post .content ol li {
+      list-style-position: inside; }
+  .post .content ul {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em; }
+    .post .content ul li {
       list-style-position: inside; }
 
 @media screen and (min-width: 800px) {
