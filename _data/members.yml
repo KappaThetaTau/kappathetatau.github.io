@@ -16,6 +16,14 @@ classes:
     major: Civil Engineering
     name: Max Potvin
     picture: max_potvin.jpg
+  - hometown: 'Chicago, IL '
+    major: Chemical Engineering
+    name: Aiesha Arboleda
+    picture: aiesha_arboleda.jpg
+  - hometown: Buffalo Grove, IL
+    major: Chemical Engineering
+    name: John Ito
+    picture: john_ito.jpg
 - Spring 2017:
   - hometown: Caledonia
     major: Bioengineering
@@ -37,6 +45,10 @@ classes:
     major: MatSE
     name: Katie Lee
     picture: katie_lee.jpg
+  - hometown: Marietta, GA
+    major: Computer Science + Statistics
+    name: Rachel YuQiu Li
+    picture: rachel_yuqiu_li.jpg
 - Fall 2016:
   - hometown: Orland Park, IL
     major: Bioengineering
@@ -50,6 +62,14 @@ classes:
     major: Computer Science & Statistics
     name: Sid Vashist
     picture: sid_vashist.png
+  - hometown: Kankakee, IL
+    major: Mechanical Engineering
+    name: Spencer Norwick
+    picture: spencer_norwick.jpg
+  - hometown: Huntley, IL
+    major: Mechanical Engineering
+    name: Morgan Sutherland
+    picture: morgan_sutherland.jpeg
 - Spring 2016:
   - hometown: Naperville, IL
     major: Bioengineering
@@ -59,6 +79,18 @@ classes:
     major: Bioengineering
     name: Omar Kashow
     picture: omar_kashow.PNG
+  - hometown: Hampshire, IL
+    major: Electrical Engineering
+    name: Katelyn Schoedl
+    picture: katelyn_schoedl.JPG
+  - hometown: Fox Lake, IL
+    major: Education
+    name: Michael Caliendo
+    picture: michael_caliendo.jpg
+  - hometown: Millstadt, IL
+    major: Civil Engineering
+    name: Emily Fulton
+    picture: emily_fulton.jpg
 - Fall 2015:
   - hometown: Naperville
     major: Mechanical Engineering
@@ -76,5 +108,17 @@ classes:
     major: Electrical Engineering
     name: Kanchi Shah
     picture: kanchi_shah.jpg
-- Spring 2015: []
+  - hometown: Wilmette, IL
+    major: Aerospace Engineering
+    name: Ethan Clemmitt
+    picture: ethan_clemmitt.jpg
+- Spring 2015:
+  - hometown: Downers Grove, IL
+    major: Aerospace Engineering
+    name: Kevin Burns
+    picture: kevin_burns.jpg
 - Fall 2014: []
+- Spring 2014: []
+- Fall 2013: []
+- Spring 2013: []
+- Fall 2012: []
