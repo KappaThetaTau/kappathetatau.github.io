@@ -80,6 +80,10 @@ with open(CSV_NAME, 'rb') as csvfile:
                         'picture': pic_name + file_extension
                         }
                 class_sem[pledge_class].append(brother_data)
+                break
+        else:
+            print 'WHAT?!'
+            exit(1)
 
 with open(MEMBERS_FILE_PATH, 'w') as outfile:
     yaml.dump(data, outfile, default_flow_style=False)
