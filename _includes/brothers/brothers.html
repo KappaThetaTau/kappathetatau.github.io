@@ -1,7 +1,7 @@
 <div id="members">
     {% for classes in site.data.members.classes %}
-
     {% for class in classes %}
+    {% if class[1].size > 0 %}
 
     <div class="members-class">
 
@@ -25,7 +25,7 @@
 
     </div>
 
+    {% endif %}
     {% endfor %}
-
     {% endfor %}
 </div>
