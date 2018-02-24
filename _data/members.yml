@@ -1,149 +1,80 @@
-classes: 
-    - Spring 2017: 
-        - name: 'Dylan Huang'
-          major: 'Computer Engineering'
-          hometown: 'Palo Alto, Calfornia'
-          picture: 'dylan_huang.jpg'
-        - name: 'Katie Lee'
-          major: 'MatSE'
-          hometown: 'Park Ridge, Illinois'
-          picture: 'katie_lee.jpg'
-        - name: 'Aiden Kamber'
-          major: 'Ag & Bio Engineering'
-          hometown: 'Park Ridge, Illinois'
-          picture: 'aiden_kamber.jpg'
-        - name: 'Morgan Wessel'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'morgan_wessel.jpg'
-        - name: 'Akhil Chainani'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'akhil_chainani.jpg'
-        - name: 'Becca Maxedon'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'becca_maxedon.jpg'
-        - name: 'Clinton Raye'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'clinton_raye.jpg'
-        - name: 'Dinaz Kureishy'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'dinaz_kureishy.jpg'
-        - name: 'Emily Tokarski'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'emily_tokarski.jpg'
-        - name: 'Hannah Nolton'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'hannah_nolton.jpg'
-        - name: 'Julia Fiorino'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'julia_fiorino.jpg'
-        - name: 'Kyle Perozek'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'kyle_perozek.jpg'
-        - name: 'Lukas Kulbis'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'lukas_kulbis.jpg'
-        - name: 'Nikhil Modak'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'nikhil_modak.jpg'
-        - name: 'Rachel Li'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'rachel_li.jpg'
-        - name: 'Therese Jaggard'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'therese_jaggard.jpg'
-        - name: 'Victoria Nahmod'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'victoria_nahmod.jpg'
-        - name: 'Raka Mahakul'
-          major: 'Computer Science'
-          hometown: 'Somewhere, Illinois'
-          picture: 'raka_mahakul.jpg'
-    - Fall 2016:
-        - name: 'Arko Banik'
-          major: 'Computer Engineering'
-          hometown: 'Seattle, Washington'
-          picture: 'arko_banik.jpg'
-        - name: 'Rudy Juarez'
-          major: 'Computer Engineering'
-          hometown: 'Seattle, Washington'
-          picture: 'rudy_juarez.jpg'
-        - name: 'Ike Husemann'
-          major: 'Computer Engineering'
-          hometown: 'Seattle, Washington'
-          picture: 'ike_husemann.jpg'
-        - name: 'Alec Keil'
-          major: 'Computer Engineering'
-          hometown: 'Seattle, Washington'
-          picture: 'alec_keil.jpg'
-        - name: 'Sid Vashist'
-          major: 'Computer Engineering'
-          hometown: 'Seattle, Washington'
-          picture: 'sid_vashist.jpg'
-        - name: 'Yarshun Jayakumar'
-          major: 'Computer Engineering'
-          hometown: 'Seattle, Washington'
-          picture: 'yarshun_jayakumar.jpg'
-        - name: 'Dominic Demma'
-          major: 'Computer Engineering'
-          hometown: 'Seattle, Washington'
-          picture: 'dominic_demma.jpg'
-        - name: 'Lisa Yala'
-          major: 'Computer Engineering'
-          hometown: 'Seattle, Washington'
-          picture: 'lisa_yala.jpg'
-        - name: 'Morgan Sutherland'
-          major: 'Computer Engineering'
-          hometown: 'Seattle, Washington'
-          picture: 'morgan_sutherland.jpg'
-        - name: 'Ani May'
-          major: 'Computer Engineering'
-          hometown: 'Seattle, Washington'
-          picture: 'ani_may.jpg'
-        - name: 'Alyssa Gunn'
-          major: 'Computer Engineering'
-          hometown: 'Seattle, Washington'
-          picture: 'alyssa_gunn.jpg'
-    - Spring 2016:
-        - name: 'Dylan Huang'
-          major: 'Computer Engineering'
-          hometown: 'Palo Alto, Calfornia'
-          picture: 'dylan_huang.jpg'
-    - Fall 2015:
-        - name: 'Dylan Huang'
-          major: 'Computer Engineering'
-          hometown: 'Palo Alto, Calfornia'
-          picture: 'dylan_huang.jpg'
-    - Spring 2015:
-        - name: 'Dylan Huang'
-          major: 'Computer Engineering'
-          hometown: 'Palo Alto, Calfornia'
-          picture: 'dylan_huang.jpg'
-    - Fall 2015:
-        - name: 'Dylan Huang'
-          major: 'Computer Engineering'
-          hometown: 'Palo Alto, Calfornia'
-          picture: 'dylan_huang.jpg'
-    - Spring 2014:
-        - name: 'Dylan Huang'
-          major: 'Computer Engineering'
-          hometown: 'Palo Alto, Calfornia'
-          picture: 'dylan_huang.jpg'
-    - Fall 2014:
-        - name: 'Dylan Huang'
-          major: 'Computer Engineering'
-          hometown: 'Palo Alto, Calfornia'
-          picture: 'dylan_huang.jpg'
+classes:
+- Fall 2017:
+  - hometown: San Ramon, CA
+    major: Systems Engineering
+    name: Paul Furer
+    picture: paul_furer.jpg
+  - hometown: Palatine, IL
+    major: Computer Science
+    name: Vibha Pandurangi
+    picture: vibha_pandurangi.jpg
+  - hometown: Elmhurst, IL
+    major: Computer Science
+    name: Kristen Viola
+    picture: kristen_viola.jpg
+  - hometown: Oswego, IL
+    major: Civil Engineering
+    name: Max Potvin
+    picture: max_potvin.jpg
+- Spring 2017:
+  - hometown: Caledonia
+    major: Bioengineering
+    name: Kajsa Chen
+    picture: kajsa_chen.jpg
+  - hometown: Palo Alto, CA
+    major: Computer Engineering
+    name: Dylan Huang
+    picture: dylan_huang.jpg
+  - hometown: Elk Grove Village, IL
+    major: Computer Science & Linguistics
+    name: Morgan Wessel
+    picture: morgan_wessel.jpg
+  - hometown: Evanston
+    major: Computer Science
+    name: Julia Fiorino
+    picture: julia_fiorino.png
+  - hometown: Park Ridge, IL
+    major: MatSE
+    name: Katie Lee
+    picture: katie_lee.jpg
+- Fall 2016:
+  - hometown: Orland Park, IL
+    major: Bioengineering
+    name: Dominic Demma
+    picture: dominic_demma.jpeg
+  - hometown: Naperville, IL
+    major: 'Engineering Mechanics '
+    name: Lea Savard
+    picture: lea_savard.JPG
+  - hometown: Princeton Junction, NJ
+    major: Computer Science & Statistics
+    name: Sid Vashist
+    picture: sid_vashist.png
+- Spring 2016:
+  - hometown: Naperville, IL
+    major: Bioengineering
+    name: Jessica Austriaco
+    picture: jessica_austriaco.jpeg
+  - hometown: Naperville, IL
+    major: Bioengineering
+    name: Omar Kashow
+    picture: omar_kashow.PNG
+- Fall 2015:
+  - hometown: Naperville
+    major: Mechanical Engineering
+    name: Taylor Smairat
+    picture: taylor_smairat.png
+  - hometown: Burr Ridge, IL
+    major: Electrical Engineering
+    name: Matthew Daniel
+    picture: matthew_daniel.png
+  - hometown: Palos Heights, IL
+    major: 'Bioengineering '
+    name: Ashley Dettlaff
+    picture: ashley_dettlaff.JPG
+  - hometown: Elmhurst, IL
+    major: Electrical Engineering
+    name: Kanchi Shah
+    picture: kanchi_shah.jpg
+- Spring 2015: []
+- Fall 2014: []
