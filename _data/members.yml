@@ -24,8 +24,12 @@ classes:
     major: Chemical Engineering
     name: John Ito
     picture: john_ito.jpg
+  - hometown: Schaumburg, IL
+    major: Systems Engineering
+    name: Keshav Patel
+    picture: keshav_patel.jpeg
 - Spring 2017:
-  - hometown: Caledonia
+  - hometown: Caledonia, IL
     major: Bioengineering
     name: Kajsa Chen
     picture: kajsa_chen.jpg
@@ -37,7 +41,7 @@ classes:
     major: Computer Science & Linguistics
     name: Morgan Wessel
     picture: morgan_wessel.jpg
-  - hometown: Evanston
+  - hometown: Evanston, IL
     major: Computer Science
     name: Julia Fiorino
     picture: julia_fiorino.png
@@ -46,7 +50,7 @@ classes:
     name: Katie Lee
     picture: katie_lee.jpg
   - hometown: Marietta, GA
-    major: Computer Science + Statistics
+    major: Computer Science & Statistics
     name: Rachel YuQiu Li
     picture: rachel_yuqiu_li.jpg
 - Fall 2016:
@@ -92,7 +96,7 @@ classes:
     name: Emily Fulton
     picture: emily_fulton.jpg
 - Fall 2015:
-  - hometown: Naperville
+  - hometown: Naperville, IL
     major: Mechanical Engineering
     name: Taylor Smairat
     picture: taylor_smairat.png
@@ -112,6 +116,10 @@ classes:
     major: Aerospace Engineering
     name: Ethan Clemmitt
     picture: ethan_clemmitt.jpg
+  - hometown: Elgin, IL
+    major: Industrial Engineering
+    name: Kristin Simkus
+    picture: kristin_simkus.jpg
 - Spring 2015:
   - hometown: Downers Grove, IL
     major: Aerospace Engineering
