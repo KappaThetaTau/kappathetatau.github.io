@@ -802,17 +802,17 @@ header {
       text-align: initial;
       width: 145px;
       height: 250px;
-      line-height: 1em; }
+      line-height: 0.9em; }
       #brothers #members .members-class-brother figure {
         height: 100%;
         width: 100%; }
       #brothers #members .members-class-brother-major {
-        font-size: 0.8em; }
+        font-size: 0.74em; }
       #brothers #members .members-class-brother-name {
         font-weight: 400;
-        font-size: 1.2em; }
+        font-size: 1em; }
       #brothers #members .members-class-brother-hometown {
-        font-size: 0.8em; }
+        font-size: 0.7em; }
       #brothers #members .members-class-brother-overlay {
         position: absolute;
         padding: 10px;
