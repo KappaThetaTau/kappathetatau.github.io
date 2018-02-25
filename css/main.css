@@ -313,7 +313,7 @@
   display: grid;
   grid-template-columns: 1fr; }
   #blog #hero {
-    height: 27em;
+    height: 25em;
     padding: none;
     font-size: 1.2em;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/orchard_3.jpg");
@@ -407,6 +407,13 @@
   .post .content p {
     margin-top: 1.2em;
     margin-bottom: 1.2em; }
+    .post .content p a {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      -webkit-hyphens: auto;
+         -moz-hyphens: auto;
+          -ms-hyphens: auto;
+              hyphens: auto; }
   .post .content pre {
     padding: 1.2em; }
   .post .content ol {
@@ -473,7 +480,7 @@
       right: -50px;
       transition: 0.30s; }
   #home #hero {
-    height: 27em;
+    height: 25em;
     padding: none;
     font-size: 1.2em;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/hero.jpg");
@@ -743,7 +750,7 @@ header {
   display: grid;
   grid-template-columns: 1fr; }
   #brothers #hero {
-    height: 27em;
+    height: 25em;
     padding: none;
     font-size: 1.2em;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/orchard_1.jpg");
