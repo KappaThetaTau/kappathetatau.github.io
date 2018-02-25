@@ -7,6 +7,7 @@ from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
 CSV_NAME = 'Theta Tau Website Brother Info.csv'
+CSV_ID = '1Cp0uUiHBa0amTX36_YrjFZLOwGNAN2ziry1dv7MymHY'
 parent_dir_name = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 BROTHERS_IMG_FOLDER = parent_dir_name + "/assets/imgs/brothers/"
 MEMBERS_FILE_PATH = parent_dir_name + "/_data/members.yml"
@@ -59,6 +60,11 @@ IMAGE_IDX = 7
 gauth = GoogleAuth()
 gauth.LocalWebserverAuth() # Creates local webserver and auto handles authentication.
 drive = GoogleDrive(gauth)
+
+# Downlaod CSV file
+gfile = drive.CreateFile({'id': CSV_ID})
+gfile.GetContentFile(CSV_NAME, mimetype='text/csv')
+
 with open(CSV_NAME, 'rb') as csvfile:
     reader = csv.reader(csvfile)
     next(reader, None)
