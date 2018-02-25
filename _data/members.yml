@@ -120,6 +120,14 @@ classes:
     major: Industrial Engineering
     name: Kristin Simkus
     picture: kristin_simkus.jpg
+  - hometown: Evanston, IL
+    major: 'Systems Engineering and Design '
+    name: Juliette Shesgreen
+    picture: juliette_shesgreen.jpg
+  - hometown: Edison, NJ
+    major: Computer Science and Math
+    name: Rishab Pohane
+    picture: rishab_pohane.jpg
 - Spring 2015:
   - hometown: Downers Grove, IL
     major: Aerospace Engineering
