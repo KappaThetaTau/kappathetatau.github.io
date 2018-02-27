@@ -57,6 +57,10 @@ classes:
     major: Computer Science
     name: Lukas Kulbis
     picture: lukas_kulbis.jpg
+  - hometown: Winnetka, IL
+    major: Chemical Engineering
+    name: Therese Jaggard
+    picture: therese_jaggard.jpeg
 - Fall 2016:
   - hometown: Orland Park, IL
     major: Bioengineering
@@ -129,11 +133,11 @@ classes:
     name: Kristin Simkus
     picture: kristin_simkus.jpg
   - hometown: Evanston, IL
-    major: 'Systems Engineering and Design '
+    major: 'Systems Engineering & Design '
     name: Juliette Shesgreen
     picture: juliette_shesgreen.jpg
   - hometown: Edison, NJ
-    major: Computer Science and Math
+    major: Computer Science & Math
     name: Rishab Pohane
     picture: rishab_pohane.jpg
 - Spring 2015:
