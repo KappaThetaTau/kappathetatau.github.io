@@ -53,6 +53,10 @@ classes:
     major: Computer Science & Statistics
     name: Rachel YuQiu Li
     picture: rachel_yuqiu_li.jpg
+  - hometown: Riverside, IL
+    major: Computer Science
+    name: Lukas Kulbis
+    picture: lukas_kulbis.jpg
 - Fall 2016:
   - hometown: Orland Park, IL
     major: Bioengineering
@@ -74,6 +78,10 @@ classes:
     major: Mechanical Engineering
     name: Morgan Sutherland
     picture: morgan_sutherland.jpeg
+  - hometown: Kuala Lumpur, Malaysia
+    major: Electrical Engineering
+    name: Yarshun Jayakumar
+    picture: yarshun_jayakumar.jpg
 - Spring 2016:
   - hometown: Naperville, IL
     major: Bioengineering
