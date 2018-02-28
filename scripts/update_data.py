@@ -3,6 +3,7 @@ import sys
 import csv
 import pdb
 import yaml
+from image_compress import compress_me
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
@@ -14,39 +15,17 @@ MEMBERS_FILE_PATH = parent_dir_name + "/_data/members.yml"
 
 data = {
         'classes': [
-            {
-                'Fall 2017': []
-                },
-            {
-                'Spring 2017': []
-                },
-            {
-                'Fall 2016': []
-                },
-            {
-                'Spring 2016': []
-                },
-            {
-                'Fall 2015': []
-                },
-            {
-                'Spring 2015': []
-                },
-            {
-                'Fall 2014': []
-                },
-            {
-                'Spring 2014': []
-                },
-            {
-                'Fall 2013': []
-                },
-            {
-                'Spring 2013': []
-                },
-            {
-                'Fall 2012': []
-                },
+            { 'Fall 2017'  : [] },
+            { 'Spring 2017': [] },
+            { 'Fall 2016'  : [] },
+            { 'Spring 2016': [] },
+            { 'Fall 2015'  : [] },
+            { 'Spring 2015': [] },
+            { 'Fall 2014'  : [] },
+            { 'Spring 2014': [] },
+            { 'Fall 2013'  : [] },
+            { 'Spring 2013': [] },
+            { 'Fall 2012'  : [] },
             ]
         }
 
@@ -83,9 +62,12 @@ with open(CSV_NAME, 'rb') as csvfile:
 
         # GET FILE
         file_extension = '.{}'.format(gfile['title'].split('.')[-1])
-        pic_name = row[NAME_IDX].lower().replace(' ', '_') # generated file name
-        file_name = BROTHERS_IMG_FOLDER + pic_name + file_extension # absolute directory
-        gfile.GetContentFile(file_name)
+        pic_name = row[NAME_IDX].lower().replace(' ', '_') + file_extension # generated file name
+        file_path = BROTHERS_IMG_FOLDER + pic_name # absolute directory
+        gfile.GetContentFile(file_path)
+
+        # COMPRESS IMAGE
+        image_name = compress_me(pic_name, BROTHERS_IMG_FOLDER)[2]
 
         # ADD TO DATA
         for class_sem in data['classes']:
@@ -95,7 +77,7 @@ with open(CSV_NAME, 'rb') as csvfile:
                         'name': name,
                         'major': major,
                         'hometown': hometown,
-                        'picture': pic_name + file_extension
+                        'picture': image_name
                         }
                 class_sem[pledge_class].append(brother_data)
                 break
