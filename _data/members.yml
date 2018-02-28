@@ -96,6 +96,11 @@ classes:
     major: 'Aerospace Engineering '
     name: Emily Tokarski
     picture: emily_tokarski.jpg
+  - hometown: Portland, OR
+    linkedin: ''
+    major: Aerospace Engineering
+    name: Clinton Raye
+    picture: clinton_raye.JPG
 - Fall 2016:
   - hometown: Orland Park, IL
     linkedin: https://www.linkedin.com/in/dominic-demma-5a6731129/
@@ -137,6 +142,11 @@ classes:
     major: Chemical Engineering
     name: Rudy J. Juarez
     picture: rudy_j._juarez.jpg
+  - hometown: Bothell, WA
+    linkedin: https://www.linkedin.com/in/arko-banik-a89a73107/
+    major: Computer Engineering
+    name: Arko Banik
+    picture: arko_banik.jpg
 - Spring 2016:
   - hometown: Naperville, IL
     linkedin: https://www.linkedin.com/in/jessicaaustriaco
