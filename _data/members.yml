@@ -28,6 +28,10 @@ classes:
     major: Systems Engineering
     name: Keshav Patel
     picture: keshav_patel.jpeg
+  - hometown: Lake Zurich, Il
+    major: Mechanical Engineering
+    name: Alexander Kozlowski
+    picture: alexander_kozlowski.png
 - Spring 2017:
   - hometown: Caledonia, IL
     major: Bioengineering
@@ -86,6 +90,10 @@ classes:
     major: Electrical Engineering
     name: Yarshun Jayakumar
     picture: yarshun_jayakumar.jpg
+  - hometown: Geneva, IL
+    major: Chemical Engineering
+    name: Reier Groven
+    picture: reier_groven.JPG
 - Spring 2016:
   - hometown: Naperville, IL
     major: Bioengineering
@@ -107,6 +115,10 @@ classes:
     major: Civil Engineering
     name: Emily Fulton
     picture: emily_fulton.jpg
+  - hometown: Wheaton, IL
+    major: Aerospace Engineering
+    name: Ashley Stahulak
+    picture: ashley_stahulak.jpg
 - Fall 2015:
   - hometown: Naperville, IL
     major: Mechanical Engineering
@@ -140,11 +152,19 @@ classes:
     major: Computer Science & Math
     name: Rishab Pohane
     picture: rishab_pohane.jpg
+  - hometown: Barrington, IL
+    major: Computer Engineering
+    name: Andrew Smith
+    picture: andrew_smith.jpg
 - Spring 2015:
   - hometown: Downers Grove, IL
     major: Aerospace Engineering
     name: Kevin Burns
     picture: kevin_burns.jpg
+  - hometown: Palos Park, IL
+    major: Civil and Environmental Engineering
+    name: Angela Magnuson
+    picture: angela_magnuson.jpg
 - Fall 2014: []
 - Spring 2014: []
 - Fall 2013: []
