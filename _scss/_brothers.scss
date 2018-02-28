@@ -7,13 +7,23 @@
     }
 
     #members {
-        padding: .75em;
+        padding-top: .75em;
+        padding-bottom: .75em;
 
         img {
             width: 100px;
         }
 
+
         .members-class {
+            padding-top: 1em;
+            padding-bottom: 1em;
+
+            &:nth-child(even) {
+                background-color: #f8f8f8;
+                border-top: 1px solid #f2f2f2;
+                border-bottom: 1px solid #f2f2f2;
+            }
 
             &-title {
                 display: block;

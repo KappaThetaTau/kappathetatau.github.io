@@ -775,54 +775,62 @@ header {
       display: block;
       font-size: 0.25em; }
   #brothers #members {
-    padding: .75em; }
+    padding-top: .75em;
+    padding-bottom: .75em; }
     #brothers #members img {
       width: 100px; }
-    #brothers #members .members-class-title {
-      display: block;
-      font-size: 2em;
-      width: 100%;
-      text-align: center; }
-    #brothers #members .members-class-brothers {
-      padding: .50em;
-      height: -webkit-max-content;
-      height: -moz-max-content;
-      height: max-content;
-      text-align: center; }
-    #brothers #members .members-class-brother {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      box-shadow: #bbbbbb 0px 2px 5px;
-      color: white;
-      position: relative;
-      margin: 10px;
-      border-radius: 2px;
-      display: inline-block;
-      text-align: initial;
-      width: 145px;
-      height: 250px;
-      line-height: 0.9em; }
-      #brothers #members .members-class-brother figure {
-        height: 100%;
-        width: 100%; }
-      #brothers #members .members-class-brother-major {
-        font-size: 0.74em; }
-      #brothers #members .members-class-brother-name {
-        font-weight: 400;
-        font-size: 1em; }
-      #brothers #members .members-class-brother-hometown {
-        font-size: 0.7em; }
-      #brothers #members .members-class-brother-overlay {
-        position: absolute;
-        padding: 10px;
-        bottom: 0;
-        left: 0;
-        height: 20;
+    #brothers #members .members-class {
+      padding-top: 1em;
+      padding-bottom: 1em; }
+      #brothers #members .members-class:nth-child(even) {
+        background-color: #f8f8f8;
+        border-top: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2; }
+      #brothers #members .members-class-title {
+        display: block;
+        font-size: 2em;
         width: 100%;
-        border-radius: 0 0 2px 2px;
-        background-color: rgba(0, 0, 0, 0.6);
-        box-sizing: border-box; }
+        text-align: center; }
+      #brothers #members .members-class-brothers {
+        padding: .50em;
+        height: -webkit-max-content;
+        height: -moz-max-content;
+        height: max-content;
+        text-align: center; }
+      #brothers #members .members-class-brother {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: #bbbbbb 0px 2px 5px;
+        color: white;
+        position: relative;
+        margin: 10px;
+        border-radius: 2px;
+        display: inline-block;
+        text-align: initial;
+        width: 145px;
+        height: 250px;
+        line-height: 0.9em; }
+        #brothers #members .members-class-brother figure {
+          height: 100%;
+          width: 100%; }
+        #brothers #members .members-class-brother-major {
+          font-size: 0.74em; }
+        #brothers #members .members-class-brother-name {
+          font-weight: 400;
+          font-size: 1em; }
+        #brothers #members .members-class-brother-hometown {
+          font-size: 0.7em; }
+        #brothers #members .members-class-brother-overlay {
+          position: absolute;
+          padding: 10px;
+          bottom: 0;
+          left: 0;
+          height: 20;
+          width: 100%;
+          border-radius: 0 0 2px 2px;
+          background-color: rgba(0, 0, 0, 0.6);
+          box-sizing: border-box; }
 
 @media screen and (min-width: 800px) {
   #brothers #members .members-class-brother {
