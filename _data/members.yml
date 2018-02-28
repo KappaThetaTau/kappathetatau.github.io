@@ -40,6 +40,11 @@ classes:
     major: Mechanical Engineering
     name: Alexander Kozlowski
     picture: alexander_kozlowski.jpg
+  - hometown: Mount Vernon, IL
+    linkedin: https://www.linkedin.com/in/samuel-zelman
+    major: Systems Engineering
+    name: Samuel Zelman
+    picture: samuel_zelman.jpg
 - Spring 2017:
   - hometown: Caledonia, IL
     linkedin: ''
@@ -226,6 +231,11 @@ classes:
     major: Civil Engineering
     name: Dhairav Vakil
     picture: dhairav_vakil.jpg
+  - hometown: Willowbrook, IL
+    linkedin: ''
+    major: Bioengineering
+    name: Mallory Wall
+    picture: mallory_wall.jpg
 - Spring 2014: []
 - Fall 2013: []
 - Spring 2013: []
