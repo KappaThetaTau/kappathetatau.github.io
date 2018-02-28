@@ -81,6 +81,16 @@ classes:
     major: Chemical Engineering
     name: Therese Jaggard
     picture: therese_jaggard.jpg
+  - hometown: Mumbai, India
+    linkedin: ''
+    major: Industrial Engineering
+    name: Amay Thakkar
+    picture: amay_thakkar.jpg
+  - hometown: Barrington, IL
+    linkedin: https://www.linkedin.com/in/emilyat2/
+    major: 'Aerospace Engineering '
+    name: Emily Tokarski
+    picture: emily_tokarski.jpg
 - Fall 2016:
   - hometown: Orland Park, IL
     linkedin: https://www.linkedin.com/in/dominic-demma-5a6731129/
