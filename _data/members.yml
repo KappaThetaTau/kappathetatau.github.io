@@ -27,11 +27,11 @@ classes:
   - hometown: Schaumburg, IL
     major: Systems Engineering
     name: Keshav Patel
-    picture: keshav_patel.jpeg
+    picture: keshav_patel.jpg
   - hometown: Lake Zurich, Il
     major: Mechanical Engineering
     name: Alexander Kozlowski
-    picture: alexander_kozlowski.png
+    picture: alexander_kozlowski.jpg
 - Spring 2017:
   - hometown: Caledonia, IL
     major: Bioengineering
@@ -48,7 +48,7 @@ classes:
   - hometown: Evanston, IL
     major: Computer Science
     name: Julia Fiorino
-    picture: julia_fiorino.png
+    picture: julia_fiorino.jpg
   - hometown: Park Ridge, IL
     major: Materials Science & Engineering
     name: Katie Lee
@@ -64,12 +64,12 @@ classes:
   - hometown: Winnetka, IL
     major: Chemical Engineering
     name: Therese Jaggard
-    picture: therese_jaggard.jpeg
+    picture: therese_jaggard.jpg
 - Fall 2016:
   - hometown: Orland Park, IL
     major: Bioengineering
     name: Dominic Demma
-    picture: dominic_demma.jpeg
+    picture: dominic_demma.jpg
   - hometown: Naperville, IL
     major: 'Engineering Mechanics '
     name: Lea Savard
@@ -77,7 +77,7 @@ classes:
   - hometown: Princeton Junction, NJ
     major: Computer Science & Statistics
     name: Sid Vashist
-    picture: sid_vashist.png
+    picture: sid_vashist.jpg
   - hometown: Kankakee, IL
     major: Mechanical Engineering
     name: Spencer Norwick
@@ -85,7 +85,7 @@ classes:
   - hometown: Huntley, IL
     major: Mechanical Engineering
     name: Morgan Sutherland
-    picture: morgan_sutherland.jpeg
+    picture: morgan_sutherland.jpg
   - hometown: Kuala Lumpur, Malaysia
     major: Electrical Engineering
     name: Yarshun Jayakumar
@@ -94,15 +94,19 @@ classes:
     major: Chemical Engineering
     name: Reier Groven
     picture: reier_groven.JPG
+  - hometown: Beecher, Il
+    major: Chemical Engineering
+    name: Rudy J. Juarez
+    picture: rudy_j._juarez.jpg
 - Spring 2016:
   - hometown: Naperville, IL
     major: Bioengineering
     name: Jessica Austriaco
-    picture: jessica_austriaco.jpeg
+    picture: jessica_austriaco.jpg
   - hometown: Naperville, IL
     major: Bioengineering
     name: Omar Kashow
-    picture: omar_kashow.PNG
+    picture: omar_kashow.jpg
   - hometown: Hampshire, IL
     major: Electrical Engineering
     name: Katelyn Schoedl
@@ -123,11 +127,11 @@ classes:
   - hometown: Naperville, IL
     major: Mechanical Engineering
     name: Taylor Smairat
-    picture: taylor_smairat.png
+    picture: taylor_smairat.jpg
   - hometown: Burr Ridge, IL
     major: Electrical Engineering
     name: Matthew Daniel
-    picture: matthew_daniel.png
+    picture: matthew_daniel.jpg
   - hometown: Palos Heights, IL
     major: 'Bioengineering '
     name: Ashley Dettlaff
@@ -165,7 +169,11 @@ classes:
     major: Civil & Environmental Engineering
     name: Angela Magnuson
     picture: angela_magnuson.jpg
-- Fall 2014: []
+- Fall 2014:
+  - hometown: Mahomet
+    major: Civil Engineering
+    name: Dhairav Vakil
+    picture: dhairav_vakil.jpg
 - Spring 2014: []
 - Fall 2013: []
 - Spring 2013: []
