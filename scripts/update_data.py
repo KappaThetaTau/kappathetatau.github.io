@@ -77,6 +77,7 @@ with open(CSV_NAME, 'rb') as csvfile:
                         'name': name,
                         'major': major,
                         'hometown': hometown,
+                        'linkedin': linkedin,
                         'picture': image_name
                         }
                 class_sem[pledge_class].append(brother_data)

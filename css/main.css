@@ -812,6 +812,9 @@ header {
         width: 145px;
         height: 250px;
         line-height: 0.9em; }
+        #brothers #members .members-class-brother a {
+          text-decoration: none;
+          color: white; }
         #brothers #members .members-class-brother::after {
           width: 100%;
           height: 150px;
