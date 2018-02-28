@@ -849,7 +849,6 @@ header {
           padding: 7px;
           bottom: 0;
           left: 0;
-          height: 20;
           width: 100%;
           border-radius: 0 0 2px 2px;
           background-color: rgba(0, 0, 0, 0.6);
@@ -857,7 +856,17 @@ header {
 
 @media screen and (min-width: 800px) {
   #brothers #members .members-class-brother {
-    width: 180px; }
+    width: 180px;
+    height: 300px;
+    line-height: 1.05em; }
+    #brothers #members .members-class-brother-overlay {
+      padding: 10px; }
+    #brothers #members .members-class-brother-name {
+      font-size: 1em; }
+    #brothers #members .members-class-brother-major {
+      font-size: .8em; }
+    #brothers #members .members-class-brother-hometown {
+      font-size: .7em; }
   #brothers #hero {
     font-size: 1.6em; } }
 
