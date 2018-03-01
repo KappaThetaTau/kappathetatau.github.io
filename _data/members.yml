@@ -128,7 +128,7 @@ classes:
     name: Morgan Sutherland
     picture: morgan_sutherland.jpg
   - hometown: Kuala Lumpur, Malaysia
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/yarshun-jayakumar-a93423b1/
     major: Electrical Engineering
     name: Yarshun Jayakumar
     picture: yarshun_jayakumar.jpg
@@ -224,6 +224,11 @@ classes:
     major: Computer Engineering
     name: Andrew Smith
     picture: andrew_smith.jpg
+  - hometown: Elk Grove Village
+    linkedin: https://www.linkedin.com/in/kraemerjoe/
+    major: Mechanical Engineering
+    name: Joe Kraemer
+    picture: joe_kraemer.jpg
 - Spring 2015:
   - hometown: Downers Grove, IL
     linkedin: https://www.linkedin.com/in/kjburns2/
