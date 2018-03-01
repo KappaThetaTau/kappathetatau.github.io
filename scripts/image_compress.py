@@ -18,7 +18,7 @@ def compress_me(file, path, verbose=False):
 
     #set quality= to the preferred quality. 
     #I found that 85 has no difference in my 6-10mb files and that 65 is the lowest reasonable number
-    picture.thumbnail((500,500))
+    picture.thumbnail((450,450))
     picture.save(filepath,"JPEG",optimize=True,quality=85)
 
     newsize = os.stat(filepath).st_size
