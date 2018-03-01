@@ -45,6 +45,16 @@ classes:
     major: Systems Engineering
     name: Samuel Zelman
     picture: samuel_zelman.jpg
+  - hometown: Naperville, IL
+    linkedin: https://www.linkedin.com/in/thomas-c-b3a338124/
+    major: Industrial Engineering
+    name: Tommy Chavez
+    picture: tommy_chavez.JPG
+  - hometown: Dhaka, Bangladesh
+    linkedin: https://www.linkedin.com/in/rashna-raham/
+    major: Agricultural & Biological Engineering
+    name: Rashna Raham
+    picture: rashna_raham.jpg
 - Spring 2017:
   - hometown: Caledonia, IL
     linkedin: ''
@@ -157,6 +167,11 @@ classes:
     major: Computer Engineering
     name: Arko Banik
     picture: arko_banik.jpg
+  - hometown: Glen Carbon, IL
+    linkedin: ''
+    major: Civil Engineering
+    name: Alec Keil
+    picture: alec_keil.jpg
 - Spring 2016:
   - hometown: Naperville, IL
     linkedin: https://www.linkedin.com/in/jessicaaustriaco
@@ -255,8 +270,13 @@ classes:
     major: Bioengineering
     name: Nikhil Shvia
     picture: nikhil_shvia.jpg
+  - hometown: Princeton, NJ
+    linkedin: https://www.linkedin.com/in/akhil-chhugani/
+    major: Computer Science
+    name: Akhil Chhugani
+    picture: akhil_chhugani.jpg
 - Fall 2014:
-  - hometown: Mahomet
+  - hometown: Mahomet, IL
     linkedin: https://www.linkedin.com/in/dhairavvakil/
     major: Civil Engineering
     name: Dhairav Vakil
