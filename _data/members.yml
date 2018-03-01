@@ -35,7 +35,7 @@ classes:
     major: Systems Engineering
     name: Keshav Patel
     picture: keshav_patel.jpg
-  - hometown: Lake Zurich, Il
+  - hometown: Lake Zurich, IL
     linkedin: ''
     major: Mechanical Engineering
     name: Alexander Kozlowski
@@ -203,6 +203,21 @@ classes:
     major: Aerospace Engineering
     name: Ashley Stahulak
     picture: ashley_stahulak.jpg
+  - hometown: Elmwood Park
+    linkedin: https://www.linkedin.com/in/anne-fahey-91a468105/
+    major: Systems Engineering & Design
+    name: Anne Fahey
+    picture: anne_fahey.jpg
+  - hometown: Hickory Hills, IL
+    linkedin: https://www.linkedin.com/in/angelika-szczerba
+    major: Civil & Environmental Engineering
+    name: Angelika Szczerba
+    picture: angelika_szczerba.jpg
+  - hometown: La Grange, IL
+    linkedin: https://www.linkedin.com/in/michael-shea-205298105/
+    major: Computer Science
+    name: Michael Shea
+    picture: michael_shea.jpg
 - Fall 2015:
   - hometown: Naperville, IL
     linkedin: https://www.linkedin.com/in/taylor-smairat-a75135107/
@@ -275,6 +290,11 @@ classes:
     major: Computer Science
     name: Akhil Chhugani
     picture: akhil_chhugani.jpg
+  - hometown: Barrington, IL
+    linkedin: https://www.linkedin.com/in/grace-kurcab2/
+    major: Agricultural Engineering
+    name: Grace Kurcab
+    picture: grace_kurcab.jpg
 - Fall 2014:
   - hometown: Mahomet, IL
     linkedin: https://www.linkedin.com/in/dhairavvakil/
