@@ -183,11 +183,6 @@ classes:
     major: Bioengineering
     name: Omar Kashow
     picture: omar_kashow.jpg
-  - hometown: Hampshire, IL
-    linkedin: https://www.linkedin.com/in/kmschoedl/
-    major: Electrical Engineering
-    name: Katelyn Schoedl
-    picture: katelyn_schoedl.JPG
   - hometown: Fox Lake, IL
     linkedin: https://www.linkedin.com/in/michael-caliendo-86a979115
     major: Education
@@ -203,7 +198,7 @@ classes:
     major: Aerospace Engineering
     name: Ashley Stahulak
     picture: ashley_stahulak.jpg
-  - hometown: Elmwood Park
+  - hometown: Elmwood Park, IL
     linkedin: https://www.linkedin.com/in/anne-fahey-91a468105/
     major: Systems Engineering & Design
     name: Anne Fahey
@@ -218,6 +213,16 @@ classes:
     major: Computer Science
     name: Michael Shea
     picture: michael_shea.jpg
+  - hometown: Hampshire, IL
+    linkedin: https://www.linkedin.com/in/kmschoedl/
+    major: Electrical Engineering
+    name: Katelyn Schoedl
+    picture: katelyn_schoedl.JPG
+  - hometown: Barrington, IL
+    linkedin: https://www.linkedin.com/in/john-graft-826361119/
+    major: Electrical Engineering
+    name: John Graft
+    picture: john_graft.jpg
 - Fall 2015:
   - hometown: Naperville, IL
     linkedin: https://www.linkedin.com/in/taylor-smairat-a75135107/
@@ -264,11 +269,6 @@ classes:
     major: Computer Engineering
     name: Andrew Smith
     picture: andrew_smith.jpg
-  - hometown: Elk Grove Village, IL
-    linkedin: https://www.linkedin.com/in/kraemerjoe/
-    major: Mechanical Engineering
-    name: Joe Kraemer
-    picture: joe_kraemer.jpg
 - Spring 2015:
   - hometown: Downers Grove, IL
     linkedin: https://www.linkedin.com/in/kjburns2/
@@ -295,6 +295,11 @@ classes:
     major: Agricultural Engineering
     name: Grace Kurcab
     picture: grace_kurcab.jpg
+  - hometown: Boulder, CO
+    linkedin: https://www.linkedin.com/in/cecil-macgregor-609950b4/
+    major: Computer Engineering
+    name: Cecil Macgregor
+    picture: cecil_macgregor.jpg
 - Fall 2014:
   - hometown: Mahomet, IL
     linkedin: https://www.linkedin.com/in/dhairavvakil/
@@ -306,6 +311,11 @@ classes:
     major: Bioengineering
     name: Mallory Wall
     picture: mallory_wall.jpg
+  - hometown: Elk Grove Village, IL
+    linkedin: https://www.linkedin.com/in/kraemerjoe/
+    major: Mechanical Engineering
+    name: Joe Kraemer
+    picture: joe_kraemer.jpg
 - Spring 2014: []
 - Fall 2013: []
 - Spring 2013: []
