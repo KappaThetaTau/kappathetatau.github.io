@@ -65,6 +65,11 @@ classes:
     major: Computer Science
     name: Mukhil Murugasamy
     picture: mukhil_murugasamy.jpg
+  - hometown: Fremont, CA
+    linkedin: https://www.linkedin.com/in/tanviraja/
+    major: Computer Science and Statistics
+    name: Tanvi Raja
+    picture: tanvi_raja.jpg
 - Spring 2017:
   - hometown: Caledonia, IL
     linkedin: ''
