@@ -105,11 +105,11 @@
     #about {
         display: grid;
         grid-area: about;
-        padding: $up-down-padding 20px;
+        margin: $up-down-padding 20px;
         position: relative;
 
         p {
-            font-size: 1.25em;
+            font-size: 1.3125em;
         }
 
         &::after {
@@ -251,7 +251,8 @@
         }
 
         #about {
-            padding: $up-down-padding 10em;
+            margin: $up-down-padding auto;
+            width: 700px;
         }
 
         #contact {

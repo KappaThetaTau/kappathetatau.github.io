@@ -539,10 +539,10 @@
   #home #about {
     display: grid;
     grid-area: about;
-    padding: 4.5em 20px;
+    margin: 4.5em 20px;
     position: relative; }
     #home #about p {
-      font-size: 1.25em; }
+      font-size: 1.3125em; }
     #home #about::after {
       background-position: center;
       background-repeat: no-repeat;
@@ -640,7 +640,8 @@
       font-size: 1.6em;
       grid-area: hero; }
     #home #about {
-      padding: 4.5em 10em; }
+      margin: 4.5em auto;
+      width: 700px; }
     #home #contact {
       margin: auto;
       font-size: 1em; }
