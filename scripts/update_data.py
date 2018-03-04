@@ -7,11 +7,19 @@ from image_compress import compress_me
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
+# INITIALIZE CONSTANTS
 CSV_NAME = 'Theta Tau Website Brother Info.csv'
 CSV_ID = '1Cp0uUiHBa0amTX36_YrjFZLOwGNAN2ziry1dv7MymHY'
-parent_dir_name = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-BROTHERS_IMG_FOLDER = parent_dir_name + "/assets/imgs/brothers/"
-MEMBERS_FILE_PATH = parent_dir_name + "/_data/members.yml"
+PARENT_DIR = os.path.dirname(os.path.realpath(__file__))
+GRANDPARENT_DIR = os.path.dirname(PARENT_DIR)
+BROTHERS_IMG_DIR = GRANDPARENT_DIR + "/assets/imgs/brothers/"
+MEMBERS_FILE_PATH = GRANDPARENT_DIR + "/_data/members.yml"
+CLASS_IDX = 2
+NAME_IDX = 3
+MAJOR_IDX = 4
+HOMETOWN_IDX = 5
+LINKEDIN_IDX = 6
+IMAGE_IDX = 7
 
 data = {
         'classes': [
@@ -29,18 +37,13 @@ data = {
             ]
         }
 
-CLASS_IDX = 2
-NAME_IDX = 3
-MAJOR_IDX = 4
-HOMETOWN_IDX = 5
-LINKEDIN_IDX = 6
-IMAGE_IDX = 7
-
+# AUTHENTICATE WITH GOOGLE
+os.chdir(PARENT_DIR)
 gauth = GoogleAuth()
 gauth.LocalWebserverAuth() # Creates local webserver and auto handles authentication.
 drive = GoogleDrive(gauth)
 
-# Downlaod CSV file
+# DOWNLOAD CSV FILE
 gfile = drive.CreateFile({'id': CSV_ID})
 gfile.GetContentFile(CSV_NAME, mimetype='text/csv')
 
@@ -63,11 +66,11 @@ with open(CSV_NAME, 'rb') as csvfile:
         # GET FILE
         file_extension = '.{}'.format(gfile['title'].split('.')[-1])
         pic_name = row[NAME_IDX].lower().replace(' ', '_') + file_extension # generated file name
-        file_path = BROTHERS_IMG_FOLDER + pic_name # absolute directory
+        file_path = BROTHERS_IMG_DIR + pic_name # absolute directory
         gfile.GetContentFile(file_path)
 
         # COMPRESS IMAGE
-        image_name = compress_me(pic_name, BROTHERS_IMG_FOLDER)[2]
+        image_name = compress_me(pic_name, BROTHERS_IMG_DIR)[2]
 
         # ADD TO DATA
         for class_sem in data['classes']:
@@ -86,6 +89,7 @@ with open(CSV_NAME, 'rb') as csvfile:
             print 'WHAT?!'
             exit(1)
 
+# WRITE TO DATA
 with open(MEMBERS_FILE_PATH, 'w') as outfile:
     yaml.dump(data, outfile, default_flow_style=False)
 
