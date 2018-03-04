@@ -294,6 +294,11 @@ classes:
     major: Computer Engineering
     name: Andrew Smith
     picture: andrew_smith.jpg
+  - hometown: Champaign, IL
+    linkedin: https://www.linkedin.com/in/madeleine-chalifoux/
+    major: 'Chemical Engineering '
+    name: Maddy Chalifoux
+    picture: maddy_chalifoux.jpg
 - Spring 2015:
   - hometown: Downers Grove, IL
     linkedin: https://www.linkedin.com/in/kjburns2/
