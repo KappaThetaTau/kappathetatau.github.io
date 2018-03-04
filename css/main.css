@@ -775,8 +775,8 @@ header {
     #brothers #members img {
       width: 100px; }
     #brothers #members .class {
-      padding-top: 3.46154em;
-      padding-bottom: 3.46154em; }
+      padding-top: 1em;
+      padding-bottom: 1em; }
       #brothers #members .class:nth-child(even) {
         background-color: #f8f8f8;
         border-top: 1px solid #f2f2f2;
@@ -823,7 +823,7 @@ header {
             color: white; }
             #brothers #members .class .brothers-wrapper .brother a .link {
               font-size: 2.25em;
-              z-index: 10000;
+              z-index: 1000;
               position: absolute;
               right: 0px;
               margin: 5px;
@@ -834,6 +834,7 @@ header {
           #brothers #members .class .brothers-wrapper .brother .overlay {
             position: absolute;
             padding: 7px;
+            z-index: 1000;
             bottom: 0;
             left: 0;
             width: 100%;
