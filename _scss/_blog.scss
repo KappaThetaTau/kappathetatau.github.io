@@ -26,7 +26,7 @@
             }
             @include box-shadow();
 
-            &-thumbnail {
+            .thumbnail {
                 width: 100%;
                 min-height: 10em;
                 background-size: cover;
@@ -36,7 +36,7 @@
                 box-sizing: border-box;
             }
 
-            &-content {
+            .content {
                 padding: 1em;
                 font-weight: 300;
                 color: #515151;
@@ -46,7 +46,7 @@
                 }
             }
 
-            &-title {
+            .title {
                 margin: 0 0 5px;
 
                 a {
@@ -54,20 +54,14 @@
                 }
             }
 
-            &-meta {
-                //position: absolute;
-                //bottom: 10px;
-                //left: 10px;
+            .meta {
+                .date {
+                    font-size: .8em;
+                }
+                .words {
+                    font-size: .8em;
+                }
             }
-
-            &-date {
-                font-size: .8em;
-            }
-            
-            &-words {
-                font-size: .8em;
-            }
-
         }
     }
 }

@@ -11,16 +11,16 @@ function isElementInViewport(elem) {
 
 // Check if it's time to start the animation.
 function checkAnimation() {
-    var $elems = $('.image-button-wrapper');
+    var $elems = $('.image-button');
     for (var i = 0; i < $elems.length; i++) {
         $elem = $elems[i];
 
         // Only do this for screen sizes less than 800px
         if (isElementInViewport($elem) && !window.matchMedia("(min-width: 800px)").matches) {
             // Start the animation
-            $elem.className = "image-button-wrapper image-button-animation";
+            $elem.className = "image-button image-button-animation";
         } else {
-            $elem.className = "image-button-wrapper";
+            $elem.className = "image-button";
         }
     }
 }
@@ -68,6 +68,6 @@ $(document).ready(function(){
     });
 })
 
-particlesJS.load('stats-particles', '/assets/js/particles.json', function() {
+particlesJS.load('particles', '/assets/js/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });

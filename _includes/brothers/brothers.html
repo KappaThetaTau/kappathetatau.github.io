@@ -3,26 +3,24 @@
     {% for class in classes %}
     {% if class[1].size > 0 %}
 
-    <div class="members-class">
+    <div class="class">
 
-        <span class="members-class-title"> {{class[0]}} </span>
+        <span class="title"> {{class[0]}} </span>
 
-        <div class="members-class-brothers">
+        <div class="brothers-wrapper">
             {% for brother in class[1] %}
 
-            <div style="background-image: url(/assets/imgs/brothers/{{brother.picture}});" class="members-class-brother">
-                <figure>
-                    {% if brother.linkedin != '' %}
-                    <a target="blank" href="{{brother.linkedin}}">
-                        <i class="members-class-brother-link fab fa-linkedin"></i>
-                    </a>
-                    {% endif %}
-                    <div class="members-class-brother-overlay">
-                        <span class="members-class-brother-name"> {{brother.name}} </span>
-                        <p><span class="members-class-brother-major"> {{brother.major}} </span></p>
-                        <p><span class="members-class-brother-hometown"> {{brother.hometown}} </span></p>
-                    </div>
-                </figure>
+            <div class="brother" style="background-image: url(/assets/imgs/brothers/{{brother.picture}});">
+                {% if brother.linkedin != '' %}
+                <a target="blank" href="{{brother.linkedin}}">
+                    <i class="link fab fa-linkedin"></i>
+                </a>
+                {% endif %}
+                <div class="overlay">
+                    <span class="name"> {{brother.name}} </span>
+                    <p><span class="major"> {{brother.major}} </span></p>
+                    <p><span class="hometown"> {{brother.hometown}} </span></p>
+                </div>
             </div>
 
             {% endfor %}

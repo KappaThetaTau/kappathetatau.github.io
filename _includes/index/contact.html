@@ -1,10 +1,10 @@
 <div id="contact">
     <h1> Contact Us </h1>
-    <ul id="contact-list">
+    <ul id="list">
         {% for exec in site.data.contacts %}
         <li>
-            <span class="contact-list-title">{{exec.title}}</span> -
-            <span class="contact-list-name">{{exec.name}}</span> -
+            <span class="title">{{exec.title}}</span> -
+            <span class="name">{{exec.name}}</span> -
             {{exec.email}}
         </li>
         {% endfor %}

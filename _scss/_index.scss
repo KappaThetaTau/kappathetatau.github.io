@@ -18,37 +18,15 @@
     }
 
     .image-button {
-        &-wrapper{
-            @include box-shadow();
-            overflow: hidden;
-            display: block;
-            position: relative;
-            margin: 0.50em;
-            cursor: pointer;
-            transition: all 0.30s;
+        @include box-shadow();
+        overflow: hidden;
+        display: block;
+        position: relative;
+        margin: 0.50em;
+        cursor: pointer;
+        transition: all 0.30s;
 
-            &:hover {
-                .image-button-text {
-                    padding-right: 50px;
-                }
-                .image-button-text:after {
-                    opacity: 1;
-                    right: 0;
-                }
-            }
-        }
-
-        &-animation {
-            .image-button-text {
-                padding-right: 50px;
-            }
-            .image-button-text:after {
-                opacity: 1;
-                right: 0;
-            }
-        }
-
-        &-text {
+        .text {
             display: inline-block;
             font-size: 5em;
             position: absolute;
@@ -66,6 +44,26 @@
                 top: 0;
                 right: -50px;
                 transition: 0.30s;
+            }
+        }
+
+        &-animation {
+            .text {
+                padding-right: 50px;
+            }
+            .text:after {
+                opacity: 1;
+                right: 0;
+            }
+        }
+
+        &:hover {
+            .text {
+                padding-right: 50px;
+            }
+            .text:after {
+                opacity: 1;
+                right: 0;
             }
         }
     }
@@ -105,7 +103,7 @@
     #about {
         display: grid;
         grid-area: about;
-        margin: $up-down-padding 20px;
+        padding: $up-down-padding 20px;
         position: relative;
 
         p {
@@ -135,7 +133,7 @@
         text-align: center;
         position: relative;
 
-        &-particles {
+        #particles {
             z-index: 100;
             width: 100%;
             position: absolute;
@@ -151,7 +149,7 @@
             margin-bottom: 1em;
         }
 
-        .stats-data {
+        .data {
             font-size: 1.35em;
             padding: 20px;
             p {
@@ -162,7 +160,7 @@
                 font-family: "Roboto";
                 padding: 0;
             }
-            span {
+            .line {
                 width: 60px;
                 height: 2px;
                 background: rgba(0, 0, 0, 0.8);
@@ -176,12 +174,12 @@
         grid-area: contact;
         padding: 1em 20px;
         font-size: 0.8em;
-        &-list {
+        #list {
             list-style: none;
-            .contact-list-name {
+            .name {
                 font-weight: 400;
             }
-            .contact-list-title {
+            .title {
                 font-weight: 400;
                 font-style: oblique;
                 font-size: 1.05em;
@@ -206,12 +204,13 @@
             text-decoration: none;
         }
 
-        &-photobanner-1 {
-            animation: bannermove 60s linear infinite;
-        }
 
-        &-photobanner {
+        #photobanner {
             width: max-content;
+
+            #company-1 {
+                animation: bannermove 60s linear infinite;
+            }
         }
 
         h1 {
@@ -251,7 +250,9 @@
         }
 
         #about {
-            margin: $up-down-padding auto;
+            padding: $up-down-padding 0;
+            margin-left: auto;
+            margin-right: auto;
             width: 700px;
         }
 
@@ -268,11 +269,9 @@
         #portfolio {
             padding: $up-down-padding 0em;
 
-            &-photobanner {
-                &:hover {
-                    #portfolio-photobanner-1 {
-                        animation-play-state: paused;
-                    }
+            #photobanner:hover {
+                #company-1 {
+                    animation-play-state: paused;
                 }
             }
         }

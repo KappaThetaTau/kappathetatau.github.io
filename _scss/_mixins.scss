@@ -46,7 +46,7 @@ $navbar-border-height: 2px;
     position: relative;
     color: white;
 
-    &-title {
+    #title {
         top: $distance-from-top;
         left: 50%;
         text-align: center;
@@ -54,15 +54,14 @@ $navbar-border-height: 2px;
         transform: translate(-50%, -50%);
         width: 100%;
         font-size: 3.5em;
-    }
+        #main {
+            font-weight: 400;
+            letter-spacing: -0.125em;
+        }
 
-    &-main {
-        font-weight: 400;
-        letter-spacing: -0.125em;
-    }
-
-    &-subtitle {
-        display: block;
-        font-size: 0.25em;
+        #subtitle {
+            display: block;
+            font-size: 0.25em;
+        }
     }
 }

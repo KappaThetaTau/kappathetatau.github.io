@@ -5,15 +5,15 @@
 
     <article class="post-preview">
         {% if post.image %}
-        <a href="{{post.url}}" class="post-preview-thumbnail" style="background-image: url('/assets/imgs/posts/{{post.image}}');"></a>
+        <a href="{{post.url}}" class="thumbnail" style="background-image: url('/assets/imgs/posts/{{post.image}}');"></a>
         {% else %}
         {% endif %}
-        <div class="post-preview-content">
-            <h2 class="post-preview-title"><a href="{{post.url}}">{{post.title}}</a></h2>
+        <div class="content">
+            <h2 class="title"><a href="{{post.url}}">{{post.title}}</a></h2>
             <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
-            <div class="post-preview-meta">
-                <span class="post-preview-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-                <span class="post-preview-words">{% if words < 360 %} 1 min {% else %} {{ words | divided_by:180 }} mins {% endif %} </span>
+            <div class="meta">
+                <span class="date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+                <span class="words">{% if words < 360 %} 1 min {% else %} {{ words | divided_by:180 }} mins {% endif %} </span>
             </div>
         </div>
     </article>
