@@ -70,6 +70,11 @@ classes:
     major: Computer Science & Statistics
     name: Tanvi Raja
     picture: tanvi_raja.jpg
+  - hometown: Geneva, IL
+    linkedin: ''
+    major: 'Mechanical Engineering '
+    name: Leah Groven
+    picture: leah_groven.JPG
 - Spring 2017:
   - hometown: Caledonia, IL
     linkedin: ''
@@ -136,6 +141,11 @@ classes:
     major: 'Mechanical '
     name: Becca Maxedon
     picture: becca_maxedon.jpg
+  - hometown: Naperville, Illinois
+    linkedin: https://www.linkedin.com/in/raka-mahakul-bb2043139/
+    major: Material Science and Engineering
+    name: Raka Mahakul
+    picture: raka_mahakul.jpg
 - Fall 2016:
   - hometown: Orland Park, IL
     linkedin: https://www.linkedin.com/in/dominic-demma-5a6731129/
@@ -299,6 +309,11 @@ classes:
     major: 'Chemical Engineering '
     name: Maddy Chalifoux
     picture: maddy_chalifoux.jpg
+  - hometown: Marion, IA
+    linkedin: http://www.linkedin.com/in/tara-zumwalt-457827a2
+    major: Civil Engineering
+    name: Tara Zumwalt
+    picture: tara_zumwalt.jpg
 - Spring 2015:
   - hometown: Downers Grove, IL
     linkedin: https://www.linkedin.com/in/kjburns2/
