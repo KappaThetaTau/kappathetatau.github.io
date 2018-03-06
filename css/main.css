@@ -595,12 +595,11 @@
     font-size: 0.8em; }
     #home #contact #list {
       list-style: none; }
-      #home #contact #list .name {
-        font-weight: 400; }
       #home #contact #list .title {
         font-weight: 400;
-        font-style: oblique;
         font-size: 1.05em; }
+      #home #contact #list .name {
+        font-weight: 300; }
     #home #contact ul li {
       margin: 0.25em; }
   #home #portfolio {

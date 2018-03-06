@@ -3,9 +3,9 @@
     <ul id="list">
         {% for exec in site.data.contacts %}
         <li>
-            <span class="title">{{exec.title}}</span> -
-            <span class="name">{{exec.name}}</span> -
-            {{exec.email}}
+            <span class="title">{{exec[1].title}}</span> -
+            <span class="name">{{exec[1].name}}</span> -
+            {{exec[1].email}}
         </li>
         {% endfor %}
     </ul>

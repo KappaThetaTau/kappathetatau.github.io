@@ -1,0 +1,52 @@
+regent:
+    title: Regent
+    name: Rishab Pohane
+    email: pohane2@illinois.edu 
+vregent:
+    title: Vice Regent
+    name: Dhairav Vakil
+    email: dvakil2@illinois.edu 
+scribe:
+    title: Scribe
+    name: Tara Zumwalt
+    email: tzumwal2@illinois.edu 
+treasurer:
+    title: Treasurer
+    name: Omar Kashow
+    email: kashow2@illinois.edu 
+secretary:
+    title: Corresponding Secretary
+    name: David Kline
+    email: dkline2@illinois.edu
+marshall:
+    title: Pledge Marshall
+    name: Jessica Austriaco
+    email: austric2@illinois.edu 
+historian:
+    title: Historian
+    name: Katelyn Schoedl
+    email: schoedl2@illinois.edu 
+professional:
+    title: Professional
+    name: Kanchi Shah and Nikhil Shiva
+    email: kanchi.shah957@gmail.com and shiva2@illinois.edu 
+philanthropy:
+    title: Philanthropy
+    name: Alec Keil
+    email: ajkeil2@illinois.edu 
+rush:
+    title: Rush
+    name: Sherry Yu
+    email: smyu2@illinois.edu
+fundraising:
+    title: Fundraising
+    name: Ashley Detlaff
+    email: adettl3@illinois.edu 
+projects:
+    title: Projects
+    name: Spencer Norwick
+    email: norwick2@illinois.edu 
+web:
+    title: Web
+    name: Dean Cannon
+    email: dcannon2@illinois.edu 
