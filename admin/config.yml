@@ -1,11 +1,11 @@
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+    name: git-gateway
+    branch: master # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 media_folder: "assets/imgs/posts" # Media files will be stored in the repo under assets/imgs
 
 collections:
-  - name: "Blog" # Used in routes, e.g., /admin/collections/blog
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -20,11 +20,28 @@ collections:
     label: "Navigation"
     files:
         - label: "Navigation Menu"
-          name: "navigation menu"
+          name: "navigation"
           file: "_data/navigation.yml"
           fields:
-              - label: nav
-                name: nav
-                widget: list
-                fields:
-                    - {label: link, name: name, widget: string}
+              - label: Home
+                name: home
+                widget: string
+              - label: About
+                name: about
+                widget: string
+              - label: Brothers
+                name: brothers
+                widget: string
+              - label: Blog
+                name: blog
+                widget: string
+              - label: FAQ
+                name: faq
+                widget: string
+              - label: Rush
+                name: rush
+                widget: string
+                valueField: title
+              - label: Contact
+                name: contact
+                widget: string

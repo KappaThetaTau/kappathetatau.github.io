@@ -33,8 +33,8 @@
 
         <div class="menu">
             <ul>
-                {% for nav in site.data.navigation.nav %}
-                <a href="{{nav[1]}}"><li>{{nav[0]}}</li></a>
+                {% for link in site.data.navigation %}
+                <a href="{{link[1]}}"><li>{{link[0]}}</li></a>
                 {% endfor %}
             </ul>
         </div> 
