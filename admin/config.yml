@@ -20,11 +20,12 @@ collections:
     label: "Navigation"
     files:
         - label: "Navigation Menu"
-          name: "navigation menu"
+          name: "navigation"
           file: "_data/navigation.yml"
           fields:
-              - label: nav
-                name: nav
+              - label: Navigation Links
+                name: links
                 widget: list
                 fields:
-                    - {label: link, name: name, widget: string}
+                    - {label: Name, name: name, widget: string}
+                    - {label: Location, name: location, widget: string}
