@@ -5,7 +5,7 @@
 
     <article class="post-preview">
         {% if post.image %}
-        <a href="{{post.url}}" class="thumbnail" style="background-image: url('/assets/imgs/posts/{{post.image}}');"></a>
+        <a href="{{post.url}}" class="thumbnail" style="background-image: url('{{post.image}}');"></a>
         {% else %}
         {% endif %}
         <div class="content">
