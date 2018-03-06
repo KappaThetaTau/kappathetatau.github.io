@@ -2,7 +2,7 @@
 layout: post
 title:  "Fall 2018 Rush Schedule"
 date:   2018-01-14
-image: "rush-2018.jpg"
+image: "/assets/imgs/posts/rush-2018.jpg"
 ---
 
 Theta Tau is the nation's oldest and largest co-ed engineering fraternity.

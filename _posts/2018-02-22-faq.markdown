@@ -3,7 +3,7 @@ layout: post
 title:  "Frequently Asked Questions"
 faq: true
 date:   2018-02-22
-image: "faq.jpg"
+image: "/assets/imgs/posts/faq.jpg"
 ---
 ### Q: What kind of organization is Theta Tau?
 

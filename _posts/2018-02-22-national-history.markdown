@@ -3,7 +3,7 @@ layout: post
 title:  "National History"
 faq: true
 date:   2018-01-10
-image: "thetatau-history.jpg"
+image: "/assets/imgs/posts/thetatau-history.jpg"
 ---
 ## Theta Tau Professional Engineering Fraternity
 
