@@ -2,7 +2,7 @@
 layout: post
 title: Theta Tau National History
 date: 2018-03-06T06:00:00.000Z
-image: /assets/imgs/posts/rush-2018.jpg
+image: /assets/imgs/posts/thetatau-history.jpg
 ---
 ## Theta Tau Professional Engineering Fraternity
 
