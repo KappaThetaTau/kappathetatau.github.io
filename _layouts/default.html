@@ -33,7 +33,7 @@
 
         <div class="menu">
             <ul>
-                {% for nav in site.nav %}
+                {% for nav in site.data.navigation.nav %}
                 <a href="{{nav[1]}}"><li>{{nav[0]}}</li></a>
                 {% endfor %}
             </ul>

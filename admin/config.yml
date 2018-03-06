@@ -16,3 +16,15 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Navigation"
+    label: "Navigation"
+    files:
+        - label: "Navigation Menu"
+          name: "navigation menu"
+          file: "_data/navigation.yml"
+          fields:
+              - label: nav
+                name: nav
+                widget: list
+                fields:
+                    - {label: link, name: name, widget: string}
