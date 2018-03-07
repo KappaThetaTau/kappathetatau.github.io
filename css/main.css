@@ -392,11 +392,16 @@
   #blog #posts {
     grid-template-columns: 1fr 1fr 1fr 1fr; } }
 
+.post-wrapper {
+  background-color: #f8f8f8; }
+
 .post {
   padding: 20px;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.84);
-  font-size: 1.2em; }
+  background-color: white;
+  font-size: 1.2em;
+  box-shadow: #bbbbbb 0px 2px 5px; }
   .post .meta {
     font-weight: 100;
     font-size: 0.92308em;

@@ -15,11 +15,17 @@ $post-font-color: rgba(0,0,0,.84);
     }
 }
 
+.post-wrapper {
+    background-color: #f8f8f8;
+}
+
 .post {
     padding: 20px;
     font-weight: 300;
     color: $post-font-color;
+    background-color: white;
     font-size: $post-font-size;
+    @include box-shadow();
 
     .meta {
         font-weight: 100;

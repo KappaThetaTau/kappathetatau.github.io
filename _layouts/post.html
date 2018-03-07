@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
-<div class="post">
-    {% if page.image %}
-    <img src="{{ page.image }}">
-    {% else %}{% endif %}
-    <h2>
-        {{ page.title }}
-    </h2>
-    <p class="meta">{{ page.date | date_to_string }}</p>
-    <div class="content">
-        {{ content }}
+<div class="post-wrapper">
+    <div class="post">
+        {% if page.image %}
+        <img src="{{ page.image }}">
+        {% else %}{% endif %}
+        <h2>
+            {{ page.title }}
+        </h2>
+        <p class="meta">{{ page.date | date_to_string }}</p>
+        <div class="content">
+            {{ content }}
+        </div>
     </div>
 </div>
