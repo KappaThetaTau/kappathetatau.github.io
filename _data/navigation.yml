@@ -1,7 +1,15 @@
-home: /
-about: '/#about'
-brothers: /brothers
-blog: /blog
-faq: /2018/faq
-rush: /2018/fall-rush-2018/
-contact: '/#contact'
+navlinks:
+    - name: home
+      link: /
+    - name: about
+      link: '/#about'
+    - name: brothers
+      link: /brothers
+    - name: blog
+      link: /blog
+    - name: faq
+      link: /2018/faq
+    - name: rush
+      link: /2018/fall-rush-2018/
+    - name: contact
+      link: '/#contact'

@@ -6,7 +6,7 @@ media_folder: "assets/imgs/posts" # Media files will be stored in the repo under
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Post" # Used in the UI
+    label: "Blog" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -16,20 +16,23 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "navigation"
-    label: "Navigation"
+  - name: menu
+    label: Menu
     files:
-        - label: "Navigation Menu"
-          name: "navigation"
-          file: "_data/navigation.yml"
+        - label: Navigation Menu
+          name: navigation
+          file: _data/navigation.yml
           fields:
-              - {label: Home, name: home, widget: string}
-              - {label: About, name: about, widget: string}
-              - {label: Brothers, name: brothers, widget: string}
-              - {label: Blog, name: blog, widget: string}
-              - {label: FAQ, name: faq, widget: string}
-              - {label: Rush, name: rush, widget: string}
-              - {label: Contact, name: contact, widget: string}
+              - label: Navigation Links
+                name: navlinks
+                widget: list
+                fields:
+                    - label: Navigation Link
+                      name: link
+                      widget: object
+                      fields:
+                          - {label: Name, name: name, widget: string}
+                          - {label: Link, name: link, widget: string}
   - name: "members"
     label: "Members"
     files:
