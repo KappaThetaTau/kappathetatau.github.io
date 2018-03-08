@@ -31,7 +31,7 @@ collections:
                       name: link
                       widget: object
                       fields:
-                          - {label: Name, name: name, widget: string}
+                          - {label: Menu Item, name: item, widget: string}
                           - {label: Link, name: link, widget: string}
   - name: "members"
     label: "Members"
@@ -40,15 +40,14 @@ collections:
           name: "board"
           file: "_data/contacts.yml"
           fields:
-              - {label: Regent, name: regent, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}]}
-              - {label: Vice Regent, name: vregent, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}]}
-              - {label: Scribe, name: scribe, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}]}
-              - {label: Treasurer, name: treasurer, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}]}
-              - {label: Corresponding Secretary, name: secretary, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}]}
-              - {label: Historian, name: historian, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}]}
-              - {label: Professional, name: professional, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}]}
-              - {label: Philanthropy, name: philanthropy, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}]}
-              - {label: Rush, name: rush, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}]}
-              - {label: Fundraising, name: fundraising, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}]}
-              - {label: Projects, name: projects, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}]}
-              - {label: Web, name: web, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Email, name: email, widget: string}]}
+              - label: Executive Members
+                name: exec_members
+                widget: list
+                fields:
+                    - label: Member
+                      name: member
+                      widget: object
+                      fields:
+                          - {label: Title, name: title, widget: string}
+                          - {label: Name, name: name, widget: string}
+                          - {label: Email, name: email, widget: string}
