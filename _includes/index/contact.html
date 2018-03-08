@@ -1,11 +1,11 @@
 <div id="contact">
     <h1> Contact Us </h1>
     <ul id="list">
-        {% for exec in site.data.contacts %}
+        {% for exec in site.data.executives.executive_members %}
         <li>
-            <span class="title">{{exec[1].title}}</span> -
-            <span class="name">{{exec[1].name}}</span> -
-            {{exec[1].email}}
+            <span class="title">{{exec.member.title}}</span> -
+            <span class="name">{{exec.member.name}}</span> -
+            <span clas"email">{{exec.member.email}}</span>
         </li>
         {% endfor %}
     </ul>
