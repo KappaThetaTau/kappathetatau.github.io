@@ -10,8 +10,6 @@ Here is the content that I want to write:
 
 <https://www.youtube.com/watch?v=SnNzwqySI9Q>
 
-
-
 # **Here is an update video!**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SnNzwqySI9Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
