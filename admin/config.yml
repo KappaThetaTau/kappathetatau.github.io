@@ -24,11 +24,11 @@ collections:
           file: _data/navigation.yml
           fields:
               - label: Navigation Links
-                name: navlinks
+                name: navigation
                 widget: list
                 fields:
                     - label: Navigation Link
-                      name: link
+                      name: navigation_link
                       widget: object
                       fields:
                           - {label: Menu Item, name: item, widget: string}
@@ -41,7 +41,7 @@ collections:
           file: "_data/contacts.yml"
           fields:
               - label: Executive Members
-                name: exec_members
+                name: executive_members
                 widget: list
                 fields:
                     - label: Member
