@@ -1,15 +1,22 @@
-navlinks:
-    - name: home
-      link: /
-    - name: about
-      link: '/#about'
-    - name: brothers
-      link: /brothers
-    - name: blog
-      link: /blog
-    - name: faq
-      link: /2018/faq
-    - name: rush
-      link: /2018/fall-rush-2018/
-    - name: contact
-      link: '/#contact'
+navigation:
+    - navigation_link:
+        item: home
+        link: /
+    - navigation_link:
+        item: about
+        link: '/#about'
+    - navigation_link:
+        item: brothers
+        link: /brothers
+    - navigation_link:
+        item: blog
+        link: /blog
+    - navigation_link:
+        item: faq
+        link: /2018/faq
+    - navigation_link:
+        item: rush
+        link: /2018/fall-rush-2018/
+    - navigation_link:
+        item: contact
+        link: '/#contact'
