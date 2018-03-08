@@ -37,7 +37,7 @@ collections:
     label: "Members"
     files:
         - label: "Executive Members"
-          name: "board"
+          name: "executive_members"
           file: "_data/contacts.yml"
           fields:
               - label: Executive Members
