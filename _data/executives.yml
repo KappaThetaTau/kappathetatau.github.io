@@ -1,53 +1,40 @@
 executive_members:
-    - member:
-        email: pohane2@illinois.edu 
-        name: Rishab Pohane
-        title: Regent
-    - member:
-        email: dvakil2@illinois.edu 
-        name: Dhairav Vakil
-        title: Vice Regent
-    - member:
-        email: tzumwal2@illinois.edu 
-        name: Tara Zumwalt
-        title: Scribe
-    - member:
-        email: kashow2@illinois.edu 
-        name: Omar Kashow
-        title: Treasurer
-    - member:
-        email: dkline2@illinois.edu
-        name: David Kline
-        title: Corresponding Secretary
-    - member:
-        email: austric2@illinois.edu 
-        name: Jessica Austriaco
-        title: Pledge Marshall
-    - member:
-        email: schoedl2@illinois.edu 
-        name: Katelyn Schoedl
-        title: Historian
-    - member:
-        email: kanchi.shah957@gmail.com and shiva2@illinois.edu 
-        name: Kanchi Shah and Nikhil Shiva
-        title: Professional
-    - member:
-        email: ajkeil2@illinois.edu 
-        name: Alec Keil
-        title: Philanthropy
-    - member:
-        email: smyu2@illinois.edu
-        name: Sherry Yu
-        title: Rush
-    - member:
-        email: adettl3@illinois.edu 
-        name: Ashley Detlaff
-        title: Fundraising
-    - member:
-        email: norwick2@illinois.edu 
-        name: Spencer Norwick
-        title: Projects
-    - member:
-        email: dcannon2@illinois.edu 
-        name: Dean Cannon
-        title: Web
+    - email: pohane2@illinois.edu 
+      name: Rishab Pohane
+      title: Regent
+    - email: dvakil2@illinois.edu 
+      name: Dhairav Vakil
+      title: Vice Regent
+    - email: tzumwal2@illinois.edu 
+      name: Tara Zumwalt
+      title: Scribe
+    - email: kashow2@illinois.edu 
+      name: Omar Kashow
+      title: Treasurer
+    - email: dkline2@illinois.edu
+      name: David Kline
+      title: Corresponding Secretary
+    - email: austric2@illinois.edu 
+      name: Jessica Austriaco
+      title: Pledge Marshall
+    - email: schoedl2@illinois.edu 
+      name: Katelyn Schoedl
+      title: Historian
+    - email: kanchi.shah957@gmail.com and shiva2@illinois.edu 
+      name: Kanchi Shah and Nikhil Shiva
+      title: Professional
+    - email: ajkeil2@illinois.edu 
+      name: Alec Keil
+      title: Philanthropy
+    - email: smyu2@illinois.edu
+      name: Sherry Yu
+      title: Rush
+    - email: adettl3@illinois.edu 
+      name: Ashley Detlaff
+      title: Fundraising
+    - email: norwick2@illinois.edu 
+      name: Spencer Norwick
+      title: Projects
+    - email: dcannon2@illinois.edu 
+      name: Dean Cannon
+      title: Web

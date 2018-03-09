@@ -27,12 +27,8 @@ collections:
                 name: navigation
                 widget: list
                 fields:
-                    - label: Navigation Link
-                      name: navigation_link
-                      widget: object
-                      fields:
-                          - {label: Menu Item, name: item, widget: string}
-                          - {label: Link, name: link, widget: string}
+                    - {label: Menu Item, name: item, widget: string}
+                    - {label: Link, name: link, widget: string}
   - name: "members"
     label: "Members"
     files:
@@ -44,10 +40,6 @@ collections:
                 name: executive_members
                 widget: list
                 fields:
-                    - label: Member
-                      name: member
-                      widget: object
-                      fields:
-                          - {label: Email, name: email, widget: string}
-                          - {label: Name, name: name, widget: string}
-                          - {label: Title, name: title, widget: string}
+                    - {label: Email, name: email, widget: string}
+                    - {label: Name, name: name, widget: string}
+                    - {label: Title, name: title, widget: string}
