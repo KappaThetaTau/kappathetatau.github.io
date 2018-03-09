@@ -12,7 +12,8 @@ CSV_NAME = 'Theta Tau Website Brother Info.csv'
 CSV_ID = '1Cp0uUiHBa0amTX36_YrjFZLOwGNAN2ziry1dv7MymHY'
 PARENT_DIR = os.path.dirname(os.path.realpath(__file__))
 GRANDPARENT_DIR = os.path.dirname(PARENT_DIR)
-BROTHERS_IMG_DIR = GRANDPARENT_DIR + "/assets/imgs/brothers/"
+BROTHERS_IMG_LOCATION = "/assets/imgs/brothers/"
+BROTHERS_IMG_DIR = GRANDPARENT_DIR + BROTHERS_IMG_LOCATION
 MEMBERS_FILE_PATH = GRANDPARENT_DIR + "/_data/members.yml"
 CLASS_IDX = 2
 NAME_IDX = 3
@@ -23,17 +24,17 @@ IMAGE_IDX = 7
 
 data = {
         'classes': [
-            { 'Fall 2017'  : [] },
-            { 'Spring 2017': [] },
-            { 'Fall 2016'  : [] },
-            { 'Spring 2016': [] },
-            { 'Fall 2015'  : [] },
-            { 'Spring 2015': [] },
-            { 'Fall 2014'  : [] },
-            { 'Spring 2014': [] },
-            { 'Fall 2013'  : [] },
-            { 'Spring 2013': [] },
-            { 'Fall 2012'  : [] },
+            { 'semester': 'Fall 2017', 'members': [] },
+            { 'semester': 'Spring 2017', 'members': [] },
+            { 'semester': 'Fall 2016', 'members': [] },
+            { 'semester': 'Spring 2016', 'members': [] },
+            { 'semester': 'Fall 2015', 'members': [] },
+            { 'semester': 'Spring 2015', 'members': [] },
+            { 'semester': 'Fall 2014', 'members': [] },
+            { 'semester': 'Spring 2014', 'members': [] },
+            { 'semester': 'Fall 2013', 'members': [] },
+            { 'semester': 'Spring 2013', 'members': [] },
+            { 'semester': 'Fall 2012', 'members': [] },
             ]
         }
 
@@ -52,7 +53,7 @@ with open(CSV_NAME, 'rb') as csvfile:
     next(reader, None)
     for row in reader:
         # GRAB DATA
-        pledge_class = row[CLASS_IDX]
+        semester = row[CLASS_IDX]
         name = row[NAME_IDX]
         major = row[MAJOR_IDX]
         hometown = row[HOMETOWN_IDX]
@@ -73,17 +74,17 @@ with open(CSV_NAME, 'rb') as csvfile:
         image_name = compress_me(pic_name, BROTHERS_IMG_DIR)[2]
 
         # ADD TO DATA
-        for class_sem in data['classes']:
-            if pledge_class in class_sem:
+        for pledge_class in data['classes']:
+            if semester in pledge_class['semester']:
                 '''Create the dictionary'''
                 brother_data = {
                         'name': name,
                         'major': major,
                         'hometown': hometown,
                         'linkedin': linkedin,
-                        'picture': image_name
+                        'picture': os.path.join(BROTHERS_IMG_LOCATION, image_name)
                         }
-                class_sem[pledge_class].append(brother_data)
+                pledge_class['members'].append(brother_data)
                 break
         else:
             print 'WHAT?!'
@@ -93,4 +94,4 @@ with open(CSV_NAME, 'rb') as csvfile:
 with open(MEMBERS_FILE_PATH, 'w') as outfile:
     yaml.dump(data, outfile, default_flow_style=False)
 
-print 'Successfully updated members.yml and added images to /assets/imgs/brothers!'
+print 'Successfully updated members.yml and added images to {}'.format(BROTHERS_IMG_LOCATION)

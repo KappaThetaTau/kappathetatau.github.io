@@ -1,16 +1,15 @@
 <div id="members">
-    {% for classes in site.data.members.classes %}
-    {% for class in classes %}
-    {% if class[1].size > 0 %}
+    {% for class in site.data.members.classes %}
+    {% if class.members.size > 0 %}
 
     <div class="class">
 
-        <span class="title"> {{class[0]}} </span>
+        <span class="title"> {{class.semester}} </span>
 
         <div class="brothers-wrapper">
-            {% for brother in class[1] %}
 
-            <div class="brother" style="background-image: url(/assets/imgs/brothers/{{brother.picture}});">
+            {% for brother in class.members %}
+            <div class="brother" style="background-image: url({{brother.picture}});">
                 {% if brother.linkedin != '' %}
                 <a target="blank" href="{{brother.linkedin}}">
                     <i class="link fab fa-linkedin"></i>
@@ -22,13 +21,12 @@
                     <p><span class="hometown"> {{brother.hometown}} </span></p>
                 </div>
             </div>
-
             {% endfor %}
+
         </div>
 
     </div>
 
     {% endif %}
-    {% endfor %}
     {% endfor %}
 </div>

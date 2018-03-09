@@ -29,6 +29,14 @@ collections:
                 fields:
                     - {label: Menu Item, name: item, widget: string}
                     - {label: Link, name: link, widget: string}
+              - label: Image Button Links
+                name: image_buttons
+                widget: object
+                fields:
+                    - {label: Blog, name: blog, widget: string}
+                    - {label: FAQ, name: faq, widget: string}
+                    - {label: Rush, name: rush, widget: string}
+                    - {label: Brothers, name: brothers, widget: string}
   - name: "members"
     label: "Members"
     files:
@@ -43,3 +51,21 @@ collections:
                     - {label: Email, name: email, widget: string}
                     - {label: Name, name: name, widget: string}
                     - {label: Title, name: title, widget: string}
+        - label: "All Members"
+          name: "all_members"
+          file: "_data/members.yml"
+          fields:
+              - label: Pledge Classes
+                name: classes
+                widget: list
+                fields:
+                    - {label: Pledge Semester, name: semester, widget: string}
+                    - label: Class Members
+                      name: members
+                      widget: list
+                      fields:
+                          - {label: Name, name: name, widget: string}
+                          - {label: Major, name: major, widget: string}
+                          - {label: Hometown, name: hometown, widget: string}
+                          - {label: LinkedIn, name: linkedin, widget: string}
+                          - {label: Picture, name: picture, widget: string}
