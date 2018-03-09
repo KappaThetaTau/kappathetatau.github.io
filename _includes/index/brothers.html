@@ -1,4 +1,5 @@
-<a href="{{site.data.navigation.image_buttons.brothers}}">
+{% assign link = site.data.navigation.navigation | where:"item","brothers" %}
+<a href="{{link[0].link}}">
     <div id="brothers" class="image-button">
         <span class="text"> brothers </span>
     </div>

@@ -16,8 +16,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: menu
-    label: Menu
+  - name: settings
+    label: Settings
     files:
         - label: Navigation Menu
           name: navigation
@@ -29,14 +29,6 @@ collections:
                 fields:
                     - {label: Menu Item, name: item, widget: string}
                     - {label: Link, name: link, widget: string}
-              - label: Image Button Links
-                name: image_buttons
-                widget: object
-                fields:
-                    - {label: Blog, name: blog, widget: string}
-                    - {label: FAQ, name: faq, widget: string}
-                    - {label: Rush, name: rush, widget: string}
-                    - {label: Brothers, name: brothers, widget: string}
   - name: "members"
     label: "Members"
     files:
