@@ -17,3 +17,5 @@ Bros Omar and Spencer shredded mad gnar in Denver/Breckinridge over break! 🤙
 And finally Theta Tau hosted a national habitat build with Habitat for Humanity in Flagler Beach, Florida! Check out our brothers Max and Tommy and the rest of the team showing off their hard work.🛠 The group consisted of members from Eta Delta Chapter at University of Maryland, Tau Delta Chapter at Miami University Ohio, Phi Gamma Chapter at Oklahoma State, and Kappa Chapter at UIUC.
 
 ![null](/assets/imgs/posts/28947437_1793442264052482_8066604399449303430_o.jpg)
+
+We hope that you guys had an awesome, fun, and productive spring break too. Come get to know the brothers and see if Theta Tau is a great fit for you during Fall 2018 Rush!
