@@ -2,7 +2,7 @@
 layout: post
 title: Spring Break 2018 with the Bros!
 date: '2018-03-27T22:54:32-05:00'
-image: /assets/imgs/posts/29497238_1793442287385813_5088141526895135386_n.jpg
+image: /assets/imgs/posts/springbreak2018.jpg
 ---
 During spring break our brothers were spread across the globe from Spain, Colorado, to Florida!
 
