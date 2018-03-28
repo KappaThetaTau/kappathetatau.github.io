@@ -75,6 +75,11 @@ classes:
     major: 'Mechanical Engineering '
     name: Leah Groven
     picture: /assets/imgs/brothers/leah_groven.JPG
+  - hometown: Des Plaines, Il
+    linkedin: https://www.linkedin.com/in/michael-e-p-718535b1/
+    major: Computer Engineering
+    name: Michael Pauls
+    picture: /assets/imgs/brothers/michael_pauls.jpg
   semester: Fall 2017
 - members:
   - hometown: Caledonia, IL
