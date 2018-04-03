@@ -225,11 +225,11 @@ Next up we plan to integrate computer vision with Theta Claw. Using a simple hom
 
 ## Projects Committee Team
 
-<a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/spencer-norwick"> <i class="link fab fa-linkedin"></i></a> Spencer Norwick,
-<a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/juliafiorino"> <i class="link fab fa-linkedin"></i></a> Julia Fiorino,
-<a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/chrisrioux664704/"> <i class="link fab fa-linkedin"></i></a> Chris Rioux,
-<a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/john-ito-53312314a"><i class="link fab fa-linkedin"></i></a> John Ito,
-<a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/aniliza-may-410743129"> <i class="link fab fa-linkedin"></i></a> Aniliza May,
-<a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/akhil-chainani/"><i class="link fab fa-linkedin"></i></a> Akhil Chainani,
-<a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/mallory-wall-bbb112a5/"><i class="link fab fa-linkedin"></i></a> Mallory Wall,
-<a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/victoria-nahmod-842067139/"><i class="link fab fa-linkedin"></i></a> Victoria Nahmod
+Spencer Norwick <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/spencer-norwick"> <i class="link fab fa-linkedin"></i></a>, 
+Julia Fiorino <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/juliafiorino"> <i class="link fab fa-linkedin"></i></a>, 
+Chris Rioux <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/chrisrioux664704/"> <i class="link fab fa-linkedin"></i></a>, 
+John Ito <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/john-ito-53312314a"><i class="link fab fa-linkedin"></i></a>,
+Aniliza May <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/aniliza-may-410743129"> <i class="link fab fa-linkedin"></i></a>, 
+Akhil Chainani <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/akhil-chainani/"><i class="link fab fa-linkedin"></i></a>, 
+Mallory Wall <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/mallory-wall-bbb112a5/"><i class="link fab fa-linkedin"></i></a>, 
+Victoria Nahmod <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/victoria-nahmod-842067139/"><i class="link fab fa-linkedin"></i></a>
