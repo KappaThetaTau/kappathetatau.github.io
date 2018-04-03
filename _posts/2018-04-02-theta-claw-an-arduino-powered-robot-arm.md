@@ -51,7 +51,7 @@ Theta Claw is controlled using a clever system of 4 servos and the Arduino Uno m
 
 This is the code that we uploaded to the Arduino.
 
-```cplusplus
+```c++
 #include <Servo.h>
 
 //define servos
