@@ -435,6 +435,8 @@
     margin-bottom: 1.2em; }
     .post .content ul li {
       list-style-position: inside; }
+  .post .content .highlight {
+    overflow: auto; }
 
 @media screen and (min-width: 800px) {
   .post {

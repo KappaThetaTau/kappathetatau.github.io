@@ -59,6 +59,9 @@ $post-font-color: rgba(0,0,0,.84);
         ul {
             @include list-styling();
         }
+        .highlight {
+            overflow: auto;
+        }
     }
 }
 
