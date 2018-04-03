@@ -437,6 +437,13 @@
       list-style-position: inside; }
   .post .content .highlight {
     overflow: auto; }
+  .post .content .brother-linkedin {
+    text-decoration: none;
+    opacity: .7;
+    transition: all .2s ease;
+    color: #adb5bd; }
+    .post .content .brother-linkedin:hover {
+      opacity: 1; }
 
 @media screen and (min-width: 800px) {
   .post {

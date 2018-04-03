@@ -225,4 +225,11 @@ Next up we plan to integrate computer vision with Theta Claw. Using a simple hom
 
 ## Projects Committee Team
 
-Spencer Norwick, Julia Fiorino, Chris Rioux, John Ito, Aniliza May, Akhil Chainani, Mallory Wall, Victoria Nahmod
+Spencer Norwick <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/spencer-norwick"> <i class="link fab fa-linkedin"></i> </a>,
+Julia Fiorino <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/juliafiorino"> <i class="link fab fa-linkedin"></i> </a>,
+Chris Rioux,
+John Ito <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/john-ito-53312314a"> <i class="link fab fa-linkedin"></i> </a>,
+Aniliza May <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/aniliza-may-410743129"> <i class="link fab fa-linkedin"></i> </a>,
+Akhil Chainani,
+Mallory Wall,
+Victoria Nahmod
