@@ -6,7 +6,7 @@ image: /assets/imgs/posts/presentation_1-copy.jpg
 ---
 ## Abstract 
 
-Theta Claw is is a project for the 2018 University of Illinois at Urbana-Champaign Engineering Open House exhibit. It was built by our multidisciplinary team using open-source designs (with a few tweaks of our own), materials we sourced, prototyping and lab equipment available at UIUC, and some coffee-fueled late nights. We’ve documented our progress planning, assembling, and demoing the arm in this post as well as a peek at our future plans.
+Theta Claw is a project for the 2018 University of Illinois at Urbana-Champaign Engineering Open House exhibit. It was built by our multidisciplinary team using open-source designs (with a few tweaks of our own), materials we sourced, prototyping and lab equipment available at UIUC, and some coffee-fueled late nights. We’ve documented our progress planning, assembling, and demoing the arm in this post as well as a peek at our future plans.
 
 Theta Claw is based on MeArm, an open-source project from <a href = "http://learn.mime.co.uk/assets/docs/control-your-mearm-from-arduino/MeArm_v1.0_Manual_for_Arduino_v1.0.pdf)">Mime Industries</a>.  The designs and code are available online for anyone to use and the project is intended to make robotics more accessible and affordable for everyone.
 
@@ -203,7 +203,7 @@ To power the Arduino, we used a 6V power supply.
 
 ### Problems
 
-As with any hardware project, not everything worked exactly was expected on the first try.
+As with any hardware project, not everything worked exactly as expected on the first try.
 
 #### Position resetting: 
 We encountered a problem of a constant motion back to the “default” or start position of the arm. (see video below) We had assumed that the signal read from the joystick for “no motion” would be directly in the middle of its min and max values; it turned out that the joystick positioned directly in the center was actually the average of the min and max offset by a value.
@@ -221,7 +221,7 @@ The MeArm design was not perfect in that certain abrupt movements could cause th
 
 ## Future Plans
 
-Next up we plan to integrate computer vision with Theta Claw. Using a simple home video webcam and <a href ="https://docs.opencv.org/3.4.0/d5/dae/tutorial_aruco_detection.html">Aruco markers</a> to locate objects, we plan to use <a href = "https://pjreddie.com/darknet/yolo/">YOLO</a> (a pretrained object recognition algorithm for images) to recognize our objects and autonomously pick up a specific object. Check back soon for updates!
+Next up we plan to integrate computer vision with Theta Claw. Using a simple home video webcam and <a href ="https://docs.opencv.org/3.4.0/d5/dae/tutorial_aruco_detection.html">Aruco markers</a> to locate objects, we plan to use <a href = "https://pjreddie.com/darknet/yolo/">YOLO</a>, a pretrained object recognition algorithm for images, to recognize our objects and autonomously pick up a specific object. Check back soon for updates!
 
 ## Projects Committee Team
 
