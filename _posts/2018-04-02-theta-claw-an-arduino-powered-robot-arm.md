@@ -206,9 +206,9 @@ To power the Arduino, we used a 6V power supply.
 As with any hardware project, not everything worked exactly as expected on the first try.
 
 #### Position resetting: 
-We encountered a problem of a constant motion back to the “default” or start position of the arm. (see video below) We had assumed that the signal read from the joystick for “no motion” would be directly in the middle of its min and max values; it turned out that the joystick positioned directly in the center was actually the average of the min and max offset by a value.
+We encountered a problem of a constant motion back to the “default” or start position of the arm. We had assumed that the signal read from the joystick for “no motion” would be directly in the middle of its min and max values; it turned out that the joystick positioned directly in the center was actually the average of the min and max offset by a value.
 #### Servo twitching:
-We also had a problem of random movement by the arm. (see video below) This was due to the joystick reading random electrical signals in our circuit and interpreting those as movement input. We solved this by increasing the minimum amount the joystick needed to be pushed to trigger servo movement in the arm.
+We also had a problem of random movement by the arm. This was due to the joystick reading random electrical signals in our circuit and interpreting those as movement input. We solved this by increasing the minimum amount the joystick needed to be pushed to trigger servo movement in the arm.
 #### Servos locking/overheating:
 The MeArm design was not perfect in that certain abrupt movements could cause the acrylic pieces to get jammed on other pieces, and the servos would continue to attempt motion despite being jammed. This would cause servos to overheat and caused us to burn out a few servos in the testing stages. We solved this problem by adding bounds to some of the servos movements (see code) to prevent motion to positions that were likely to jam the arm.
 
