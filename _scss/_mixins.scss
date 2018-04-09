@@ -42,6 +42,9 @@ $navbar-border-height: 2px;
     padding: none;
     font-size: $hero-mobile-font-size;
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url($background-image);
+    @media screen and (min-width: $desktop-trigger) {
+        background-attachment: fixed;
+    }
     @include background-image-base();
     position: relative;
     color: white;
