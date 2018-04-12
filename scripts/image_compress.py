@@ -7,6 +7,10 @@ import sys
 import ntpath
 from PIL import Image
 
+COMPRESS_DIMENSION = 450
+COMPRESS_QUALITY = 85
+IMG_DIR = '/assets/imgs/companies/'
+
 def compress_me(file, path, verbose=False):
     # convert to jpg
     filepath = convert_to_jpg(os.path.join(path, file))
@@ -18,8 +22,8 @@ def compress_me(file, path, verbose=False):
 
     #set quality= to the preferred quality. 
     #I found that 85 has no difference in my 6-10mb files and that 65 is the lowest reasonable number
-    picture.thumbnail((450,450))
-    picture.save(filepath,"JPEG",optimize=True,quality=85)
+    picture.thumbnail((COMPRESS_DIMENSION,COMPRESS_DIMENSION))
+    picture.save(filepath,"JPEG",optimize=True,quality=COMPRESS_QUALITY)
 
     newsize = os.stat(filepath).st_size
     percent = (oldsize-newsize)/float(oldsize)*100
@@ -55,7 +59,7 @@ def main():
 
     #find image directory
     grandpa = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-    img_dir = grandpa + '/assets/imgs/brothers/'
+    img_dir = grandpa + IMG_DIR
 
     tot = 0
     num = 0
