@@ -1,6 +1,6 @@
 <div id="portfolio">
     <h1> we work here... </h1>
-    <div id="photobanner">
+    <div id="photobanner" class="photobanner-scroll">
         {% assign image_files = site.static_files | where: "company_image", true %}
         {% for myimage in image_files %}
         <a target="blank" href="http://www.google.com/search?q={{myimage.basename}}&btnI">
@@ -9,8 +9,10 @@
         {% endfor %}
         {% for myimage in image_files %}
         <a target="blank" href="http://www.google.com/search?q={{myimage.basename}}&btnI">
-            <img id="company-after" src="{{ myimage.path }}">
+            <img class="company-after" src="{{ myimage.path }}">
         </a>
         {% endfor %}
     </div>
+    <input class="tgl tgl-flip" id="show-all-button" type="checkbox">
+    <label class="tgl-btn" data-tg-off="Show All" data-tg-on="Hide" for="show-all-button"></label>
 </div>

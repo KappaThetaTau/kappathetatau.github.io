@@ -631,13 +631,6 @@
     overflow: hidden; }
     #home #portfolio a {
       text-decoration: none; }
-    #home #portfolio #photobanner {
-      width: -webkit-max-content;
-      width: -moz-max-content;
-      width: max-content; }
-      #home #portfolio #photobanner #company-1 {
-        -webkit-animation: bannermove 60s linear infinite;
-                animation: bannermove 60s linear infinite; }
     #home #portfolio h1 {
       text-align: center;
       margin-bottom: 15px; }
@@ -650,6 +643,107 @@
         -webkit-transform: scale(1.1);
                 transform: scale(1.1);
         cursor: pointer; }
+    #home #portfolio .photobanner-scroll {
+      width: -webkit-max-content;
+      width: -moz-max-content;
+      width: max-content; }
+      #home #portfolio .photobanner-scroll #company-1 {
+        -webkit-animation: bannermove 60s linear infinite;
+                animation: bannermove 60s linear infinite; }
+    #home #portfolio .photobanner-show-all {
+      text-align: center; }
+      #home #portfolio .photobanner-show-all img {
+        height: 64px; }
+      #home #portfolio .photobanner-show-all #company-1 {
+        -webkit-animation: none;
+                animation: none; }
+      #home #portfolio .photobanner-show-all .company-after {
+        display: none; }
+    #home #portfolio .tgl {
+      display: none; }
+      #home #portfolio .tgl, #home #portfolio .tgl:after, #home #portfolio .tgl:before,
+      #home #portfolio .tgl *,
+      #home #portfolio .tgl *:after,
+      #home #portfolio .tgl *:before,
+      #home #portfolio .tgl + .tgl-btn {
+        box-sizing: border-box; }
+        #home #portfolio .tgl::-moz-selection, #home #portfolio .tgl:after::-moz-selection, #home #portfolio .tgl:before::-moz-selection,
+        #home #portfolio .tgl *::-moz-selection,
+        #home #portfolio .tgl *:after::-moz-selection,
+        #home #portfolio .tgl *:before::-moz-selection,
+        #home #portfolio .tgl + .tgl-btn::-moz-selection {
+          background: none; }
+        #home #portfolio .tgl::selection, #home #portfolio .tgl:after::selection, #home #portfolio .tgl:before::selection,
+        #home #portfolio .tgl *::selection,
+        #home #portfolio .tgl *:after::selection,
+        #home #portfolio .tgl *:before::selection,
+        #home #portfolio .tgl + .tgl-btn::selection {
+          background: none; }
+      #home #portfolio .tgl + .tgl-btn {
+        outline: 0;
+        display: block;
+        width: 5.5em;
+        height: 2em;
+        margin: 20px auto;
+        position: relative;
+        cursor: pointer;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none; }
+        #home #portfolio .tgl + .tgl-btn:after, #home #portfolio .tgl + .tgl-btn:before {
+          position: relative;
+          display: block;
+          content: "";
+          width: 50%;
+          height: 100%; }
+        #home #portfolio .tgl + .tgl-btn:after {
+          left: 0; }
+        #home #portfolio .tgl + .tgl-btn:before {
+          display: none; }
+      #home #portfolio .tgl:checked + .tgl-btn:after {
+        left: 50%; }
+    #home #portfolio .tgl-flip + .tgl-btn {
+      padding: 2px;
+      -webkit-perspective: 100px;
+              perspective: 100px; }
+      #home #portfolio .tgl-flip + .tgl-btn:after, #home #portfolio .tgl-flip + .tgl-btn:before {
+        display: inline-block;
+        transition: all 1s ease;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        line-height: 2em;
+        font-weight: bold;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+        border-radius: 2px; }
+      #home #portfolio .tgl-flip + .tgl-btn:after {
+        content: attr(data-tg-on);
+        background: #02C66F;
+        -webkit-transform: rotateY(-180deg);
+                transform: rotateY(-180deg); }
+      #home #portfolio .tgl-flip + .tgl-btn:before {
+        content: attr(data-tg-off);
+        background: #7FC6A6; }
+      #home #portfolio .tgl-flip + .tgl-btn:active:before {
+        -webkit-transform: rotateY(-20deg);
+                transform: rotateY(-20deg); }
+    #home #portfolio .tgl-flip:checked + .tgl-btn:before {
+      -webkit-transform: rotateY(180deg);
+              transform: rotateY(180deg); }
+    #home #portfolio .tgl-flip:checked + .tgl-btn:after {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      left: 0;
+      background: #FF3A19; }
+    #home #portfolio .tgl-flip:checked + .tgl-btn:active:after {
+      -webkit-transform: rotateY(20deg);
+              transform: rotateY(20deg); }
 
 @media screen and (min-width: 800px) {
   #home {
