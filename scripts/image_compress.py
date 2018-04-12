@@ -7,8 +7,8 @@ import sys
 import ntpath
 from PIL import Image
 
-COMPRESS_DIMENSION = 128
-COMPRESS_QUALITY = 85
+COMPRESS_DIMENSION = 256
+COMPRESS_QUALITY = 50
 IMG_DIR = '/assets/imgs/companies/'
 
 def compress_me(file, path, verbose=False, jpeg=False):
