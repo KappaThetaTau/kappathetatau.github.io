@@ -15,7 +15,7 @@ $navbar-border-height: 2px;
 }
 
 @mixin background-button-image-style($url) {
-    background-image: url($url);
+    background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url($url);
     @include background-image-base();
 }
 
@@ -35,6 +35,20 @@ $navbar-border-height: 2px;
     outline:none;
     height: $navbar-height;
     width: $navbar-height;
+}
+
+@mixin image-button-animation() {
+    .text {
+        padding-right: 50px;
+    }
+    .text:after {
+        opacity: 1;
+        right: 0;
+    }
+    .sub-text {
+        opacity: 1;
+        left: 50%;
+    }
 }
 
 @mixin hero-styling($background-image, $distance-from-top) {

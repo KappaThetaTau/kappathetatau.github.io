@@ -19,6 +19,7 @@
 
     .image-button {
         @include box-shadow();
+        $offset: 50px;
         overflow: hidden;
         display: block;
         position: relative;
@@ -42,29 +43,31 @@
                 position: absolute;
                 opacity: 0;
                 top: 0;
-                right: -50px;
+                right: -$offset;
                 transition: 0.30s;
             }
         }
 
+        .sub-text {
+            display: inline-block;
+            font-size: 1.75em;
+            position: relative;
+            top: 65%;
+            left: 55%;
+            transition: 0.30s;
+            transform: translate(-50%, -50%);
+            text-decoration: none;
+            color: white;
+            opacity: 0;
+        }
+
+
         &-animation {
-            .text {
-                padding-right: 50px;
-            }
-            .text:after {
-                opacity: 1;
-                right: 0;
-            }
+            @include image-button-animation();
         }
 
         &:hover {
-            .text {
-                padding-right: 50px;
-            }
-            .text:after {
-                opacity: 1;
-                right: 0;
-            }
+            @include image-button-animation();
         }
     }
 

@@ -486,16 +486,34 @@
         top: 0;
         right: -50px;
         transition: 0.30s; }
+    #home .image-button .sub-text {
+      display: inline-block;
+      font-size: 1.75em;
+      position: relative;
+      top: 65%;
+      left: 55%;
+      transition: 0.30s;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      text-decoration: none;
+      color: white;
+      opacity: 0; }
     #home .image-button-animation .text {
       padding-right: 50px; }
     #home .image-button-animation .text:after {
       opacity: 1;
       right: 0; }
+    #home .image-button-animation .sub-text {
+      opacity: 1;
+      left: 50%; }
     #home .image-button:hover .text {
       padding-right: 50px; }
     #home .image-button:hover .text:after {
       opacity: 1;
       right: 0; }
+    #home .image-button:hover .sub-text {
+      opacity: 1;
+      left: 50%; }
   #home #hero {
     height: 25em;
     padding: none;
@@ -526,7 +544,7 @@
         font-size: 0.25em; }
   #home #brothers {
     height: 25em;
-    background-image: url("/assets/imgs/group_1.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/group_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -534,7 +552,7 @@
     grid-area: brothers; }
   #home #posts {
     height: 25em;
-    background-image: url("/assets/imgs/orchard_2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/orchard_2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -542,7 +560,7 @@
     grid-area: posts; }
   #home #faq {
     height: 25em;
-    background-image: url("/assets/imgs/christmas_1.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/christmas_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -550,7 +568,7 @@
     grid-area: faq; }
   #home #rush {
     height: 25em;
-    background-image: url("/assets/imgs/fun_1.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/fun_1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
