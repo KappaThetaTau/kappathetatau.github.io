@@ -1,5 +1,42 @@
 classes:
 - members:
+  - hometown: Carol Stream, IL
+    linkedin: https://www.linkedin.com/in/jcai23
+    major: 'Systems Engineering and Design '
+    name: Jeremy C Cai
+    picture: /assets/imgs/brothers/jeremy_c_cai.jpg
+  - hometown: !!python/str "O\u2019Fallon, IL"
+    linkedin: ''
+    major: 'Industrial Engineering '
+    name: 'Caitlyn Person '
+    picture: /assets/imgs/brothers/caitlyn_person_.jpg
+  - hometown: 'Geneva, IL '
+    linkedin: https://www.linkedin.com/in/margaret-schubert-45b44415b/
+    major: 'Chemical Engineering '
+    name: 'Maggie Schubert '
+    picture: /assets/imgs/brothers/maggie_schubert_.jpg
+  - hometown: Naperville, IL
+    linkedin: https://www.linkedin.com/in/avin-arefzadeh-6372b015b/
+    major: 'Civil and Environmental Engineering '
+    name: Avin Arefzadeh
+    picture: /assets/imgs/brothers/avin_arefzadeh.jpg
+  - hometown: Morgan Hill, CA
+    linkedin: ''
+    major: Engineering Physics
+    name: Jeffrey Lai
+    picture: /assets/imgs/brothers/jeffrey_lai.jpg
+  - hometown: Naperville, IL
+    linkedin: https://www.linkedin.com/in/joselopezprofile/
+    major: Electrical Engineering
+    name: Jose Antonio Lopez II
+    picture: /assets/imgs/brothers/jose_antonio_lopez_ii.jpg
+  - hometown: St. Charles, IL
+    linkedin: https://www.linkedin.com/in/michael-rathslag-723b58139/
+    major: Bioengineering
+    name: Michael Rathslag
+    picture: /assets/imgs/brothers/michael_rathslag.jpg
+  semester: Spring 2018
+- members:
   - hometown: San Ramon, CA
     linkedin: https://www.linkedin.com/in/paul-furer-40a879114
     major: Systems Engineering
@@ -49,7 +86,7 @@ classes:
     linkedin: https://www.linkedin.com/in/thomas-c-b3a338124/
     major: Industrial Engineering
     name: Tommy Chavez
-    picture: /assets/imgs/brothers/tommy_chavez.JPG
+    picture: /assets/imgs/brothers/tommy_chavez.jpg
   - hometown: Dhaka, Bangladesh
     linkedin: https://www.linkedin.com/in/rashna-raham/
     major: Agricultural & Biological Engineering
@@ -74,7 +111,7 @@ classes:
     linkedin: ''
     major: 'Mechanical Engineering '
     name: Leah Groven
-    picture: /assets/imgs/brothers/leah_groven.JPG
+    picture: /assets/imgs/brothers/leah_groven.jpg
   - hometown: Des Plaines, Il
     linkedin: https://www.linkedin.com/in/michael-e-p-718535b1/
     major: Computer Engineering
@@ -136,7 +173,7 @@ classes:
     linkedin: ''
     major: Aerospace Engineering
     name: Clinton Raye
-    picture: /assets/imgs/brothers/clinton_raye.JPG
+    picture: /assets/imgs/brothers/clinton_raye.jpg
   - hometown: Voorhees, NJ
     linkedin: https://www.linkedin.com/in/dinaz-kureishy/
     major: Civil & Environmental Engineering
@@ -163,7 +200,7 @@ classes:
     linkedin: ''
     major: 'Engineering Mechanics '
     name: Lea Savard
-    picture: /assets/imgs/brothers/lea_savard.JPG
+    picture: /assets/imgs/brothers/lea_savard.jpg
   - hometown: Princeton Junction, NJ
     linkedin: https://www.linkedin.com/in/sid-vashist-36ab9a111/
     major: Computer Science & Statistics
@@ -188,7 +225,7 @@ classes:
     linkedin: http://linkedin.com/in/reier-groven-5949a2116
     major: Chemical Engineering
     name: Reier Groven
-    picture: /assets/imgs/brothers/reier_groven.JPG
+    picture: /assets/imgs/brothers/reier_groven.jpg
   - hometown: Beecher, Il
     linkedin: https://www.linkedin.com/in/rudy-j-juarez/
     major: Chemical Engineering
@@ -218,7 +255,7 @@ classes:
     linkedin: ''
     major: Computer Engineering
     name: Lisa Yala
-    picture: /assets/imgs/brothers/lisa_yala.JPG
+    picture: /assets/imgs/brothers/lisa_yala.jpg
   semester: Fall 2016
 - members:
   - hometown: Naperville, IL
@@ -265,7 +302,7 @@ classes:
     linkedin: https://www.linkedin.com/in/kmschoedl/
     major: Electrical Engineering
     name: Katelyn Schoedl
-    picture: /assets/imgs/brothers/katelyn_schoedl.JPG
+    picture: /assets/imgs/brothers/katelyn_schoedl.jpg
   - hometown: Barrington, IL
     linkedin: https://www.linkedin.com/in/john-graft-826361119/
     major: Electrical Engineering
@@ -287,7 +324,7 @@ classes:
     linkedin: https://www.linkedin.com/in/ashley-dettlaff-80141b107/
     major: 'Bioengineering '
     name: Ashley Dettlaff
-    picture: /assets/imgs/brothers/ashley_dettlaff.JPG
+    picture: /assets/imgs/brothers/ashley_dettlaff.jpg
   - hometown: Elmhurst, IL
     linkedin: https://www.linkedin.com/in/kanchishah/
     major: Electrical Engineering
