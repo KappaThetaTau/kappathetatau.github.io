@@ -11,7 +11,7 @@ COMPRESS_DIMENSION = 256
 COMPRESS_QUALITY = 50
 IMG_DIR = '/assets/imgs/companies/'
 
-def compress_me(file, path, verbose=False, jpeg=False):
+def compress_me(file, path, verbose=False, jpeg=False, quality=COMPRESS_QUALITY, dimension=COMPRESS_DIMENSION):
     # convert to jpg
     if jpeg:
         filepath = convert_to_jpg(os.path.join(path, file))
@@ -25,11 +25,11 @@ def compress_me(file, path, verbose=False, jpeg=False):
 
     #set quality= to the preferred quality. 
     #I found that 85 has no difference in my 6-10mb files and that 65 is the lowest reasonable number
-    picture.thumbnail((COMPRESS_DIMENSION,COMPRESS_DIMENSION))
+    picture.thumbnail((dimension,dimension))
     if jpeg:
-        picture.save(filepath,"JPEG",optimize=True,quality=COMPRESS_QUALITY)
+        picture.save(filepath,"JPEG",optimize=True,quality=quality)
     else:
-        picture.save(filepath,optimize=True,quality=COMPRESS_QUALITY)
+        picture.save(filepath,optimize=True,quality=quality)
 
     newsize = os.stat(filepath).st_size
     percent = (oldsize-newsize)/float(oldsize)*100

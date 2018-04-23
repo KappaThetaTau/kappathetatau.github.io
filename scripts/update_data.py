@@ -24,6 +24,7 @@ IMAGE_IDX = 7
 
 data = {
         'classes': [
+            { 'semester': 'Spring 2018', 'members': [] },
             { 'semester': 'Fall 2017', 'members': [] },
             { 'semester': 'Spring 2017', 'members': [] },
             { 'semester': 'Fall 2016', 'members': [] },
@@ -71,7 +72,7 @@ with open(CSV_NAME, 'rb') as csvfile:
         gfile.GetContentFile(file_path)
 
         # COMPRESS IMAGE
-        image_name = compress_me(pic_name, BROTHERS_IMG_DIR)[2]
+        image_name = compress_me(pic_name, BROTHERS_IMG_DIR, jpeg=True, quality=85, dimension=450)[2]
 
         # ADD TO DATA
         for pledge_class in data['classes']:
