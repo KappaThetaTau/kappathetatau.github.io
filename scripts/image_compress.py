@@ -18,29 +18,9 @@ def compress_me(file, path, verbose=False, jpeg=False, quality=COMPRESS_QUALITY,
     else:
         file_path = os.path.join(path, file)
 
-    # Check if we already downloaded it
-    if not os.path.isfile(file_path):
-        gfile.GetContentFile(file_path)
-
     # Grab picture and metadata
     oldsize = os.stat(file_path).st_size
     image = Image.open(file_path)
-
-    # Rotate image: https://stackoverflow.com/a/6218425
-    # for orientation in ExifTags.TAGS.keys() : 
-        # if ExifTags.TAGS[orientation] == 'Orientation' : break 
-    orientation = 274  # get 274 through upper loop
-    try:
-        exif=dict(image._getexif().items())
-        print exif[orientation]
-        if exif[orientation] == 3 : 
-            image=image.rotate(180, expand=True)
-        elif exif[orientation] == 6 : 
-            image=image.rotate(270, expand=True)
-        elif exif[orientation] == 8 : 
-            image=image.rotate(90, expand=True)
-    except (AttributeError, KeyError): # image has no meta data
-        pass
 
     #set quality= to the preferred quality. 
     #I found that 85 has no difference in my 6-10mb files and that 65 is the lowest reasonable number
@@ -61,13 +41,35 @@ def path_leaf(path):
     return tail or ntpath.basename(head)
 
 def convert_to_jpg(filepath):
+    """ If file is not extended by .jpg then it saves it as .jpg from either
+    .jpeg or .png This function also rotates the image before saving it since
+    saving the image deletes all EXIF metadata. """
+
     f, e = os.path.splitext(filepath)
     outfile = f + ".jpg"
     # We don't want to delete .JPG or .JPEG so we lower the extension
     filepath_lowered = f + e.lower()
     if outfile != filepath_lowered: 
         try:
-            Image.open(filepath).convert('RGB').save(outfile)
+            image = Image.open(filepath)
+
+            # Rotate image: https://stackoverflow.com/a/6218425
+            # for orientation in ExifTags.TAGS.keys() : 
+                # if ExifTags.TAGS[orientation] == 'Orientation' : break 
+            orientation = 274  # get 274 through upper loop
+            try:
+                exif=dict(image._getexif().items())
+                print exif[orientation]
+                if exif[orientation] == 3 : 
+                    image=image.rotate(180, expand=True)
+                elif exif[orientation] == 6 : 
+                    image=image.rotate(270, expand=True)
+                elif exif[orientation] == 8 : 
+                    image=image.rotate(90, expand=True)
+            except (AttributeError, KeyError): # image has no meta data
+                pass
+
+            image.convert('RGB').save(outfile)
         except IOError:
             print("cannot convert", filepath)
             exit(1)
