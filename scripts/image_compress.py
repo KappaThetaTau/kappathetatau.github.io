@@ -5,37 +5,56 @@ import os
 import pdb
 import sys
 import ntpath
-from PIL import Image
+from PIL import Image, ExifTags
 
-COMPRESS_DIMENSION = 256
-COMPRESS_QUALITY = 50
-IMG_DIR = '/assets/imgs/companies/'
+COMPRESS_DIMENSION = 450
+COMPRESS_QUALITY = 85
+IMG_DIR = '/scripts/test'
 
 def compress_me(file, path, verbose=False, jpeg=False, quality=COMPRESS_QUALITY, dimension=COMPRESS_DIMENSION):
     # convert to jpg
     if jpeg:
-        filepath = convert_to_jpg(os.path.join(path, file))
+        file_path = convert_to_jpg(os.path.join(path, file))
     else:
-        filepath = os.path.join(path, file)
+        file_path = os.path.join(path, file)
+
+    # Check if we already downloaded it
+    if not os.path.isfile(file_path):
+        gfile.GetContentFile(file_path)
 
     # Grab picture and metadata
-    oldsize = os.stat(filepath).st_size
-    picture = Image.open(filepath)
-    dim = picture.size
+    oldsize = os.stat(file_path).st_size
+    image = Image.open(file_path)
+
+    # Rotate image: https://stackoverflow.com/a/6218425
+    # for orientation in ExifTags.TAGS.keys() : 
+        # if ExifTags.TAGS[orientation] == 'Orientation' : break 
+    orientation = 274  # get 274 through upper loop
+    try:
+        exif=dict(image._getexif().items())
+        print exif[orientation]
+        if exif[orientation] == 3 : 
+            image=image.rotate(180, expand=True)
+        elif exif[orientation] == 6 : 
+            image=image.rotate(270, expand=True)
+        elif exif[orientation] == 8 : 
+            image=image.rotate(90, expand=True)
+    except (AttributeError, KeyError): # image has no meta data
+        pass
 
     #set quality= to the preferred quality. 
     #I found that 85 has no difference in my 6-10mb files and that 65 is the lowest reasonable number
-    picture.thumbnail((dimension,dimension))
+    image.thumbnail((dimension,dimension))
     if jpeg:
-        picture.save(filepath,"JPEG",optimize=True,quality=quality)
+        image.save(file_path,"JPEG",optimize=True,quality=quality)
     else:
-        picture.save(filepath,optimize=True,quality=quality)
+        image.save(file_path,optimize=True,quality=quality)
 
-    newsize = os.stat(filepath).st_size
+    newsize = os.stat(file_path).st_size
     percent = (oldsize-newsize)/float(oldsize)*100
     if (verbose):
         print "File compressed from {0} to {1} or {2}%".format(oldsize,newsize,percent)
-    return percent, filepath, path_leaf(filepath)
+    return percent, file_path, path_leaf(file_path)
 
 def path_leaf(path):
     head, tail = ntpath.split(path)

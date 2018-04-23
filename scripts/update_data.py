@@ -62,19 +62,24 @@ with open(CSV_NAME, 'rb') as csvfile:
 
         print "Currently grabbing {}'s data!".format(name)
 
-        # CREATE GDRIVE FILE
-        gfile = drive.CreateFile({'id': row[IMAGE_IDX].split('=')[-1]})
+        # Check if we already processed it
+        processed_name = name.lower().replace(' ', '_')
+        if not os.path.isfile("{}{}{}".format(BROTHERS_IMG_DIR, processed_name, '.jpg')):
+            # CREATE GDRIVE FILE
+            gfile = drive.CreateFile({'id': row[IMAGE_IDX].split('=')[-1]})
 
-        # GET FILE
-        file_extension = '.{}'.format(gfile['title'].split('.')[-1])
-        pic_name = row[NAME_IDX].lower().replace(' ', '_') + file_extension # generated file name
-        file_path = BROTHERS_IMG_DIR + pic_name # absolute directory
-        gfile.GetContentFile(file_path)
+            # GET FILE
+            file_extension = '.{}'.format(gfile['title'].split('.')[-1])
+            pic_name = processed_name + file_extension # generated file name
+            file_path = BROTHERS_IMG_DIR + pic_name # absolute directory
 
-        # COMPRESS IMAGE
-        image_name = compress_me(pic_name, BROTHERS_IMG_DIR, jpeg=True, quality=85, dimension=450)[2]
+            gfile.GetContentFile(file_path)
+            image_name = compress_me(pic_name, BROTHERS_IMG_DIR, jpeg=True, quality=85, dimension=450)[2]
+        else:
+            image_name = processed_name + '.jpg'
+            print 'Already downloaded image for {}'.format(name)
 
-        # ADD TO DATA
+        # ADD TO DATA. The for loop is needed to preserve ordering in the yaml file
         for pledge_class in data['classes']:
             if semester in pledge_class['semester']:
                 '''Create the dictionary'''
