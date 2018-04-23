@@ -35,6 +35,11 @@ classes:
     major: Bioengineering
     name: Michael Rathslag
     picture: /assets/imgs/brothers/michael_rathslag.jpg
+  - hometown: Cupertino, CA
+    linkedin: https://www.linkedin.com/in/agarwalarushi/
+    major: Computer Science
+    name: Arushi Agarwal
+    picture: /assets/imgs/brothers/arushi_agarwal.jpg
   semester: Spring 2018
 - members:
   - hometown: San Ramon, CA
