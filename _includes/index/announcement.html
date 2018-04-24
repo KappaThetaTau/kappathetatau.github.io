@@ -1,0 +1,5 @@
+<div id="announcement" {% if site.data.announcement.show == "" %} style="visibility: hidden; height: 0;" {% endif %}>
+    <h1> Announcement </h1>
+    <h4> {{ site.data.announcement.date }} </h4>
+    <p> {{ site.data.announcement.message }} </p>
+</div>

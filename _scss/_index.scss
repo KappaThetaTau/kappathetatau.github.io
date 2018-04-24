@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: 
+    "announcement"
     "hero"
     "about"
     "brothers"
@@ -61,7 +62,6 @@
             opacity: 0;
         }
 
-
         &-animation {
             @include image-button-animation();
         }
@@ -73,6 +73,19 @@
 
     #hero {
         @include hero-styling('/assets/imgs/hero.jpg', 57%);
+    }
+
+    #announcement {
+        grid-area: announcement;
+        margin: 10px;
+        padding: 10px 15px;
+        border: 1px solid #e1e1e1;
+        background-color: #f9f9f9;
+        border-radius: 4px;
+
+        h4 {
+            margin-bottom: 6px;
+        }
     }
 
     #brothers {
@@ -362,6 +375,7 @@
     #home {
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: 
+        "announcement announcement"
         "hero hero"
         "about about"
         "brothers posts"
@@ -372,6 +386,11 @@
         #hero {
             font-size: $hero-desktop-font-size;
             grid-area: hero;
+        }
+
+        #announcement {
+            margin: 10px auto;
+            width: 700px;
         }
 
         #about {
