@@ -40,6 +40,11 @@ classes:
     major: Computer Science
     name: Arushi Agarwal
     picture: /assets/imgs/brothers/arushi_agarwal.jpg
+  - hometown: Vernon Hills, IL
+    linkedin: https://www.linkedin.com/in/steven-tow-862025152/
+    major: Civil Engineering
+    name: Steven Tow
+    picture: /assets/imgs/brothers/steven_tow.JPG
   semester: Spring 2018
 - members:
   - hometown: San Ramon, CA
@@ -261,6 +266,11 @@ classes:
     major: Computer Engineering
     name: Lisa Yala
     picture: /assets/imgs/brothers/lisa_yala.jpg
+  - hometown: Lindenhurst, IL
+    linkedin: ''
+    major: 'Engineering Mechanics '
+    name: Alyssa Gunn
+    picture: /assets/imgs/brothers/alyssa_gunn.JPG
   semester: Fall 2016
 - members:
   - hometown: Naperville, IL
