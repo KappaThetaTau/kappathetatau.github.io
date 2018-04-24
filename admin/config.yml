@@ -34,10 +34,11 @@ collections:
     files:
         - label: Announcement
           name: announcement_data
-          file: _data/navigation.yml
+          file: _data/announcement.yml
           fields:
               - {label: Message, name: message, widget: string}
               - {label: Date, name: date, widget: string}
+              - {label: Show, name: show, widget: boolean}
   - name: "members"
     label: "Members"
     files:
