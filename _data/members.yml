@@ -44,7 +44,7 @@ classes:
     linkedin: https://www.linkedin.com/in/steven-tow-862025152/
     major: Civil Engineering
     name: Steven Tow
-    picture: /assets/imgs/brothers/steven_tow.JPG
+    picture: /assets/imgs/brothers/steven_tow.jpg
   semester: Spring 2018
 - members:
   - hometown: San Ramon, CA
@@ -270,7 +270,7 @@ classes:
     linkedin: ''
     major: 'Engineering Mechanics '
     name: Alyssa Gunn
-    picture: /assets/imgs/brothers/alyssa_gunn.JPG
+    picture: /assets/imgs/brothers/alyssa_gunn.jpg
   semester: Fall 2016
 - members:
   - hometown: Naperville, IL
