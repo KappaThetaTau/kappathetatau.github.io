@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Theta Claw: An Arduino-Powered Robot Arm'
+permalink: /2018/theta-claw/
 date: '2018-04-02T19:38:57-05:00'
 image: /assets/imgs/posts/presentation_1-copy.jpg
 ---
