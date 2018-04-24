@@ -29,6 +29,15 @@ collections:
                 fields:
                     - {label: Menu Item, name: item, widget: string}
                     - {label: Link, name: link, widget: string}
+  - name: announcement
+    label: Announcement
+    files:
+        - label: Announcement
+          name: announcement_data
+          file: _data/navigation.yml
+          fields:
+              - {label: Message, name: message, widget: string}
+              - {label: Date, name: date, widget: string}
   - name: "members"
     label: "Members"
     files:
