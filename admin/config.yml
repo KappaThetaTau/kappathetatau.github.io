@@ -36,6 +36,7 @@ collections:
           name: announcement_data
           file: _data/announcement.yml
           fields:
+              - {label: Title, name: title, widget: string}
               - {label: Message, name: message, widget: string}
               - {label: Date, name: date, widget: string}
               - {label: Show, name: show, widget: boolean}

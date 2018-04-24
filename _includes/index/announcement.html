@@ -1,5 +1,5 @@
 <div id="announcement" {% unless site.data.announcement.show %} style="visibility: hidden; height: 0; padding: 0; border: none; margin: 0;" {% endunless %}>
-    <h1> Announcement </h1>
+    <h1> {{ site.data.announcement.title }} </h1>
     <h4> {{ site.data.announcement.date }} </h4>
     <p> {{ site.data.announcement.message }} </p>
 </div>
