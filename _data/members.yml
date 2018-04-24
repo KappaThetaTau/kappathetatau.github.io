@@ -1,2 +1,8 @@
 classes:
-  - {}
+  - members:
+      - hometown: test
+        linkedin: test
+        major: test
+        name: test
+        picture: ''
+    semester: Fall 2017
