@@ -68,8 +68,13 @@ function showAllCompanies() {
 
 function easterEgg(){
     $('#hero #family').click(function(){
-        $('#hero').css('background-image', 'linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url(./assets/imgs/hero_family.jpg)');
-        $(this).text('family');
+        if ($(this).text() == 'family') {
+            $('#hero').css('background-image', 'linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url(./assets/imgs/hero.jpg)');
+            $(this).text('fraternity');
+        } else {
+            $('#hero').css('background-image', 'linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url(./assets/imgs/hero_family.jpg)');
+            $(this).text('family');
+        }
     })
 }
 
