@@ -9,6 +9,7 @@
     "posts"
     "stats"
     "portfolio"
+    "sponsors"
     "faq"
     "rush"
     "contact";
@@ -209,10 +210,7 @@
 
     #portfolio {
         grid-area: portfolio;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: $up-down-padding;
-        padding-top: 0;
+        padding: 0;
         overflow: hidden;
 
         a {
@@ -369,6 +367,34 @@
         }
 
     }
+
+    #sponsors {
+        grid-area: sponsors;
+        padding: 1em;
+        padding-bottom: $up-down-padding;
+
+        h1 {
+            text-align: center;
+            padding-bottom: 1em;
+        }
+
+        .company-logo-wrapper {
+            position: relative;
+            width: 95%;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .company-logo {
+            margin: 0.25em;
+            max-width: 20%;
+            max-height: 128px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
 }
 
 @media screen and (min-width: $desktop-trigger) {
@@ -381,7 +407,8 @@
         "brothers posts"
         "portfolio portfolio"
         "faq rush"
-        "stats contact";
+        "stats contact"
+        "sponsors sponsors";
 
         #hero {
             font-size: $hero-desktop-font-size;

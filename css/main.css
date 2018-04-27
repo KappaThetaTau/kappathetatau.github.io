@@ -456,7 +456,7 @@
 #home {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "announcement" "hero" "about" "brothers" "posts" "stats" "portfolio" "faq" "rush" "contact"; }
+  grid-template-areas: "announcement" "hero" "about" "brothers" "posts" "stats" "portfolio" "sponsors" "faq" "rush" "contact"; }
   #home > div {
     background: white;
     color: #714d4d; }
@@ -651,10 +651,7 @@
       margin: 0.25em; }
   #home #portfolio {
     grid-area: portfolio;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 4.5em;
-    padding-top: 0;
+    padding: 0;
     overflow: hidden; }
     #home #portfolio a {
       text-decoration: none; }
@@ -771,11 +768,29 @@
     #home #portfolio .tgl-flip:checked + .tgl-btn:active:after {
       -webkit-transform: rotateY(20deg);
               transform: rotateY(20deg); }
+  #home #sponsors {
+    grid-area: sponsors;
+    padding: 1em;
+    padding-bottom: 4.5em; }
+    #home #sponsors h1 {
+      text-align: center;
+      padding-bottom: 1em; }
+    #home #sponsors .company-logo-wrapper {
+      position: relative;
+      width: 95%;
+      margin: auto;
+      text-align: center; }
+    #home #sponsors .company-logo {
+      margin: 0.25em;
+      max-width: 20%;
+      max-height: 128px; }
+    #home #sponsors a {
+      text-decoration: none; }
 
 @media screen and (min-width: 800px) {
   #home {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "announcement announcement" "hero hero" "about about" "brothers posts" "portfolio portfolio" "faq rush" "stats contact"; }
+    grid-template-areas: "announcement announcement" "hero hero" "about about" "brothers posts" "portfolio portfolio" "faq rush" "stats contact" "sponsors sponsors"; }
     #home #hero {
       font-size: 1.6em;
       grid-area: hero; }
