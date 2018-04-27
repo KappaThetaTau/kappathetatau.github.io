@@ -1,40 +1,43 @@
 executive_members:
-    - email: juliaf2@illinois.edu
-      name: julia fiorino
-      title: regent
-    - email: mls5@illinois.edu
-      name: morgan sutherland
-      title: vice regent
-    - email: keviola2@illinois.edu
-      name: kristen viola
-      title: scribe
-    - email: adettl3@illinois.edu
-      name: ashley detlaff
-      title: treasurer
-    - email: crioux2@illinois.edu
-      name: chris rioux
-      title: corresponding secretary
-    - email: mpotvin2@illinois.edu
-      name: max potvin
-      title: pledge marshall
-    - email: afahey@illinois.edu
-      name: anne fahey
-      title: professional
-    - email: ijh2@illinois.edu & sez2@illinois.edu
-      name: isaac husemann & samuel zelman
-      title: historian
-    - email: tr2@illinois.edu 
-      name: tanvi raja
-      title: philanthropy
-    - email: szczerb2@illinois.edu
-      name: angelika szczerba
-      title: rush
-    - email: adc2@illinois.edu 
-      name: akhil chainani
-      title: projects
-    - email: dphuang2@illinois.edu
-      name: dylan huang
-      title: web
-    - email: schoedl2@illinois.edu 
-      name: katelyn schoedl
-      title: bernay's
+  - email: juliaf2@illinois.edu
+    name: julia fiorino
+    title: regent
+  - email: mls5@illinois.edu
+    name: morgan sutherland
+    title: vice regent
+  - email: keviola2@illinois.edu
+    name: kristen viola
+    title: scribe
+  - email: adettl3@illinois.edu
+    name: ashley detlaff
+    title: treasurer
+  - email: crioux2@illinois.edu
+    name: chris rioux
+    title: corresponding secretary
+  - email: mpotvin2@illinois.edu
+    name: max potvin
+    title: pledge marshall
+  - email: afahey@illinois.edu
+    name: anne fahey
+    title: professional
+  - email: ijh2@illinois.edu & sez2@illinois.edu
+    name: isaac husemann & samuel zelman
+    title: historian
+  - email: tr2@illinois.edu
+    name: tanvi raja
+    title: philanthropy
+  - email: szczerb2@illinois.edu
+    name: angelika szczerba
+    title: rush
+  - email: vibhap2@illinois.edu & aja5@illinois.edu
+    name: vibha pandurangi & aiesha arboleda
+    title: fundraising
+  - email: adc2@illinois.edu
+    name: akhil chainani
+    title: projects
+  - email: dphuang2@illinois.edu
+    name: dylan huang
+    title: web
+  - email: schoedl2@illinois.edu
+    name: katelyn schoedl
+    title: bernay's
