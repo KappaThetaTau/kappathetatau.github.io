@@ -5,7 +5,7 @@ classes:
     major: 'Systems Engineering and Design '
     name: Jeremy C Cai
     picture: /assets/imgs/brothers/jeremy_c_cai.jpg
-  - hometown: !!python/str "O\u2019Fallon, IL"
+  - hometown: O'Fallon, IL
     linkedin: ''
     major: 'Industrial Engineering '
     name: 'Caitlyn Person '
@@ -45,6 +45,16 @@ classes:
     major: Civil Engineering
     name: Steven Tow
     picture: /assets/imgs/brothers/steven_tow.jpg
+  - hometown: Bloomington, IL
+    linkedin: https://www.linkedin.com/in/anna-rodriguez-9555a1159/
+    major: Computer Science
+    name: Anna Rodriguez
+    picture: /assets/imgs/brothers/anna_rodriguez.jpg
+  - hometown: Oak Park, IL
+    linkedin: https://www.linkedin.com/in/julia-k-b4675290/
+    major: Biological Engineering
+    name: Julia Krause
+    picture: /assets/imgs/brothers/julia_krause.jpg
   semester: Spring 2018
 - members:
   - hometown: San Ramon, CA
@@ -127,6 +137,11 @@ classes:
     major: Computer Engineering
     name: Michael Pauls
     picture: /assets/imgs/brothers/michael_pauls.jpg
+  - hometown: Mount Prospect, IL
+    linkedin: https://www.linkedin.com/in/dlee242
+    major: Electrical Engineering
+    name: Douglas J. Lee
+    picture: /assets/imgs/brothers/douglas_j._lee.jpg
   semester: Fall 2017
 - members:
   - hometown: Caledonia, IL
@@ -199,6 +214,16 @@ classes:
     major: Material Science and Engineering
     name: Raka Mahakul
     picture: /assets/imgs/brothers/raka_mahakul.jpg
+  - hometown: Park Ridge, IL
+    linkedin: https://www.linkedin.com/in/aiden-kamber/
+    major: Agricultural and Biological Engineering
+    name: Aiden Kamber
+    picture: /assets/imgs/brothers/aiden_kamber.jpg
+  - hometown: Atlanta, GA
+    linkedin: ''
+    major: Mechanical Engineering
+    name: Hannah Nolton
+    picture: /assets/imgs/brothers/hannah_nolton.jpg
   semester: Spring 2017
 - members:
   - hometown: Orland Park, IL
