@@ -930,85 +930,86 @@ header {
       #brothers #hero #title #subtitle {
         display: block;
         font-size: 0.25em; }
-  #brothers #members {
-    padding-top: .75em;
-    padding-bottom: .75em; }
-    #brothers #members img {
-      width: 100px; }
-    #brothers #members .class {
+  #brothers .title {
+    display: block;
+    font-size: 2em;
+    font-weight: 300;
+    width: 100%;
+    text-align: center; }
+  #brothers .brothers-wrapper {
+    padding: .50em;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    text-align: center; }
+    #brothers .brothers-wrapper .brother {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: #bbbbbb 0px 2px 5px;
+      color: white;
+      position: relative;
+      margin: 10px;
+      border-radius: 2px;
+      display: inline-block;
+      text-align: initial;
+      width: 145px;
+      height: 250px;
+      line-height: 0.9em; }
+      #brothers .brothers-wrapper .brother::after {
+        width: 100%;
+        height: 150px;
+        position: absolute;
+        top: 0px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), transparent);
+        height: 90px;
+        display: block;
+        content: '';
+        height: 100%;
+        width: 100%; }
+      #brothers .brothers-wrapper .brother a {
+        text-decoration: none;
+        color: white; }
+        #brothers .brothers-wrapper .brother a .link {
+          font-size: 2.25em;
+          z-index: 1000;
+          position: absolute;
+          right: 0px;
+          margin: 5px;
+          opacity: .7;
+          transition: all .2s ease; }
+        #brothers .brothers-wrapper .brother a .link:hover {
+          opacity: 1; }
+      #brothers .brothers-wrapper .brother .overlay {
+        position: absolute;
+        padding: 7px;
+        z-index: 1000;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 0 0 2px 2px;
+        background-color: rgba(0, 0, 0, 0.6);
+        box-sizing: border-box; }
+        #brothers .brothers-wrapper .brother .overlay .major {
+          font-size: 0.74em; }
+        #brothers .brothers-wrapper .brother .overlay .name {
+          font-weight: 400;
+          font-size: .9em; }
+        #brothers .brothers-wrapper .brother .overlay .hometown {
+          font-size: 0.7em; }
+  #brothers #actives {
+    padding-top: .75em; }
+    #brothers #actives .class {
       padding-top: 1em;
       padding-bottom: 1em; }
-      #brothers #members .class:nth-child(even) {
+      #brothers #actives .class:nth-child(even) {
         background-color: #f8f8f8;
         border-top: 1px solid #f2f2f2;
         border-bottom: 1px solid #f2f2f2; }
-      #brothers #members .class .title {
-        display: block;
-        font-size: 2em;
-        font-weight: 300;
-        width: 100%;
-        text-align: center; }
-      #brothers #members .class .brothers-wrapper {
-        padding: .50em;
-        height: -webkit-max-content;
-        height: -moz-max-content;
-        height: max-content;
-        text-align: center; }
-        #brothers #members .class .brothers-wrapper .brother {
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          box-shadow: #bbbbbb 0px 2px 5px;
-          color: white;
-          position: relative;
-          margin: 10px;
-          border-radius: 2px;
-          display: inline-block;
-          text-align: initial;
-          width: 145px;
-          height: 250px;
-          line-height: 0.9em; }
-          #brothers #members .class .brothers-wrapper .brother::after {
-            width: 100%;
-            height: 150px;
-            position: absolute;
-            top: 0px;
-            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), transparent);
-            height: 90px;
-            display: block;
-            content: '';
-            height: 100%;
-            width: 100%; }
-          #brothers #members .class .brothers-wrapper .brother a {
-            text-decoration: none;
-            color: white; }
-            #brothers #members .class .brothers-wrapper .brother a .link {
-              font-size: 2.25em;
-              z-index: 1000;
-              position: absolute;
-              right: 0px;
-              margin: 5px;
-              opacity: .7;
-              transition: all .2s ease; }
-            #brothers #members .class .brothers-wrapper .brother a .link:hover {
-              opacity: 1; }
-          #brothers #members .class .brothers-wrapper .brother .overlay {
-            position: absolute;
-            padding: 7px;
-            z-index: 1000;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            border-radius: 0 0 2px 2px;
-            background-color: rgba(0, 0, 0, 0.6);
-            box-sizing: border-box; }
-            #brothers #members .class .brothers-wrapper .brother .overlay .major {
-              font-size: 0.74em; }
-            #brothers #members .class .brothers-wrapper .brother .overlay .name {
-              font-weight: 400;
-              font-size: .9em; }
-            #brothers #members .class .brothers-wrapper .brother .overlay .hometown {
-              font-size: 0.7em; }
+  #brothers #alumni {
+    padding-top: 1em;
+    padding-bottom: .75em;
+    background-color: #fcfaee; }
 
 @media screen and (min-width: 800px) {
   #brothers #members .brother {

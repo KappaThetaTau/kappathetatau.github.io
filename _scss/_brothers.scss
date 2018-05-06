@@ -6,13 +6,94 @@
         @include hero-styling('/assets/imgs/orchard_1.jpg', 50%);
     }
 
-    #members {
-        padding-top: .75em;
-        padding-bottom: .75em;
+    .title {
+        display: block;
+        font-size: 2em;
+        font-weight: 300;
+        width: 100%;
+        text-align: center;
+    }
 
-        img {
-            width: 100px;
+    .brothers-wrapper {
+        padding: .50em;
+        height: max-content;
+        text-align: center;
+
+        .brother {
+            @include background-image-base();
+            @include box-shadow();
+            color: white;
+            position: relative;
+            margin: 10px;
+            border-radius: 2px;
+            display: inline-block;
+            text-align: initial;
+            width: 145px;
+            height: 250px;
+            line-height: 0.9em;
+
+            &::after{
+                width: 100%;
+                height: 150px;
+                position: absolute;
+                top: 0px;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.0));
+                height: 90px;
+                display: block;
+                content: '';
+
+                height: 100%;
+                width: 100%;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                .link {
+                    font-size: 2.25em;
+                    z-index: 1000;
+                    position: absolute;
+                    right: 0px;
+                    margin: 5px;
+                    opacity: .7;
+                    transition: all .2s ease;
+                }
+
+                .link:hover {
+                    opacity: 1;
+                }
+            }
+
+            .overlay {
+                position: absolute;
+                padding: 7px;
+                z-index: 1000;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                border-radius: 0 0 2px 2px;
+                background-color: rgba(0,0,0,0.6);
+                box-sizing: border-box;
+
+                .major {
+                    font-size: 0.74em;
+                }
+
+                .name {
+                    font-weight: 400;
+                    font-size: .9em;
+                }
+
+                .hometown {
+                    font-size: 0.7em;
+                }
+            }
         }
+    }
+
+    #actives {
+        padding-top: .75em;
 
         .class {
             padding-top: 1em;
@@ -23,93 +104,13 @@
                 border-top: 1px solid #f2f2f2;
                 border-bottom: 1px solid #f2f2f2;
             }
-
-            .title {
-                display: block;
-                font-size: 2em;
-                font-weight: 300;
-                width: 100%;
-                text-align: center;
-            }
-
-            .brothers-wrapper {
-                padding: .50em;
-                height: max-content;
-                text-align: center;
-
-                .brother {
-                    @include background-image-base();
-                    @include box-shadow();
-                    color: white;
-                    position: relative;
-                    margin: 10px;
-                    border-radius: 2px;
-                    display: inline-block;
-                    text-align: initial;
-                    width: 145px;
-                    height: 250px;
-                    line-height: 0.9em;
-
-                    &::after{
-                        width: 100%;
-                        height: 150px;
-                        position: absolute;
-                        top: 0px;
-                        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.0));
-                        height: 90px;
-                        display: block;
-                        content: '';
-
-                        height: 100%;
-                        width: 100%;
-                    }
-
-                    a {
-                        text-decoration: none;
-                        color: white;
-
-                        .link {
-                            font-size: 2.25em;
-                            z-index: 1000;
-                            position: absolute;
-                            right: 0px;
-                            margin: 5px;
-                            opacity: .7;
-                            transition: all .2s ease;
-                        }
-
-                        .link:hover {
-                            opacity: 1;
-                        }
-                    }
-
-                    .overlay {
-                        position: absolute;
-                        padding: 7px;
-                        z-index: 1000;
-                        bottom: 0;
-                        left: 0;
-                        width: 100%;
-                        border-radius: 0 0 2px 2px;
-                        background-color: rgba(0,0,0,0.6);
-                        box-sizing: border-box;
-
-                        .major {
-                            font-size: 0.74em;
-                        }
-
-                        .name {
-                            font-weight: 400;
-                            font-size: .9em;
-                        }
-
-                        .hometown {
-                            font-size: 0.7em;
-                        }
-                    }
-                }
-            }
         }
+    }
+
+    #alumni {
+        padding-top: 1em;
+        padding-bottom: .75em;
+        background-color: #fcfaee;
     }
 }
 

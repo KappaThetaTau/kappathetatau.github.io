@@ -58,8 +58,8 @@ collections:
           name: "all_members"
           file: "_data/members.yml"
           fields:
-              - label: Pledge Classes
-                name: classes
+              - label: Active Members
+                name: actives
                 widget: list
                 fields:
                     - {label: Pledge Semester, name: semester, widget: string}
@@ -72,3 +72,12 @@ collections:
                           - {label: Hometown, name: hometown, widget: string}
                           - {label: LinkedIn, name: linkedin, widget: string}
                           - {label: Picture, name: picture, widget: string}
+              - label: Alumni
+                name: alumni
+                widget: list
+                fields:
+                    - {label: Name, name: name, widget: string}
+                    - {label: Major, name: major, widget: string}
+                    - {label: Hometown, name: hometown, widget: string}
+                    - {label: LinkedIn, name: linkedin, widget: string}
+                    - {label: Picture, name: picture, widget: string}
