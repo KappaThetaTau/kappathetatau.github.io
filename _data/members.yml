@@ -55,6 +55,21 @@ classes:
     major: Biological Engineering
     name: Julia Krause
     picture: /assets/imgs/brothers/julia_krause.jpg
+  - hometown: Bismarck, IL
+    linkedin: http://www.linkedin.com/in/augustgress
+    major: Computer Engineering
+    name: August Gress
+    picture: /assets/imgs/brothers/august_gress.jpg
+  - hometown: Danville, IL
+    linkedin: http://linkedin.com/in/brandon-yates
+    major: Civil Engineering
+    name: Brandon Yates
+    picture: /assets/imgs/brothers/brandon_yates.jpg
+  - hometown: Arlington Heights, IL
+    linkedin: https://www.linkedin.com/in/gabriela-yordanova-000563158/
+    major: Mechanical Engineering
+    name: Gabriela Yordanova
+    picture: /assets/imgs/brothers/gabriela_yordanova.jpg
   semester: Spring 2018
 - members:
   - hometown: San Ramon, CA
@@ -410,6 +425,11 @@ classes:
     major: Civil/Environmental Engineering
     name: Nolan Sovcik
     picture: /assets/imgs/brothers/nolan_sovcik.jpg
+  - hometown: Mount Vernon, IL
+    linkedin: https://www.linkedin.com/in/scottzelman/
+    major: Aerospace Engineering
+    name: Scott Zelman
+    picture: /assets/imgs/brothers/scott_zelman.jpg
   semester: Fall 2015
 - members:
   - hometown: Downers Grove, IL
