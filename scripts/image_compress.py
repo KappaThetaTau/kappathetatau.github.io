@@ -5,18 +5,13 @@ import os
 import pdb
 import sys
 import ntpath
+import argparse
 from PIL import Image, ExifTags
 
-COMPRESS_DIMENSION = 450
-COMPRESS_QUALITY = 85
-IMG_DIR = '/scripts/test'
-
-def compress_me(file, path, verbose=False, jpeg=False, quality=COMPRESS_QUALITY, dimension=COMPRESS_DIMENSION):
-    # convert to jpg
+def compress_me(file_path, verbose=False, jpeg=False, quality=85, dimension=256):
+    # Convert to jpg
     if jpeg:
-        file_path = convert_to_jpg(os.path.join(path, file))
-    else:
-        file_path = os.path.join(path, file)
+        file_path = convert_to_jpg(file_path)
 
     # Grab picture and metadata
     oldsize = os.stat(file_path).st_size
@@ -31,7 +26,7 @@ def compress_me(file, path, verbose=False, jpeg=False, quality=COMPRESS_QUALITY,
         image.save(file_path,optimize=True,quality=quality)
 
     newsize = os.stat(file_path).st_size
-    percent = (oldsize-newsize)/float(oldsize)*100
+    percent = (oldsize-newsize)/float(oldsize)*100 
     if (verbose):
         print "File compressed from {0} to {1} or {2}%".format(oldsize,newsize,percent)
     return percent, file_path, path_leaf(file_path)
@@ -79,24 +74,27 @@ def convert_to_jpg(filepath):
 
 def main():
     verbose = False
-    #checks for verbose flag
-    if (len(sys.argv)>1):
-            if (sys.argv[1].lower()=="-v"):
-                    verbose = True
+    parser = argparse.ArgumentParser()
+    parser.add_argument('img_dir', help='Directory of images to compress')
+    parser.add_argument('compress_dimension', type=int, help='Max height or width of compressed image')
+    parser.add_argument('compress_quality', type=int, help='Quality of compressed image file')
+    parser.add_argument('-j', action='store_true', help='Convert images to jpeg')
+    parser.add_argument('-v', action='store_true', help='Run in answerer debug mode')
+    args = parser.parse_args()
 
-    #find image directory
-    grandpa = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-    img_dir = grandpa + IMG_DIR
-
-    tot = 0
-    num = 0
-    for directory, subdirectories, files in os.walk(img_dir):
+    total_compression = 0
+    num_imgs = 0
+    for directory, subdirectories, files in os.walk(args.img_dir):
         for file in files:
             if os.path.splitext(file)[1].lower() in ('.jpg', '.jpeg', '.png'):
-                    num += 1
-                    percent, filepath, file = compress_me(file, img_dir, verbose)
-                    tot += percent
-    print "Average Compression: %d" % (float(tot)/num)
+                    num_imgs += 1
+                    percent, filepath, file = compress_me(os.path.join(directory, file),
+                            verbose=args.v,
+                            jpeg=args.j,
+                            quality=args.compress_quality,
+                            dimension=args.compress_dimension)
+                    total_compression += percent
+    print "Average Compression: %d" % (float(total_compression)/num_imgs)
     print "Done"
 
 if __name__ == "__main__":

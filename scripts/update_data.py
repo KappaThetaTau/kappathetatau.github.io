@@ -97,7 +97,7 @@ if __name__=="__main__":
                 file_path = BROTHERS_IMG_DIR + pic_name # absolute directory
 
                 gfile.GetContentFile(file_path)
-                image_name = compress_me(pic_name, BROTHERS_IMG_DIR, jpeg=True, quality=85, dimension=450)[2]
+                image_name = compress_me(os.path.join(BROTHERS_IMG_DIR, pic_name), jpeg=True, quality=85, dimension=450)[2]
             else:
                 image_name = processed_name + '.jpg'
                 print 'Already downloaded image for {}'.format(name)
