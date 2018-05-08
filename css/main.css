@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,400");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400");
 .header-socials {
   top: 95%;
@@ -554,6 +554,7 @@
   #home #brothers {
     height: 25em;
     background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/group_1.jpg");
+    font-weight: 200;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -562,6 +563,7 @@
   #home #posts {
     height: 25em;
     background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/orchard_2.jpg");
+    font-weight: 200;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -570,6 +572,7 @@
   #home #faq {
     height: 25em;
     background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/christmas_1.jpg");
+    font-weight: 200;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -578,6 +581,7 @@
   #home #rush {
     height: 25em;
     background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/fun_1.jpg");
+    font-weight: 200;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -643,9 +647,11 @@
     #home #contact #list {
       list-style: none; }
       #home #contact #list .title {
-        font-weight: 400;
+        font-weight: 500;
         font-size: 1.05em; }
       #home #contact #list .name {
+        font-weight: 400; }
+      #home #contact #list .email {
         font-weight: 300; }
     #home #contact ul li {
       margin: 0.25em; }
@@ -1034,5 +1040,4 @@ header {
 body {
   background: white;
   font-family: 'Raleway', Helvetica;
-  font-weight: 100;
   padding-top: 52px; }

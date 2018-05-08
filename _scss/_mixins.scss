@@ -16,6 +16,7 @@ $navbar-border-height: 2px;
 
 @mixin background-button-image-style($url) {
     background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url($url);
+    font-weight: 200;
     @include background-image-base();
 }
 

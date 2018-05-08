@@ -194,10 +194,13 @@
         #list {
             list-style: none;
             .title {
-                font-weight: 400;
+                font-weight: 500;
                 font-size: 1.05em;
             }
             .name {
+                font-weight: 400;
+            }
+            .email {
                 font-weight: 300;
             }
         }
