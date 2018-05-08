@@ -243,6 +243,11 @@ actives:
     major: Mechanical Engineering
     name: Hannah Nolton
     picture: /assets/imgs/brothers/hannah_nolton.jpg
+  - hometown: West Windsor, NJ
+    linkedin: https://www.linkedin.com/in/akhil-chainani/
+    major: Engineering Physics
+    name: Akhil Chainani
+    picture: /assets/imgs/brothers/akhil_chainani.jpg
   semester: Spring 2017
 - members:
   - hometown: Orland Park, IL
