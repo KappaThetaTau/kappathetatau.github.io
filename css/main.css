@@ -456,10 +456,12 @@
 #home {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "announcement" "hero" "about" "brothers" "posts" "stats" "portfolio" "sponsors" "faq" "rush" "contact"; }
+  grid-template-areas: "announcement" "hero" "about" "brotherhood" "brotherhood-slides" "service" "service-slides" "stats" "portfolio" "brothers" "posts" "faq" "rush" "contact" "sponsors"; }
   #home > div {
     background: white;
     color: #714d4d; }
+  #home p {
+    font-size: 1.3125em; }
   #home .image-button {
     box-shadow: #bbbbbb 0px 2px 5px;
     overflow: hidden;
@@ -590,10 +592,8 @@
   #home #about {
     display: grid;
     grid-area: about;
-    padding: 4.5em 20px;
+    padding: 4.5em 20px 2em;
     position: relative; }
-    #home #about p {
-      font-size: 1.3125em; }
     #home #about::after {
       background-position: center;
       background-repeat: no-repeat;
@@ -605,11 +605,113 @@
       bottom: 0;
       right: 0;
       position: absolute; }
+  #home #brotherhood {
+    display: grid;
+    grid-area: brotherhood;
+    padding: 0 20px 2em; }
+  #home #brotherhood-slides {
+    display: grid;
+    grid-area: brotherhood-slides;
+    box-shadow: #bbbbbb 0px 2px 5px;
+    margin-bottom: 2em; }
+    #home #brotherhood-slides .slide-1 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_1.jpg"); }
+    #home #brotherhood-slides .slide-2 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_2.jpg"); }
+    #home #brotherhood-slides .slide-3 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_3.jpg"); }
+    #home #brotherhood-slides .slide-4 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_4.jpg"); }
+    #home #brotherhood-slides .slide-5 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_5.jpg"); }
+    #home #brotherhood-slides .slide-6 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_6.jpg"); }
+    #home #brotherhood-slides .slide-7 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_7.jpg"); }
+    #home #brotherhood-slides .slide-8 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_8.jpg"); }
+    #home #brotherhood-slides .slide-9 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_9.jpg"); }
+    #home #brotherhood-slides .slide-10 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_10.jpg"); }
+    #home #brotherhood-slides .slide-11 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_11.jpg"); }
+    #home #brotherhood-slides .slide-12 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_12.jpg"); }
+    #home #brotherhood-slides .slide-13 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/brotherhood_13.jpg"); }
+  #home #service {
+    display: grid;
+    grid-area: service;
+    padding: 0 20px 2em; }
+  #home #service-slides {
+    display: grid;
+    grid-area: service-slides;
+    box-shadow: #bbbbbb 0px 2px 5px; }
+    #home #service-slides .slide-1 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/service_1.jpg"); }
+    #home #service-slides .slide-2 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/service_2.jpg"); }
+    #home #service-slides .slide-3 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/service_3.jpg"); }
+    #home #service-slides .slide-4 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("/assets/imgs/service_4.jpg"); }
   #home #stats {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-area: stats;
-    padding: 4.5em 0;
+    padding: 2.25em 0;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     text-align: center;
     position: relative; }
@@ -657,8 +759,8 @@
       margin: 0.25em; }
   #home #portfolio {
     grid-area: portfolio;
-    padding: 0;
-    overflow: hidden; }
+    overflow: hidden;
+    padding-bottom: 4.5em; }
     #home #portfolio a {
       text-decoration: none; }
     #home #portfolio h1 {
@@ -776,8 +878,7 @@
               transform: rotateY(20deg); }
   #home #sponsors {
     grid-area: sponsors;
-    padding: 1em;
-    padding-bottom: 4.5em; }
+    padding: 1em; }
     #home #sponsors h1 {
       text-align: center;
       padding-bottom: 1em; }
@@ -796,7 +897,7 @@
 @media screen and (min-width: 800px) {
   #home {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "announcement announcement" "hero hero" "about about" "brothers posts" "portfolio portfolio" "faq rush" "stats contact" "sponsors sponsors"; }
+    grid-template-areas: "announcement announcement" "hero hero" "about about" "brotherhood service" "brotherhood-slides service-slides" "portfolio portfolio" "brothers posts" "faq rush" "stats contact" "sponsors sponsors"; }
     #home #hero {
       font-size: 1.6em;
       grid-area: hero; }
@@ -808,6 +909,10 @@
       margin-left: auto;
       margin-right: auto;
       width: 700px; }
+    #home #brotherhood {
+      padding: 0 40px 2em; }
+    #home #service {
+      padding: 0 40px 2em; }
     #home #contact {
       margin: auto;
       font-size: 1em; }
@@ -819,6 +924,69 @@
       #home #portfolio #photobanner:hover #company-1 {
         -webkit-animation-play-state: paused;
                 animation-play-state: paused; } }
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  height: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 600px;
+  max-height: 400px;
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+  /* Number text (1/3 etc) */
+  /* Fading animation */ }
+  .slideshow-container .slide {
+    display: none;
+    width: 100%;
+    height: 100%; }
+  .slideshow-container .prev, .slideshow-container .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    background-color: rgba(0, 0, 0, 0.4); }
+  .slideshow-container .next {
+    right: 0;
+    border-radius: 3px 0 0 3px; }
+  .slideshow-container .prev:hover, .slideshow-container .next:hover {
+    background-color: rgba(0, 0, 0, 0.8); }
+  .slideshow-container .numbertext {
+    font-size: 1em;
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 0; }
+  .slideshow-container .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
 
 header {
   width: 100%;
@@ -963,12 +1131,9 @@ header {
       height: 250px;
       line-height: 0.9em; }
       #brothers .brothers-wrapper .brother::after {
-        width: 100%;
-        height: 150px;
         position: absolute;
         top: 0px;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), transparent);
-        height: 90px;
         display: block;
         content: '';
         height: 100%;

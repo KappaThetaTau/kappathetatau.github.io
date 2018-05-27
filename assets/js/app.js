@@ -26,6 +26,37 @@ function checkAnimation() {
     }
 }
 
+var slideIndex = [0, 0];
+
+function plusSlides(n, id) {
+    var idx;
+    switch (id) {
+        case 'brotherhood':
+            idx = 0;
+            break;
+        case 'service':
+            idx = 1;
+            break;
+    }
+    showSlides(slideIndex[idx] += n, id, idx);
+}
+
+function showSlides(n, id, idx) {
+    var i;
+    var slides = document.getElementsByClassName(id + "-slide");
+    if (n > slides.length) {slideIndex[idx] = 1}    
+    if (n < 1) {slideIndex[idx] = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    slides[slideIndex[idx]-1].style.display = "block";  
+}
+
+function imageSlider() {
+    plusSlides(1, 'brotherhood');
+    plusSlides(1, 'service');
+}
+
 // Anything related to the navigation menu
 function navMenu() {
     let speed = "fast";
@@ -87,6 +118,7 @@ $(document).ready(function(){
     navMenu();
     easterEgg();
     showAllCompanies();
+    imageSlider();
 })
 
 particlesJS.load('particles', '/assets/js/particles.json', function() {

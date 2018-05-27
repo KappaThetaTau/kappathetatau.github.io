@@ -5,20 +5,28 @@
     "announcement"
     "hero"
     "about"
-    "brothers"
-    "posts"
+    "brotherhood"
+    "brotherhood-slides"
+    "service"
+    "service-slides"
     "stats"
     "portfolio"
-    "sponsors"
+    "brothers"
+    "posts"
     "faq"
     "rush"
-    "contact";
+    "contact"
+    "sponsors";
 
     & > div {
         background: white;
         color: $text-color;
     }
 
+    p {
+        font-size: 1.3125em;
+    }
+    
     .image-button {
         @include box-shadow();
         $offset: 50px;
@@ -120,12 +128,8 @@
     #about {
         display: grid;
         grid-area: about;
-        padding: $up-down-padding 20px;
+        padding: $up-down-padding 20px 2em;
         position: relative;
-
-        p {
-            font-size: 1.3125em;
-        }
 
         &::after {
             background-position: center;
@@ -141,11 +145,104 @@
         }
     }
 
+    #brotherhood {
+        display: grid;
+        grid-area: brotherhood;
+        padding: 0 20px 2em;
+    }
+
+    #brotherhood-slides {
+        display: grid;
+        grid-area: brotherhood-slides;
+        @include box-shadow(); 
+        margin-bottom: 2em;
+        .slide-1 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_1.jpg');
+        }
+        .slide-2 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_2.jpg');
+        }
+        .slide-3 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_3.jpg');
+        }
+        .slide-4 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_4.jpg');
+        }
+        .slide-5 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_5.jpg');
+        }
+        .slide-6 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_6.jpg');
+        }
+        .slide-7 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_7.jpg');
+        }
+        .slide-8 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_8.jpg');
+        }
+        .slide-9 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_9.jpg');
+        }
+        .slide-10 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_10.jpg');
+        }
+        .slide-11 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_11.jpg');
+        }
+        .slide-12 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_12.jpg');
+        }
+        .slide-13 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/brotherhood_13.jpg');
+        }
+    }
+
+    #service {
+        display: grid;
+        grid-area: service;
+        padding: 0 20px 2em;
+    }
+
+    #service-slides {
+        display: grid;
+        grid-area: service-slides;
+        @include box-shadow(); 
+        .slide-1 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/service_1.jpg');
+        }
+        .slide-2 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/service_2.jpg');
+        }
+        .slide-3 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/service_3.jpg');
+        }
+        .slide-4 {
+            @include background-image-base();
+            background-image: url('/assets/imgs/service_4.jpg');
+        }
+    }
+
     #stats {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-area: stats;
-        padding: $up-down-padding 0;
+        padding: $up-down-padding/2 0;
         -webkit-tap-highlight-color: rgba(255, 255, 255, 0); // Make it so mobile tap does not highlight the div
         text-align: center;
         position: relative;
@@ -213,8 +310,8 @@
 
     #portfolio {
         grid-area: portfolio;
-        padding: 0;
         overflow: hidden;
+        padding-bottom: $up-down-padding;
 
         a {
             text-decoration: none;
@@ -374,7 +471,6 @@
     #sponsors {
         grid-area: sponsors;
         padding: 1em;
-        padding-bottom: $up-down-padding;
 
         h1 {
             text-align: center;
@@ -387,7 +483,7 @@
             margin: auto;
             text-align: center;
         }
-        
+
         .company-logo {
             margin: 0.25em;
             max-width: 20%;
@@ -400,6 +496,7 @@
     }
 }
 
+// Desktop Styling below
 @media screen and (min-width: $desktop-trigger) {
     #home {
         grid-template-columns: repeat(2, 1fr);
@@ -407,8 +504,10 @@
         "announcement announcement"
         "hero hero"
         "about about"
-        "brothers posts"
+        "brotherhood service"
+        "brotherhood-slides service-slides"
         "portfolio portfolio"
+        "brothers posts"
         "faq rush"
         "stats contact"
         "sponsors sponsors";
@@ -428,6 +527,14 @@
             margin-left: auto;
             margin-right: auto;
             width: 700px;
+        }
+
+        #brotherhood {
+            padding: 0 40px 2em;
+        }
+
+        #service {
+            padding: 0 40px 2em;
         }
 
         #contact {
