@@ -112,7 +112,7 @@ actives:
         name: Keshav Patel
         picture: /assets/imgs/brothers/keshav_patel.jpg
       - hometown: 'Lake Zurich, IL'
-        linkedin: ''
+        linkedin: 'https://www.linkedin.com/in/alexander-kozlowski-86a991149/'
         major: Mechanical Engineering
         name: Alexander Kozlowski
         picture: /assets/imgs/brothers/alexander_kozlowski.jpg
@@ -164,7 +164,7 @@ actives:
     semester: Fall 2017
   - members:
       - hometown: 'Caledonia, IL'
-        linkedin: ''
+        linkedin: 'https://www.linkedin.com/in/kajsachen/'
         major: Bioengineering
         name: Kajsa Chen
         picture: /assets/imgs/brothers/kajsa_chen.jpg
@@ -204,7 +204,7 @@ actives:
         name: Therese Jaggard
         picture: /assets/imgs/brothers/therese_jaggard.jpg
       - hometown: 'Mumbai, India'
-        linkedin: ''
+        linkedin: 'https://www.linkedin.com/in/amay-thakkar-83506a139/'
         major: Industrial Engineering
         name: Amay Thakkar
         picture: /assets/imgs/brothers/amay_thakkar.jpg
@@ -214,7 +214,7 @@ actives:
         name: Emily Tokarski
         picture: /assets/imgs/brothers/emily_tokarski.jpg
       - hometown: 'Portland, OR'
-        linkedin: ''
+        linkedin: 'https://www.linkedin.com/in/clinton-raye-5187a0138/'
         major: Aerospace Engineering
         name: Clinton Raye
         picture: /assets/imgs/brothers/clinton_raye.jpg
@@ -239,7 +239,7 @@ actives:
         name: Aiden Kamber
         picture: /assets/imgs/brothers/aiden_kamber.jpg
       - hometown: 'Atlanta, GA'
-        linkedin: ''
+        linkedin: 'https://www.linkedin.com/in/hannah-nolton-b62048139/'
         major: Mechanical Engineering
         name: Hannah Nolton
         picture: /assets/imgs/brothers/hannah_nolton.jpg
@@ -256,7 +256,7 @@ actives:
         name: Dominic Demma
         picture: /assets/imgs/brothers/dominic_demma.jpg
       - hometown: 'Naperville, IL'
-        linkedin: ''
+        linkedin: 'https://www.linkedin.com/in/lea-savard-8207b6128/'
         major: 'Engineering Mechanics '
         name: Lea Savard
         picture: /assets/imgs/brothers/lea_savard.jpg
@@ -306,7 +306,7 @@ actives:
         name: Isaac Husemann
         picture: /assets/imgs/brothers/isaac_husemann.jpg
       - hometown: 'Barrington, Il'
-        linkedin: ''
+        linkedin: 'https://www.linkedin.com/in/lisa-yala-337962129/'
         major: Computer Engineering
         name: Lisa Yala
         picture: /assets/imgs/brothers/lisa_yala.jpg
@@ -390,7 +390,7 @@ actives:
         name: Kristin Simkus
         picture: /assets/imgs/brothers/kristin_simkus.jpg
       - hometown: 'Evanston, IL'
-        linkedin: ''
+        linkedin: 'https://www.linkedin.com/in/juliette-shesgreen-7ab870107/'
         major: 'Systems Engineering & Design '
         name: Juliette Shesgreen
         picture: /assets/imgs/brothers/juliette_shesgreen.jpg
@@ -489,7 +489,7 @@ alumni:
     name: Dhairav Vakil
     picture: /assets/imgs/brothers/dhairav_vakil.jpg
   - hometown: 'Willowbrook, IL'
-    linkedin: ''
+    linkedin: 'https://www.linkedin.com/in/mallory-wall-bbb112a5/'
     major: Bioengineering
     name: Mallory Wall
     picture: /assets/imgs/brothers/mallory_wall.jpg
