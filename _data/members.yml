@@ -74,6 +74,11 @@ actives:
     major: Mechanical Engineering
     name: Gabriela Yordanova
     picture: /assets/imgs/brothers/gabriela_yordanova.jpg
+  - hometown: 'Chicago, IL '
+    linkedin: https://www.linkedin.com/in/justinjamespowell/
+    major: Industrial Engineering
+    name: Justin Powell
+    picture: /assets/imgs/brothers/justin_powell.jpg
   semester: Spring 2018
 - members:
   - hometown: San Ramon, CA
