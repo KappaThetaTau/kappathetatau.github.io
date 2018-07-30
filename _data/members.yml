@@ -253,6 +253,11 @@ actives:
     major: Engineering Physics
     name: Akhil Chainani
     picture: /assets/imgs/brothers/akhil_chainani.jpg
+  - hometown: Elk Grove Village, IL
+    linkedin: https://www.linkedin.com/in/nikhil-modak-214a74132/
+    major: Computer Science
+    name: Nikhil Modak
+    picture: /assets/imgs/brothers/nikhil_modak.jpg
   semester: Spring 2017
 - members:
   - hometown: Orland Park, IL
@@ -290,6 +295,11 @@ actives:
     major: Chemical Engineering
     name: Reier Groven
     picture: /assets/imgs/brothers/reier_groven.jpg
+  - hometown: Beecher, Il
+    linkedin: https://www.linkedin.com/in/rudy-j-juarez/
+    major: Chemical Engineering
+    name: Rudy J. Juarez
+    picture: /assets/imgs/brothers/rudy_j._juarez.jpg
   - hometown: Bothell, WA
     linkedin: https://www.linkedin.com/in/arko-banik-a89a73107/
     major: Computer Engineering
@@ -428,12 +438,6 @@ actives:
 - members: []
   semester: Fall 2012
 alumni:
-- hometown: Beecher, Il
-  linkedin: https://www.linkedin.com/in/rudy-j-juarez/
-  major: Chemical Engineering
-  name: Rudy J. Juarez
-  picture: /assets/imgs/brothers/rudy_j._juarez.jpg
-  pledge_class: Fall 2016
 - hometown: Barrington, IL
   linkedin: https://www.linkedin.com/in/john-graft-826361119/
   major: Electrical Engineering
