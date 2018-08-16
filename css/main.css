@@ -444,13 +444,13 @@
   .post .content p {
     margin-top: 1.2em;
     margin-bottom: 1.2em; }
-    .post .content p a {
-      overflow-wrap: break-word;
-      word-wrap: break-word;
-      -webkit-hyphens: auto;
-         -moz-hyphens: auto;
-          -ms-hyphens: auto;
-              hyphens: auto; }
+  .post .content a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto; }
   .post .content pre {
     padding: 1.2em; }
   .post .content ol {

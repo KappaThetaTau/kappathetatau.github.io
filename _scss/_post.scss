@@ -70,11 +70,12 @@ $post-font-color: rgba(0,0,0,.84);
     .content {
         p {
             @include margin-top-bottom();
-            a {
-                overflow-wrap: break-word;
-                word-wrap: break-word;
-                hyphens: auto;
-            }
+        }
+
+        a {
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            hyphens: auto;
         }
 
         pre {
