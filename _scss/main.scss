@@ -18,11 +18,15 @@
 
 body {
     background: white;
-    font-family: 'Raleway', Helvetica;
+    font-family: 'rawline', Helvetica;
     font-weight: 300;
     padding-top: $navbar-height + $navbar-border-height;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400');
+h1, h2, h3 {
+    font-weight: 500;
+}
+
+@import 'https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto:400');
 

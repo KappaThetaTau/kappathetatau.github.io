@@ -26,7 +26,7 @@
     p {
         font-size: 1.3125em;
     }
-    
+
     .image-button {
         @include box-shadow();
         $offset: 50px;
@@ -424,7 +424,7 @@
                     text-align: center;
                     position: absolute;
                     line-height: 2em;
-                    font-weight: bold;
+                    font-weight: 500;
                     color: #fff;
                     position: absolute;
                     top: 0;
