@@ -632,6 +632,10 @@
       bottom: 0;
       right: 0;
       position: absolute; }
+  #home .slide {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
   #home #brotherhood {
     display: grid;
     grid-area: brotherhood;
@@ -642,69 +646,30 @@
     box-shadow: #bbbbbb 0px 2px 5px;
     margin-bottom: 2em; }
     #home #brotherhood-slides .slide-1 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_1.jpg"); }
     #home #brotherhood-slides .slide-2 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_2.jpg"); }
     #home #brotherhood-slides .slide-3 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_3.jpg"); }
     #home #brotherhood-slides .slide-4 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_4.jpg"); }
     #home #brotherhood-slides .slide-5 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_5.jpg"); }
     #home #brotherhood-slides .slide-6 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_6.jpg"); }
     #home #brotherhood-slides .slide-7 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_7.jpg"); }
     #home #brotherhood-slides .slide-8 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_8.jpg"); }
     #home #brotherhood-slides .slide-9 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_9.jpg"); }
     #home #brotherhood-slides .slide-10 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_10.jpg"); }
     #home #brotherhood-slides .slide-11 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_11.jpg"); }
     #home #brotherhood-slides .slide-12 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_12.jpg"); }
     #home #brotherhood-slides .slide-13 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/brotherhood_13.jpg"); }
   #home #service {
     display: grid;
@@ -715,24 +680,12 @@
     grid-area: service-slides;
     box-shadow: #bbbbbb 0px 2px 5px; }
     #home #service-slides .slide-1 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/service_1.jpg"); }
     #home #service-slides .slide-2 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/service_2.jpg"); }
     #home #service-slides .slide-3 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/service_3.jpg"); }
     #home #service-slides .slide-4 {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
       background-image: url("/assets/imgs/service_4.jpg"); }
   #home #stats {
     display: grid;

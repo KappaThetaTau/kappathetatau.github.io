@@ -145,6 +145,10 @@
         }
     }
 
+    .slide {
+        @include background-image-base();
+    }
+
     #brotherhood {
         display: grid;
         grid-area: brotherhood;
@@ -157,55 +161,42 @@
         @include box-shadow(); 
         margin-bottom: 2em;
         .slide-1 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_1.jpg');
         }
         .slide-2 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_2.jpg');
         }
         .slide-3 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_3.jpg');
         }
         .slide-4 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_4.jpg');
         }
         .slide-5 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_5.jpg');
         }
         .slide-6 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_6.jpg');
         }
         .slide-7 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_7.jpg');
         }
         .slide-8 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_8.jpg');
         }
         .slide-9 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_9.jpg');
         }
         .slide-10 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_10.jpg');
         }
         .slide-11 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_11.jpg');
         }
         .slide-12 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_12.jpg');
         }
         .slide-13 {
-            @include background-image-base();
             background-image: url('/assets/imgs/brotherhood_13.jpg');
         }
     }
@@ -221,19 +212,15 @@
         grid-area: service-slides;
         @include box-shadow(); 
         .slide-1 {
-            @include background-image-base();
             background-image: url('/assets/imgs/service_1.jpg');
         }
         .slide-2 {
-            @include background-image-base();
             background-image: url('/assets/imgs/service_2.jpg');
         }
         .slide-3 {
-            @include background-image-base();
             background-image: url('/assets/imgs/service_3.jpg');
         }
         .slide-4 {
-            @include background-image-base();
             background-image: url('/assets/imgs/service_4.jpg');
         }
     }
