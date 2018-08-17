@@ -1063,7 +1063,7 @@ header {
 .menu {
   z-index: 1000000;
   top: 52px;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 0.8em;
   width: 100%;
   background: #f1f1f1;
