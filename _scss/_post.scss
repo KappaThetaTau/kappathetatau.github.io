@@ -1,4 +1,4 @@
-$post-font-size: 1.2em;
+$post-font-size: 1em;
 $post-font-color: rgba(0,0,0,.84);
 
 @mixin margin-top-bottom() {
@@ -28,7 +28,7 @@ $post-font-color: rgba(0,0,0,.84);
     table {
         padding: 0; 
         overflow: scroll;
-        font-size: 75%;
+        font-size: 80%;
         table-layout: fixed;
         display:block;
         overflow-x: auto;

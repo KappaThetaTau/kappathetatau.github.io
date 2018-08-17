@@ -403,12 +403,12 @@
   font-weight: 300;
   color: rgba(0, 0, 0, 0.84);
   background-color: white;
-  font-size: 1.2em;
+  font-size: 1em;
   box-shadow: #bbbbbb 0px 2px 5px; }
   .post table {
     padding: 0;
     overflow: scroll;
-    font-size: 75%;
+    font-size: 80%;
     table-layout: fixed;
     display: block;
     overflow-x: auto; }
@@ -437,14 +437,14 @@
     margin-bottom: 0; }
   .post .meta {
     font-weight: 100;
-    font-size: 0.92308em;
-    margin-bottom: 1.2em; }
+    font-size: 0.76923em;
+    margin-bottom: 1em; }
   .post img {
     width: 100%;
     box-shadow: #bbbbbb 0px 2px 5px; }
   .post .content p {
-    margin-top: 1.2em;
-    margin-bottom: 1.2em; }
+    margin-top: 1em;
+    margin-bottom: 1em; }
   .post .content a {
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -453,15 +453,15 @@
         -ms-hyphens: auto;
             hyphens: auto; }
   .post .content pre {
-    padding: 1.2em; }
+    padding: 1em; }
   .post .content ol {
-    margin-top: 1.2em;
-    margin-bottom: 1.2em; }
+    margin-top: 1em;
+    margin-bottom: 1em; }
     .post .content ol li {
       list-style-position: inside; }
   .post .content ul {
-    margin-top: 1.2em;
-    margin-bottom: 1.2em; }
+    margin-top: 1em;
+    margin-bottom: 1em; }
     .post .content ul li {
       list-style-position: inside; }
   .post .content .highlight {
