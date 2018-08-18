@@ -24,7 +24,7 @@
     }
 
     p {
-        font-size: 1.3125em;
+        font-size: 1.0625em;
     }
 
     .image-button {
@@ -502,6 +502,10 @@
         #hero {
             font-size: $hero-desktop-font-size;
             grid-area: hero;
+        }
+
+        p {
+            font-size: 1.3125em;
         }
 
         #announcement {

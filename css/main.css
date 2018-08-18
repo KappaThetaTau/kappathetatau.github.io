@@ -488,7 +488,7 @@
     background: white;
     color: #714d4d; }
   #home p {
-    font-size: 1.3125em; }
+    font-size: 1.0625em; }
   #home .image-button {
     box-shadow: #bbbbbb 0px 2px 5px;
     overflow: hidden;
@@ -881,6 +881,8 @@
     #home #hero {
       font-size: 1.6em;
       grid-area: hero; }
+    #home p {
+      font-size: 1.3125em; }
     #home #announcement {
       margin: 10px auto;
       width: 700px; }
