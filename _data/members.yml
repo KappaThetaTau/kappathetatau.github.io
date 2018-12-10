@@ -1,7 +1,42 @@
 actives:
 - members: []
   semester: Spring 2019
-- members: []
+- members:
+  - hometown: Stamford, CT
+    linkedin: https://www.linkedin.com/in/tommy-carver-2b12a6166/
+    major: Computer Science/Computer Engineering
+    name: Tommy Carver
+    picture: /assets/imgs/brothers/tommy_carver.JPG
+  - hometown: Bradenton, FL
+    linkedin: https://www.linkedin.com/in/victoriaotrubina375
+    major: Civil and Environmental Engineering
+    name: Victoria Otrubina
+    picture: /assets/imgs/brothers/victoria_otrubina.jpg
+  - hometown: San Diego, CA
+    linkedin: https://www.linkedin.com/in/andrew-hunt-6706a3173/
+    major: Mechanical Engineering
+    name: Andrew Hunt
+    picture: /assets/imgs/brothers/andrew_hunt.JPG
+  - hometown: Acton, MA
+    linkedin: https://www.linkedin.com/in/nikhaar-shah-47a1a7172/
+    major: Mechanical Engineering
+    name: Nikhaar Shah
+    picture: /assets/imgs/brothers/nikhaar_shah.JPG
+  - hometown: Buffalo Grove, IL
+    linkedin: https://www.linkedin.com/in/mia-kim-a4296316a/
+    major: Mechanical Engineering
+    name: Mia Kim
+    picture: /assets/imgs/brothers/mia_kim.jpg
+  - hometown: Hinsdale, IL
+    linkedin: https://www.linkedin.com/in/erin-sarver-632025172/
+    major: Electrical Engineering
+    name: Erin Sarver
+    picture: /assets/imgs/brothers/erin_sarver.jpg
+  - hometown: Libertyville, IL
+    linkedin: https://www.linkedin.com/in/kristen-whalen-b01312170
+    major: Engineering Undeclared
+    name: Kristen Whalen
+    picture: /assets/imgs/brothers/kristen_whalen.jpg
   semester: Fall 2018
 - members:
   - hometown: Carol Stream, IL
