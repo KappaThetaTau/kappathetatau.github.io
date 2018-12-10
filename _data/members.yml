@@ -6,7 +6,7 @@ actives:
     linkedin: https://www.linkedin.com/in/tommy-carver-2b12a6166/
     major: Computer Science/Computer Engineering
     name: Tommy Carver
-    picture: /assets/imgs/brothers/tommy_carver.JPG
+    picture: /assets/imgs/brothers/tommy_carver.jpg
   - hometown: Bradenton, FL
     linkedin: https://www.linkedin.com/in/victoriaotrubina375
     major: Civil and Environmental Engineering
@@ -16,12 +16,12 @@ actives:
     linkedin: https://www.linkedin.com/in/andrew-hunt-6706a3173/
     major: Mechanical Engineering
     name: Andrew Hunt
-    picture: /assets/imgs/brothers/andrew_hunt.JPG
+    picture: /assets/imgs/brothers/andrew_hunt.jpg
   - hometown: Acton, MA
     linkedin: https://www.linkedin.com/in/nikhaar-shah-47a1a7172/
     major: Mechanical Engineering
     name: Nikhaar Shah
-    picture: /assets/imgs/brothers/nikhaar_shah.JPG
+    picture: /assets/imgs/brothers/nikhaar_shah.jpg
   - hometown: Buffalo Grove, IL
     linkedin: https://www.linkedin.com/in/mia-kim-a4296316a/
     major: Mechanical Engineering
@@ -37,6 +37,16 @@ actives:
     major: Engineering Undeclared
     name: Kristen Whalen
     picture: /assets/imgs/brothers/kristen_whalen.jpg
+  - hometown: Lemont, IL
+    linkedin: https://www.linkedin.com/in/kevin-tuscher/
+    major: Mechanical Engineering
+    name: Kevin Tuscher
+    picture: /assets/imgs/brothers/kevin_tuscher.jpg
+  - hometown: Buffalo Grove, IL
+    linkedin: https://www.linkedin.com/in/nina-ayar/
+    major: Industrial Engineering
+    name: Nina Ayar
+    picture: /assets/imgs/brothers/nina_ayar.jpg
   semester: Fall 2018
 - members:
   - hometown: Carol Stream, IL
