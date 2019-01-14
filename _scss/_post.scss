@@ -18,6 +18,10 @@ $post-font-color: rgba(0,0,0,.84);
 }
 
 .post {
+    &-banner {
+        width: 100%;
+    }
+
     padding: 20px;
     font-weight: 300;
     color: $post-font-color;
@@ -64,7 +68,10 @@ $post-font-color: rgba(0,0,0,.84);
     }
 
     img {
-        width: 100%;
+        max-height: 467px;
+        max-width: 700px;
+        display: block;
+        margin: auto;
         @include box-shadow();
     }
 
