@@ -57,6 +57,11 @@ actives:
     major: Electrical Engineering
     name: Julianna Gecsey
     picture: /assets/imgs/brothers/julianna_gecsey.jpg
+  - hometown: Elmhurst, IL
+    linkedin: https://www.linkedin.com/in/kamil-nocon-2b9966171/
+    major: Mechanical Engineering
+    name: Kamil Nocon
+    picture: /assets/imgs/brothers/kamil_nocon.jpg
   semester: Fall 2018
 - members:
   - hometown: Carol Stream, IL
@@ -576,4 +581,10 @@ alumni:
   major: Mechanical Engineering
   name: Joe Kraemer
   picture: /assets/imgs/brothers/joe_kraemer.jpg
+  pledge_class: Fall 2014
+- hometown: Barrington, IL
+  linkedin: https://www.linkedin.com/in/david-kline-30288a74/
+  major: Bioengineering
+  name: David Kline
+  picture: /assets/imgs/brothers/david_kline.jpg
   pledge_class: Fall 2014
