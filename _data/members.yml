@@ -62,6 +62,36 @@ actives:
     major: Mechanical Engineering
     name: Kamil Nocon
     picture: /assets/imgs/brothers/kamil_nocon.jpg
+  - hometown: Chebanse, IL
+    linkedin: https://www.linkedin.com/in/lauren-ladehoff-262857145/
+    major: Bioengineering
+    name: Lauren Ladehoff
+    picture: /assets/imgs/brothers/lauren_ladehoff.JPG
+  - hometown: Lake Zurich, IL
+    linkedin: ''
+    major: Economics and Statistics
+    name: Sam Touvannas
+    picture: /assets/imgs/brothers/sam_touvannas.jpg
+  - hometown: Elmhurst, IL
+    linkedin: ''
+    major: Systems Engineering
+    name: 'Sabin Gianelloni '
+    picture: /assets/imgs/brothers/sabin_gianelloni_.jpg
+  - hometown: Johnsburg, IL
+    linkedin: https://www.linkedin.com/in/ryanmuehlfelder/
+    major: Systems Engineering & Design
+    name: Ryan Muehlfelder
+    picture: /assets/imgs/brothers/ryan_muehlfelder.jpg
+  - hometown: Chicago, IL
+    linkedin: https://www.linkedin.com/in/adam-mccarthy-170351172?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BB7HoQZ9kQW%2BA0A5jMxdxVQ%3D%3D
+    major: Systems Engineering
+    name: Adam McCarthy
+    picture: /assets/imgs/brothers/adam_mccarthy.JPG
+  - hometown: Naperville, IL
+    linkedin: https://www.linkedin.com/in/kevinhu5695/
+    major: Electrical Engineering
+    name: Kevin Hu
+    picture: /assets/imgs/brothers/kevin_hu.jpg
   semester: Fall 2018
 - members:
   - hometown: Carol Stream, IL
