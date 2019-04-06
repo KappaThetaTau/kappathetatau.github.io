@@ -8,6 +8,7 @@ Theta Tau is a professional engineering fraternity, and our Projects committee m
 
 ## Project Overview
 
+
 ### Objective
 
 The average human’s peripheral vision is so limiting. Why not put on some goggles and pretend you’re flying, all without moving an inch? Over the past few years, drones have become more and more accessible to amateur builders. 
@@ -28,6 +29,7 @@ Drones have been around for years, recently becoming wildly popular with FPV rac
 
 ## Design Overview
 
+
 ### General Drone Block Diagram
 <img src = "http://i65.tinypic.com/2l9pc4.png" style="width:600px; height:400px">
 
@@ -37,11 +39,13 @@ Drones have been around for years, recently becoming wildly popular with FPV rac
 
 ### Processing Subsystem
 
+
 #### Flight Controller (FC)
 
 The flight controller acts as the “brain” of the FPV. It receives input from the user via the RX/TX and controls the flight of the drone, mainly the motors, in response to our input. We opted for the Acro 6, due to its compatibility with CleanFlight, our software of choice to program the flight controller, along with the rest of the parts of our drone.
 
 ### Communication Subsystem
+
 
 #### Radio Receiver (RX)
 
@@ -57,6 +61,7 @@ The video transmitter take the video feed from the FPV camera on the drone and s
 
 ### Imaging Subsystem
 
+
 #### FPV Camera
 
 This camera is designed to capture an image in front of the FPV quadcopter for the VTX to pick up and send to the googles.  This model has 110 degrees of view - a good mix between having a wide enough view to be aware of the surroundings without losing detail. It is lightweight and small in size at only 10 grams, so there won’t be any trouble fitting this camera to the frame and wiring it to the transmitter.  
@@ -66,6 +71,7 @@ This camera is designed to capture an image in front of the FPV quadcopter for t
 The FPV Goggles are used to receive the video feed that is being sent from the FPV camera mounted onto the quadcopter. We chose the google set we are using since it is compatible with the wireless frequency that the VTX is sending the video over. We also chose to use this set due to its long two and a half hour battery life, meaning that we can take the quadcopter out for extended periods of time and not have to worry about being able to see the location of the quadcopter.
 
 ### Power Subsystem
+
 
 #### Power Distribution Board (PDB)
 
@@ -81,6 +87,7 @@ We chose the Turnigy Reaktor 250W LiPo charger for our lipo batteries. This char
 
 ### Electro-mechanical Subsystem
 
+
 #### Electric Speed Controller (ESC)
 
 The ESCs are essential for regulating the current that goes to the motors, allowing us to adjust the speed that each motor spins at. They connect to the PDB and microcontroller. The PDB provides the current from the battery and the microcontroller tells the ESC how fast it wants the motor to spin.
@@ -90,6 +97,7 @@ The ESCs are essential for regulating the current that goes to the motors, allow
 The “KV” of a motor determines the rotations per minute of a motor. The KV is set by the number of copper windings around the stator [5]. The motor we selected is a 2300KV motor, along with our 14.8 V battery, will spin at 34040 rotations per minute. This speed will decrease due to air resistance when a propeller is mounted on, but should still be fast enough to carry all the components we put on the frame. 
 
 ### Additional Components
+
 
 #### Frame
 As the frame is the skeleton of the drone, it needs to be strong enough to hold all the other components while also being strong enough to withstand any collisions and falls. Our frame is made of carbon fiber, a material with higher tensile strength, higher stiffness, and lesser weight than other options. The frame’s shape is named Hybrid-X, with the X-frame’s arm angles combined with the H-frame’s long body, affecting how thrusts are applied on the frame. [4] 
@@ -112,3 +120,13 @@ Chris Rioux <a class="brother-linkedin" target="blank" href="https://www.linkedi
 Akhil Chainani <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/akhil-chainani/"><i class="link fab fa-linkedin"></i></a>
 
 ## References
+
+	[1] <a href = "https://www.vanguardngr.com/2018/10/china-launches-worlds-largest-drone/">https://www.vanguardngr.com/2018/10/china-launches-worlds-largest-drone/</a>
+
+	[2] https://www.microdrones.com/en/industry-experts/
+
+	[3] https://opencv.org
+	
+	[4] https://oscarliang.com/mini-quad-frame-basics/
+
+	[5] https://oscarliang.com/quadcopter-motor-propeller/
