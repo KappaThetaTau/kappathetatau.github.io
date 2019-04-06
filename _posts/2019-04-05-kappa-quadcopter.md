@@ -6,8 +6,7 @@ image: /assets/imgs/posts/pastedimage2.png
 ---
 Theta Tau is a professional engineering fraternity, and our Projects committee makes a project for Engineering Open House each year. Our pasts projects include a robotic claw, mini tesla coil, interactive ferrofluid, and a catapult among others.
 
-## Project Overview
-
+## Project Overview 
 
 ### Objective
 
@@ -126,7 +125,6 @@ Akhil Chainani <a class="brother-linkedin" target="blank" href="https://www.link
 [2] <a href = "https://www.microdrones.com/en/industry-experts/">https://www.microdrones.com/en/industry-experts/</a>
 
 [3] <a href = "https://opencv.org">https://opencv.org</a>
-	
 
 [4] <a href = "https://oscarliang.com/mini-quad-frame-basics/">https://oscarliang.com/mini-quad-frame-basics/</a>
 
