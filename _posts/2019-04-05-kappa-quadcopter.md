@@ -126,7 +126,9 @@ The propellers of our drone contribute to using the spin of the motors to keep t
 ## Projects Committee Team
 
 Chris Rioux <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/chrisrioux664704/"> <i class="link fab fa-linkedin"></i></a>, 
-Akhil Chainani <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/akhil-chainani/"><i class="link fab fa-linkedin"></i></a>
+Akhil Chainani <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/akhil-chainani/"><i class="link fab fa-linkedin"></i></a>, Rishab Pohane <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/rishab-pohane"> <i class="link fab fa-linkedin"></i></a>, Arushi Agarwal <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/agarwalarushi/"><i class="link fab fa-linkedin"></i></a>, Jose Lopez <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/joselopezprofile/"><i class="link fab fa-linkedin"></i></a>, Kamil Nocon <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/kamil-nocon-2b9966171"><i class="link fab fa-linkedin"></i></a>, Kanchi Shah <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/kanchishah/"><i class="link fab fa-linkedin"></i></a>, 
+
+
 
 ## References
 
