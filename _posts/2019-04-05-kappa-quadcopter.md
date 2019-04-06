@@ -7,7 +7,7 @@ image: /assets/imgs/posts/pastedimage2.png
 Theta Tau is a professional engineering fraternity, and our Projects committee makes a project for Engineering Open House each year. Our pasts projects include a robotic claw, mini tesla coil, interactive ferrofluid, and a catapult among others.
 
 ## Project Overview 
-### 
+
 ### Objective
 
 The average human’s peripheral vision is so limiting. Why not put on some goggles and pretend you’re flying, all without moving an inch? Over the past few years, drones have become more and more accessible to amateur builders. 
