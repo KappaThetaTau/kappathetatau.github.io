@@ -121,12 +121,13 @@ Akhil Chainani <a class="brother-linkedin" target="blank" href="https://www.link
 
 ## References
 
-	[1] <a href = "https://www.vanguardngr.com/2018/10/china-launches-worlds-largest-drone/">https://www.vanguardngr.com/2018/10/china-launches-worlds-largest-drone/</a>
+[1] <a href = "https://www.vanguardngr.com/2018/10/china-launches-worlds-largest-drone/">https://www.vanguardngr.com/2018/10/china-launches-worlds-largest-drone/</a>
 
-	[2] https://www.microdrones.com/en/industry-experts/
+[2] <a href = "https://www.microdrones.com/en/industry-experts/">https://www.microdrones.com/en/industry-experts/</a>
 
-	[3] https://opencv.org
+[3] <a href = "https://opencv.org">https://opencv.org</a>
 	
-	[4] https://oscarliang.com/mini-quad-frame-basics/
 
-	[5] https://oscarliang.com/quadcopter-motor-propeller/
+[4] <a href = "https://oscarliang.com/mini-quad-frame-basics/">https://oscarliang.com/mini-quad-frame-basics/</a>
+
+[5] <a href = "https://oscarliang.com/quadcopter-motor-propeller/">https://oscarliang.com/quadcopter-motor-propeller/</a>
