@@ -66,7 +66,7 @@ actives:
     linkedin: https://www.linkedin.com/in/lauren-ladehoff-262857145/
     major: Bioengineering
     name: Lauren Ladehoff
-    picture: /assets/imgs/brothers/lauren_ladehoff.JPG
+    picture: /assets/imgs/brothers/lauren_ladehoff.jpg
   - hometown: Lake Zurich, IL
     linkedin: ''
     major: Economics and Statistics
@@ -86,12 +86,22 @@ actives:
     linkedin: https://www.linkedin.com/in/adam-mccarthy-170351172?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BB7HoQZ9kQW%2BA0A5jMxdxVQ%3D%3D
     major: Systems Engineering
     name: Adam McCarthy
-    picture: /assets/imgs/brothers/adam_mccarthy.JPG
+    picture: /assets/imgs/brothers/adam_mccarthy.jpg
   - hometown: Naperville, IL
     linkedin: https://www.linkedin.com/in/kevinhu5695/
     major: Electrical Engineering
     name: Kevin Hu
     picture: /assets/imgs/brothers/kevin_hu.jpg
+  - hometown: Naperville, IL
+    linkedin: https://www.linkedin.com/in/farhan-zargar/
+    major: Civil Engineering
+    name: Farhan Zargar
+    picture: /assets/imgs/brothers/farhan_zargar.jpg
+  - hometown: N/A (if you want to be diverse you can put Martinez, Argentina)
+    linkedin: https://www.linkedin.com/in/danielmgros/
+    major: Computer Engineering
+    name: Daniel Gros
+    picture: /assets/imgs/brothers/daniel_gros.jpg
   semester: Fall 2018
 - members:
   - hometown: Carol Stream, IL
