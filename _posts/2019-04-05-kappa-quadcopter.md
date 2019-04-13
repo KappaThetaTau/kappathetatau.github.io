@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Kappa Quadcopter: '
+title: Kappa Quadcopter
 date: 2019-04-05T00:09:40.609Z
 image: /assets/imgs/posts/pastedimage2.png
 ---
