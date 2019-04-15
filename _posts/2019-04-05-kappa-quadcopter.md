@@ -33,11 +33,11 @@ Drones have been around for years, recently becoming wildly popular with FPV rac
 
 ### General Drone Block Diagram
 
-<img src = "http://i65.tinypic.com/2l9pc4.png" style="width:600px; height:400px">
+<img src = "http://i65.tinypic.com/2l9pc4.png">
 
 ### Project-Specific Block Diagram
 
-<img src = "http://i65.tinypic.com/25ksbwx.png" style="width:600px; height:330px">
+<img src = "http://i65.tinypic.com/25ksbwx.png">
 
 ### Processing Subsystem
 
@@ -115,13 +115,13 @@ As the frame is the skeleton of the drone, it needs to be strong enough to hold 
 
 The propellers of our drone contribute to using the spin of the motors to keep the drone in the air. There are different blade amounts on propellers which handle the power supplied to the propeller differently. Engines with larger horsepower require more blades on the propeller. Currently, there are four blades on each propeller of our drone.
 
-<img src = "http://i67.tinypic.com/e9yrty.jpg" style="width:600px; height:400px">
+<img src = "http://i67.tinypic.com/e9yrty.jpg">
 
 ## Presenting at EOH
 
 <a href = "https://www.eoh.ec.illinois.edu/">Engineering Open House</a> is an annual student-led event featuring two days of exhibits and competitions that showcase the work of engineering students at the University of Illinois. We had a lot of fun presenting at this event. We met many children with an interest in drones who were very fond of ours!
 
-<img src = "http://i67.tinypic.com/14mm3k.jpg" style="width:475px;height:350px">
+<img src = "http://i67.tinypic.com/14mm3k.jpg">
 
 ## Projects Committee Team
 
