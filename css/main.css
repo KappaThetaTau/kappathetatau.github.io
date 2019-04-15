@@ -443,7 +443,7 @@
     margin-bottom: 1em; }
   .post img {
     max-height: 467px;
-    max-width: 700px;
+    max-width: 100%;
     display: block;
     margin: auto;
     box-shadow: #bbbbbb 0px 2px 5px; }

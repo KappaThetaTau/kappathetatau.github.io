@@ -24,8 +24,8 @@ The materials needed for Theta Claw were:
 * **1** 3mm acrylic sheet
 * Assorted fasteners (shown below)
 
-<img src = "http://i64.tinypic.com/35mmsmq.png" style="width:300px;height:350px;"> <img src = "http://i66.tinypic.com/2vww8yc.png" style="width:300px;height:350px;">
-<img src = "http://i63.tinypic.com/vxem1j.jpg" style="width:400px;height:250px;">
+<img src = "http://i64.tinypic.com/35mmsmq.png"> <img src = "http://i66.tinypic.com/2vww8yc.png">
+<img src = "http://i63.tinypic.com/vxem1j.jpg">
 
 ## Assembling the Arm
 
@@ -34,19 +34,19 @@ The materials needed for Theta Claw were:
 
 We used a sheet of 3mm thick acrylic and a laser cutting machine to cut out the parts according to the drawing provided by MeArm. The laser cutter we used was the Epilog Fusion M2, available in the UIUC MechSE department's <a href ="http://innovationstudio.mechse.illinois.edu/">Innovation Studio</a>. The laser cuts the acrylic by vaporizing a thin line along each part’s outline.
 
-<img src="https://media.giphy.com/media/eesaY4rN6kPY6WXKvM/giphy.gif" style="width:400px;height:350px">
+<img src="https://media.giphy.com/media/eesaY4rN6kPY6WXKvM/giphy.gif">
 
 ### 2) Assembling the Pieces
 
 We followed the MeArm V1.0 manual for steps on assembling the arm. The manual can be found <a href = "http://learn.mime.co.uk/assets/docs/control-your-mearm-from-arduino/MeArm_v1.0_Manual_for_Arduino_v1.0.pdf">here</a>. Several pieces look very similar and without attention to detail could easily be swapped. We were able to assemble the arm with calibrated servos in place in just a couple hours during our weekly meeting. One part was warped from the laser cutting process and needed to be recut.
 
-<img src = "http://i67.tinypic.com/2lvg6bt.jpg" style="width:350px;height:300px"><img src = "http://i64.tinypic.com/2ylpug4.jpg" style="width:350px;height:300px">
+<img src = "http://i67.tinypic.com/2lvg6bt.jpg"><img src = "http://i64.tinypic.com/2ylpug4.jpg">
 
 ### 3) Wiring the Arm
 
 Theta Claw is controlled using a clever system of 4 servos and the Arduino Uno microcontroller. Each servo is connected to power and a digital pin on the Arduino using jumper wires, as shown below.
 
-<img src = "http://i67.tinypic.com/5wwjyp.jpg" style="width:350px;height:300px"><img src = "http://i64.tinypic.com/2zz7ouh.jpg" style="width:350px;height:300px">
+<img src = "http://i67.tinypic.com/5wwjyp.jpg"><img src = "http://i64.tinypic.com/2zz7ouh.jpg">
 
 ### 4) Programming the Arduino
 
@@ -194,13 +194,13 @@ void resetServoPosition(int curr, Servo servo) {
 
 We decided on the following controls for our joysticks because they were the most intuitive - however, these could be any direction by changing a few lines of code.
 
-<img src = "http://i65.tinypic.com/1y7plj.png" style="width:400px;height:350px">
+<img src = "http://i65.tinypic.com/1y7plj.png">
 
 ### 5) Testing the Arduino
 
 To power the Arduino, we used a 6V power supply.
 
-<img src="https://media.giphy.com/media/25pXQ6xJ0EG5ykrnQj/giphy.gif" style="width:400px;height:350px">
+<img src="https://media.giphy.com/media/25pXQ6xJ0EG5ykrnQj/giphy.gif">
 
 ### Problems
 
@@ -217,8 +217,8 @@ The MeArm design was not perfect in that certain abrupt movements could cause th
 
 <a href = "https://www.eoh.ec.illinois.edu/">Engineering Open House</a> is an annual student-led event featuring two days of exhibits and competitions that showcase the work of engineering students at the University of Illinois. We had a lot of fun presenting at this event. We met many children with an interest in robotics and a few who were interested in replicating this claw at home!
 
-<img src = "http://i67.tinypic.com/2mfch2x.jpg" style="width:300px;height:350px"><img src = "http://i68.tinypic.com/cu5ow.jpg" style="width:300px;height:350px">
-<img src = "http://i63.tinypic.com/hrh2lu.png" style="width:600px; height:400px">
+<img src = "http://i67.tinypic.com/2mfch2x.jpg"><img src = "http://i68.tinypic.com/cu5ow.jpg">
+<img src = "http://i63.tinypic.com/hrh2lu.png">
 
 ## Future Plans
 
