@@ -19,7 +19,7 @@ actives:
     linkedin: https://www.linkedin.com/in/josh-wrobel-a6675015a/
     major: Mechanical Engineering
     name: Josh Wrobel
-    picture: /assets/imgs/brothers/josh_wrobel.JPG
+    picture: /assets/imgs/brothers/josh_wrobel.jpg
   - hometown: Deer Park, IL
     linkedin: https://www.linkedin.com/in/zakir-ujjainwala-60267a172/
     major: Aerospace Engineering
@@ -55,6 +55,11 @@ actives:
     major: Electrical Engineering
     name: Peter Hevrdejs
     picture: /assets/imgs/brothers/peter_hevrdejs.jpg
+  - hometown: Chicago, IL
+    linkedin: https://www.linkedin.com/in/marc-huang-4b870a185
+    major: Mechanical Engineering
+    name: Marcanthony Huang
+    picture: /assets/imgs/brothers/marcanthony_huang.jpg
   semester: Spring 2019
 - members:
   - hometown: Stamford, CT
