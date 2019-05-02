@@ -481,7 +481,7 @@ actives:
     name: Lisa Yala
     picture: /assets/imgs/brothers/lisa_yala.jpg
   - hometown: Lindenhurst, IL
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/alyssagunn2/
     major: 'Engineering Mechanics '
     name: Alyssa Gunn
     picture: /assets/imgs/brothers/alyssa_gunn.jpg
