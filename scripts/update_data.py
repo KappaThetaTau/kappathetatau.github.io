@@ -48,7 +48,7 @@ def index_of_class(pledge_class):
     # some error checking
     semester, year = pledge_class.split()
     if not semester in ('Fall', 'Spring'):
-        print 'Pledge class, {}, is wrong'.format(pledge_class)
+        print('Pledge class, {}, is wrong'.format(pledge_class))
         exit(1)
 
     for i in range(len(data['actives'])):
@@ -71,7 +71,7 @@ if __name__=="__main__":
     gfile = drive.CreateFile({'id': CSV_ID})
     gfile.GetContentFile(CSV_NAME, mimetype='text/csv')
 
-    with open(CSV_NAME, 'rb') as csvfile:
+    with open(CSV_NAME, 'r') as csvfile:
         reader = csv.reader(csvfile)
         next(reader, None)
         for row in reader:
@@ -83,7 +83,7 @@ if __name__=="__main__":
             linkedin = row[LINKEDIN_IDX]
             alumni = row[ALUMNI_IDX]
 
-            print "Currently grabbing {}'s data!".format(name)
+            print("Currently grabbing {}'s data!".format(name))
 
             # Check if we already processed it
             processed_name = name.lower().replace(' ', '_')
@@ -100,7 +100,7 @@ if __name__=="__main__":
                 image_name = compress_me(os.path.join(BROTHERS_IMG_DIR, pic_name), jpeg=True, quality=85, dimension=450)[2]
             else:
                 image_name = processed_name + '.jpg'
-                print 'Already downloaded image for {}'.format(name)
+                print('Already downloaded image for {}'.format(name))
 
             # Create brother info dictionary
             brother_data = {
@@ -110,7 +110,7 @@ if __name__=="__main__":
                     'linkedin': linkedin,
                     'picture': os.path.join(BROTHERS_IMG_LOCATION, image_name)
                     }
-            
+
             if not alumni:
                 # Add to 'actives' list. The for loop is needed to preserve ordering in the yaml file
                 for pledge_class in data['actives']:
@@ -118,7 +118,7 @@ if __name__=="__main__":
                         pledge_class['members'].append(brother_data)
                         break
                 else:
-                    print "WHAT?! This is only printing because the brother's semester data was not found"
+                    print("WHAT?! This is only printing because the brother's semester data was not found")
                     exit(1)
             else:
                 brother_data['pledge_class'] = semester
@@ -130,4 +130,4 @@ if __name__=="__main__":
     with open(MEMBERS_FILE_PATH, 'w') as outfile:
         yaml.dump(data, outfile, default_flow_style=False)
 
-    print 'Successfully updated members.yml and added images to {}'.format(BROTHERS_IMG_LOCATION)
+    print('Successfully updated members.yml and added images to {}'.format(BROTHERS_IMG_LOCATION))

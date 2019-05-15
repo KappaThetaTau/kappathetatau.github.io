@@ -1,4 +1,4 @@
-#run this in any directory add -v for verbose 
+#run this in any directory add -v for verbose
 #get Pillow (fork of PIL) from pip before running --> pip install Pillow
 
 import os
@@ -17,7 +17,7 @@ def compress_me(file_path, verbose=False, jpeg=False, quality=85, dimension=256)
     oldsize = os.stat(file_path).st_size
     image = Image.open(file_path)
 
-    #set quality= to the preferred quality. 
+    #set quality= to the preferred quality.
     #I found that 85 has no difference in my 6-10mb files and that 65 is the lowest reasonable number
     image.thumbnail((dimension,dimension))
     if jpeg:
@@ -26,9 +26,9 @@ def compress_me(file_path, verbose=False, jpeg=False, quality=85, dimension=256)
         image.save(file_path,optimize=True,quality=quality)
 
     newsize = os.stat(file_path).st_size
-    percent = (oldsize-newsize)/float(oldsize)*100 
+    percent = (oldsize-newsize)/float(oldsize)*100
     if (verbose):
-        print "File compressed from {0} to {1} or {2}%".format(oldsize,newsize,percent)
+        print("File compressed from {0} to {1} or {2}%".format(oldsize,newsize,percent))
     return percent, file_path, path_leaf(file_path)
 
 def path_leaf(path):
@@ -44,22 +44,22 @@ def convert_to_jpg(filepath):
     outfile = f + ".jpg"
     # We don't want to delete .JPG or .JPEG so we lower the extension
     filepath_lowered = f + e.lower()
-    if outfile != filepath_lowered: 
+    if outfile != filepath_lowered:
         try:
             image = Image.open(filepath)
 
             # Rotate image: https://stackoverflow.com/a/6218425
-            # for orientation in ExifTags.TAGS.keys() : 
-                # if ExifTags.TAGS[orientation] == 'Orientation' : break 
+            # for orientation in ExifTags.TAGS.keys() :
+                # if ExifTags.TAGS[orientation] == 'Orientation' : break
             orientation = 274  # get 274 through upper loop
             try:
                 exif=dict(image._getexif().items())
-                print exif[orientation]
-                if exif[orientation] == 3 : 
+                print(exif[orientation])
+                if exif[orientation] == 3 :
                     image=image.rotate(180, expand=True)
-                elif exif[orientation] == 6 : 
+                elif exif[orientation] == 6 :
                     image=image.rotate(270, expand=True)
-                elif exif[orientation] == 8 : 
+                elif exif[orientation] == 8 :
                     image=image.rotate(90, expand=True)
             except (AttributeError, KeyError): # image has no meta data
                 pass
@@ -94,8 +94,8 @@ def main():
                             quality=args.compress_quality,
                             dimension=args.compress_dimension)
                     total_compression += percent
-    print "Average Compression: %d" % (float(total_compression)/num_imgs)
-    print "Done"
+    print("Average Compression: %d" % (float(total_compression)/num_imgs))
+    print("Done")
 
 if __name__ == "__main__":
     main()
