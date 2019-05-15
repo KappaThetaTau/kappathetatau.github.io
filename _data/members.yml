@@ -64,7 +64,7 @@ actives:
     linkedin: https://www.linkedin.com/in/daria-wendell-963330135/
     major: Bioengineering
     name: Daria Wendell
-    picture: /assets/imgs/brothers/daria_wendell.JPG
+    picture: /assets/imgs/brothers/daria_wendell.jpg
   - hometown: Champaign, IL
     linkedin: ''
     major: Mechanical Engineering
@@ -167,14 +167,9 @@ actives:
     major: Civil Engineering
     name: Farhan Zargar
     picture: /assets/imgs/brothers/farhan_zargar.jpg
-  - hometown: Martinez, Argentina
+  - hometown: Northbrook, IL
     linkedin: https://www.linkedin.com/in/danielmgros/
     major: Computer Engineering
-    name: Daniel Gros
-    picture: /assets/imgs/brothers/daniel_gros.jpg
-  - hometown: Northbrook, IL (THIS IS THE ONLY CHANGE)
-    linkedin: https://www.linkedin.com/in/danielmgros/
-    major: same one
     name: Daniel Gros
     picture: /assets/imgs/brothers/daniel_gros.jpg
   semester: Fall 2018
