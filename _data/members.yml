@@ -60,6 +60,16 @@ actives:
     major: Mechanical Engineering
     name: Marcanthony Huang
     picture: /assets/imgs/brothers/marcanthony_huang.jpg
+  - hometown: North Caldwell, NJ
+    linkedin: https://www.linkedin.com/in/daria-wendell-963330135/
+    major: Bioengineering
+    name: Daria Wendell
+    picture: /assets/imgs/brothers/daria_wendell.JPG
+  - hometown: Champaign, IL
+    linkedin: ''
+    major: Mechanical Engineering
+    name: Jared Rosenbaum
+    picture: /assets/imgs/brothers/jared_rosenbaum.jpg
   semester: Spring 2019
 - members:
   - hometown: Stamford, CT
@@ -160,6 +170,11 @@ actives:
   - hometown: Martinez, Argentina
     linkedin: https://www.linkedin.com/in/danielmgros/
     major: Computer Engineering
+    name: Daniel Gros
+    picture: /assets/imgs/brothers/daniel_gros.jpg
+  - hometown: Northbrook, IL (THIS IS THE ONLY CHANGE)
+    linkedin: https://www.linkedin.com/in/danielmgros/
+    major: same one
     name: Daniel Gros
     picture: /assets/imgs/brothers/daniel_gros.jpg
   semester: Fall 2018
