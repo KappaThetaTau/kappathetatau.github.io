@@ -51,7 +51,7 @@ $ python scripts/update_data.py
 ## Development
 ### System Preparation
 
-1. [Ruby 2.3.0](https://rvm.io/)
+1. [Ruby 2.3.6](https://rvm.io/)
 2. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
 3. [NodeJS 6.17.1](https://github.com/nvm-sh/nvm)
 4. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
@@ -59,6 +59,7 @@ $ python scripts/update_data.py
 ### Local Installation
 1. Clone this repo, or download it into a directory of your choice.
 2. Inside the directory, run `npm install`.
+2. Inside the directory, run `bundle install`.
 
 ### Usage
 **development mode**
