@@ -75,6 +75,16 @@ actives:
     major: Mechanical Engineering
     name: Marilyn Sedlak
     picture: /assets/imgs/brothers/marilyn_sedlak.jpg
+  - hometown: Lake Forest, IL
+    linkedin: https://www.linkedin.com/in/willrandersen/
+    major: Computer Science
+    name: Will Andersen III
+    picture: /assets/imgs/brothers/will_andersen_iii.jpg
+  - hometown: Barrington, IL
+    linkedin: ''
+    major: Industrial Engineering
+    name: Annika Sachdev
+    picture: /assets/imgs/brothers/annika_sachdev.jpg
   semester: Spring 2019
 - members:
   - hometown: Stamford, CT
