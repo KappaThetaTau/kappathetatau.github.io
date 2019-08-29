@@ -1,7 +1,7 @@
 #home {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
     "announcement"
     "hero"
     "about"
@@ -18,534 +18,546 @@
     "contact"
     "sponsors";
 
-    & > div {
-        background: white;
-        color: $text-color;
+  & > div {
+    background: white;
+    color: $text-color;
+  }
+
+  p {
+    font-size: 1.0625em;
+  }
+
+  .image-button {
+    @include box-shadow();
+    $offset: 50px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin: 0.5em;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    .text {
+      display: inline-block;
+      font-size: 5em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transition: 0.3s;
+      transform: translate(-50%, -50%);
+      text-decoration: none;
+      color: white;
+
+      &:after {
+        content: "»";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -$offset;
+        transition: 0.3s;
+      }
     }
 
-    p {
-        font-size: 1.0625em;
+    .sub-text {
+      display: inline-block;
+      font-size: 1.75em;
+      position: relative;
+      top: 65%;
+      left: 55%;
+      transition: 0.3s;
+      transform: translate(-50%, -50%);
+      text-decoration: none;
+      color: white;
+      opacity: 0;
     }
 
-    .image-button {
-        @include box-shadow();
-        $offset: 50px;
-        overflow: hidden;
+    &-animation {
+      @include image-button-animation();
+    }
+
+    &:hover {
+      @include image-button-animation();
+    }
+  }
+
+  #hero {
+    @include hero-styling("/assets/imgs/hero.jpg", 57%);
+  }
+
+  #announcement {
+    grid-area: announcement;
+    margin: 10px;
+    padding: 10px 15px;
+    border: 1px solid #e1e1e1;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+
+    h4 {
+      margin-bottom: 6px;
+    }
+  }
+
+  #brothers {
+    height: 25em;
+    @include background-button-image-style(
+      "/assets/imgs/brothers-fall-2019.jpg"
+    );
+    position: relative;
+    grid-area: brothers;
+  }
+
+  #posts {
+    height: 25em;
+    @include background-button-image-style("/assets/imgs/blog-fall-2019.jpg");
+    position: relative;
+    grid-area: posts;
+  }
+
+  #faq {
+    height: 25em;
+    @include background-button-image-style("/assets/imgs/christmas_1.jpg");
+    position: relative;
+    grid-area: faq;
+  }
+
+  #rush {
+    height: 25em;
+    @include background-button-image-style("/assets/imgs/rush-fall-2019.jpg");
+    position: relative;
+    grid-area: rush;
+  }
+
+  #about {
+    display: grid;
+    grid-area: about;
+    padding: $up-down-padding 20px 2em;
+    position: relative;
+
+    &::after {
+      background-position: center;
+      background-repeat: no-repeat;
+      content: "";
+      background-image: url("/assets/imgs/thetatau.png");
+      opacity: 0.05;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+    }
+  }
+
+  .slide {
+    @include background-image-base();
+  }
+
+  #brotherhood {
+    display: grid;
+    grid-area: brotherhood;
+    padding: 0 20px 2em;
+  }
+
+  #brotherhood-slides {
+    display: grid;
+    grid-area: brotherhood-slides;
+    @include box-shadow();
+    margin-bottom: 2em;
+    .slide-1 {
+      background-image: url("/assets/imgs/brotherhood_1.jpg");
+    }
+    .slide-2 {
+      background-image: url("/assets/imgs/brotherhood_2.jpg");
+    }
+    .slide-3 {
+      background-image: url("/assets/imgs/brotherhood_3.jpg");
+    }
+    .slide-4 {
+      background-image: url("/assets/imgs/brotherhood_4.jpg");
+    }
+    .slide-5 {
+      background-image: url("/assets/imgs/brotherhood_5.jpg");
+    }
+    .slide-6 {
+      background-image: url("/assets/imgs/brotherhood_6.jpg");
+    }
+    .slide-7 {
+      background-image: url("/assets/imgs/brotherhood_7.jpg");
+    }
+    .slide-8 {
+      background-image: url("/assets/imgs/brotherhood_8.jpg");
+    }
+    .slide-9 {
+      background-image: url("/assets/imgs/brotherhood_9.jpg");
+    }
+    .slide-10 {
+      background-image: url("/assets/imgs/brotherhood_10.jpg");
+    }
+    .slide-11 {
+      background-image: url("/assets/imgs/brotherhood_11.jpg");
+    }
+    .slide-12 {
+      background-image: url("/assets/imgs/brotherhood_12.jpg");
+    }
+    .slide-13 {
+      background-image: url("/assets/imgs/brotherhood_13.jpg");
+    }
+    .slide-14 {
+      background-image: url("/assets/imgs/brotherhood_14.jpg");
+    }
+  }
+
+  #service {
+    display: grid;
+    grid-area: service;
+    padding: 0 20px 2em;
+  }
+
+  #service-slides {
+    display: grid;
+    grid-area: service-slides;
+    @include box-shadow();
+    .slide-1 {
+      background-image: url("/assets/imgs/service_1.jpg");
+    }
+    .slide-2 {
+      background-image: url("/assets/imgs/service_2.jpg");
+    }
+    .slide-3 {
+      background-image: url("/assets/imgs/service_3.jpg");
+    }
+    .slide-4 {
+      background-image: url("/assets/imgs/service_4.jpg");
+    }
+    .slide-5 {
+      background-image: url("/assets/imgs/service_5.jpg");
+    }
+    .slide-6 {
+      background-image: url("/assets/imgs/service_6.jpg");
+    }
+  }
+
+  #stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-area: stats;
+    padding: $up-down-padding/2 0;
+    -webkit-tap-highlight-color: rgba(
+      255,
+      255,
+      255,
+      0
+    ); // Make it so mobile tap does not highlight the div
+    text-align: center;
+    position: relative;
+
+    #particles {
+      z-index: 100;
+      width: 100%;
+      position: absolute;
+      height: 100%;
+      background-image: url("");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%;
+    }
+
+    h1 {
+      grid-column: 1/3;
+      margin-bottom: 1em;
+    }
+
+    .data {
+      font-size: 1.35em;
+      padding: 20px;
+      p {
+        padding: 10px;
+      }
+      .number {
+        font-weight: 400;
+        font-family: "Roboto";
+        padding: 0;
+      }
+      .line {
+        width: 60px;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.8);
         display: block;
-        position: relative;
-        margin: 0.50em;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  #contact {
+    grid-area: contact;
+    padding: 1em 20px;
+    font-size: 0.8em;
+    #list {
+      list-style: none;
+      .title {
+        font-weight: 500;
+        font-size: 1.05em;
+      }
+      .name {
+        font-weight: 400;
+      }
+      .email {
+        font-weight: 300;
+      }
+    }
+    ul {
+      li {
+        margin: 0.25em;
+      }
+    }
+  }
+
+  #portfolio {
+    grid-area: portfolio;
+    overflow: hidden;
+    padding-bottom: $up-down-padding;
+
+    a {
+      text-decoration: none;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    img {
+      margin: 5px 20px;
+      height: 128px;
+      transition: all 0.5s ease;
+
+      &:hover {
+        @include box-shadow();
+        transform: scale(1.1);
         cursor: pointer;
-        transition: all 0.30s;
-
-        .text {
-            display: inline-block;
-            font-size: 5em;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transition: 0.30s;
-            transform: translate(-50%, -50%);
-            text-decoration: none;
-            color: white;
-
-            &:after {
-                content: '»';
-                position: absolute;
-                opacity: 0;
-                top: 0;
-                right: -$offset;
-                transition: 0.30s;
-            }
-        }
-
-        .sub-text {
-            display: inline-block;
-            font-size: 1.75em;
-            position: relative;
-            top: 65%;
-            left: 55%;
-            transition: 0.30s;
-            transform: translate(-50%, -50%);
-            text-decoration: none;
-            color: white;
-            opacity: 0;
-        }
-
-        &-animation {
-            @include image-button-animation();
-        }
-
-        &:hover {
-            @include image-button-animation();
-        }
+      }
     }
 
-    #hero {
-        @include hero-styling('/assets/imgs/hero.jpg', 57%);
-    }
+    .photobanner {
+      &-scroll {
+        width: max-content;
 
-    #announcement {
-        grid-area: announcement;
-        margin: 10px;
-        padding: 10px 15px;
-        border: 1px solid #e1e1e1;
-        background-color: #f9f9f9;
-        border-radius: 4px;
+        #company-1 {
+          animation: bannermove 60s linear infinite;
+        }
+      }
 
-        h4 {
-            margin-bottom: 6px;
-        }
-    }
-
-    #brothers {
-        height: 25em;
-        @include background-button-image-style("/assets/imgs/group_1.jpg");
-        position: relative;
-        grid-area: brothers;
-    }
-
-    #posts {
-        height: 25em;
-        @include background-button-image-style("/assets/imgs/orchard_2.jpg");
-        position: relative;
-        grid-area: posts;
-    }
-
-    #faq {
-        height: 25em;
-        @include background-button-image-style("/assets/imgs/christmas_1.jpg");
-        position: relative;
-        grid-area: faq;
-    }
-
-    #rush {
-        height: 25em;
-        @include background-button-image-style("/assets/imgs/fun_1.jpg");
-        position: relative;
-        grid-area: rush;
-    }
-
-    #about {
-        display: grid;
-        grid-area: about;
-        padding: $up-down-padding 20px 2em;
-        position: relative;
-
-        &::after {
-            background-position: center;
-            background-repeat: no-repeat;
-            content: "";
-            background-image: url('/assets/imgs/thetatau.png');
-            opacity: 0.05;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            position: absolute;
-        }
-    }
-
-    .slide {
-        @include background-image-base();
-    }
-
-    #brotherhood {
-        display: grid;
-        grid-area: brotherhood;
-        padding: 0 20px 2em;
-    }
-
-    #brotherhood-slides {
-        display: grid;
-        grid-area: brotherhood-slides;
-        @include box-shadow(); 
-        margin-bottom: 2em;
-        .slide-1 {
-            background-image: url('/assets/imgs/brotherhood_1.jpg');
-        }
-        .slide-2 {
-            background-image: url('/assets/imgs/brotherhood_2.jpg');
-        }
-        .slide-3 {
-            background-image: url('/assets/imgs/brotherhood_3.jpg');
-        }
-        .slide-4 {
-            background-image: url('/assets/imgs/brotherhood_4.jpg');
-        }
-        .slide-5 {
-            background-image: url('/assets/imgs/brotherhood_5.jpg');
-        }
-        .slide-6 {
-            background-image: url('/assets/imgs/brotherhood_6.jpg');
-        }
-        .slide-7 {
-            background-image: url('/assets/imgs/brotherhood_7.jpg');
-        }
-        .slide-8 {
-            background-image: url('/assets/imgs/brotherhood_8.jpg');
-        }
-        .slide-9 {
-            background-image: url('/assets/imgs/brotherhood_9.jpg');
-        }
-        .slide-10 {
-            background-image: url('/assets/imgs/brotherhood_10.jpg');
-        }
-        .slide-11 {
-            background-image: url('/assets/imgs/brotherhood_11.jpg');
-        }
-        .slide-12 {
-            background-image: url('/assets/imgs/brotherhood_12.jpg');
-        }
-        .slide-13 {
-            background-image: url('/assets/imgs/brotherhood_13.jpg');
-        }
-    }
-
-    #service {
-        display: grid;
-        grid-area: service;
-        padding: 0 20px 2em;
-    }
-
-    #service-slides {
-        display: grid;
-        grid-area: service-slides;
-        @include box-shadow(); 
-        .slide-1 {
-            background-image: url('/assets/imgs/service_1.jpg');
-        }
-        .slide-2 {
-            background-image: url('/assets/imgs/service_2.jpg');
-        }
-        .slide-3 {
-            background-image: url('/assets/imgs/service_3.jpg');
-        }
-        .slide-4 {
-            background-image: url('/assets/imgs/service_4.jpg');
-        }
-    }
-
-    #stats {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-area: stats;
-        padding: $up-down-padding/2 0;
-        -webkit-tap-highlight-color: rgba(255, 255, 255, 0); // Make it so mobile tap does not highlight the div
+      &-show-all {
         text-align: center;
-        position: relative;
-
-        #particles {
-            z-index: 100;
-            width: 100%;
-            position: absolute;
-            height: 100%;
-            background-image: url("");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 50% 50%;
-        }
-
-        h1 {
-            grid-column: 1/3;
-            margin-bottom: 1em;
-        }
-
-        .data {
-            font-size: 1.35em;
-            padding: 20px;
-            p {
-                padding: 10px;
-            }
-            .number {
-                font-weight: 400;
-                font-family: "Roboto";
-                padding: 0;
-            }
-            .line {
-                width: 60px;
-                height: 2px;
-                background: rgba(0, 0, 0, 0.8);
-                display: block;
-                margin: 0 auto;
-            }
-        }
-    }
-
-    #contact {
-        grid-area: contact;
-        padding: 1em 20px;
-        font-size: 0.8em;
-        #list {
-            list-style: none;
-            .title {
-                font-weight: 500;
-                font-size: 1.05em;
-            }
-            .name {
-                font-weight: 400;
-            }
-            .email {
-                font-weight: 300;
-            }
-        }
-        ul {
-            li {
-                margin: 0.25em;
-            }
-        }
-    }
-
-    #portfolio {
-        grid-area: portfolio;
-        overflow: hidden;
-        padding-bottom: $up-down-padding;
-
-        a {
-            text-decoration: none;
-        }
-
-        h1 {
-            text-align: center;
-            margin-bottom: 15px;
-        }
 
         img {
-            margin: 5px 20px;
-            height: 128px;
-            transition: all 0.5s ease;
-
-            &:hover {
-                @include box-shadow();
-                transform: scale(1.1);
-                cursor: pointer;
-
-            }
+          height: 64px;
         }
 
-        .photobanner {
-
-            &-scroll {
-                width: max-content;
-
-                #company-1 {
-                    animation: bannermove 60s linear infinite;
-                }
-            }
-
-            &-show-all {
-
-                text-align: center;
-
-                img {
-                    height: 64px;
-                }
-
-                #company-1 {
-                    animation: none;
-                }
-
-                .company-after {
-                    display: none;
-                }
-            }
+        #company-1 {
+          animation: none;
         }
 
-        .tgl {
-            display: none;
-
-            // add default box-sizing for this scope
-            &,
-            &:after,
-            &:before,
-            & *,
-            & *:after,
-            & *:before,
-            & + .tgl-btn {
-                box-sizing: border-box;
-                &::selection {
-                    background: none;
-                }
-            }
-
-            + .tgl-btn {
-                outline: 0;
-                display: block;
-                width: 5.5em;
-                height: 2em;
-                margin: 20px auto;
-                position: relative;
-                cursor: pointer;
-                user-select: none;
-                &:after,
-                &:before {
-                    position: relative;
-                    display: block;
-                    content: "";
-                    width: 50%;
-                    height: 100%;
-                }
-
-                &:after {
-                    left: 0;
-                }
-
-                &:before {
-                    display: none;
-                }
-            }
-
-            &:checked + .tgl-btn:after {
-                left: 50%;
-            }
+        .company-after {
+          display: none;
         }
-
-        .tgl-flip {
-            + .tgl-btn {
-                padding: 2px;
-                perspective: 100px;
-                &:after,
-                &:before {
-                    display: inline-block;
-                    transition: all 1s ease;
-                    width: 100%;
-                    text-align: center;
-                    position: absolute;
-                    line-height: 2em;
-                    font-weight: 500;
-                    color: #fff;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    backface-visibility: hidden;
-                    border-radius: 2px;
-                }
-
-                &:after {
-                    content: attr(data-tg-on);
-                    background: #02C66F;
-                    transform: rotateY(-180deg);
-                }
-
-                &:before {
-                    content: attr(data-tg-off);
-                    background: #7FC6A6;
-                }
-
-                &:active:before {
-                    transform: rotateY(-20deg);
-                }
-            }
-
-            &:checked + .tgl-btn {
-                &:before {
-                    transform: rotateY(180deg);
-                }
-
-                &:after {
-                    transform: rotateY(0);
-                    left: 0;
-                    background: #FF3A19;
-                }
-
-                &:active:after {
-                    transform: rotateY(20deg);
-                }
-            }
-        }
-
+      }
     }
 
-    #sponsors {
-        grid-area: sponsors;
-        padding: 1em;
+    .tgl {
+      display: none;
 
-        h1 {
-            text-align: center;
-            padding-bottom: 1em;
+      // add default box-sizing for this scope
+      &,
+      &:after,
+      &:before,
+      & *,
+      & *:after,
+      & *:before,
+      & + .tgl-btn {
+        box-sizing: border-box;
+        &::selection {
+          background: none;
+        }
+      }
+
+      + .tgl-btn {
+        outline: 0;
+        display: block;
+        width: 5.5em;
+        height: 2em;
+        margin: 20px auto;
+        position: relative;
+        cursor: pointer;
+        user-select: none;
+        &:after,
+        &:before {
+          position: relative;
+          display: block;
+          content: "";
+          width: 50%;
+          height: 100%;
         }
 
-        .company-logo-wrapper {
-            position: relative;
-            width: 95%;
-            margin: auto;
-            text-align: center;
+        &:after {
+          left: 0;
         }
 
-        .company-logo {
-            margin: 0.25em;
-            max-width: 20%;
-            max-height: 128px;
+        &:before {
+          display: none;
         }
+      }
 
-        a {
-            text-decoration: none;
-        }
+      &:checked + .tgl-btn:after {
+        left: 50%;
+      }
     }
+
+    .tgl-flip {
+      + .tgl-btn {
+        padding: 2px;
+        perspective: 100px;
+        &:after,
+        &:before {
+          display: inline-block;
+          transition: all 1s ease;
+          width: 100%;
+          text-align: center;
+          position: absolute;
+          line-height: 2em;
+          font-weight: 500;
+          color: #fff;
+          position: absolute;
+          top: 0;
+          left: 0;
+          backface-visibility: hidden;
+          border-radius: 2px;
+        }
+
+        &:after {
+          content: attr(data-tg-on);
+          background: #02c66f;
+          transform: rotateY(-180deg);
+        }
+
+        &:before {
+          content: attr(data-tg-off);
+          background: #7fc6a6;
+        }
+
+        &:active:before {
+          transform: rotateY(-20deg);
+        }
+      }
+
+      &:checked + .tgl-btn {
+        &:before {
+          transform: rotateY(180deg);
+        }
+
+        &:after {
+          transform: rotateY(0);
+          left: 0;
+          background: #ff3a19;
+        }
+
+        &:active:after {
+          transform: rotateY(20deg);
+        }
+      }
+    }
+  }
+
+  #sponsors {
+    grid-area: sponsors;
+    padding: 1em;
+
+    h1 {
+      text-align: center;
+      padding-bottom: 1em;
+    }
+
+    .company-logo-wrapper {
+      position: relative;
+      width: 95%;
+      margin: auto;
+      text-align: center;
+    }
+
+    .company-logo {
+      margin: 0.25em;
+      max-width: 20%;
+      max-height: 128px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
 }
 
 // Desktop Styling below
 @media screen and (min-width: $desktop-trigger) {
-    #home {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: 
-        "announcement announcement"
-        "hero hero"
-        "about about"
-        "brotherhood service"
-        "brotherhood-slides service-slides"
-        "portfolio portfolio"
-        "brothers posts"
-        "faq rush"
-        "stats contact"
-        "sponsors sponsors";
+  #home {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "announcement announcement"
+      "hero hero"
+      "about about"
+      "brotherhood service"
+      "brotherhood-slides service-slides"
+      "portfolio portfolio"
+      "brothers posts"
+      "faq rush"
+      "stats contact"
+      "sponsors sponsors";
 
-        #hero {
-            font-size: $hero-desktop-font-size;
-            grid-area: hero;
-        }
-
-        p {
-            font-size: 1.3125em;
-        }
-
-        #announcement {
-            margin: 10px auto;
-            width: 700px;
-        }
-
-        #about {
-            padding: $up-down-padding 0;
-            margin-left: auto;
-            margin-right: auto;
-            width: 700px;
-        }
-
-        #brotherhood {
-            padding: 0 40px 2em;
-        }
-
-        #service {
-            padding: 0 40px 2em;
-        }
-
-        #contact {
-            margin: auto;
-            font-size: 1em;
-        }
-
-        #stats {
-            padding: 1em;
-            font-size: 1.2em;
-        }
-
-        #portfolio {
-            padding: $up-down-padding 0em;
-
-            #photobanner:hover {
-                #company-1 {
-                    animation-play-state: paused;
-                }
-            }
-        }
+    #hero {
+      font-size: $hero-desktop-font-size;
+      grid-area: hero;
     }
+
+    p {
+      font-size: 1.3125em;
+    }
+
+    #announcement {
+      margin: 10px auto;
+      width: 700px;
+    }
+
+    #about {
+      padding: $up-down-padding 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 700px;
+    }
+
+    #brotherhood {
+      padding: 0 40px 2em;
+    }
+
+    #service {
+      padding: 0 40px 2em;
+    }
+
+    #contact {
+      margin: auto;
+      font-size: 1em;
+    }
+
+    #stats {
+      padding: 1em;
+      font-size: 1.2em;
+    }
+
+    #portfolio {
+      padding: $up-down-padding 0em;
+
+      #photobanner:hover {
+        #company-1 {
+          animation-play-state: paused;
+        }
+      }
+    }
+  }
 }
