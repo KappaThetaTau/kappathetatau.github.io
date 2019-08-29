@@ -587,7 +587,7 @@
       margin-bottom: 6px; }
   #home #brothers {
     height: 25em;
-    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/group_1.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/brothers-fall-2019.jpg");
     font-weight: 200;
     background-position: center;
     background-repeat: no-repeat;
@@ -596,7 +596,7 @@
     grid-area: brothers; }
   #home #posts {
     height: 25em;
-    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/orchard_2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/blog-fall-2019.jpg");
     font-weight: 200;
     background-position: center;
     background-repeat: no-repeat;
@@ -614,7 +614,7 @@
     grid-area: faq; }
   #home #rush {
     height: 25em;
-    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/fun_1.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/rush-fall-2019.jpg");
     font-weight: 200;
     background-position: center;
     background-repeat: no-repeat;
