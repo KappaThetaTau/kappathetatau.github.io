@@ -728,7 +728,7 @@
         display: block;
         margin: 0 auto; }
   #home #contact {
-    width: 90%;
+    margin: 0;
     grid-area: contact;
     padding: 1em 20px;
     font-size: 0.8em; }
