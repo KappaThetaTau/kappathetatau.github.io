@@ -1,4 +1,6 @@
 actives:
+- members: []
+  semester: Fall 2019
 - members:
   - hometown: Elmhurst, IL
     linkedin: https://www.linkedin.com/in/courtney-jopes-37564917b/
@@ -430,6 +432,11 @@ actives:
     major: Mechanical Engineering
     name: Morgan Sutherland
     picture: /assets/imgs/brothers/morgan_sutherland.jpg
+  - hometown: Glen Carbon, IL
+    linkedin: https://www.linkedin.com/in/alexander-keil-a8ab09156/
+    major: Civil Engineering
+    name: Alec Keil
+    picture: /assets/imgs/brothers/alec_keil.jpg
   - hometown: Lisle, IL
     linkedin: https://www.linkedin.com/in/aniliza-may-410743129/
     major: Mechanical Engineering
@@ -450,11 +457,6 @@ actives:
     major: 'Engineering Mechanics '
     name: Alyssa Gunn
     picture: /assets/imgs/brothers/alyssa_gunn.jpg
-  - hometown: Glen Carbon, IL
-    linkedin: https://www.linkedin.com/in/alexander-keil-a8ab09156/
-    major: Civil Engineering
-    name: Alec Keil
-    picture: /assets/imgs/brothers/alec_keil.jpg
   semester: Fall 2016
 - members: []
   semester: Spring 2016

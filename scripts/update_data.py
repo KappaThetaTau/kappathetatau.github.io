@@ -10,7 +10,7 @@ from pydrive.drive import GoogleDrive
 
 # INITIALIZE CONSTANTS
 CSV_NAME = 'Theta Tau Website Brother Info.csv'
-CSV_ID = '1Cp0uUiHBa0amTX36_YrjFZLOwGNAN2ziry1dv7MymHY'
+CSV_ID = '1evBDIftoT8ZBg1jtLO6Wt_S6e0VNweqLC7J-fI0RmRM'
 PARENT_DIR = os.path.dirname(os.path.realpath(__file__))
 GRANDPARENT_DIR = os.path.dirname(PARENT_DIR)
 BROTHERS_IMG_LOCATION = "/assets/imgs/brothers/"
@@ -25,24 +25,26 @@ IMAGE_IDX = 7
 ALUMNI_IDX = 8
 
 data = {
-        'actives': [
-            { 'semester': 'Spring 2019', 'members': [] },
-            { 'semester': 'Fall 2018', 'members': [] },
-            { 'semester': 'Spring 2018', 'members': [] },
-            { 'semester': 'Fall 2017', 'members': [] },
-            { 'semester': 'Spring 2017', 'members': [] },
-            { 'semester': 'Fall 2016', 'members': [] },
-            { 'semester': 'Spring 2016', 'members': [] },
-            { 'semester': 'Fall 2015', 'members': [] },
-            { 'semester': 'Spring 2015', 'members': [] },
-            { 'semester': 'Fall 2014', 'members': [] },
-            { 'semester': 'Spring 2014', 'members': [] },
-            { 'semester': 'Fall 2013', 'members': [] },
-            { 'semester': 'Spring 2013', 'members': [] },
-            { 'semester': 'Fall 2012', 'members': [] },
-            ],
-        'alumni': []
-        }
+    'actives': [
+        {'semester': 'Fall 2019', 'members': []},
+        {'semester': 'Spring 2019', 'members': []},
+        {'semester': 'Fall 2018', 'members': []},
+        {'semester': 'Spring 2018', 'members': []},
+        {'semester': 'Fall 2017', 'members': []},
+        {'semester': 'Spring 2017', 'members': []},
+        {'semester': 'Fall 2016', 'members': []},
+        {'semester': 'Spring 2016', 'members': []},
+        {'semester': 'Fall 2015', 'members': []},
+        {'semester': 'Spring 2015', 'members': []},
+        {'semester': 'Fall 2014', 'members': []},
+        {'semester': 'Spring 2014', 'members': []},
+        {'semester': 'Fall 2013', 'members': []},
+        {'semester': 'Spring 2013', 'members': []},
+        {'semester': 'Fall 2012', 'members': []},
+    ],
+    'alumni': []
+}
+
 
 def index_of_class(pledge_class):
     # some error checking
@@ -56,15 +58,17 @@ def index_of_class(pledge_class):
             return i
     return -1
 
+
 def get_drive():
     # AUTHENTICATE WITH GOOGLE
     os.chdir(PARENT_DIR)
     gauth = GoogleAuth()
-    gauth.LocalWebserverAuth() # Creates local webserver and auto handles authentication.
+    gauth.LocalWebserverAuth()  # Creates local webserver and auto handles authentication.
     drive = GoogleDrive(gauth)
     return drive
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     drive = get_drive()
 
     # DOWNLOAD CSV FILE
@@ -93,8 +97,8 @@ if __name__=="__main__":
 
                 # GET FILE
                 file_extension = '.{}'.format(gfile['title'].split('.')[-1])
-                pic_name = processed_name + file_extension # generated file name
-                file_path = BROTHERS_IMG_DIR + pic_name # absolute directory
+                pic_name = processed_name + file_extension  # generated file name
+                file_path = BROTHERS_IMG_DIR + pic_name  # absolute directory
 
                 gfile.GetContentFile(file_path)
                 image_name = compress_me(os.path.join(BROTHERS_IMG_DIR, pic_name), jpeg=True, quality=85, dimension=450)[2]
@@ -104,12 +108,12 @@ if __name__=="__main__":
 
             # Create brother info dictionary
             brother_data = {
-                    'name': name,
-                    'major': major,
-                    'hometown': hometown,
-                    'linkedin': linkedin,
-                    'picture': os.path.join(BROTHERS_IMG_LOCATION, image_name)
-                    }
+                'name': name,
+                'major': major,
+                'hometown': hometown,
+                'linkedin': linkedin,
+                'picture': os.path.join(BROTHERS_IMG_LOCATION, image_name)
+            }
 
             if not alumni:
                 # Add to 'actives' list. The for loop is needed to preserve ordering in the yaml file
