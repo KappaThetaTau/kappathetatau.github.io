@@ -39,12 +39,42 @@ actives:
     linkedin: https://www.linkedin.com/in/anushka--bose/
     major: Computer Science
     name: Anushka Bose
-    picture: /assets/imgs/brothers/anushka_bose.JPG
+    picture: /assets/imgs/brothers/anushka_bose.jpg
   - hometown: Elk Grove Village, IL
     linkedin: http://linkedin.com/in/rhea-joshi-11a857165
     major: 'Chemical Engineering '
     name: Rhea Joshi
     picture: /assets/imgs/brothers/rhea_joshi.jpg
+  - hometown: Saint Charles, IL
+    linkedin: https://www.linkedin.com/in/marie-hubbard-bb86b4192
+    major: PREP for Civil & Environmental Engineering
+    name: Marie Hubbard
+    picture: /assets/imgs/brothers/marie_hubbard.jpg
+  - hometown: Cary, IL
+    linkedin: https://www.linkedin.com/in/nicholas-wageman-292b0a192/
+    major: Engineering Mechanics
+    name: Nicholas Wageman
+    picture: /assets/imgs/brothers/nicholas_wageman.jpg
+  - hometown: Mokena, IL
+    linkedin: https://www.linkedin.com/in/lauren-samanic
+    major: Mechanical Engineering
+    name: Lauren Samanic
+    picture: /assets/imgs/brothers/lauren_samanic.jpg
+  - hometown: Chicago, IL
+    linkedin: ''
+    major: Civil & Environmental Engineering
+    name: Gabriel Woszczak
+    picture: /assets/imgs/brothers/gabriel_woszczak.jpg
+  - hometown: Rolling Meadows, IL
+    linkedin: ''
+    major: Engineering Undeclared
+    name: Ashley Kuhel
+    picture: /assets/imgs/brothers/ashley_kuhel.jpg
+  - hometown: Elmhurst, IL
+    linkedin: https://www.linkedin.com/in/luke-ahern-b229aa154/
+    major: Civil Engineering
+    name: Luke Ahern
+    picture: /assets/imgs/brothers/luke_ahern.jpg
   semester: Fall 2019
 - members:
   - hometown: Elmhurst, IL
@@ -317,7 +347,7 @@ actives:
     linkedin: https://www.linkedin.com/in/thomas-c-b3a338124/
     major: Mechanical Engineering
     name: Thomas Chavez
-    picture: /assets/imgs/brothers/thomas_chavez.JPG
+    picture: /assets/imgs/brothers/thomas_chavez.jpg
   - hometown: San Ramon, CA
     linkedin: https://www.linkedin.com/in/paul-furer-40a879114
     major: Systems Engineering
