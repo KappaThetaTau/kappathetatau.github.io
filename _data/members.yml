@@ -75,6 +75,21 @@ actives:
     major: Civil Engineering
     name: Luke Ahern
     picture: /assets/imgs/brothers/luke_ahern.jpg
+  - hometown: Barrington, IL
+    linkedin: https://www.linkedin.com/in/sevan-b/
+    major: Computer Engineering
+    name: Sevan Brodjian
+    picture: /assets/imgs/brothers/sevan_brodjian.jpg
+  - hometown: 'Geneva IL '
+    linkedin: http://linkedin.com/in/kelly-perozek-a6a450195
+    major: 'Materials science and engineering '
+    name: Kelly Perozek
+    picture: /assets/imgs/brothers/kelly_perozek.jpg
+  - hometown: Streamwood, IL
+    linkedin: http://linkedin.com/in/emily-hettinger-56b0b9195
+    major: Systems Engineering & Design
+    name: Emily Hettinger
+    picture: /assets/imgs/brothers/emily_hettinger.jpg
   semester: Fall 2019
 - members:
   - hometown: Elmhurst, IL
