@@ -423,11 +423,6 @@ actives:
     major: Computer Science
     name: Mukhil Murugasamy
     picture: /assets/imgs/brothers/mukhil_murugasamy.jpg
-  - hometown: Fremont, CA
-    linkedin: https://www.linkedin.com/in/tanviraja/
-    major: Computer Science & Statistics
-    name: Tanvi Raja
-    picture: /assets/imgs/brothers/tanvi_raja.jpg
   - hometown: Geneva, IL
     linkedin: ''
     major: 'Mechanical Engineering '
@@ -565,6 +560,12 @@ actives:
 - members: []
   semester: Fall 2012
 alumni:
+- hometown: Fremont, CA
+  linkedin: https://www.linkedin.com/in/tanviraja/
+  major: Computer Science & Statistics
+  name: Tanvi Raja
+  picture: /assets/imgs/brothers/tanvi_raja.jpg
+  pledge_class: Fall 2017
 - hometown: Caledonia, IL
   linkedin: https://www.linkedin.com/in/kajsachen/
   major: Bioengineering
