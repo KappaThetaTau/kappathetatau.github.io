@@ -1,8 +1,9 @@
 backend:
-    name: git-gateway
-    branch: master # Branch to update (optional; defaults to master)
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 media_folder: "assets/imgs/posts" # Media files will be stored in the repo under assets/imgs
+future: true
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -11,73 +12,73 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "image", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: settings
     label: Settings
     files:
-        - label: Navigation Menu
-          name: navigation
-          file: _data/navigation.yml
-          fields:
-              - label: Navigation Links
-                name: navigation
-                widget: list
-                fields:
-                    - {label: Menu Item, name: item, widget: string}
-                    - {label: Link, name: link, widget: string}
+      - label: Navigation Menu
+        name: navigation
+        file: _data/navigation.yml
+        fields:
+          - label: Navigation Links
+            name: navigation
+            widget: list
+            fields:
+              - { label: Menu Item, name: item, widget: string }
+              - { label: Link, name: link, widget: string }
   - name: announcement
     label: Announcement
     files:
-        - label: Announcement
-          name: announcement_data
-          file: _data/announcement.yml
-          fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Message, name: message, widget: string}
-              - {label: Date, name: date, widget: string}
-              - {label: Show, name: show, widget: boolean}
+      - label: Announcement
+        name: announcement_data
+        file: _data/announcement.yml
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Message, name: message, widget: string }
+          - { label: Date, name: date, widget: string }
+          - { label: Show, name: show, widget: boolean }
   - name: "members"
     label: "Members"
     files:
-        - label: "Executive Members"
-          name: "executive_members"
-          file: "_data/executives.yml"
-          fields:
-              - label: Executive Members
-                name: executive_members
+      - label: "Executive Members"
+        name: "executive_members"
+        file: "_data/executives.yml"
+        fields:
+          - label: Executive Members
+            name: executive_members
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Name, name: name, widget: string }
+              - { label: Email, name: email, widget: string }
+      - label: "All Members"
+        name: "all_members"
+        file: "_data/members.yml"
+        fields:
+          - label: Active Members
+            name: actives
+            widget: list
+            fields:
+              - { label: Pledge Semester, name: semester, widget: string }
+              - label: Class Members
+                name: members
                 widget: list
                 fields:
-                    - {label: Title, name: title, widget: string}
-                    - {label: Name, name: name, widget: string}
-                    - {label: Email, name: email, widget: string}
-        - label: "All Members"
-          name: "all_members"
-          file: "_data/members.yml"
-          fields:
-              - label: Active Members
-                name: actives
-                widget: list
-                fields:
-                    - {label: Pledge Semester, name: semester, widget: string}
-                    - label: Class Members
-                      name: members
-                      widget: list
-                      fields:
-                          - {label: Name, name: name, widget: string}
-                          - {label: Major, name: major, widget: string}
-                          - {label: Hometown, name: hometown, widget: string}
-                          - {label: LinkedIn, name: linkedin, widget: string}
-                          - {label: Picture, name: picture, widget: string}
-              - label: Alumni
-                name: alumni
-                widget: list
-                fields:
-                    - {label: Name, name: name, widget: string}
-                    - {label: Major, name: major, widget: string}
-                    - {label: Hometown, name: hometown, widget: string}
-                    - {label: LinkedIn, name: linkedin, widget: string}
-                    - {label: Picture, name: picture, widget: string}
+                  - { label: Name, name: name, widget: string }
+                  - { label: Major, name: major, widget: string }
+                  - { label: Hometown, name: hometown, widget: string }
+                  - { label: LinkedIn, name: linkedin, widget: string }
+                  - { label: Picture, name: picture, widget: string }
+          - label: Alumni
+            name: alumni
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Major, name: major, widget: string }
+              - { label: Hometown, name: hometown, widget: string }
+              - { label: LinkedIn, name: linkedin, widget: string }
+              - { label: Picture, name: picture, widget: string }
