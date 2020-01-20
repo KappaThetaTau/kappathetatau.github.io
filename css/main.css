@@ -316,7 +316,7 @@
     height: 25em;
     padding: none;
     font-size: 1.2em;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/orchard_3.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/blog-fall-2019.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -350,7 +350,7 @@
       border-radius: 5px;
       position: relative;
       overflow: hidden;
-      transition: all .3s ease;
+      transition: all 0.3s ease;
       box-shadow: #bbbbbb 0px 2px 5px; }
       #blog #posts .post-preview:hover {
         -webkit-transform: translate(0px, -2px);
@@ -375,9 +375,9 @@
         #blog #posts .post-preview .title a {
           color: #714d4d; }
       #blog #posts .post-preview .meta .date {
-        font-size: .8em; }
+        font-size: 0.8em; }
       #blog #posts .post-preview .meta .words {
-        font-size: .8em; }
+        font-size: 0.8em; }
 
 @media screen and (min-width: 600px) {
   #blog #posts {
@@ -499,34 +499,34 @@
     overflow: hidden;
     display: block;
     position: relative;
-    margin: 0.50em;
+    margin: 0.5em;
     cursor: pointer;
-    transition: all 0.30s; }
+    transition: all 0.3s; }
     #home .image-button .text {
       display: inline-block;
       font-size: 5em;
       position: absolute;
       top: 50%;
       left: 50%;
-      transition: 0.30s;
+      transition: 0.3s;
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
       text-decoration: none;
       color: white; }
       #home .image-button .text:after {
-        content: '»';
+        content: "»";
         position: absolute;
         opacity: 0;
         top: 0;
         right: -50px;
-        transition: 0.30s; }
+        transition: 0.3s; }
     #home .image-button .sub-text {
       display: inline-block;
       font-size: 1.75em;
       position: relative;
       top: 65%;
       left: 55%;
-      transition: 0.30s;
+      transition: 0.3s;
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%);
       text-decoration: none;
@@ -676,6 +676,8 @@
       background-image: url("/assets/imgs/brotherhood_12.jpg"); }
     #home #brotherhood-slides .slide-13 {
       background-image: url("/assets/imgs/brotherhood_13.jpg"); }
+    #home #brotherhood-slides .slide-14 {
+      background-image: url("/assets/imgs/brotherhood_14.jpg"); }
   #home #service {
     display: grid;
     grid-area: service;
@@ -692,6 +694,10 @@
       background-image: url("/assets/imgs/service_3.jpg"); }
     #home #service-slides .slide-4 {
       background-image: url("/assets/imgs/service_4.jpg"); }
+    #home #service-slides .slide-5 {
+      background-image: url("/assets/imgs/service_5.jpg"); }
+    #home #service-slides .slide-6 {
+      background-image: url("/assets/imgs/service_6.jpg"); }
   #home #stats {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -728,7 +734,7 @@
         display: block;
         margin: 0 auto; }
   #home #contact {
-    margin: 0;
+    margin: 0 !important;
     grid-area: contact;
     padding: 1em 20px;
     font-size: 0.8em; }
@@ -842,12 +848,12 @@
         border-radius: 2px; }
       #home #portfolio .tgl-flip + .tgl-btn:after {
         content: attr(data-tg-on);
-        background: #02C66F;
+        background: #02c66f;
         -webkit-transform: rotateY(-180deg);
                 transform: rotateY(-180deg); }
       #home #portfolio .tgl-flip + .tgl-btn:before {
         content: attr(data-tg-off);
-        background: #7FC6A6; }
+        background: #7fc6a6; }
       #home #portfolio .tgl-flip + .tgl-btn:active:before {
         -webkit-transform: rotateY(-20deg);
                 transform: rotateY(-20deg); }
@@ -858,7 +864,7 @@
       -webkit-transform: rotateY(0);
               transform: rotateY(0);
       left: 0;
-      background: #FF3A19; }
+      background: #ff3a19; }
     #home #portfolio .tgl-flip:checked + .tgl-btn:active:after {
       -webkit-transform: rotateY(20deg);
               transform: rotateY(20deg); }
@@ -902,6 +908,7 @@
     #home #service {
       padding: 0 40px 2em; }
     #home #contact {
+      margin: 0 !important;
       font-size: 1em; }
     #home #stats {
       padding: 1em;
