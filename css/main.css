@@ -874,6 +874,8 @@
     #home #sponsors h1 {
       text-align: center;
       padding-bottom: 1em; }
+    #home #sponsors form {
+      text-align: center; }
     #home #sponsors .company-logo-wrapper {
       position: relative;
       width: 95%;
