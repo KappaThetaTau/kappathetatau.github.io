@@ -2,7 +2,9 @@
   "directory": {
     "active": [
       {
-        "email": "jjt4@illinois.edu"
+        "email": "jjt4@illinois.edu",
+        "role": "Web Chair",
+        "privileged": true
       }
     ]
   }
