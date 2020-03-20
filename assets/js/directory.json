@@ -1,11 +1,11 @@
 {
   "directory": {
-    "active": [
-      {
-        "email": "jjt4@illinois.edu",
+    "active": {
+      "jjt4@illinois.edu": {
+        "semester": "Fall 2018",
         "role": "Web Chair",
         "privileged": true
       }
-    ]
+    }
   }
 }
