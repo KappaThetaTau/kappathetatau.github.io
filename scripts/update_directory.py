@@ -19,8 +19,10 @@ PLEDGING = 'Spring 2020'
 RUSHING = 'Fall 2020'
 
 data = {
-    'active': {
-        'thetataudemo@gmail.com': {'semester': 'Fall 2018'}
+    'directory': {
+        'active': {
+            'thetataudemo@gmail.com': {'semester': 'Fall 2018'}
+        }
     }
 }
 
@@ -53,14 +55,14 @@ if __name__ == "__main__":
             if pledge_semester != PLEDGING and pledge_semester != RUSHING:
                 print("Currently grabbing {}'s data!".format(email))
 
-                data['active'][email] = {
+                data['directory']['active'][email] = {
                     'first_year': first_year,
                     'semester': pledge_semester
                 }
 
                 if len(role) > 0:
-                    data['active'][email]['role'] = role
-                    data['active'][email]['privileged'] = True
+                    data['directory']['active'][email]['role'] = role
+                    data['directory']['active'][email]['privileged'] = True
 
     # WRITE TO DATA
     with open(DIRECTORY_FILE_PATH, 'w') as outfile:
