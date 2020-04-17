@@ -56,7 +56,7 @@ if __name__ == "__main__":
                 print("Currently grabbing {}'s data!".format(email))
 
                 data['directory']['active'][email] = {
-                    'first_year': first_year,
+                    'firstYear': first_year,
                     'semester': pledge_semester
                 }
 
