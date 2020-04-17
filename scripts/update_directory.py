@@ -21,7 +21,7 @@ RUSHING = 'Fall 2020'
 data = {
     'directory': {
         'active': {
-            'thetataudemo@gmail.com': {'semester': 'Fall 2018'}
+            'thetataudemo@gmail.com': {'semester': 'Fall 2018', 'firstYear': 2017}
         }
     }
 }
@@ -56,7 +56,7 @@ if __name__ == "__main__":
                 print("Currently grabbing {}'s data!".format(email))
 
                 data['directory']['active'][email] = {
-                    'firstYear': first_year,
+                    'firstYear': int(first_year),
                     'semester': pledge_semester
                 }
 
