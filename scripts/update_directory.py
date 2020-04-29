@@ -14,6 +14,9 @@ EMAIL_IDX = 1
 FIRST_YEAR_IDX = 2
 PLEDGE_SEMESTER_IDX = 3
 ROLE_IDX = 4
+ALUMNI_IDX = 5
+TEMP_FAMILY_NAME = 6
+TEMP_GIVEN_NAME = 7
 
 PLEDGING = 'Spring 2020'
 RUSHING = 'Fall 2020'
@@ -55,7 +58,9 @@ if __name__ == "__main__":
 
                 data['directory']['active'][email] = {
                     'firstYear': first_year,
-                    'semester': pledge_semester
+                    'semester': pledge_semester,
+                    'familyName': row[TEMP_FAMILY_NAME],
+                    'givenName': row[TEMP_GIVEN_NAME]
                 }
 
                 if len(role) > 0:
