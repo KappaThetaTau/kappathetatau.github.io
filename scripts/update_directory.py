@@ -20,9 +20,7 @@ RUSHING = 'Fall 2020'
 
 data = {
     'directory': {
-        'active': {
-            'thetataudemo@gmail.com': {'semester': 'Fall 2018', 'firstYear': '2017'}
-        }
+        'active': {}
     }
 }
 
