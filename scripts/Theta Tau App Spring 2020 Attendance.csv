@@ -1,0 +1,74 @@
+CONFIG,DEFAULT GM,DEFAULT OTHER,GM 1/21,,,,GM 1/28,,,,,,,,,GM 2/11,,,,Voting,,GM 2/18,,,GM 2/25,GM 3/3,
+TYPE,GM,,GM,Rush,Rush,Professional,GM,Rush,Rush,Rush,Rush,Rush,Professional,Rush,Rush,GM,Rush,Rush,Rush,GM,Brotherhood,GM,Weekly Happy Hour,Brotherhood,GM,GM,Brotherhood
+TITLE,General Meeting,,,Resume Workshop,1st Info Session,Burns & McDonnel Info Session,,Billiards,Rush Happy Hour,Dodgeball,2nd Info Session,Mixer,Interview Workshop,Interviews Day 1,Interviews Day 2,Third Week Voting,Third Week Dinner,Rush Happy Hour,Rush Party,Final Voting,Handing Out Bids,,Happy Hour,Pledge Party,,,Karaoke
+DESCRIPTION,Weekly meeting for the whole chapter,,,,,,,,,,,,,,,Voting to determine which rushes are invited back for the 3rd week,,,,,,,,,,,
+DATE,,,01/21/2020,01/23/2020,01/27/2020,01/28/2020,01/28/2020,01/30/2020,01/31/2020,02/01/2020,02/03/2020,02/05/2020,02/06/2020,02/08/2020,02/09/2020,02/11/2020,02/12/2020,02/14/2020,02/14/2020,02/15/2020,02/17/2020,02/18/2020,02/21/2020,02/21/2020,02/25/2020,03/03/2020,03/04/2020
+TIME,19:00,,,18:00,18:00,19:00,19:45,18:30,17:00,14:00,19:00,18:00,18:30,10:00,10:00,,19:00,17:00,20:00,10:00,0:00,,17:00,21:00,,,19:00
+DURATION,60,60,,60,90,45,,120,150,60,90,60,60,1440,1440,120,60,120,225,180,1440,,120,180,,,120
+LOCATION,EHall 106b1,,,EHall 106b8,MSEB 119,EHall 106b1,,Illini Union,Murphy's Pub,CRCE MAC Gym,MSEB 119,John Deere Pavilion,Everitt 1302,Transportation,Transportation,,Mia Za's,Murphy's Pub,,DCL 1320,,,Legends,,,,Illini Union
+MANDATORY,0,0,,,,,,,,,,,,,,,,,,1,,,,,,,
+EXCUSABLE,1,0,,,,,,,,,,,,,,,,,,,,,,,,,
+PROF,0,0,,1,,1,,,,,,,1,,,,,,,,,,,,,,
+PHIL,0,0,,,,,,,,,,,,,,,,,,,,,,,,,
+BRO,0,0,,,,,,,,,,,,,,,,,,,1,,1,,,,1
+RUSH,0,0,,,1,,,1,1,1,1,1,,1,1,,1,1,,,,,,,,,
+ANY,0,0,,,,,,,,,,,,,,,,,,,,,,,,,
+Email Address,Given Name,Family Name,,,,,,,,,,,,,,,,,,,,,,,,,
+arushia3@illinois.edu,Arushi,Agarwal,x,x,x,,,x,,,,x,,x,x,x,x,,,x,,x,x,,x,x,
+lukepa2@illinois.edu,Luke,Ahern,,,,,,,,,,,,,,,,,,,,,,,,,
+anushka6@illinois.edu,Anushka,Bose,x,,x,x,x,x,,,,x,,x,,x,x,x,,x,,x,,,,x,
+jcai23@illinois.edu,Jeremy,Cai,x,x,x,,x,x,x,,,x,,x,x,x,x,,,x,,x,,,x,x,
+tcarver3@illinois.edu,Tommy,Carver,x,,x,x,x,x,x,,,,,x,x,x,x,x,,x,x,x,,,x,x,
+adamnc2@illinois.edu,Adam,Clemmitt,x,,x,,x,,,,,x,,x,x,x,,,,x,x,x,x,,x,x,
+juliaf2@illinois.edu,Julia,Fiorino,x,x,,,ex,x,x,x,,,,,,x,,,,ex,,x,x,,x,x,
+sabinag2@illinois.edu,Sabin,Gianelloni,x,,,x,,,,,,,,,,x,,,,ex,,x,x,,x,x,
+bgg2@illinois.edu,Bibi,Gladson,x,,x,x,x,,x,,,,,,,x,,,,ex,,ex,x,,ex,,
+emilyah3@illinois.edu,Emily,Hettinger,x,,x,,x,x,,,,x,,x,,x,x,,,x,,x,,,x,x,x
+pdh2@illinois.edu,Peter,Hevrdejs,x,,x,x,x,x,x,x,,x,,x,,x,x,x,,x,x,x,x,,x,x,
+kwh2@illinois.edu,Kevin,Hu,x,x,x,x,,,x,x,,,,,,x,,,,x,,x,,,x,,
+mariech2@illinois.edu,Marie,Hubbard,x,x,x,x,x,x,x,,,x,,x,x,x,x,x,,x,x,x,x,,x,x,
+adhunt2@illinois.edu,Andrew,Hunt,x,x,x,,x,,x,x,,,,x,,ex,x,x,,x,,x,x,,x,x,
+ryansj2@illinois.edu,Ryan,Jacobs,,,,,,,,,,,,,,,,,,,,,,,,,
+cjopes2@illinois.edu,Courtney,Jopes,x,,x,,x,x,x,x,,x,,,,x,x,x,,x,,x,x,,x,x,
+rjoshi32@illinois.edu,Rhea,Joshi,x,,x,,x,,x,x,,x,,x,,x,x,,,x,x,x,,,x,x,
+ameliak3@illinois.edu,Amelia,Keating,x,x,x,x,x,x,x,,,x,,,,ex,x,x,,,x,x,x,,x,x,x
+miakim2@illinois.edu,Mia,Kim,x,,x,x,x,,,,,,,x,x,x,,,,x,,,,,x,,
+juliamk2@illinois.edu,Julia,Krause,x,x,x,x,x,x,,,,x,,,,ex,,x,,x,,,x,,ex,x,
+akuhel2@illinois.edu,Ashley,Kuhel,x,,x,x,x,x,x,,,,,x,,x,x,,,x,x,x,x,,x,ex,x
+laurenl4@illinois.edu,Lauren,Ladehoff,x,,,x,ex,x,,,,x,,,,x,x,,,ex,,x,x,,x,ex,
+joseal2@illinois.edu,Joe,Lopez,x,,,,x,,x,,x,,,x,x,ex,,,,x,,x,,,x,,
+rakam2@illinois.edu,Raka,Mahakul,x,x,x,x,x,,x,,,,,,,ex,,,,x,,x,,,,,
+adamm3@illinois.edu,Adam,McCarthy,x,,,,x,,x,,x,x,,x,,x,,,,ex,,x,x,,x,x,
+knocon2@illinois.edu,Kamil,Nocon,ex,,,,x,x,,,,,,,,x,x,,,ex,,x,x,,x,x,
+votrub2@illinois.edu,Vica,Otrubina,x,x,x,x,x,x,x,x,x,x,,x,,x,,,,x,,x,x,,x,x,x
+aishani2@illinois.edu,Aishani,Pal,x,x,x,x,x,x,x,,,x,,x,,x,x,,,x,x,x,x,,x,x,
+kellyap2@illinois.edu,Kelly,Perozek,x,,x,x,x,x,x,x,,x,,x,x,x,x,,,x,,x,x,,x,x,
+cperson2@illinois.edu,Caitlyn,Person,x,x,x,,x,x,x,x,,x,,x,x,x,x,,,x,x,x,x,,x,,
+mpotvin2@illinois.edu,Max,Potvin,,x,x,x,,x,x,x,,x,,x,x,,x,,,x,,,,,,,x
+justinp3@illinois.edu,Justin,Powell,x,,x,x,x,,,,,,,x,x,x,,,,x,,x,x,,x,x,
+mpr4@illinois.edu,Michael,Rathslag,x,,,x,x,x,x,x,,x,,x,,x,x,,,x,,,x,,,x,
+liampr2@illinois.edu,Liam,Reynolds,x,x,x,x,x,x,x,x,,x,,x,x,x,x,x,,x,x,x,x,,x,x,
+annar2@illinois.edu,Anna,Rodriguez,x,,,x,x,x,x,x,,x,,x,x,x,x,x,,x,x,,x,,x,,
+jaredsr2@illinois.edu,Jared,Rosenbaum,,,,,,,,,,,,,,,,,,,,,,,,,
+annikas2@illinois.edu,Annika,Sachdev,,,,,,,,,,,,,,,,,,,,,,,,,
+samanic3@illinois.edu,Lauren,Samanic,,,,,,,,,,,,,,,,,,,,,,,,,
+esarver2@illinois.edu,Erin,Sarver,x,,x,x,x,x,,,x,x,,,,ex,,,,x,,ex,x,,x,ex,
+ns23@illinois.edu,Nic,Scharpman,x,,x,x,x,,x,,,,,,,x,,x,,x,,x,x,,x,x,x
+mes8@illinois.edu,Maggie,Schubert,x,,x,x,x,x,,,,x,,x,,ex,,x,,x,x,ex,x,,,x,
+msedlak2@illinois.edu,Marilyn,Sedlak,x,,x,x,ex,x,x,,,,,x,,x,,x,,x,,x,x,,x,ex,
+nikhaar2@illinois.edu,Niki,Shah,x,,x,,x,x,x,,,x,,,,x,,x,,x,x,x,x,,x,x,
+mls5@illinois.edu,Morgan,Sutherland,x,,x,x,x,,,,x,x,,,,ex,,,,x,,x,,,x,x,
+jjt4@illinois.edu,Jeff,Taylor-Chang,x,x,x,x,ex,x,x,,x,,,x,x,x,,,,x,,x,,,ex,ex,
+ctenny2@illinois.edu,Connor,Tenny,,,,,,,,,,,,,,,,,,,,,,,,,
+samrt2@illinois.edu,Sam,Touvannas,x,,x,x,,,x,x,,x,,x,,x,x,,,ex,,x,,,x,x,
+swtow2@illinois.edu,Steven,Tow,x,,x,x,x,x,,,,,,,,ex,,,,x,,x,,,x,x,
+kevinct2@illinois.edu,Kevin,Tuscher,x,,x,x,x,,,,,x,,,,x,,x,,x,,ex,x,,x,,
+zakirlu2@illinois.edu,Zakir,Ujjainwala,x,,x,,x,x,x,,,x,,x,,x,x,x,,x,x,x,x,,x,x,
+keviola2@illinois.edu,Kristen,Viola,x,,x,x,x,,,,,x,,,,x,,x,,x,x,x,x,,x,x,x
+wageman3@illinois.edu,Nicholas,Wageman,x,x,x,x,x,x,,x,,x,,x,,x,x,x,,x,x,x,x,,x,x,
+ciara2@illinois.edu,Ciara,Ward,x,x,,x,x,x,x,,,x,,x,,x,x,,,ex,,x,,,x,x,x
+marekw2@illinois.edu,Marek,Wasilczuk,,,,,,,,,,,,,,,,,,,,,,,,,
+kwhalen3@illinois.edu,Kristen,Whalen,x,,,x,x,,x,x,,,,,,x,,,,ex,,ex,x,,x,x,
+gkw3@illinois.edu,Gabe,Woszczak,x,,x,x,x,,x,x,,x,,,,x,x,x,,x,,,x,,ex,x,
+jiw2@illinois.edu,Josh,Wrobel,x,,x,x,x,x,x,,,,,,,x,x,x,,x,x,x,x,,x,x,x
+fzarga2@illinois.edu,Farhan,Zargar,x,,,x,x,x,,,,x,,x,,x,,,,ex,,x,x,,x,x,
