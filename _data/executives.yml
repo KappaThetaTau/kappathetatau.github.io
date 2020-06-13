@@ -1,49 +1,49 @@
 executive_members:
-  - email: justinp3@illinois.edu
-    name: justin powell
-    title: regent
-  - email: cperson2@illinois.edu
-    name: caitlyn person
-    title: vice regent
-  - email: lgroven2@illinois.edu
-    name: leah groven
-    title: scribe
   - email: tcarver3@illinois.edu
     name: tommy carver
+    title: regent
+  - email: adamnc2@illinois.edu
+    name: adam clemmit
+    title: vice regent
+  - email: wageman3@illinois.edu
+    name: nick wageman
+    title: scribe
+  - email: liampr2@illinois.edu
+    name: liam reynolds
     title: treasurer
-  - email: keviola2@illinois.edu & aagunn2@illinois.edu
-    name: kristen viola & alyssa gunn
+  - email: adamm3@illinois.edu & arushia3@illinois.edu
+    name: adam mccarthy and arushi agarwal
     title: social
-  - email: mpotvin2@illinois.edu
-    name: max potvin
+  - email: nikhaar2@illinois.edu
+    name: niki shah
     title: corresponding secretary
-  - email: annar2@illinois.edu
-    name: anna rodriguez
+  - email: mariech2@illinois.edu
+    name: marie hubbard
     title: pledge marshall
-  - email: ijh2@illinois.edu
-    name: isaac husemann
+  - email: anushka6@illinois.edu
+    name: anushka bose
     title: professional
-  - email: adhunt2@illinois.edu
-    name: andrew hunt
-    title: historian
-  - email: aja5@illinois.edu
-    name: aiesha arboleda
-    title: philanthropy
   - email: votrub2@illinois.edu
     name: vica otrubina
+    title: historian
+  - email: cjopes2@illinois.edu
+    name: courtney jopes
+    title: philanthropy
+  - email: juliamk2@illinois.edu
+    name: julia krause
     title: rush
-  - email: avin2@illinois.edu
-    name: avin arefzadeh
+  - email: miakim2@illinois.edu
+    name: mia kim
     title: fundraising
-  - email: joseal2@illinois.edu
-    name: joe lopez
+  - email: jiw2@illinois.edu
+    name: josh wrobel
     title: projects
   - email: jjt4@illinois.edu
     name: jeff taylor-chang
     title: web
-  - email: sabinag2@illinois.edu
-    name: sabin gianelloni
+  - email: gkw3@illinois.edu
+    name: gabe woszczak
     title: bernays
-  - email: juliaf2@illinois.edu
-    name: julia fiorino
+  - email: justinp3@illinois.edu
+    name: justin powell
     title: delegate at large
