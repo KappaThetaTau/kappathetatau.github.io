@@ -7,7 +7,7 @@ image: /assets/imgs/posts/painted-frame.jpeg
 ---
 ## Abstract 
 
-The Theta Tau Laser Harp was a project designed and created by Kappa Chapter's Projects Committee to display at this year's <a href = "https://www.eoh.ec.illinois.edu/">Engineering Open House</a>.
+The Theta Tau Laser Harp was a project designed and created by Kappa Chapter's Projects Committee to display at this year's <a href = "https://www.eohillinois.org/">Engineering Open House</a>.
 
 ## Objective
 The objective of this project was to create a musical harp, with laser beams instead of strings. These laser beams, when interrupted, would cause the laser harp to make music, just like a regular harp. 
@@ -36,11 +36,13 @@ A MIDI sound is a protocol to output sounds from electronics such as arduinos. W
 
 <img src="/assets/imgs/posts/midi-electronics.png">
 
-For the MIDI output creation, we used the Adafruit Music Maker. It has over 200 pre-loaded midi sounds, an SD card slot for loading songs, and a 3W Stereo output for two speakers. This provided us with a sleek connection between the arduino, breakout board, and the rest of the harp. You can view our code at this github page: 
+For the MIDI output creation, we used the Adafruit Music Maker. It has over 200 pre-loaded midi sounds, an SD card slot for loading songs, and a 3W Stereo output for two speakers. This provided us with a sleek connection between the arduino, breakout board, and the rest of the harp. You can view our code <a href = "https://github.com/KappaThetaTau/tt-laserharp">here</a>.
 
 ### 3) Laser Diode
 
 A laser diode is a device that emits light by stimulated emission of radiation, using applied positive voltage and mirrored diode edges. When looking for a laser diode for the laser harp project, we wanted to make sure it was safe to use around kids, economically efficient, and reliable. We decided on Adafruit’s 5mW 650 Red Laser Diode as it is the most economically efficient and reliable for what we are trying to do. This laser is only $6 a piece, with a higher internal refraction and more consistent output than other options along with still being safe for eyes. 
+
+<img src="/assets/imgs/posts/studying-electronics.jpg">
 
 ### 4) Time of Flight Sensor
 
@@ -58,7 +60,7 @@ The frame is designed to resemble that of an actual harp, while maintaining a sm
 
 Instead of renting out a fog machine, we decided to build one ourselves. All we needed was two ingredients: glycerol and water. We mixed the two together in a 1:3 ratio (1 part glycerin to 3 parts water), and dripped it onto an aluminum plate heated up by a candle. At first, we only added a few drops of the mixture to play around with the ratios. The produced smoke is safe to be around and makes it possible to see the lasers.
 
-<img src="/assets/imgs/posts/joe-sabin-vape.png">
+<img src="/assets/imgs/posts/vapor-vica.jpg">
 
 ## Guitar Hero Addition
 
@@ -69,9 +71,6 @@ We have 3D printed the mounts for the servos on the keyboard. The next step is a
 ## 2019-2020 Projects Committee Team
 Joe Lopez <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/spencer-norwick"> <i class="link fab fa-linkedin"></i></a>, Adam Clemmit <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/adam-clemmitt-862612167/"> <i class="link fab fa-linkedin"></i></a>, Arushi Agarwal <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/agarwalarushi/"> <i class="link fab fa-linkedin"></i></a>, Josh Wrobel <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/josh-wrobel-a6675015a/"> <i class="link fab fa-linkedin"></i></a>, Julia Krause <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/julia-k-b4675290/"> <i class="link fab fa-linkedin"></i></a>, Kamil Nocon <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/kamil-simon-nocon/"> <i class="link fab fa-linkedin"></i></a>, Kristen Whalen <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/k-whalen/"> <i class="link fab fa-linkedin"></i></a>, Marilyn Sedlak <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/marilyn-sedlak/"> <i class="link fab fa-linkedin"></i></a>, Nic Sharpman <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/nicscharpman/"> <i class="link fab fa-linkedin"></i></a>, Niki Shah <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/nikishah123/"> <i class="link fab fa-linkedin"></i></a>, Peter Hevrdejs <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/peter-hevrdejs/"> <i class="link fab fa-linkedin"></i></a>, Rafal Czech <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/rafalczech153/"> <i class="link fab fa-linkedin"></i></a>, Ryan Muehlfelder <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/ryanmuehlfelder/"> <i class="link fab fa-linkedin"></i></a>, Vica Otrubina <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/victoriaotrubina375/"> <i class="link fab fa-linkedin"></i></a>, Zakir U. <a class="brother-linkedin" target="blank" href="https://www.linkedin.com/in/zakir-ujjainwala-60267a172/"> <i class="link fab fa-linkedin"></i></a>
 
+<img src="/assets/imgs/posts/woodworkers.jpg">
 
-
-
-
-
-
+## References
