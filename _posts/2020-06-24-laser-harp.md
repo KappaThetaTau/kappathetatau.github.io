@@ -35,7 +35,7 @@ We chose to use the Arduino Mega 2560 microcontroller due to its pre-existing li
 
 A MIDI sound is a protocol to output sounds from electronics such as arduinos. We chose to use a chip with this functionality due to its ease of use, as well as the built-in communication methods on the Arduino Mega. The Mega, like most arduinos, contains an SPI port, perfect for short range communication between it and the MIDI chip.
 
-<img src="https://github.com/KappaThetaTau/kappathetatau.github.io/blob/master/assets/imgs/posts/midi-electronics.png">
+<img src="/assets/imgs/posts/midi-electronics.png">
 
 For the MIDI output creation, we used the Adafruit Music Maker. It has over 200 pre-loaded midi sounds, an SD card slot for loading songs, and a 3W Stereo output for two speakers. This provided us with a sleek connection between the arduino, breakout board, and the rest of the harp. You can view our code at this github page: 
 
