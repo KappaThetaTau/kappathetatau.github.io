@@ -50,6 +50,21 @@ actives:
     major: Mechanical engineering
     name: Sarah Speizman
     picture: /assets/imgs/brothers/sarah_speizman.jpg
+  - hometown: Mount Prospect,IL
+    linkedin: https://www.linkedin.com/in/angela-vassos
+    major: Bioengineering
+    name: Angela Vassos
+    picture: /assets/imgs/brothers/angela_vassos.jpg
+  - hometown: Chicago, IL
+    linkedin: https://www.linkedin.com/in/arthur-albarran-28aa621a1
+    major: 'Mechanical Engineering '
+    name: Arthur Albarran
+    picture: /assets/imgs/brothers/arthur_albarran.jpg
+  - hometown: Normal, IL
+    linkedin: ''
+    major: 'Civil and Environmental Engineering '
+    name: Molly Day
+    picture: /assets/imgs/brothers/molly_day.jpg
   semester: Spring 2020
 - members:
   - hometown: Chicago, IL
