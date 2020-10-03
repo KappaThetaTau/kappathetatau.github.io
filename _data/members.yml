@@ -440,6 +440,11 @@ actives:
     major: Mechanical Engineering
     name: Thomas Chavez
     picture: /assets/imgs/brothers/thomas_chavez.jpg
+  - hometown: Dhaka, Bangladesh
+    linkedin: https://www.linkedin.com/in/rashna-raham/
+    major: Agricultural & Biological Engineering
+    name: 'Rashna Raham '
+    picture: /assets/imgs/brothers/rashna_raham_.jpg
   - hometown: Oswego, IL
     linkedin: https://www.linkedin.com/in/max-potvin-aa5641113
     major: Civil Engineering
@@ -521,12 +526,6 @@ alumni:
   major: Systems Engineering
   name: Samuel Zelman
   picture: /assets/imgs/brothers/samuel_zelman.jpg
-  pledge_class: Fall 2017
-- hometown: Dhaka, Bangladesh
-  linkedin: https://www.linkedin.com/in/rashna-raham/
-  major: Agricultural & Biological Engineering
-  name: Rashna Raham
-  picture: /assets/imgs/brothers/rashna_raham.jpg
   pledge_class: Fall 2017
 - hometown: Huntley, IL
   linkedin: https://www.linkedin.com/in/mukhilm/
