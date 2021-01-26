@@ -1,5 +1,47 @@
 actives:
 - members:
+  - hometown: Elmhurst, IL
+    linkedin: https://www.linkedin.com/in/paolo-favuzzi-98b7861b5/
+    major: Chemical Engineering
+    name: Paolo Favuzzi
+    picture: /assets/imgs/brothers/paolo_favuzzi.jpg
+  - hometown: Saratoga, California
+    linkedin: https://www.linkedin.com/in/kunal-sheth/
+    major: Computer Engineering
+    name: Kunal Sheth
+    picture: /assets/imgs/brothers/kunal_sheth.jpg
+  - hometown: Western Springs, IL
+    linkedin: https://www.linkedin.com/in/emilydickett
+    major: Civil and Environmental Engineering
+    name: Emily Dickett
+    picture: /assets/imgs/brothers/emily_dickett.jpg
+  - hometown: Bloomington, IL
+    linkedin: https://www.linkedin.com/in/ajitesh-muppuru/
+    major: Aerospace Engineering
+    name: Ajitesh Muppuru
+    picture: /assets/imgs/brothers/ajitesh_muppuru.jpg
+  - hometown: Libertyville, IL
+    linkedin: https://www.linkedin.com/in/luke-markuson-422b51192/
+    major: Mechanical Engineering
+    name: Luke Markuson
+    picture: /assets/imgs/brothers/luke_markuson.jpg
+  - hometown: Algonquin, IL
+    linkedin: https://www.linkedin.com/in/johnny-hernandez-70b7401b5/
+    major: Mechanical Engineering
+    name: Johnny Hernandez
+    picture: /assets/imgs/brothers/johnny_hernandez.jpg
+  - hometown: Burr Ridge, IL
+    linkedin: https://www.linkedin.com/in/shalni-sundram/
+    major: Computer Science & Geography
+    name: Shalni Sundram
+    picture: /assets/imgs/brothers/shalni_sundram.jpg
+  - hometown: Burr Ridge, IL
+    linkedin: https://www.linkedin.com/in/shalni-sundram/
+    major: Computer Science & Geography
+    name: Shalni Sundram
+    picture: /assets/imgs/brothers/shalni_sundram.jpg
+  semester: Fall 2020
+- members:
   - hometown: Dhahran, Saudi Arabia
     linkedin: https://www.linkedin.com/in/luisencova/
     major: Mechanical Engineering
@@ -10,11 +52,6 @@ actives:
     major: Civil Engineering
     name: Sheel Sansare
     picture: /assets/imgs/brothers/sheel_sansare.jpg
-  - hometown: Singapore, Singapore
-    linkedin: https://www.linkedin.com/in/toorno/
-    major: Chemical Engineering
-    name: Toorno Mishra
-    picture: /assets/imgs/brothers/toorno_mishra.jpg
   - hometown: Vernon Hills, IL
     linkedin: https://www.linkedin.com/in/gregory-tow-1aa7971a3/
     major: Electrical Engineering
@@ -65,6 +102,11 @@ actives:
     major: 'Civil and Environmental Engineering '
     name: Molly Day
     picture: /assets/imgs/brothers/molly_day.jpg
+  - hometown: Singapore, Singapore
+    linkedin: https://www.linkedin.com/in/toorno/
+    major: Computer Science
+    name: Toorno Mishra
+    picture: /assets/imgs/brothers/toorno_mishra.jpg
   semester: Spring 2020
 - members:
   - hometown: Chicago, IL
