@@ -1,0 +1,20 @@
+{
+  "SO": {
+    "PROF": 3,
+    "PHIL": 2,
+    "BRO": 5,
+    "RUSH": 4
+  },
+  "JR": {
+    "PROF": 2,
+    "PHIL": 2,
+    "BRO": 4,
+    "RUSH": 4
+  },
+  "SR": {
+    "PROF": 1,
+    "PHIL": 2,
+    "BRO": 3,
+    "RUSH": 4
+  }
+}
