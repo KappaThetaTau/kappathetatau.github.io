@@ -39,7 +39,12 @@ actives:
     linkedin: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_top_card%3BO%2BDFbl4eTFWStW%2FAzy0CLQ%3D%3D
     major: Computer Engineering
     name: Akhil Kodumuri
-    picture: /assets/imgs/brothers/akhil_kodumuri.JPG
+    picture: /assets/imgs/brothers/akhil_kodumuri.jpg
+  - hometown: Naperville, IL
+    linkedin: https://www.linkedin.com/in/melissa-chiou-603abb198/
+    major: Engineering Undeclared
+    name: Melissa Chiou
+    picture: /assets/imgs/brothers/melissa_chiou.jpg
   semester: Fall 2020
 - members:
   - hometown: Dhahran, Saudi Arabia
