@@ -45,6 +45,11 @@ actives:
     major: Engineering Undeclared
     name: Melissa Chiou
     picture: /assets/imgs/brothers/melissa_chiou.jpg
+  - hometown: Fremont, CA
+    linkedin: https://www.linkedin.com/in/tara-natarajan
+    major: Computer Science
+    name: Tara Natarajan
+    picture: /assets/imgs/brothers/tara_natarajan.jpg
   semester: Fall 2020
 - members:
   - hometown: Dhahran, Saudi Arabia
