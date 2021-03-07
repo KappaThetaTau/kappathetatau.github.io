@@ -50,6 +50,11 @@ actives:
     major: Computer Science
     name: Tara Natarajan
     picture: /assets/imgs/brothers/tara_natarajan.jpg
+  - hometown: Metamora, IL
+    linkedin: https://www.linkedin.com/in/joey-shallat-9086541b9/
+    major: Aerospace Engineering
+    name: Joseph Shallat
+    picture: /assets/imgs/brothers/joseph_shallat.JPG
   semester: Fall 2020
 - members:
   - hometown: Dhahran, Saudi Arabia
