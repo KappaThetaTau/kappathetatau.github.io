@@ -27,6 +27,7 @@ $post-font-color: rgba(0,0,0,.84);
     color: $post-font-color;
     background-color: white;
     font-size: $post-font-size;
+    width: 70%;
     @include box-shadow();
 
     table {
@@ -34,7 +35,8 @@ $post-font-color: rgba(0,0,0,.84);
         overflow: scroll;
         font-size: 80%;
         table-layout: fixed;
-        display:block;
+        // display:block;
+        margin: 0 auto;
         overflow-x: auto;
     }
     table tr {
@@ -114,7 +116,6 @@ $post-font-color: rgba(0,0,0,.84);
 
 @media screen and (min-width: $desktop-trigger) {
     .post {
-        width: 950px;
         margin: auto;
         font-size: 1.2em;
     }
