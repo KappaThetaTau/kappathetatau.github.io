@@ -303,6 +303,11 @@ actives:
     picture: /assets/imgs/brothers/amelia_keating.jpg
   semester: Fall 2019
 - members:
+  - hometown: Gurnee, IL
+    linkedin: https://www.linkedin.com/in/ciara-ward-896530181/
+    major: Electrical Engineering
+    name: Ciara Aquino Ward
+    picture: /assets/imgs/brothers/ciara_aquino_ward.jpg
   - hometown: Barrington, IL
     linkedin: ''
     major: Industrial Engineering
@@ -343,6 +348,11 @@ actives:
     major: Aerospace Engineering
     name: Zakir Ujjainwala
     picture: /assets/imgs/brothers/zakir_ujjainwala.jpg
+  - hometown: Wilmette, IL
+    linkedin: https://www.linkedin.com/in/adam-clemmitt-862612167/
+    major: Mathematics and Computer Science
+    name: Adam Clemmitt
+    picture: /assets/imgs/brothers/adam_clemmitt.jpg
   - hometown: Elmhurst, IL
     linkedin: https://www.linkedin.com/in/courtney-jopes-37564917b/
     major: Chemical Engineering
@@ -373,7 +383,12 @@ actives:
   semester: Fall 2018
 - members: []
   semester: Spring 2018
-- members: []
+- members:
+  - hometown: 'Chicago, IL '
+    linkedin: https://www.linkedin.com/in/aiesha-arboleda-026b2914a/
+    major: Chemical Engineering
+    name: Aiesha Arboleda
+    picture: /assets/imgs/brothers/aiesha_arboleda.jpg
   semester: Fall 2017
 - members: []
   semester: Spring 2017
@@ -396,12 +411,6 @@ actives:
 - members: []
   semester: Fall 2012
 alumni:
-- hometown: Gurnee, IL
-  linkedin: https://www.linkedin.com/in/ciara-ward-896530181/
-  major: Electrical Engineering
-  name: Ciara Aquino Ward
-  picture: /assets/imgs/brothers/ciara_aquino_ward.jpg
-  pledge_class: Spring 2019
 - hometown: Orland Park, IL
   linkedin: https://www.linkedin.com/in/marilyn-sedlak-21197316a
   major: Mechanical Engineering
@@ -437,12 +446,6 @@ alumni:
   major: Chemical Engineering
   name: Bibirosh Gladson
   picture: /assets/imgs/brothers/bibirosh_gladson.jpg
-  pledge_class: Spring 2019
-- hometown: Wilmette, IL
-  linkedin: https://www.linkedin.com/in/adam-clemmitt-862612167/
-  major: Mathematics and Computer Science
-  name: Adam Clemmitt
-  picture: /assets/imgs/brothers/adam_clemmitt.jpg
   pledge_class: Spring 2019
 - hometown: Chebanse, IL
   linkedin: https://www.linkedin.com/mwlite/in/lauren-ladehoff-262857145
@@ -701,12 +704,6 @@ alumni:
   major: Chemical Engineering
   name: John Ito
   picture: /assets/imgs/brothers/john_ito.jpg
-  pledge_class: Fall 2017
-- hometown: 'Chicago, IL '
-  linkedin: https://www.linkedin.com/in/aiesha-arboleda-026b2914a/
-  major: Chemical Engineering
-  name: Aiesha Arboleda
-  picture: /assets/imgs/brothers/aiesha_arboleda.jpg
   pledge_class: Fall 2017
 - hometown: Oswego, IL
   linkedin: https://www.linkedin.com/in/max-potvin-aa5641113

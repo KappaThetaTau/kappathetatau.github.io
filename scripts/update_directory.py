@@ -6,7 +6,8 @@ from pydrive.drive import GoogleDrive
 
 # INITIALIZE CONSTANTS
 CSV_NAME = 'Theta Tau App Brother Info.csv'
-CSV_ID = '1MXKtTf_KFOHg08ljOexDXcSq6ONFkuaIfXdGoROtmZE'
+# CSV_ID = '1MXKtTf_KFOHg08ljOexDXcSq6ONFkuaIfXdGoROtmZE'
+CSV_ID = '1evBDIftoT8ZBg1jtLO6Wt_S6e0VNweqLC7J-fI0RmRM'
 PARENT_DIR = os.path.dirname(os.path.realpath(__file__))
 GRANDPARENT_DIR = os.path.dirname(PARENT_DIR)
 DIRECTORY_FILE_PATH = GRANDPARENT_DIR + "/assets/js/directory.json"
@@ -18,8 +19,10 @@ ALUMNI_IDX = 5
 TEMP_FAMILY_NAME = 6
 TEMP_GIVEN_NAME = 7
 
-PLEDGING = 'Spring 2020'
-RUSHING = 'Fall 2020'
+# PLEDGING = 'Spring 2020'
+PLEDGING = 'Spring 2021'
+# RUSHING = 'Fall 2020'
+RUSHING = 'Fall 2021'
 
 data = {
     'directory': {
