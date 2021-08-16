@@ -27,6 +27,14 @@ h1, h2, h3 {
     font-weight: 500;
 }
 
+@media screen and (min-width: $desktop-trigger) {
+    .post {
+        width: 950px;
+        margin: auto;
+        font-size: 1.2em;
+    }
+}
+
 @import 'https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto:400');
 
