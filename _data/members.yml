@@ -206,11 +206,6 @@ actives:
     major: Computer Engineering
     name: Julia Danielle Uy
     picture: /assets/imgs/brothers/julia_danielle_uy.jpg
-  - hometown: San Jose
-    linkedin: https://www.linkedin.com/in/neo-huang-51591a145/
-    major: Mathematics and Computer Science
-    name: Neo Huang
-    picture: /assets/imgs/brothers/neo_huang.jpg
   - hometown: Naperville, IL
     linkedin: https://www.linkedin.com/in/connortenny/
     major: Industrial Engineering and Innovation, Leadership and Engineering Entrepreneurship
@@ -231,11 +226,6 @@ actives:
     major: Computer Engineering
     name: Sevan Brodjian
     picture: /assets/imgs/brothers/sevan_brodjian.jpg
-  - hometown: Elmhurst, IL
-    linkedin: https://www.linkedin.com/in/luke-ahern-b229aa154/
-    major: Civil Engineering
-    name: Luke Ahern
-    picture: /assets/imgs/brothers/luke_ahern.jpg
   - hometown: Rolling Meadows, IL
     linkedin: ''
     major: Engineering Undeclared
@@ -286,11 +276,6 @@ actives:
     major: Agricultural and Biological Emgineering
     name: Liam Reynolds
     picture: /assets/imgs/brothers/liam_reynolds.jpg
-  - hometown: Park Ridge, IL
-    linkedin: https://www.linkedin.com/in/ryansjacobs/
-    major: Mechanical Engineering
-    name: Ryan Jacobs
-    picture: /assets/imgs/brothers/ryan_jacobs.jpg
   - hometown: Oak Park, IL
     linkedin: https://www.linkedin.com/in/lauren-krause-786199193
     major: Bioengineering
@@ -328,11 +313,6 @@ actives:
     major: Bioengineering
     name: Daria Wendell
     picture: /assets/imgs/brothers/daria_wendell.jpg
-  - hometown: Chicago, IL
-    linkedin: https://www.linkedin.com/in/marc-huang-4b870a185
-    major: Mechanical Engineering
-    name: Marcanthony Huang
-    picture: /assets/imgs/brothers/marcanthony_huang.jpg
   - hometown: Lake Zurich, IL
     linkedin: https://www.linkedin.com/in/william-madsen-657693172/
     major: Chemical Engineering
@@ -375,6 +355,11 @@ actives:
     major: Mechanical Engineering
     name: Andrew Hunt
     picture: /assets/imgs/brothers/andrew_hunt.jpg
+  - hometown: Bradenton, FL
+    linkedin: https://www.linkedin.com/in/victoriaotrubina375
+    major: Civil and Environmental Engineering
+    name: Victoria Otrubina
+    picture: /assets/imgs/brothers/victoria_otrubina.jpg
   - hometown: Stamford, CT
     linkedin: https://www.linkedin.com/in/tommy-carver-2b12a6166/
     major: Computer Science/Computer Engineering
@@ -411,11 +396,35 @@ actives:
 - members: []
   semester: Fall 2012
 alumni:
+- hometown: San Jose
+  linkedin: https://www.linkedin.com/in/neo-huang-51591a145/
+  major: Mathematics and Computer Science
+  name: Neo Huang
+  picture: /assets/imgs/brothers/neo_huang.jpg
+  pledge_class: Fall 2019
+- hometown: Elmhurst, IL
+  linkedin: https://www.linkedin.com/in/luke-ahern-b229aa154/
+  major: Civil Engineering
+  name: Luke Ahern
+  picture: /assets/imgs/brothers/luke_ahern.jpg
+  pledge_class: Fall 2019
+- hometown: Park Ridge, IL
+  linkedin: https://www.linkedin.com/in/ryansjacobs/
+  major: Mechanical Engineering
+  name: Ryan Jacobs
+  picture: /assets/imgs/brothers/ryan_jacobs.jpg
+  pledge_class: Fall 2019
 - hometown: Orland Park, IL
   linkedin: https://www.linkedin.com/in/marilyn-sedlak-21197316a
   major: Mechanical Engineering
   name: Marilyn Sedlak
   picture: /assets/imgs/brothers/marilyn_sedlak.jpg
+  pledge_class: Spring 2019
+- hometown: Chicago, IL
+  linkedin: https://www.linkedin.com/in/marc-huang-4b870a185
+  major: Mechanical Engineering
+  name: Marcanthony Huang
+  picture: /assets/imgs/brothers/marcanthony_huang.jpg
   pledge_class: Spring 2019
 - hometown: Winfield, IL
   linkedin: https://www.linkedin.com/in/peter-hevrdejs/
@@ -536,12 +545,6 @@ alumni:
   major: Mechanical Engineering
   name: Nikhaar Shah
   picture: /assets/imgs/brothers/nikhaar_shah.jpg
-  pledge_class: Fall 2018
-- hometown: Bradenton, FL
-  linkedin: https://www.linkedin.com/in/victoriaotrubina375
-  major: Civil and Environmental Engineering
-  name: Victoria Otrubina
-  picture: /assets/imgs/brothers/victoria_otrubina.jpg
   pledge_class: Fall 2018
 - hometown: St. Charles, Illinois
   linkedin: https://www.linkedin.com/in/michael-rathslag-723b58139/
