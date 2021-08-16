@@ -404,7 +404,6 @@
   color: rgba(0, 0, 0, 0.84);
   background-color: white;
   font-size: 1em;
-  width: 70%;
   box-shadow: #bbbbbb 0px 2px 5px; }
   .post-banner {
     width: 100%; }
@@ -413,7 +412,7 @@
     overflow: scroll;
     font-size: 80%;
     table-layout: fixed;
-    margin: 0 auto;
+    display: block;
     overflow-x: auto; }
   .post table tr {
     border-top: 1px solid #cccccc;
@@ -482,6 +481,7 @@
 
 @media screen and (min-width: 800px) {
   .post {
+    width: 70%;
     margin: auto;
     font-size: 1.2em; } }
 
@@ -1209,5 +1209,6 @@ h1, h2, h3 {
 
 @media screen and (min-width: 800px) {
   .post {
+    width: 70%;
     margin: auto;
     font-size: 1.2em; } }

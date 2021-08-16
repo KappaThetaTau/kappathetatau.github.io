@@ -29,6 +29,7 @@ h1, h2, h3 {
 
 @media screen and (min-width: $desktop-trigger) {
     .post {
+        width: 70%;
         margin: auto;
         font-size: 1.2em;
     }
