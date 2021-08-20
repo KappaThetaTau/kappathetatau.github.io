@@ -988,8 +988,8 @@ header {
   width: 100%;
   opacity: 0.95;
   background: #ffffff;
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  line-height: 60px;
   top: 0;
   z-index: 10000;
   position: fixed;
@@ -997,9 +997,16 @@ header {
   header a {
     text-decoration: none;
     color: #714d4d; }
+  header a:hover {
+    text-decoration: underline;
+    color: #8B0000; }
+  header .header-nav {
+    float: right;
+    padding-right: 20px; }
   header img {
-    height: 66%;
+    height: 75%;
     margin-left: 20px;
+    margin-right: 5px;
     vertical-align: middle; }
 
 .hamburger {
@@ -1012,8 +1019,8 @@ header {
   border: 0;
   cursor: pointer;
   outline: none;
-  height: 50px;
-  width: 50px; }
+  height: 60px;
+  width: 60px; }
 
 .cross {
   font-size: 1.8em;
@@ -1025,13 +1032,13 @@ header {
   border: 0;
   cursor: pointer;
   outline: none;
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   display: none; }
 
 .menu {
   z-index: 1000000;
-  top: 52px;
+  top: 62px;
   font-weight: 500;
   font-size: 0.8em;
   width: 100%;
@@ -1068,6 +1075,14 @@ header {
   .menu a:hover {
     text-decoration: none;
     color: #714d4d; }
+
+@media screen and (min-width: 800px) {
+  .hamburger {
+    display: none; } }
+
+@media screen and (max-width: 800px) {
+  header .header-nav {
+    display: none; } }
 
 #brothers {
   display: grid;
@@ -1162,6 +1177,9 @@ header {
         #brothers .brothers-wrapper .brother .overlay .name {
           font-weight: 400;
           font-size: .9em; }
+        #brothers .brothers-wrapper .brother .overlay .exec-title {
+          font-weight: 400;
+          font-size: .9em; }
         #brothers .brothers-wrapper .brother .overlay .hometown {
           font-size: 0.7em; }
   #brothers #actives {
@@ -1187,6 +1205,8 @@ header {
       padding: 10px; }
     #brothers #members .brother .name {
       font-size: 1em; }
+    #brothers #members .brother .exec-title {
+      font-size: 1em; }
     #brothers #members .brother .major {
       font-size: .8em; }
     #brothers #members .brother .hometown {
@@ -1202,7 +1222,7 @@ body {
   background: white;
   font-family: 'rawline', Helvetica;
   font-weight: 300;
-  padding-top: 52px; }
+  padding-top: 62px; }
 
 h1, h2, h3 {
   font-weight: 500; }

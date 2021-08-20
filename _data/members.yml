@@ -1,5 +1,15 @@
 actives:
 - members:
+  - hometown: Leesburg, VA
+    linkedin: https://www.linkedin.com/in/jasonromps
+    major: Computer Engineering
+    name: Jason Romps
+    picture: /assets/imgs/brothers/jason_romps.jpg
+  - hometown: Fremont, CA
+    linkedin: https://www.linkedin.com/in/tejalathreya/
+    major: Computer Science
+    name: Tejal Athreya
+    picture: /assets/imgs/brothers/tejal_athreya.jpg
   - hometown: Cupertino, CA
     linkedin: https://www.linkedin.com/in/rohan-inampudi-801131193/
     major: Computer Engineering
@@ -318,6 +328,11 @@ actives:
     major: Chemical Engineering
     name: Will Madsen
     picture: /assets/imgs/brothers/will_madsen.jpg
+  - hometown: 'Orion, IL '
+    linkedin: https://www.linkedin.com/in/nicscharpman
+    major: Materials Science & Engineering
+    name: Nic Scharpman
+    picture: /assets/imgs/brothers/nic_scharpman.jpg
   - hometown: Oak Lawn, IL
     linkedin: ''
     major: 'Engineering Physics '
@@ -431,12 +446,6 @@ alumni:
   major: Electrical Engineering
   name: Peter Hevrdejs
   picture: /assets/imgs/brothers/peter_hevrdejs.jpg
-  pledge_class: Spring 2019
-- hometown: 'Orion, IL '
-  linkedin: https://www.linkedin.com/in/nicscharpman
-  major: Materials Science & Engineering
-  name: Nic Scharpman
-  picture: /assets/imgs/brothers/nic_scharpman.jpg
   pledge_class: Spring 2019
 - hometown: Schaumburg, IL
   linkedin: https://www.linkedin.com/in/amanda-batista-42a19b145/

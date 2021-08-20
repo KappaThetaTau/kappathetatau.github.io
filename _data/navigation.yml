@@ -1,15 +1,15 @@
 navigation:
-  - item: home
+  - item: Home
     link: /
-  - item: about
+  - item: About Us
     link: "/#about"
-  - item: brothers
-    link: /brothers
-  - item: blog
-    link: /blog
-  - item: faq
-    link: /2018/faq
-  - item: rush
+  - item: Rush
     link: /2021/fall-rush-2021/
-  - item: contact
+  - item: Brothers
+    link: /brothers
+  - item: Blog
+    link: /blog
+  - item: FAQ
+    link: /2021/faq
+  - item: Contact Us
     link: "/#contact"

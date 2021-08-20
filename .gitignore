@@ -8,6 +8,7 @@ node_modules
 _site/
 .sass-cache/
 .jekyll-metadata
+.jekyll-cache
 
 ### macOS ###
 *.DS_Store
@@ -215,5 +216,10 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# vendor directory
+vendor/*
+
+# bundle
+.bundle
 
 # End of https://www.gitignore.io/api/python

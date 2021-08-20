@@ -14,9 +14,18 @@ header{
         text-decoration: none;
         color: $text-color;
     }
+    a:hover {
+        text-decoration: underline;
+        color: #8B0000;
+    }
+    .header-nav {
+        float: right;
+        padding-right: 20px;
+    }
     img {
-        height: 66%;
+        height: 75%;
         margin-left: 20px;
+        margin-right: 5px;
         vertical-align: middle;
     }
 }
@@ -73,5 +82,19 @@ header{
     a:hover {
         text-decoration:none;
         color:$text-color;
+    }
+}
+
+@media screen and (min-width: $desktop-trigger) {
+    .hamburger {
+        display: none;
+    }
+}
+
+@media screen and (max-width: $desktop-trigger) {
+    header {
+        .header-nav {
+            display: none;
+        }
     }
 }
