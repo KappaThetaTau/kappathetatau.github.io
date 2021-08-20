@@ -24,8 +24,5 @@
     "sass",
     "browsersync"
   ],
-  "homepage": "https://kappathetatau.github.io",
-  "dependencies": {
-    "yaml": "^1.10.2"
-  }
+  "homepage": "https://kappathetatau.github.io"
 }
