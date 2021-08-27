@@ -348,6 +348,11 @@ actives:
     major: Aerospace Engineering
     name: Zakir Ujjainwala
     picture: /assets/imgs/brothers/zakir_ujjainwala.jpg
+  - hometown: Nashville, TN
+    linkedin: https://www.linkedin.com/in/bibi-gladson-872a59162
+    major: Chemical Engineering
+    name: Bibirosh Gladson
+    picture: /assets/imgs/brothers/bibirosh_gladson.jpg
   - hometown: Wilmette, IL
     linkedin: https://www.linkedin.com/in/adam-clemmitt-862612167/
     major: Mathematics and Computer Science
@@ -463,12 +468,6 @@ alumni:
   major: Mechanical Engineering
   name: Josh Wrobel
   picture: /assets/imgs/brothers/josh_wrobel.jpg
-  pledge_class: Spring 2019
-- hometown: Nashville, TN
-  linkedin: https://www.linkedin.com/in/bibi-gladson-872a59162
-  major: Chemical Engineering
-  name: Bibirosh Gladson
-  picture: /assets/imgs/brothers/bibirosh_gladson.jpg
   pledge_class: Spring 2019
 - hometown: Chebanse, IL
   linkedin: https://www.linkedin.com/mwlite/in/lauren-ladehoff-262857145
