@@ -220,7 +220,7 @@ actives:
     linkedin: https://www.linkedin.com/in/patrickjamesthornton/
     major: Aerospace Engineering
     name: Patrick Thornton
-    picture: /assets/imgs/brothers/patrick_thornton.jpg
+    picture: /assets/imgs/brothers/patrick_thornton.png
   - hometown: Des Plaines
     linkedin: https://www.linkedin.com/in/jizelle-torres/
     major: 'Mechanical Engineering '
@@ -276,11 +276,6 @@ actives:
     major: Computer Engineering
     name: Lukas Adomaviciute
     picture: /assets/imgs/brothers/lukas_adomaviciute.jpg
-  - hometown: Lisle, IL
-    linkedin: https://www.linkedin.com/in/patrickjamesthornton/
-    major: Aerospace Engineering
-    name: Patrick Thornton
-    picture: /assets/imgs/brothers/patrick_thornton.jpg
   - hometown: Vernon Hills, IL
     linkedin: https://www.linkedin.com/in/gregory-tow-1aa7971a3/
     major: Electrical Engineering
