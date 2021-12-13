@@ -1,5 +1,10 @@
 actives:
 - members:
+  - hometown: 'Oak Park, Illinois '
+    linkedin: https://www.linkedin.com/mwlite/in/martina-perez-zuleta-461ba0207
+    major: 'Computer Science '
+    name: 'Martina Perez Zuleta '
+    picture: /assets/imgs/brothers/martina_perez_zuleta_.jpg
   - hometown: Elmhurst, IL
     linkedin: ''
     major: Mechanical Engineering
@@ -127,6 +132,11 @@ actives:
     major: Industrial Engineering
     name: Maya Nayak
     picture: /assets/imgs/brothers/maya_nayak.jpg
+  - hometown: Closter, NJ
+    linkedin: https://www.linkedin.com/in/leejun-kim-1a5393208
+    major: Aerospace Engineering
+    name: Leejun (LJ) Kim
+    picture: /assets/imgs/brothers/leejun_lj_kim.jpg
   - hometown: Irvington, New York
     linkedin: https://www.linkedin.com/in/zachary-mizrachi/
     major: Computer Engineering
@@ -211,6 +221,11 @@ actives:
     picture: /assets/imgs/brothers/paolo_favuzzi.jpg
   semester: Fall 2020
 - members:
+  - hometown: Lisle, IL
+    linkedin: https://www.linkedin.com/in/patrickjamesthornton/
+    major: Aerospace Engineering
+    name: Patrick Thornton
+    picture: /assets/imgs/brothers/patrick_thornton.jpg
   - hometown: Des Plaines
     linkedin: https://www.linkedin.com/in/jizelle-torres/
     major: 'Mechanical Engineering '
@@ -462,6 +477,11 @@ actives:
     major: Civil and Environmental Engineering
     name: Victoria Otrubina
     picture: /assets/imgs/brothers/victoria_otrubina.jpg
+  - hometown: Stamford, CT
+    linkedin: https://www.linkedin.com/in/tommy-carver-2b12a6166/
+    major: Computer Science/Computer Engineering
+    name: Tommy Carver
+    picture: /assets/imgs/brothers/tommy_carver.jpg
   semester: Fall 2018
 - members: []
   semester: Spring 2018
