@@ -126,7 +126,8 @@ if __name__ == "__main__":
                 # Add to 'actives' list. The for loop is needed to preserve ordering in the yaml file
                 for pledge_class in data['actives']:
                     if semester in pledge_class['semester']:
-                        pledge_class['members'].append(brother_data)
+                        if not any(brother['name'] == brother_data['name'] for brother in pledge_class['members']):
+                            pledge_class['members'].append(brother_data)
                         break
                 else:
                     print("WHAT?! This is only printing because the brother's semester data was not found")

@@ -1,5 +1,10 @@
 actives:
 - members:
+  - hometown: Palatine, Il
+    linkedin: https://www.linkedin.com/in/jason-jung-b6b2931b3
+    major: Bioengineering
+    name: Jason Jung
+    picture: /assets/imgs/brothers/jason_jung.jpg
   - hometown: 'Oak Park, Illinois '
     linkedin: https://www.linkedin.com/mwlite/in/martina-perez-zuleta-461ba0207
     major: 'Computer Science '
@@ -55,11 +60,6 @@ actives:
     major: 'Mechanical Engineering '
     name: Emma (Emmy) Bleck
     picture: /assets/imgs/brothers/emma_emmy_bleck.jpg
-  - hometown: Palatine, Il
-    linkedin: https://www.linkedin.com/in/jason-jung-b6b2931b3
-    major: Bioengineering
-    name: Jason Jung
-    picture: /assets/imgs/brothers/jason_jung.jpg
   - hometown: Western Springs, IL
     linkedin: www.linkedin.com/in/lillianmini
     major: Industrial Engineering
@@ -216,6 +216,11 @@ actives:
     picture: /assets/imgs/brothers/paolo_favuzzi.jpg
   semester: Fall 2020
 - members:
+  - hometown: Lisle, IL
+    linkedin: https://www.linkedin.com/in/patrickjamesthornton/
+    major: Aerospace Engineering
+    name: Patrick Thornton
+    picture: /assets/imgs/brothers/patrick_thornton.jpg
   - hometown: Des Plaines
     linkedin: https://www.linkedin.com/in/jizelle-torres/
     major: 'Mechanical Engineering '
@@ -271,11 +276,6 @@ actives:
     major: Computer Engineering
     name: Lukas Adomaviciute
     picture: /assets/imgs/brothers/lukas_adomaviciute.jpg
-  - hometown: Lisle, IL
-    linkedin: https://www.linkedin.com/in/patrickjamesthornton/
-    major: Aerospace Engineering
-    name: Patrick Thornton
-    picture: /assets/imgs/brothers/patrick_thornton.jpg
   - hometown: Vernon Hills, IL
     linkedin: https://www.linkedin.com/in/gregory-tow-1aa7971a3/
     major: Electrical Engineering
@@ -467,11 +467,6 @@ actives:
     major: Civil and Environmental Engineering
     name: Victoria Otrubina
     picture: /assets/imgs/brothers/victoria_otrubina.jpg
-  - hometown: Stamford, CT
-    linkedin: https://www.linkedin.com/in/tommy-carver-2b12a6166/
-    major: Computer Science/Computer Engineering
-    name: Tommy Carver
-    picture: /assets/imgs/brothers/tommy_carver.jpg
   semester: Fall 2018
 - members: []
   semester: Spring 2018
