@@ -113,6 +113,8 @@ if __name__ == "__main__":
                 image_name = processed_name + '.jpg'
                 print('Already downloaded image for {}'.format(name))
 
+            # Add check to ensure that linkedin starts with https://www. - otherwise link won't work
+
             # Create brother info dictionary
             brother_data = {
                 'name': name,

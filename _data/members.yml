@@ -16,7 +16,7 @@ actives:
     name: Rose Menichini
     picture: /assets/imgs/brothers/rose_menichini.jpg
   - hometown: Singapore
-    linkedin: linkedin.com/in/atharvanaik10
+    linkedin: https://www.linkedin.com/in/atharvanaik10
     major: Mathematics & Computer Science
     name: Atharva Naik
     picture: /assets/imgs/brothers/atharva_naik.jpg
@@ -26,12 +26,12 @@ actives:
     name: Helen Ilkiu
     picture: /assets/imgs/brothers/helen_ilkiu.jpg
   - hometown: Naperville, IL
-    linkedin: linkedin.com/in/subhisharma
+    linkedin: https://www.linkedin.com/in/subhisharma
     major: Electrical Engineering
     name: Subhi Sharma
     picture: /assets/imgs/brothers/subhi_sharma.jpg
   - hometown: Lemont, IL
-    linkedin: www.linkedin.com/in/michael-haughey-uiuc
+    linkedin: https://www.linkedin.com/in/michael-haughey-uiuc
     major: Engineering Undeclared
     name: Michael Haughey
     picture: /assets/imgs/brothers/michael_haughey.jpg
@@ -41,7 +41,7 @@ actives:
     name: Andrew Yatzkan
     picture: /assets/imgs/brothers/andrew_yatzkan.jpg
   - hometown: Bexley, OH
-    linkedin: www.linkedin.com/in/maia-ben-david-555889221
+    linkedin: https://www.linkedin.com/in/maia-ben-david-555889221
     major: Engineering Undeclared
     name: Maia Ben-David
     picture: /assets/imgs/brothers/maia_ben-david.jpg
@@ -61,7 +61,7 @@ actives:
     name: Emma (Emmy) Bleck
     picture: /assets/imgs/brothers/emma_emmy_bleck.jpg
   - hometown: Western Springs, IL
-    linkedin: www.linkedin.com/in/lillianmini
+    linkedin: https://www.linkedin.com/in/lillianmini
     major: Industrial Engineering
     name: Lillian Mini
     picture: /assets/imgs/brothers/lillian_mini.jpg
