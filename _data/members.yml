@@ -1,5 +1,10 @@
 actives:
 - members:
+  - hometown: Deerfield, IL
+    linkedin: https://www.linkedin.com/in/matthew-e-seltzer
+    major: Computer Engineering
+    name: Matthew Seltzer
+    picture: /assets/imgs/brothers/matthew_seltzer.jpg
   - hometown: Palatine, Il
     linkedin: https://www.linkedin.com/in/jason-jung-b6b2931b3
     major: Bioengineering
@@ -83,7 +88,7 @@ actives:
     name: Dylan Trott
     picture: /assets/imgs/brothers/dylan_trott.jpg
   - hometown: Deerfield, IL
-    linkedin: www.linkedin.com/in/emma-velkme
+    linkedin: https://www.linkedin.com/in/emma-velkme
     major: Civil and Environmental
     name: Emma Velkme
     picture: /assets/imgs/brothers/emma_velkme.jpg
