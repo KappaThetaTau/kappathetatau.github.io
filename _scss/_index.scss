@@ -100,7 +100,7 @@
   #brothers {
     height: 25em;
     @include background-button-image-style(
-      "/assets/imgs/brothers-fall-2019.jpg"
+      "/assets/imgs/brothers-spring-2022.jpg"
     );
     position: relative;
     grid-area: brothers;
@@ -108,21 +108,21 @@
 
   #posts {
     height: 25em;
-    @include background-button-image-style("/assets/imgs/blog-fall-2019.jpg");
+    @include background-button-image-style("/assets/imgs/blog-spring-2022.jpg");
     position: relative;
     grid-area: posts;
   }
 
   #faq {
     height: 25em;
-    @include background-button-image-style("/assets/imgs/christmas_1.jpg");
+    @include background-button-image-style("/assets/imgs/faq-spring-2022.jpg");
     position: relative;
     grid-area: faq;
   }
 
   #rush {
     height: 25em;
-    @include background-button-image-style("/assets/imgs/rush-fall-2019.jpg");
+    @include background-button-image-style("/assets/imgs/rush-spring-2022.jpg");
     position: relative;
     grid-area: rush;
   }
@@ -163,19 +163,19 @@
     @include box-shadow();
     margin-bottom: 2em;
     .slide-1 {
-      background-image: url("/assets/imgs/brotherhood_1.jpg");
+      background-image: url("/assets/imgs/brotherhood-spring-2022.jpg");
     }
     .slide-2 {
-      background-image: url("/assets/imgs/brotherhood_2.jpg");
+      background-image: url("/assets/imgs/brotherhood-2-spring-2022.jpg");
     }
     .slide-3 {
-      background-image: url("/assets/imgs/brotherhood_3.jpg");
+      background-image: url("/assets/imgs/brotherhood-3-spring-2022.jpg");
     }
     .slide-4 {
-      background-image: url("/assets/imgs/brotherhood_4.jpg");
+      background-image: url("/assets/imgs/brotherhood-4-spring-2022.jpg");
     }
     .slide-5 {
-      background-image: url("/assets/imgs/brotherhood_5.jpg");
+      background-image: url("/assets/imgs/brotherhood-5-spring-2022.jpg");
     }
     .slide-6 {
       background-image: url("/assets/imgs/brotherhood_6.jpg");
@@ -217,19 +217,19 @@
     grid-area: service-slides;
     @include box-shadow();
     .slide-1 {
-      background-image: url("/assets/imgs/service_1.jpg");
+      background-image: url("/assets/imgs/service-spring-2022.jpg");
     }
     .slide-2 {
-      background-image: url("/assets/imgs/service_2.jpg");
+      background-image: url("/assets/imgs/service-2-spring-2022.jpg");
     }
     .slide-3 {
-      background-image: url("/assets/imgs/service_3.jpg");
+      background-image: url("/assets/imgs/service-3-spring-2022.jpg");
     }
     .slide-4 {
-      background-image: url("/assets/imgs/service_4.jpg");
+      background-image: url("/assets/imgs/service-4-spring-2022.jpg");
     }
     .slide-5 {
-      background-image: url("/assets/imgs/service_5.jpg");
+      background-image: url("/assets/imgs/service-5-spring-2022.jpg");
     }
     .slide-6 {
       background-image: url("/assets/imgs/service_6.jpg");
