@@ -455,11 +455,6 @@ actives:
     major: Bioengineering
     name: Daria Wendell
     picture: /assets/imgs/brothers/daria_wendell.jpg
-  - hometown: 'Orion, IL '
-    linkedin: https://www.linkedin.com/in/nicscharpman
-    major: Materials Science & Engineering
-    name: Nic Scharpman
-    picture: /assets/imgs/brothers/nic_scharpman.jpg
   - hometown: Oak Lawn, IL
     linkedin: ''
     major: 'Engineering Physics '
@@ -470,11 +465,6 @@ actives:
     major: Aerospace Engineering
     name: Zakir Ujjainwala
     picture: /assets/imgs/brothers/zakir_ujjainwala.jpg
-  - hometown: Nashville, TN
-    linkedin: https://www.linkedin.com/in/bibi-gladson-872a59162
-    major: Chemical Engineering
-    name: Bibirosh Gladson
-    picture: /assets/imgs/brothers/bibirosh_gladson.jpg
   - hometown: Elmhurst, IL
     linkedin: https://www.linkedin.com/in/courtney-jopes-37564917b/
     major: Chemical Engineering
@@ -588,6 +578,12 @@ alumni:
   name: Will Madsen
   picture: /assets/imgs/brothers/will_madsen.jpg
   pledge_class: Spring 2019
+- hometown: 'Orion, IL '
+  linkedin: https://www.linkedin.com/in/nicscharpman
+  major: Materials Science & Engineering
+  name: Nic Scharpman
+  picture: /assets/imgs/brothers/nic_scharpman.jpg
+  pledge_class: Spring 2019
 - hometown: Schaumburg, IL
   linkedin: https://www.linkedin.com/in/amanda-batista-42a19b145/
   major: Chemical Engineering
@@ -599,6 +595,12 @@ alumni:
   major: Mechanical Engineering
   name: Josh Wrobel
   picture: /assets/imgs/brothers/josh_wrobel.jpg
+  pledge_class: Spring 2019
+- hometown: Nashville, TN
+  linkedin: https://www.linkedin.com/in/bibi-gladson-872a59162
+  major: Chemical Engineering
+  name: Bibirosh Gladson
+  picture: /assets/imgs/brothers/bibirosh_gladson.jpg
   pledge_class: Spring 2019
 - hometown: Wilmette, IL
   linkedin: https://www.linkedin.com/in/adam-clemmitt-862612167/
