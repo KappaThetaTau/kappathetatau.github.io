@@ -98,17 +98,18 @@ if __name__ == "__main__":
             processed_name = processed_name.lower().replace('(', '')
             processed_name = processed_name.lower().replace(')', '')
             if not os.path.isfile("{}{}{}".format(BROTHERS_IMG_DIR, processed_name, '.jpg')):
-                # CREATE GDRIVE FILE
-                gfile = drive.CreateFile({'id': row[IMAGE_IDX].split('=')[-1]})
+                if row[IMAGE_IDX]:
+                    # CREATE GDRIVE FILE
+                    gfile = drive.CreateFile({'id': row[IMAGE_IDX].split('=')[-1]})
 
-                # GET FILE
-                file_extension = '.{}'.format(gfile['title'].split('.')[-1])
-                pic_name = processed_name + file_extension.lower()  # generated file name
-                file_path = BROTHERS_IMG_DIR + pic_name  # absolute directory            
+                    # GET FILE
+                    file_extension = '.{}'.format(gfile['title'].split('.')[-1])
+                    pic_name = processed_name + file_extension.lower()  # generated file name
+                    file_path = BROTHERS_IMG_DIR + pic_name  # absolute directory            
 
-                gfile.GetContentFile(file_path)
-                image_name = compress_me(os.path.join(BROTHERS_IMG_DIR, pic_name), jpeg=True, quality=85, dimension=450)[2]
-                print(image_name)
+                    gfile.GetContentFile(file_path)
+                    image_name = compress_me(os.path.join(BROTHERS_IMG_DIR, pic_name), jpeg=True, quality=85, dimension=450)[2]
+                    print(image_name)
             else:
                 image_name = processed_name + '.jpg'
                 print('Already downloaded image for {}'.format(name))
@@ -116,13 +117,22 @@ if __name__ == "__main__":
             # Add check to ensure that linkedin starts with https://www. - otherwise link won't work
 
             # Create brother info dictionary
-            brother_data = {
-                'name': name,
-                'major': major,
-                'hometown': hometown,
-                'linkedin': linkedin,
-                'picture': os.path.join(BROTHERS_IMG_LOCATION, image_name)
-            }
+            if not row[IMAGE_IDX]:
+                brother_data = {
+                    'name': name,
+                    'major': major,
+                    'hometown': hometown,
+                    'linkedin': linkedin,
+                    'picture': os.path.join(BROTHERS_IMG_LOCATION, 'thetatau.jpg')
+                }
+            else:
+                brother_data = {
+                    'name': name,
+                    'major': major,
+                    'hometown': hometown,
+                    'linkedin': linkedin,
+                    'picture': os.path.join(BROTHERS_IMG_LOCATION, image_name)
+                }
 
             if not alumni:
                 # Add to 'actives' list. The for loop is needed to preserve ordering in the yaml file

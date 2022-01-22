@@ -85,6 +85,11 @@ actives:
     major: 'Computer Engineering '
     name: 'Chetna Verma '
     picture: /assets/imgs/brothers/chetna_verma_.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Computer Science
+    name: Andrew Shusterman
+    picture: /assets/imgs/brothers/thetatau.jpg
   semester: Fall 2021
 - members:
   - hometown: Closter, NJ
@@ -157,8 +162,33 @@ actives:
     major: Statistics and Computer Science
     name: Daniel Rugutt
     picture: /assets/imgs/brothers/daniel_rugutt.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Engineering Mechanics
+    name: Alexandra Hosny
+    picture: /assets/imgs/brothers/thetatau.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Electrical Engineering
+    name: Cedric Mathew
+    picture: /assets/imgs/brothers/thetatau.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Bioengineering
+    name: Payton McQueeney
+    picture: /assets/imgs/brothers/thetatau.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Chemical Engineering
+    name: Jessica Komar
+    picture: /assets/imgs/brothers/thetatau.jpg
   semester: Spring 2021
 - members:
+  - hometown: Irvine, CA
+    linkedin: https://www.linkedin.com/in/calvin-lee-b950701b6/
+    major: Computer Engineering
+    name: Calvin Lee
+    picture: /assets/imgs/brothers/calvin_lee.jpg
   - hometown: Hawthorn Woods
     linkedin: http://linkedin.com/in/namita-johri
     major: Civil and Environmental Engineering
@@ -229,8 +259,28 @@ actives:
     major: Chemical Engineering
     name: Paolo Favuzzi
     picture: /assets/imgs/brothers/paolo_favuzzi.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Civil and Environmental Engineering
+    name: Karol Zajac
+    picture: /assets/imgs/brothers/thetatau.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Computer Engineering
+    name: Bhavana Ambatipudi
+    picture: /assets/imgs/brothers/thetatau.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Electrical Engineering
+    name: Justin Wang
+    picture: /assets/imgs/brothers/thetatau.jpg
   semester: Fall 2020
 - members:
+  - hometown: La Grange, IL
+    linkedin: https://www.linkedin.com/in/jessica-nutter-3299a6191
+    major: Mechanical Engineering
+    name: Jessica Nutter
+    picture: /assets/imgs/brothers/jessica_nutter.jpg
   - hometown: Lisle, IL
     linkedin: https://www.linkedin.com/in/patrickjamesthornton/
     major: Aerospace Engineering
@@ -281,11 +331,6 @@ actives:
     major: Computer Science
     name: Garv Agarwal
     picture: /assets/imgs/brothers/garv_agarwal.jpg
-  - hometown: La Grange, Illinois
-    linkedin: http://linkedin.com/in/jessica-nutter-3299a6191
-    major: 'Mechanical Engineering '
-    name: Jessica Nutter
-    picture: /assets/imgs/brothers/jessica_nutter.jpg
   - hometown: Huntley, IL
     linkedin: https://www.linkedin.com/in/lukasadoma/
     major: Computer Engineering
@@ -306,6 +351,11 @@ actives:
     major: Mechanical Engineering
     name: Luis Cova
     picture: /assets/imgs/brothers/luis_cova.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Civil and Environmental Engineering
+    name: Claire Rathslag
+    picture: /assets/imgs/brothers/thetatau.jpg
   semester: Spring 2020
 - members:
   - hometown: Franklin Park, IL
