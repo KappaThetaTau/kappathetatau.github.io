@@ -4,4 +4,5 @@ message: >-
   href="https://www.kappathetatau.org/2022/spring-rush-2022/">here</a>
   <br /><b>Please check your spam folder for missing emails about rush!</b>
 date: 01/12/2022
-show: true
+# TODO change show to true after updating
+show: false
