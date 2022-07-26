@@ -21,7 +21,7 @@ collections:
     files:
       - label: Navigation Menu
         name: navigation
-        file: _data/navigation.yml
+        file: "_data/navigation.yml"
         fields:
           - label: Navigation Links
             name: navigation
