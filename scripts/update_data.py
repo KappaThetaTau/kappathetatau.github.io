@@ -146,6 +146,7 @@ if __name__ == "__main__":
                     exit(1)
             else:
                 brother_data['pledge_class'] = semester
+                print(brother_data)
                 data['alumni'].append(brother_data)
 
     data['alumni'].sort(key=lambda brother: index_of_class(brother['pledge_class']))
