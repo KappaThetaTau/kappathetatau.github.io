@@ -1,5 +1,72 @@
 actives:
 - members:
+  - hometown: Carol Stream, IL
+    linkedin: https://www.linkedin.com/in/aidantrogers/
+    major: Bioengineering
+    name: Aidan Rogers
+    picture: /assets/imgs/brothers/aidan_rogers.jpg
+  - hometown: "O\u2019Fallon, IL"
+    linkedin: https://www.linkedin.com/in/miley-brunner-111a341b5
+    major: Computer Science
+    name: Miley Brunner
+    picture: /assets/imgs/brothers/miley_brunner.jpg
+  - hometown: Naperville, IL
+    linkedin: https://www.linkedin.com/in/deeya-bansal-919ab2204
+    major: Computer Science
+    name: Deeya Bansal
+    picture: /assets/imgs/brothers/deeya_bansal.jpg
+  - hometown: Tucson, AZ
+    linkedin: https://www.linkedin.com/in/paymon-sadat-2a3058230/
+    major: Bioengineering
+    name: Paymon Sadat
+    picture: /assets/imgs/brothers/paymon_sadat.jpg
+  - hometown: Palatine, IL
+    linkedin: https://www.linkedin.com/in/ariette-kaberlein
+    major: Aerospace Engineering
+    name: Ariette Kaberlein
+    picture: /assets/imgs/brothers/ariette_kaberlein.jpg
+  - hometown: Wheaton, IL
+    linkedin: https://www.linkedin.com/in/patrckcunningham
+    major: 'Computer Science '
+    name: Patrick Cunningham
+    picture: /assets/imgs/brothers/patrick_cunningham.jpg
+  - hometown: Naperville, IL
+    linkedin: https://www.linkedin.com/in/isabella-palm-91937b21a/
+    major: Aerospace Engineering
+    name: Isabella Palm
+    picture: /assets/imgs/brothers/isabella_palm.jpg
+  - hometown: Hoffman Estates, IL
+    linkedin: https://www.linkedin.com/in/brian-yang36/
+    major: Computer Engineering
+    name: Brian Yang
+    picture: /assets/imgs/brothers/thetatau.jpg
+  - hometown: Franklin Lakes, NJ
+    linkedin: https://www.linkedin.com/in/dev-dhanesh-shah
+    major: Aerospace Engineering
+    name: Dev Dhanesh Shah
+    picture: /assets/imgs/brothers/dev_dhanesh_shah.jpg
+  - hometown: Bloomington IL
+    linkedin: https://www.linkedin.com/in/collin-mccormick-8433a7235/
+    major: PREP
+    name: Collin McCormick
+    picture: /assets/imgs/brothers/collin_mccormick.jpg
+  - hometown: Singapore
+    linkedin: https://www.linkedin.com/in/99jingboli
+    major: Computer Science
+    name: Jin Li
+    picture: /assets/imgs/brothers/jin_li.jpg
+  - hometown: Naperville, IL
+    linkedin: https://www.linkedin.com/in/jessica-komar-2024
+    major: 'Chemical Engineering '
+    name: Jess Komar
+    picture: /assets/imgs/brothers/jess_komar.jpg
+  - hometown: 'Arlington Heights '
+    linkedin: https://www.linkedin.com/mwlite/in/abby-kuhn-25a712233
+    major: NPRE
+    name: Abby Kuhn
+    picture: /assets/imgs/brothers/abby_kuhn.jpg
+  semester: Spring 2022
+- members:
   - hometown: Romeoville, IL
     linkedin: https://www.linkedin.com/in/griffin-rzonca/
     major: Electrical Engineering
@@ -164,11 +231,6 @@ actives:
     picture: /assets/imgs/brothers/daniel_rugutt.jpg
   - hometown: ''
     linkedin: ''
-    major: Engineering Mechanics
-    name: Alexandra Hosny
-    picture: /assets/imgs/brothers/thetatau.jpg
-  - hometown: ''
-    linkedin: ''
     major: Electrical Engineering
     name: Cedric Mathew
     picture: /assets/imgs/brothers/thetatau.jpg
@@ -182,6 +244,11 @@ actives:
     major: Chemical Engineering
     name: Jessica Komar
     picture: /assets/imgs/brothers/thetatau.jpg
+  - hometown: Wheaton, IL
+    linkedin: https://www.linkedin.com/in/alexandrahosny
+    major: 'Engineering Mechanics '
+    name: Alexandra Hosny
+    picture: /assets/imgs/brothers/alexandra_hosny.jpg
   semester: Spring 2021
 - members:
   - hometown: Irvine, CA
@@ -269,11 +336,11 @@ actives:
     major: Computer Engineering
     name: Bhavana Ambatipudi
     picture: /assets/imgs/brothers/thetatau.jpg
-  - hometown: ''
-    linkedin: ''
+  - hometown: Sterling, VA
+    linkedin: https://www.linkedin.com/in/justinwang10
     major: Electrical Engineering
     name: Justin Wang
-    picture: /assets/imgs/brothers/thetatau.jpg
+    picture: /assets/imgs/brothers/justin_wang.jpg
   semester: Fall 2020
 - members:
   - hometown: La Grange, IL
