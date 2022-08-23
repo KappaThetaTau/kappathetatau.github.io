@@ -55,16 +55,41 @@ actives:
     major: Computer Science
     name: Jin Li
     picture: /assets/imgs/brothers/jin_li.jpg
-  - hometown: Naperville, IL
-    linkedin: https://www.linkedin.com/in/jessica-komar-2024
-    major: 'Chemical Engineering '
-    name: Jess Komar
-    picture: /assets/imgs/brothers/jess_komar.jpg
   - hometown: 'Arlington Heights '
     linkedin: https://www.linkedin.com/mwlite/in/abby-kuhn-25a712233
     major: NPRE
     name: Abby Kuhn
     picture: /assets/imgs/brothers/abby_kuhn.jpg
+  - hometown: Edison, NJ
+    linkedin: https://www.linkedin.com/in/jeevanantham-murugan-84862a178/
+    major: Computer Engineering
+    name: Jeevanantham Murugan
+    picture: /assets/imgs/brothers/jeevanantham_murugan.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Aerospace Engineering
+    name: Rodney Bejabeng
+    picture: /assets/imgs/brothers/thetatau.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Computer Science
+    name: Ria Desai
+    picture: /assets/imgs/brothers/thetatau.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Computer Science + Linguistics
+    name: Sarah O'Sullivan
+    picture: /assets/imgs/brothers/thetatau.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Computer Science
+    name: Devak Nanda
+    picture: /assets/imgs/brothers/thetatau.jpg
+  - hometown: ''
+    linkedin: ''
+    major: Computer Science
+    name: Anisha Gummadi
+    picture: /assets/imgs/brothers/thetatau.jpg
   semester: Spring 2022
 - members:
   - hometown: Romeoville, IL
@@ -239,16 +264,16 @@ actives:
     major: Bioengineering
     name: Payton McQueeney
     picture: /assets/imgs/brothers/thetatau.jpg
-  - hometown: ''
-    linkedin: ''
-    major: Chemical Engineering
-    name: Jessica Komar
-    picture: /assets/imgs/brothers/thetatau.jpg
   - hometown: Wheaton, IL
     linkedin: https://www.linkedin.com/in/alexandrahosny
     major: 'Engineering Mechanics '
     name: Alexandra Hosny
     picture: /assets/imgs/brothers/alexandra_hosny.jpg
+  - hometown: Naperville, IL
+    linkedin: https://www.linkedin.com/in/jessica-komar-2024
+    major: 'Chemical Engineering '
+    name: Jess Komar
+    picture: /assets/imgs/brothers/jess_komar.jpg
   semester: Spring 2021
 - members:
   - hometown: Irvine, CA
@@ -373,31 +398,11 @@ actives:
     major: 'Civil and Environmental Engineering '
     name: Molly Day
     picture: /assets/imgs/brothers/molly_day.jpg
-  - hometown: Chicago, IL
-    linkedin: https://www.linkedin.com/in/arthur-albarran-28aa621a1
-    major: 'Mechanical Engineering '
-    name: Arthur Albarran
-    picture: /assets/imgs/brothers/arthur_albarran.jpg
   - hometown: Mount Prospect,IL
     linkedin: https://www.linkedin.com/in/angela-vassos
     major: Bioengineering
     name: Angela Vassos
     picture: /assets/imgs/brothers/angela_vassos.jpg
-  - hometown: Glen Ellyn, IL
-    linkedin: https://www.linkedin.com/in/sarah-speizman-968685191
-    major: Mechanical engineering
-    name: Sarah Speizman
-    picture: /assets/imgs/brothers/sarah_speizman.jpg
-  - hometown: Fremont, CA
-    linkedin: https://www.linkedin.com/in/divya-hauzaree/
-    major: Computer Science
-    name: Divya Hauzaree
-    picture: /assets/imgs/brothers/divya_hauzaree.jpg
-  - hometown: Denville, NJ
-    linkedin: https://www.linkedin.com/in/garv-agarwal/
-    major: Computer Science
-    name: Garv Agarwal
-    picture: /assets/imgs/brothers/garv_agarwal.jpg
   - hometown: Huntley, IL
     linkedin: https://www.linkedin.com/in/lukasadoma/
     major: Computer Engineering
@@ -425,11 +430,6 @@ actives:
     picture: /assets/imgs/brothers/thetatau.jpg
   semester: Spring 2020
 - members:
-  - hometown: Franklin Park, IL
-    linkedin: https://www.linkedin.com/in/julia-uy/
-    major: Computer Engineering
-    name: Julia Danielle Uy
-    picture: /assets/imgs/brothers/julia_danielle_uy.jpg
   - hometown: Streamwood, IL
     linkedin: http://linkedin.com/in/emily-hettinger-56b0b9195
     major: Systems Engineering & Design
@@ -445,36 +445,6 @@ actives:
     major: Computer Engineering
     name: Sevan Brodjian
     picture: /assets/imgs/brothers/sevan_brodjian.jpg
-  - hometown: Chicago, IL
-    linkedin: ''
-    major: Civil & Environmental Engineering
-    name: Gabriel Woszczak
-    picture: /assets/imgs/brothers/gabriel_woszczak.jpg
-  - hometown: Mokena, IL
-    linkedin: https://www.linkedin.com/in/lauren-samanic
-    major: Mechanical Engineering
-    name: Lauren Samanic
-    picture: /assets/imgs/brothers/lauren_samanic.jpg
-  - hometown: Cary, IL
-    linkedin: https://www.linkedin.com/in/nicholas-wageman-292b0a192/
-    major: Engineering Mechanics
-    name: Nicholas Wageman
-    picture: /assets/imgs/brothers/nicholas_wageman.jpg
-  - hometown: Saint Charles, IL
-    linkedin: https://www.linkedin.com/in/marie-hubbard-bb86b4192
-    major: Civil & Environmental Engineering
-    name: Marie Hubbard
-    picture: /assets/imgs/brothers/marie_hubbard.jpg
-  - hometown: Elk Grove Village, IL
-    linkedin: http://linkedin.com/in/rhea-joshi-11a857165
-    major: 'Chemical Engineering '
-    name: Rhea Joshi
-    picture: /assets/imgs/brothers/rhea_joshi.jpg
-  - hometown: South Barrington, IL
-    linkedin: https://www.linkedin.com/in/anushka--bose/
-    major: Computer Science
-    name: Anushka Bose
-    picture: /assets/imgs/brothers/anushka_bose.jpg
   - hometown: Northbrook, IL
     linkedin: https://www.linkedin.com/in/marekw2/
     major: Computer Engineering
@@ -485,80 +455,10 @@ actives:
     major: Agricultural and Biological Emgineering
     name: Liam Reynolds
     picture: /assets/imgs/brothers/liam_reynolds.jpg
-  - hometown: Oak Park, IL
-    linkedin: https://www.linkedin.com/in/lauren-krause-786199193
-    major: Bioengineering
-    name: Lauren Krause
-    picture: /assets/imgs/brothers/lauren_krause.jpg
-  - hometown: Chicago, IL
-    linkedin: https://www.linkedin.com/in/amelia-keating-aaab89195/
-    major: Agricultural and Biological Engineering
-    name: Amelia Keating
-    picture: /assets/imgs/brothers/amelia_keating.jpg
   semester: Fall 2019
-- members:
-  - hometown: Gurnee, IL
-    linkedin: https://www.linkedin.com/in/ciara-ward-896530181/
-    major: Electrical Engineering
-    name: Ciara Aquino Ward
-    picture: /assets/imgs/brothers/ciara_aquino_ward.jpg
-  - hometown: Barrington, IL
-    linkedin: ''
-    major: Industrial Engineering
-    name: Annika Sachdev
-    picture: /assets/imgs/brothers/annika_sachdev.jpg
-  - hometown: Lake Forest, IL
-    linkedin: https://www.linkedin.com/in/willrandersen/
-    major: Computer Science
-    name: Will Andersen III
-    picture: /assets/imgs/brothers/will_andersen_iii.jpg
-  - hometown: Champaign, IL
-    linkedin: ''
-    major: Mechanical Engineering
-    name: Jared Rosenbaum
-    picture: /assets/imgs/brothers/jared_rosenbaum.jpg
-  - hometown: North Caldwell, NJ
-    linkedin: https://www.linkedin.com/in/daria-wendell-963330135/
-    major: Bioengineering
-    name: Daria Wendell
-    picture: /assets/imgs/brothers/daria_wendell.jpg
-  - hometown: Oak Lawn, IL
-    linkedin: ''
-    major: 'Engineering Physics '
-    name: Rafal Czech
-    picture: /assets/imgs/brothers/rafal_czech.jpg
-  - hometown: Deer Park, IL
-    linkedin: https://www.linkedin.com/in/zakir-ujjainwala-60267a172/
-    major: Aerospace Engineering
-    name: Zakir Ujjainwala
-    picture: /assets/imgs/brothers/zakir_ujjainwala.jpg
-  - hometown: Elmhurst, IL
-    linkedin: https://www.linkedin.com/in/courtney-jopes-37564917b/
-    major: Chemical Engineering
-    name: Courtney Jopes
-    picture: /assets/imgs/brothers/courtney_jopes.jpg
+- members: []
   semester: Spring 2019
-- members:
-  - hometown: Stamford, CT
-    linkedin: https://www.linkedin.com/in/tommy-carver/
-    major: Computer Science
-    name: Tommy Carver
-    picture: /assets/imgs/brothers/tommy_carver.jpg
-  - hometown: Lake Zurich, IL
-    linkedin: ''
-    major: Economics and Statistics
-    name: Sam Touvannas
-    picture: /assets/imgs/brothers/sam_touvannas.jpg
-  - hometown: Libertyville, IL
-    linkedin: https://www.linkedin.com/in/kristen-whalen-b01312170
-    major: Industrial Engineering
-    name: Kristen Whalen
-    picture: /assets/imgs/brothers/kristen_whalen.jpg
-  - hometown: San Diego, CA
-    linkedin: https://www.linkedin.com/in/andrew-hunt-6706a3173/
-    major: Mechanical Engineering
-    name: Andrew Hunt
-    picture: /assets/imgs/brothers/andrew_hunt.jpg
+- members: []
   semester: Fall 2018
 - members: []
   semester: Spring 2018
@@ -585,6 +485,36 @@ actives:
 - members: []
   semester: Fall 2012
 alumni:
+- hometown: Chicago, IL
+  linkedin: https://www.linkedin.com/in/arthur-albarran-28aa621a1
+  major: 'Mechanical Engineering '
+  name: Arthur Albarran
+  picture: /assets/imgs/brothers/arthur_albarran.jpg
+  pledge_class: Spring 2020
+- hometown: Glen Ellyn, IL
+  linkedin: https://www.linkedin.com/in/sarah-speizman-968685191
+  major: Mechanical engineering
+  name: Sarah Speizman
+  picture: /assets/imgs/brothers/sarah_speizman.jpg
+  pledge_class: Spring 2020
+- hometown: Fremont, CA
+  linkedin: https://www.linkedin.com/in/divya-hauzaree/
+  major: Computer Science
+  name: Divya Hauzaree
+  picture: /assets/imgs/brothers/divya_hauzaree.jpg
+  pledge_class: Spring 2020
+- hometown: Denville, NJ
+  linkedin: https://www.linkedin.com/in/garv-agarwal/
+  major: Computer Science
+  name: Garv Agarwal
+  picture: /assets/imgs/brothers/garv_agarwal.jpg
+  pledge_class: Spring 2020
+- hometown: Franklin Park, IL
+  linkedin: https://www.linkedin.com/in/julia-uy/
+  major: Computer Engineering
+  name: Julia Danielle Uy
+  picture: /assets/imgs/brothers/julia_danielle_uy.jpg
+  pledge_class: Fall 2019
 - hometown: San Jose
   linkedin: https://www.linkedin.com/in/neo-huang-51591a145/
   major: Mathematics and Computer Science
@@ -609,6 +539,42 @@ alumni:
   name: Ashley Kuhel
   picture: /assets/imgs/brothers/ashley_kuhel.jpg
   pledge_class: Fall 2019
+- hometown: Chicago, IL
+  linkedin: ''
+  major: Civil & Environmental Engineering
+  name: Gabriel Woszczak
+  picture: /assets/imgs/brothers/gabriel_woszczak.jpg
+  pledge_class: Fall 2019
+- hometown: Mokena, IL
+  linkedin: https://www.linkedin.com/in/lauren-samanic
+  major: Mechanical Engineering
+  name: Lauren Samanic
+  picture: /assets/imgs/brothers/lauren_samanic.jpg
+  pledge_class: Fall 2019
+- hometown: Cary, IL
+  linkedin: https://www.linkedin.com/in/nicholas-wageman-292b0a192/
+  major: Engineering Mechanics
+  name: Nicholas Wageman
+  picture: /assets/imgs/brothers/nicholas_wageman.jpg
+  pledge_class: Fall 2019
+- hometown: Saint Charles, IL
+  linkedin: https://www.linkedin.com/in/marie-hubbard-bb86b4192
+  major: Civil & Environmental Engineering
+  name: Marie Hubbard
+  picture: /assets/imgs/brothers/marie_hubbard.jpg
+  pledge_class: Fall 2019
+- hometown: Elk Grove Village, IL
+  linkedin: http://linkedin.com/in/rhea-joshi-11a857165
+  major: 'Chemical Engineering '
+  name: Rhea Joshi
+  picture: /assets/imgs/brothers/rhea_joshi.jpg
+  pledge_class: Fall 2019
+- hometown: South Barrington, IL
+  linkedin: https://www.linkedin.com/in/anushka--bose/
+  major: Computer Science
+  name: Anushka Bose
+  picture: /assets/imgs/brothers/anushka_bose.jpg
+  pledge_class: Fall 2019
 - hometown: Chantilly, VA
   linkedin: https://www.linkedin.com/in/aishani-pal-12855710b/
   major: Computer Science
@@ -621,11 +587,53 @@ alumni:
   name: Ryan Jacobs
   picture: /assets/imgs/brothers/ryan_jacobs.jpg
   pledge_class: Fall 2019
+- hometown: Oak Park, IL
+  linkedin: https://www.linkedin.com/in/lauren-krause-786199193
+  major: Bioengineering
+  name: Lauren Krause
+  picture: /assets/imgs/brothers/lauren_krause.jpg
+  pledge_class: Fall 2019
+- hometown: Chicago, IL
+  linkedin: https://www.linkedin.com/in/amelia-keating-aaab89195/
+  major: Agricultural and Biological Engineering
+  name: Amelia Keating
+  picture: /assets/imgs/brothers/amelia_keating.jpg
+  pledge_class: Fall 2019
+- hometown: Gurnee, IL
+  linkedin: https://www.linkedin.com/in/ciara-ward-896530181/
+  major: Electrical Engineering
+  name: Ciara Aquino Ward
+  picture: /assets/imgs/brothers/ciara_aquino_ward.jpg
+  pledge_class: Spring 2019
+- hometown: Barrington, IL
+  linkedin: ''
+  major: Industrial Engineering
+  name: Annika Sachdev
+  picture: /assets/imgs/brothers/annika_sachdev.jpg
+  pledge_class: Spring 2019
+- hometown: Lake Forest, IL
+  linkedin: https://www.linkedin.com/in/willrandersen/
+  major: Computer Science
+  name: Will Andersen III
+  picture: /assets/imgs/brothers/will_andersen_iii.jpg
+  pledge_class: Spring 2019
 - hometown: Orland Park, IL
   linkedin: https://www.linkedin.com/in/marilyn-sedlak-21197316a
   major: Mechanical Engineering
   name: Marilyn Sedlak
   picture: /assets/imgs/brothers/marilyn_sedlak.jpg
+  pledge_class: Spring 2019
+- hometown: Champaign, IL
+  linkedin: ''
+  major: Mechanical Engineering
+  name: Jared Rosenbaum
+  picture: /assets/imgs/brothers/jared_rosenbaum.jpg
+  pledge_class: Spring 2019
+- hometown: North Caldwell, NJ
+  linkedin: https://www.linkedin.com/in/daria-wendell-963330135/
+  major: Bioengineering
+  name: Daria Wendell
+  picture: /assets/imgs/brothers/daria_wendell.jpg
   pledge_class: Spring 2019
 - hometown: Chicago, IL
   linkedin: https://www.linkedin.com/in/marc-huang-4b870a185
@@ -651,11 +659,23 @@ alumni:
   name: Nic Scharpman
   picture: /assets/imgs/brothers/nic_scharpman.jpg
   pledge_class: Spring 2019
+- hometown: Oak Lawn, IL
+  linkedin: ''
+  major: 'Engineering Physics '
+  name: Rafal Czech
+  picture: /assets/imgs/brothers/rafal_czech.jpg
+  pledge_class: Spring 2019
 - hometown: Schaumburg, IL
   linkedin: https://www.linkedin.com/in/amanda-batista-42a19b145/
   major: Chemical Engineering
   name: Amanda Batista
   picture: /assets/imgs/brothers/amanda_batista.jpg
+  pledge_class: Spring 2019
+- hometown: Deer Park, IL
+  linkedin: https://www.linkedin.com/in/zakir-ujjainwala-60267a172/
+  major: Aerospace Engineering
+  name: Zakir Ujjainwala
+  picture: /assets/imgs/brothers/zakir_ujjainwala.jpg
   pledge_class: Spring 2019
 - hometown: Glencoe, IL
   linkedin: https://www.linkedin.com/in/josh-wrobel-a6675015a/
@@ -675,6 +695,18 @@ alumni:
   name: Adam Clemmitt
   picture: /assets/imgs/brothers/adam_clemmitt.jpg
   pledge_class: Spring 2019
+- hometown: Elmhurst, IL
+  linkedin: https://www.linkedin.com/in/courtney-jopes-37564917b/
+  major: Chemical Engineering
+  name: Courtney Jopes
+  picture: /assets/imgs/brothers/courtney_jopes.jpg
+  pledge_class: Spring 2019
+- hometown: Stamford, CT
+  linkedin: https://www.linkedin.com/in/tommy-carver/
+  major: Computer Science
+  name: Tommy Carver
+  picture: /assets/imgs/brothers/tommy_carver.jpg
+  pledge_class: Fall 2018
 - hometown: Chebanse, IL
   linkedin: https://www.linkedin.com/mwlite/in/lauren-ladehoff-262857145
   major: Bioengineering
@@ -723,6 +755,12 @@ alumni:
   name: 'Sabin Gianelloni '
   picture: /assets/imgs/brothers/sabin_gianelloni_.jpg
   pledge_class: Fall 2018
+- hometown: Lake Zurich, IL
+  linkedin: ''
+  major: Economics and Statistics
+  name: Sam Touvannas
+  picture: /assets/imgs/brothers/sam_touvannas.jpg
+  pledge_class: Fall 2018
 - hometown: Elmhurst, IL
   linkedin: https://www.linkedin.com/in/kamil-nocon-2b9966171/
   major: Mechanical Engineering
@@ -747,6 +785,12 @@ alumni:
   name: Kevin Tuscher
   picture: /assets/imgs/brothers/kevin_tuscher.jpg
   pledge_class: Fall 2018
+- hometown: Libertyville, IL
+  linkedin: https://www.linkedin.com/in/kristen-whalen-b01312170
+  major: Industrial Engineering
+  name: Kristen Whalen
+  picture: /assets/imgs/brothers/kristen_whalen.jpg
+  pledge_class: Fall 2018
 - hometown: Hinsdale, IL
   linkedin: https://www.linkedin.com/in/erin-sarver-632025172/
   major: Electrical Engineering
@@ -765,11 +809,23 @@ alumni:
   name: Nikhaar Shah
   picture: /assets/imgs/brothers/nikhaar_shah.jpg
   pledge_class: Fall 2018
+- hometown: San Diego, CA
+  linkedin: https://www.linkedin.com/in/andrew-hunt-6706a3173/
+  major: Mechanical Engineering
+  name: Andrew Hunt
+  picture: /assets/imgs/brothers/andrew_hunt.jpg
+  pledge_class: Fall 2018
 - hometown: Bradenton, FL
   linkedin: https://www.linkedin.com/in/victoriaotrubina375
   major: Civil and Environmental Engineering
   name: Victoria Otrubina
   picture: /assets/imgs/brothers/victoria_otrubina.jpg
+  pledge_class: Fall 2018
+- hometown: Stamford, CT
+  linkedin: https://www.linkedin.com/in/tommy-carver-2b12a6166/
+  major: Computer Science/Computer Engineering
+  name: Tommy Carver
+  picture: /assets/imgs/brothers/tommy_carver.jpg
   pledge_class: Fall 2018
 - hometown: St. Charles, Illinois
   linkedin: https://www.linkedin.com/in/michael-rathslag-723b58139/
