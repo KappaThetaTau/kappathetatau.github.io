@@ -77,11 +77,6 @@ actives:
     picture: /assets/imgs/brothers/thetatau.jpg
   - hometown: ''
     linkedin: ''
-    major: Computer Science + Linguistics
-    name: Sarah O'Sullivan
-    picture: /assets/imgs/brothers/thetatau.jpg
-  - hometown: ''
-    linkedin: ''
     major: Computer Science
     name: Devak Nanda
     picture: /assets/imgs/brothers/thetatau.jpg
@@ -90,6 +85,11 @@ actives:
     major: Computer Science
     name: Anisha Gummadi
     picture: /assets/imgs/brothers/thetatau.jpg
+  - hometown: Acton, MA
+    linkedin: https://www.linkedin.com/in/sarah-o%E2%80%99sullivan-072988218/
+    major: Computer Science + Linguistics
+    name: "Sarah O\u2019Sullivan"
+    picture: "/assets/imgs/brothers/sarah_o\u2019sullivan.jpg"
   semester: Spring 2022
 - members:
   - hometown: Romeoville, IL
@@ -181,7 +181,7 @@ actives:
     linkedin: ''
     major: Computer Science
     name: Andrew Shusterman
-    picture: /assets/imgs/brothers/thetatau.jpg
+    picture: /assets/imgs/brothers/andrew_shusterman.jpg
   semester: Fall 2021
 - members:
   - hometown: Closter, NJ
@@ -258,12 +258,12 @@ actives:
     linkedin: ''
     major: Electrical Engineering
     name: Cedric Mathew
-    picture: /assets/imgs/brothers/thetatau.jpg
+    picture: /assets/imgs/brothers/cedric_mathew.jpg
   - hometown: ''
     linkedin: ''
     major: Bioengineering
     name: Payton McQueeney
-    picture: /assets/imgs/brothers/thetatau.jpg
+    picture: /assets/imgs/brothers/payton_mcqueeney.jpg
   - hometown: Wheaton, IL
     linkedin: https://www.linkedin.com/in/alexandrahosny
     major: 'Engineering Mechanics '
