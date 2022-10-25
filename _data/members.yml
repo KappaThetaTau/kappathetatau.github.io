@@ -39,7 +39,7 @@ actives:
     linkedin: https://www.linkedin.com/in/brian-yang36/
     major: Computer Engineering
     name: Brian Yang
-    picture: /assets/imgs/brothers/thetatau.jpg
+    picture: /assets/imgs/brothers/brian_yang.jpg
   - hometown: Franklin Lakes, NJ
     linkedin: https://www.linkedin.com/in/dev-dhanesh-shah
     major: Aerospace Engineering
@@ -76,10 +76,10 @@ actives:
     name: Ria Desai
     picture: /assets/imgs/brothers/thetatau.jpg
   - hometown: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/devak-nanda/
     major: Computer Science
     name: Devak Nanda
-    picture: /assets/imgs/brothers/thetatau.jpg
+    picture: /assets/imgs/brothers/devak_nanda.jpg
   - hometown: ''
     linkedin: ''
     major: Computer Science
@@ -118,7 +118,7 @@ actives:
     name: 'Martina Perez Zuleta '
     picture: /assets/imgs/brothers/martina_perez_zuleta_.jpg
   - hometown: Elmhurst, IL
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/rose-menichini-2ab69b222/
     major: Mechanical Engineering
     name: Rose Menichini
     picture: /assets/imgs/brothers/rose_menichini.jpg
@@ -178,7 +178,7 @@ actives:
     name: 'Chetna Verma '
     picture: /assets/imgs/brothers/chetna_verma_.jpg
   - hometown: ''
-    linkedin: ''
+    linkedin: https://www.linkedin.com/in/andrew-shusterman-a8b750201/
     major: Computer Science
     name: Andrew Shusterman
     picture: /assets/imgs/brothers/andrew_shusterman.jpg
@@ -254,16 +254,6 @@ actives:
     major: Statistics and Computer Science
     name: Daniel Rugutt
     picture: /assets/imgs/brothers/daniel_rugutt.jpg
-  - hometown: ''
-    linkedin: ''
-    major: Electrical Engineering
-    name: Cedric Mathew
-    picture: /assets/imgs/brothers/cedric_mathew.jpg
-  - hometown: ''
-    linkedin: ''
-    major: Bioengineering
-    name: Payton McQueeney
-    picture: /assets/imgs/brothers/payton_mcqueeney.jpg
   - hometown: Wheaton, IL
     linkedin: https://www.linkedin.com/in/alexandrahosny
     major: 'Engineering Mechanics '
@@ -274,6 +264,16 @@ actives:
     major: 'Chemical Engineering '
     name: Jess Komar
     picture: /assets/imgs/brothers/jess_komar.jpg
+  - hometown: Schaumburg, IL
+    linkedin: https://www.linkedin.com/in/cedric-mathew-201
+    major: Electrical Engineering
+    name: Cedric Mathew
+    picture: /assets/imgs/brothers/cedric_mathew.jpg
+  - hometown: La Grange Park, IL
+    linkedin: https://www.linkedin.com/feed/
+    major: Bioengineering
+    name: Payton McQueeney
+    picture: /assets/imgs/brothers/payton_mcqueeney.jpg
   semester: Spring 2021
 - members:
   - hometown: Irvine, CA
@@ -445,6 +445,16 @@ actives:
     major: Computer Engineering
     name: Sevan Brodjian
     picture: /assets/imgs/brothers/sevan_brodjian.jpg
+  - hometown: Mokena, IL
+    linkedin: https://www.linkedin.com/in/lauren-samanic
+    major: Mechanical Engineering
+    name: Lauren Samanic
+    picture: /assets/imgs/brothers/lauren_samanic.jpg
+  - hometown: Cary, IL
+    linkedin: https://www.linkedin.com/in/nicholas-wageman-292b0a192/
+    major: Engineering Mechanics
+    name: Nicholas Wageman
+    picture: /assets/imgs/brothers/nicholas_wageman.jpg
   - hometown: Northbrook, IL
     linkedin: https://www.linkedin.com/in/marekw2/
     major: Computer Engineering
@@ -544,18 +554,6 @@ alumni:
   major: Civil & Environmental Engineering
   name: Gabriel Woszczak
   picture: /assets/imgs/brothers/gabriel_woszczak.jpg
-  pledge_class: Fall 2019
-- hometown: Mokena, IL
-  linkedin: https://www.linkedin.com/in/lauren-samanic
-  major: Mechanical Engineering
-  name: Lauren Samanic
-  picture: /assets/imgs/brothers/lauren_samanic.jpg
-  pledge_class: Fall 2019
-- hometown: Cary, IL
-  linkedin: https://www.linkedin.com/in/nicholas-wageman-292b0a192/
-  major: Engineering Mechanics
-  name: Nicholas Wageman
-  picture: /assets/imgs/brothers/nicholas_wageman.jpg
   pledge_class: Fall 2019
 - hometown: Saint Charles, IL
   linkedin: https://www.linkedin.com/in/marie-hubbard-bb86b4192
