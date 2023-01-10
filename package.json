@@ -8,11 +8,12 @@
   },
   "author": "Dylan Huang",
   "devDependencies": {
-    "browser-sync": "^1.3.7",
-    "gulp": "^3.8.8",
-    "gulp-autoprefixer": "1.0.0",
+    "browser-sync": "^2.27.11",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
     "gulp-gh-pages": "^0.5.4",
-    "gulp-sass": "^2.1.0"
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "sass",
     "browsersync"
   ],
+  "overrides": {
+    "graceful-fs": "^4.2.10"
+  },
   "homepage": "https://kappathetatau.github.io"
 }
