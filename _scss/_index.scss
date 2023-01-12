@@ -252,7 +252,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-area: stats;
-    padding: $up-down-padding/2 0;
+    padding: $up-down-padding*0.5 0;
     -webkit-tap-highlight-color: rgba(
       255,
       255,
