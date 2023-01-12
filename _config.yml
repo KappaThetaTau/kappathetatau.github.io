@@ -1,6 +1,7 @@
 title: UIUC Theta Tau
 highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "README.md", "ngrok", "Gemfile", "Gemfile.lock", "scripts"]
+include: ["_redirects"]
 permalink: /:year/:title/
 
 defaults:
