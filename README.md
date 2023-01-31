@@ -47,7 +47,7 @@ $ open _data/contacts.csv
 
 ## Updating Brothers
 
-To update the [brothers](brothers.html) page we use a python [script](scripts/update_data.py) to pull the brother information and images from a google form CSV (https://goo.gl/forms/3MO7V2pyr4457p9h2).
+To update the [brothers](brothers.html) page we use a python [script](scripts/update_data.py) to pull the brother information and images from a google form CSV (https://forms.gle/PsYvMq74Y2J73mUo6).
 
 ```shell
 $ python scripts/update_data.py
