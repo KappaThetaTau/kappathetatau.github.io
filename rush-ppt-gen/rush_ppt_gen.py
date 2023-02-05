@@ -1,60 +1,58 @@
-"""
-See http://pbpython.com/creating-powerpoint.html for details on this script
-Requires https://python-pptx.readthedocs.org/en/latest/index.html
-
-Program takes a PowerPoint input file and generates a marked up version that
-shows the various layouts and placeholders in the template.
-"""
-
-from __future__ import print_function
+import collections 
+import collections.abc
 from pptx import Presentation
-import argparse
+# from pptx.util import Inches
+import pandas as pd
+import webbrowser
 
-
-def parse_args():
-    """ Setup the input and output arguments for the script
-    Return the parsed input and output files
-    """
-    parser = argparse.ArgumentParser(description='Analyze powerpoint file structure')
-    parser.add_argument('infile',
-                        type=argparse.FileType('r'),
-                        help='Powerpoint file to be analyzed')
-    parser.add_argument('outfile',
-                        type=argparse.FileType('w'),
-                        help='Output powerpoint')
-    return parser.parse_args()
-
-
-def analyze_ppt(input, output):
-    """ Take the input file and analyze the structure.
-    The output file contains marked up information to make it easier
-    for generating future powerpoint templates.
-    """
-    prs = Presentation(input)
-    # Each powerpoint file has multiple layouts
-    # Loop through them all and  see where the various elements are
-    for index, _ in enumerate(prs.slide_layouts):
-        slide = prs.slides.add_slide(prs.slide_layouts[index])
-        # Not every slide has to have a title
+social_fit_form = pd.read_excel(r'C:\Users\lambh\Documents\Github\kappathetatau.github.io\rush-ppt-gen\Spring 2023 Social Fit Form Instructions.xlsx')
+# print(social_fit_form.columns.values)
+i = 0
+prs = Presentation('test_slide.pptx')
+prs = Presentation('FA22 Final Voting Slides.pptx')
+# print(prs)
+# print(prs.shapes())
+for slide in prs.slides:
+    for shape in slide.shapes:
         try:
-            title = slide.shapes.title
-            title.text = 'Title for Layout {}'.format(index)
-        except AttributeError:
-            print("No Title for Layout {}".format(index))
-        # Go through all the placeholders and identify them by index and type
-        for shape in slide.placeholders:
-            if shape.is_placeholder:
-                phf = shape.placeholder_format
-                # Do not overwrite the title which is just a special placeholder
-                try:
-                    if 'Title' not in shape.text:
-                        shape.text = 'Placeholder index:{} type:{}'.format(phf.idx, shape.name)
-                except AttributeError:
-                    print("{} has no text attribute".format(phf.type))
-                print('{} {}'.format(phf.idx, shape.name))
-    prs.save(output)
+            text_box = shape.text
+            if (text_box == ''):
+                continue
+            
+            # print("Shape.text:", shape.text)
+            
+            broken = text_box.split("\n")
+            # print(broken)
+            if (('Name:' in broken[0])):
+                # print("broken:", trim(broken[0][5:len(broken[0])])
+                raw_name = broken[0][5:len(broken[0])].strip()
+                # print(raw_name)
+                print(raw_name)
+                continue
+            else:
+                continue
+        except:
+            continue
+    # 
+        # print(shape.text)
+        # rush_name = ""
+        # if "Name:" in shape.text:
+        #     rush_name = shape.text[7:len(shape.text)]
+        #     # rush_name = "boo"
+        # print(rush_name)
+    # except:
+        # print("error")
+# for link in social_fit_form['Their Slide, screenshot photo for form']:
+#     # if (i > 2):
+#     #     break
+#     # print(link)
+#     # webbrowser.open(link)
+#     # webbrowser.C
+#     i += 1
+    # try
+    #     webbrowser.open(link)
+    # except
+# prs = Presentation('FA22 Final Voting Slides.pptx') 
+# print("ur mom")
+# prs.save('FA22 Final Voting Slides.pptx') 
 
-
-if __name__ == "__main__":
-    args = parse_args()
-    analyze_ppt(args.infile.name, args.outfile.name)
