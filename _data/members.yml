@@ -1,5 +1,55 @@
 actives:
 - members:
+  - hometown: Riverside, IL
+    linkedin: https://www.linkedin.com/in/luca-franceschina
+    major: Civil Engineering
+    name: Luca Franceschina
+    picture: /assets/imgs/brothers/luca_franceschina.jpg
+  - hometown: Geneseo, IL
+    linkedin: https://www.linkedin.com/in/rose-henderson-58aa7a251
+    major: Chemical Engineering
+    name: Rose Henderson
+    picture: /assets/imgs/brothers/rose_henderson.jpg
+  - hometown: Kaohsiung, Taiwan
+    linkedin: ''
+    major: Nuclear Plasma and Radiological Engineering
+    name: Eric Shih
+    picture: /assets/imgs/brothers/eric_shih.jpg
+  - hometown: Lake Zurich, IL
+    linkedin: www.linkedin.com/in/tiffany-pham-a946a8230
+    major: Chemical Engineering
+    name: Tiffany Pham
+    picture: /assets/imgs/brothers/tiffany_pham.jpg
+  - hometown: Western Springs, IL
+    linkedin: https://www.linkedin.com/in/nate-scriba-33bba2188
+    major: Materials Science Engineering
+    name: Nate Scriba
+    picture: /assets/imgs/brothers/nate_scriba.jpg
+  - hometown: Naperville, IL
+    linkedin: https://www.linkedin.com/in/navika-kagathi/
+    major: Industrial Engineering
+    name: Navika Kagathi
+    picture: /assets/imgs/brothers/navika_kagathi.jpg
+  - hometown: Elmhurst, IL
+    linkedin: www.linkedin.com/in/megan-juneman
+    major: Civil and Environmental Engineering
+    name: Megan Juneman
+    picture: /assets/imgs/brothers/megan_juneman.jpg
+  - hometown: San Jose, CA
+    linkedin: https://www.linkedin.com/in/akmin04/
+    major: Computer Engineering
+    name: Andy Min
+    picture: /assets/imgs/brothers/andy_min.jpg
+  - hometown: Saratoga, CA
+    linkedin: https://www.linkedin.com/in/shannonxji/
+    major: Computer Science + Philosophy
+    name: Shannon Ji
+    picture: /assets/imgs/brothers/shannon_ji.jpg
+  - hometown: Glenview, IL
+    linkedin: https://www.linkedin.com/in/juliana-gurevich-52a299221
+    major: Chemical Engineering
+    name: Juliana Gurevich
+    picture: /assets/imgs/brothers/juliana_gurevich.jpg
   - hometown: Red Bud, IL
     linkedin: https://www.linkedin.com/in/ethan-fritsche
     major: Systems Engineering
