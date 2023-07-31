@@ -127,7 +127,7 @@
 
   #faq {
     height: 25em;
-    @include background-button-image-style("/assets/imgs/faq-spring-2022.jpg");
+    @include background-button-image-style("/assets/imgs/faq-fall-2023.jpg");
     position: relative;
     grid-area: faq;
   }
@@ -252,7 +252,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-area: stats;
-    padding: $up-down-padding*0.5 0;
+    padding: $up-down-padding * 0.5 0;
     -webkit-tap-highlight-color: rgba(
       255,
       255,
