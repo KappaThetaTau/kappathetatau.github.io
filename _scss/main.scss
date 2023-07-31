@@ -12,29 +12,30 @@
 
 //HTML Should reach the corner of the windows!
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background: white;
-    font-family: 'rawline', Helvetica;
-    font-weight: 300;
-    padding-top: $navbar-height + $navbar-border-height;
+  background: white;
+  font-family: "rawline", Helvetica;
+  font-weight: 300;
+  padding-top: $navbar-height + $navbar-border-height;
 }
 
-h1, h2, h3 {
-    font-weight: 500;
+h1,
+h2,
+h3 {
+  font-weight: 500;
 }
 
 @media screen and (min-width: $desktop-trigger) {
-    .post {
-        width: 70%;
-        margin: auto;
-        font-size: 1.2em;
-    }
+  .post {
+    width: 70%;
+    margin: auto;
+    font-size: 1.2em;
+  }
 }
 
-@import 'https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css';
-@import url('https://fonts.googleapis.com/css?family=Roboto:400');
-
+@import "https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
