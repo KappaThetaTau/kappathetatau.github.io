@@ -1,96 +1,111 @@
 exec_board:
-  - name: LJ Kim
+  - name: Ariette Kaberlein
     title: Regent
+    class: 2025
+    major: Aerospace Engineering
+    image: /assets/imgs/brothers/ariette_kaberlein.jpg
+  - name: Alexandra Hosny
+    title: Vice Regent
     class: 2024
-    major: Materials Science and Engineering
-    image: /assets/imgs/brothers/leejun_lj_kim.jpg
-  - name: Vaanchit Srikumar
-    title: Vice Regen
-    class: 2023
-    major: Materials Science and Engineering
-    image: /assets/imgs/brothers/vaanchit_srikumar_.jpg
-  - name: Subhi Sharma
+    major: Systems Engineering
+    image: /assets/imgs/brothers/alexandra_hosny.jpg
+  - name: Eric Shih
     title: Scribe
-    class: 2024
-    major: Electrical Engineering
-    image: /assets/imgs/brothers/subhi_sharma.jpg
-  - name: Leah Fields
+    class: 2026
+    major: Nuclear Plasma and Radiological Engineering
+    image: /assets/imgs/brothers/eric_shih.jpg
+  - name: Navika Kagathi
+    title: Scribe
+    class: 2026
+    major: Industrial Engineering
+    image: /assets/imgs/brothers/navika_kagathi.jpg
+  - name: Rose Henderson
     title: Treasurer
-    class: 2024
-    major: Agricultural Engineering
-    image: /assets/imgs/brothers/leah_fields.jpg
-  - name: Matt Steele
+    class: 2026
+    major: Chemical Engineering
+    image: /assets/imgs/brothers/rose_henderson.jpg
+  - name: Isabella Palm
     title: Social Chair
-    class: 2023
-    major: Engineering Physics
-    image: /assets/imgs/brothers/matthew_steele.jpg
+    class: 2024
+    major: Aerospace Engineering
+    image: /assets/imgs/brothers/isabella_palm.jpg
   - name: Payton McQueeney
     title: Social Chair
     class: 2024
     major: Bioengineering
     image: /assets/imgs/brothers/payton_mcqueeney.jpg
-  - name: Melissa Chiou
+  - name: Nate Scriba
     title: Corresponding Secretary
-    class: 2024
-    major: Industrial Engineering
-    image: /assets/imgs/brothers/melissa_chiou.jpg
-  - name: Dylan Trott
-    title: Pledge Marshal
-    class: 2024
-    major: Chemical Engineering
-    image: /assets/imgs/brothers/dylan_trott.jpg
-  - name: Sevan Brodjian
-    title: Professional Chair
-    class: 2023
-    major: Computer Engineering
-    image: /assets/imgs/brothers/sevan_brodjian.jpg
+    class: 2025
+    major: Materials Science Engineering
+    image: /assets/imgs/brothers/nate_scriba.jpg
   - name: Emmy Bleck
-    title: Historian
+    title: Pledge Marshal
     class: 2025
     major: Mechanical Engineering
     image: /assets/imgs/brothers/emma_emmy_bleck.jpg
+  - name: Meghana Mangalvedhe
+    title: Professional Chair
+    class: 2024
+    major: Bioengineering
+    image: /assets/imgs/brothers/meghana_mangalvedhe.jpg
+  - name: Abby Kuhn
+    title: Historian
+    class: 2025
+    major: NPRE
+    image: /assets/imgs/brothers/abby_kuhn.jpg
+  - name: Tiffany Pham
+    title: Historian
+    class: 2025
+    major: Chemical Engineering
+    image: /assets/imgs/brothers/tiffany_pham.jpg
   - name: Jess Komar
     title: Philanthropy Chair
     class: 2024
     major: Chemical Engineering
     image: /assets/imgs/brothers/jess_komar.jpg
-  - name: Matthew Seltzer
+  - name: Aidan Rogers
     title: Rush Chair
     class: 2024
-    major: Computer Engineering
-    image: /assets/imgs/brothers/matthew_seltzer.jpg
+    major: Bioengineering
+    image: /assets/imgs/brothers/aidan_rogers.jpg
   - name: Maia Ben-David
     title: Fundraising Chair
     class: 2025
     major: Mechanical Engineering
     image: /assets/imgs/brothers/maia_ben-david.jpg
-  - name: Andrew Yatzkan
+  - name: Ethan Fritsche
     title: Projects Chair
     class: 2025
+    major: Systems Engineering and Design
+    image: /assets/imgs/brothers/ethan_fritsche.jpg
+  - name: Patrick Cunningham
+    title: Tech Chair
+    class: 2025
+    major: Computer Science
+    image: /assets/imgs/brothers/patrick_cunningham.jpg
+  - name: Andy Min
+    title: Tech Chair
+    class: 2026
     major: Computer Engineering
-    image: /assets/imgs/brothers/andrew_yatzkan.jpg
-  - name: Atharva Naik
-    title: Tech Chair
-    class: 2024
-    major: Mathematics & Computer Science
-    image: /assets/imgs/brothers/atharva_naik.jpg
-  - name: Andrew Shusterman
-    title: Tech Chair
+    image: /assets/imgs/brothers/andy_min.jpg
+  - name: Miley Brunner
+    title: Bernays Chair
     class: 2024
     major: Computer Science
-    image: /assets/imgs/brothers/andrew_shusterman.jpg
-  - name: Michael Haughey
+    image: /assets/imgs/brothers/miley_brunner.jpg
+  - name: Megan Juneman
     title: Bernays Chair
     class: 2025
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/michael_haughey.jpg
-  - name: Cedric Mathew
+    major: Civil and Environmental Engineering
+    image: /assets/imgs/brothers/megan_juneman.jpg
+  - name: Jason Jung
     title: Diversity Chair
     class: 2024
     major: Electrical Engineering
-    image: /assets/imgs/brothers/cedric_mathew.jpg
-  - name: Aji Muppuru
+    image: /assets/imgs/brothers/jason_jung.jpg
+  - name: Leejun Kim
     title: Delegate at Large
-    class: 2023
-    major: Aeronautical & Astronautical Engineering
-    image: /assets/imgs/brothers/ajitesh_muppuru.jpg
+    class: 2024
+    major: Materials Science and Engineering
+    image: /assets/imgs/brothers/leejun_lj_kim.jpg
