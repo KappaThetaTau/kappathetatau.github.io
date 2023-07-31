@@ -1,5 +1,30 @@
 actives:
   - members:
+      - hometown: St. Charles, IL
+        linkedin: https://www.linkedin.com/in/abbey-steele-115710253/
+        major: Agricultural and Biological Engineering
+        name: Abbey Steele
+        picture: /assets/imgs/brothers/abbey_steele.jpg
+      - hometown: Rolling Meadows, IL
+        linkedin: https://www.linkedin.com/in/reagan-maddalone-1b54ba248/
+        major: Chemical Engineering
+        name: Reagan Maddalone
+        picture: /assets/imgs/brothers/reagan_maddalone.jpg
+      - hometown: Hoffman Estates, IL
+        linkedin: https://www.linkedin.com/in/meerapatel3524/
+        major: Mechanical Engineering
+        name: Meera Patel
+        picture: /assets/imgs/brothers/meera_patel.jpg
+      - hometown: Cupertino, CA
+        linkedin: https://www.linkedin.com/in/bhuvana-betini/
+        major: Computer Science
+        name: Bhuvana Betini
+        picture: /assets/imgs/brothers/bhuvana_betini.jpg
+      - hometown: Columbus, NJ
+        linkedin: https://www.linkedin.com/in/saniyanagali
+        major: Industrial Engineering
+        name: Saniya Nagali
+        picture: /assets/imgs/brothers/saniya_nagali.jpg
       - hometown: Miami, Fl
         linkedin: https://www.linkedin.com/in/avibenza
         major: Computer Engineering

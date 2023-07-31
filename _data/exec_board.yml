@@ -29,11 +29,11 @@ exec_board:
     class: 2024
     major: Aerospace Engineering
     image: /assets/imgs/brothers/isabella_palm.jpg
-  - name: Payton McQueeney
+  - name: Reagan Maddalone
     title: Social Chair
-    class: 2024
-    major: Bioengineering
-    image: /assets/imgs/brothers/payton_mcqueeney.jpg
+    class: 2025
+    major: Chemical Engineering
+    image: /assets/imgs/brothers/reagan_maddalone.jpg
   - name: Nate Scriba
     title: Corresponding Secretary
     class: 2025
@@ -59,21 +59,21 @@ exec_board:
     class: 2025
     major: Chemical Engineering
     image: /assets/imgs/brothers/tiffany_pham.jpg
-  - name: Jess Komar
+  - name: Abbey Steele
     title: Philanthropy Chair
-    class: 2024
-    major: Chemical Engineering
-    image: /assets/imgs/brothers/jess_komar.jpg
+    class: 2025
+    major: Agricultural and Biological Engineering
+    image: /assets/imgs/brothers/abbey_steele.jpg
   - name: Aidan Rogers
     title: Rush Chair
     class: 2024
     major: Bioengineering
     image: /assets/imgs/brothers/aidan_rogers.jpg
-  - name: Maia Ben-David
+  - name: Meera Patel
     title: Fundraising Chair
-    class: 2025
+    class: 2026
     major: Mechanical Engineering
-    image: /assets/imgs/brothers/maia_ben-david.jpg
+    image: /assets/imgs/brothers/meera_patel.jpg
   - name: Ethan Fritsche
     title: Projects Chair
     class: 2025
