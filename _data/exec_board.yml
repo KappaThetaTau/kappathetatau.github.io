@@ -94,7 +94,6 @@ exec_board:
     class: 2025
     major: Chemical Engineering
     image: /assets/imgs/brothers/tiffany_pham.jpg
-    image: /assets/imgs/brothers/abbey_steele.jpg
   - name: Miley Brunner
     title: Bernays Chair
     class: 2024
