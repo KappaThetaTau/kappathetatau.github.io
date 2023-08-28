@@ -24,6 +24,20 @@ exec_board:
     class: 2026
     major: Chemical Engineering
     image: /assets/imgs/brothers/rose_henderson.jpg
+  - name: Nate Scriba
+    title: Corresponding Secretary
+    class: 2025
+    major: Materials Science Engineering
+    image: /assets/imgs/brothers/nate_scriba.jpg
+  - name: Meghana Mangalvedhe
+    title: Professional Chair
+    class: 2024
+    major: Bioengineering
+    image: /assets/imgs/brothers/meghana_mangalvedhe.jpg
+  - name: Abbey Steele
+    title: Philanthropy Chair
+    class: 2025
+    major: Agricultural and Biological Engineering
   - name: Isabella Palm
     title: Social Chair
     class: 2024
@@ -34,41 +48,21 @@ exec_board:
     class: 2025
     major: Chemical Engineering
     image: /assets/imgs/brothers/reagan_maddalone.jpg
-  - name: Nate Scriba
-    title: Corresponding Secretary
-    class: 2025
-    major: Materials Science Engineering
-    image: /assets/imgs/brothers/nate_scriba.jpg
-  - name: Emmy Bleck
-    title: Pledge Marshal
-    class: 2025
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/emma_emmy_bleck.jpg
-  - name: Meghana Mangalvedhe
-    title: Professional Chair
+  - name: Jason Jung
+    title: Diversity Chair
     class: 2024
-    major: Bioengineering
-    image: /assets/imgs/brothers/meghana_mangalvedhe.jpg
-  - name: Abby Kuhn
-    title: Historian
-    class: 2025
-    major: NPRE
-    image: /assets/imgs/brothers/abby_kuhn.jpg
-  - name: Tiffany Pham
-    title: Historian
-    class: 2025
-    major: Chemical Engineering
-    image: /assets/imgs/brothers/tiffany_pham.jpg
-  - name: Abbey Steele
-    title: Philanthropy Chair
-    class: 2025
-    major: Agricultural and Biological Engineering
-    image: /assets/imgs/brothers/abbey_steele.jpg
+    major: Electrical Engineering
+    image: /assets/imgs/brothers/jason_jung.jpg
   - name: Aidan Rogers
     title: Rush Chair
     class: 2024
     major: Bioengineering
     image: /assets/imgs/brothers/aidan_rogers.jpg
+  - name: Emmy Bleck
+    title: PNM Marshal
+    class: 2025
+    major: Mechanical Engineering
+    image: /assets/imgs/brothers/emma_emmy_bleck.jpg
   - name: Meera Patel
     title: Fundraising Chair
     class: 2026
@@ -89,6 +83,17 @@ exec_board:
     class: 2026
     major: Computer Engineering
     image: /assets/imgs/brothers/andy_min.jpg
+  - name: Abby Kuhn
+    title: Historian
+    class: 2025
+    major: NPRE
+    image: /assets/imgs/brothers/abby_kuhn.jpg
+  - name: Tiffany Pham
+    title: Historian
+    class: 2025
+    major: Chemical Engineering
+    image: /assets/imgs/brothers/tiffany_pham.jpg
+    image: /assets/imgs/brothers/abbey_steele.jpg
   - name: Miley Brunner
     title: Bernays Chair
     class: 2024
@@ -99,11 +104,6 @@ exec_board:
     class: 2025
     major: Civil and Environmental Engineering
     image: /assets/imgs/brothers/megan_juneman.jpg
-  - name: Jason Jung
-    title: Diversity Chair
-    class: 2024
-    major: Electrical Engineering
-    image: /assets/imgs/brothers/jason_jung.jpg
   - name: Leejun Kim
     title: Delegate at Large
     class: 2024
