@@ -50,6 +50,16 @@ actives:
     major: 'Bioengineering '
     name: Elizabeth Martynenko
     picture: /assets/imgs/brothers/elizabeth_martynenko.jpg
+  - hometown: Great Falls, VA
+    linkedin: https://www.linkedin.com/in/juliettegkim/
+    major: Civil Engineering
+    name: Juliette Kim
+    picture: /assets/imgs/brothers/juliette_kim.jpg
+  - hometown: Woodcliff Lake, NJ
+    linkedin: 'https://www.linkedin.com/in/max-zhu '
+    major: 'Civil Engineering '
+    name: Max Zhu
+    picture: /assets/imgs/brothers/max_zhu.jpg
   semester: Spring 2023
 - members:
   - hometown: Riverside, IL
