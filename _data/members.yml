@@ -60,6 +60,21 @@ actives:
     major: 'Civil Engineering '
     name: Max Zhu
     picture: /assets/imgs/brothers/max_zhu.jpg
+  - hometown: Auckland, NZ
+    linkedin: https://www.linkedin.com/in/dionshen/
+    major: Civil Engineering
+    name: Dion Shen
+    picture: /assets/imgs/brothers/dion_shen.jpg
+  - hometown: Santo Domingo, DR
+    linkedin: https://www.linkedin.com/in/juan-diego-sanz/
+    major: Computer Science
+    name: Juan Diego Sanz
+    picture: /assets/imgs/brothers/juan_diego_sanz.jpg
+  - hometown: Fort Belvoir, VA
+    linkedin: https://www.linkedin.com/in/nathanael-tewodros/
+    major: Computer Science
+    name: Nathanael Tewodros
+    picture: /assets/imgs/brothers/nathanael_tewodros.jpg
   semester: Spring 2023
 - members:
   - hometown: Riverside, IL
