@@ -1,9 +1,7 @@
 import os
-import sys
 import csv
-import pdb
+from datetime import datetime
 import yaml
-import argparse
 from image_compress import compress_me
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
@@ -84,20 +82,25 @@ if __name__ == "__main__":
 
     with open(CSV_NAME, 'r') as csvfile:
         reader = csv.reader(csvfile)
-        next(reader, None)
+        next(reader, None)  # header row
+
+        # sort entries by date so most recent submissions are processed
+        key = lambda row: datetime.strptime(row[0], "%m/%d/%Y %H:%M:%S") if row[0] else datetime.fromtimestamp(0)
+        reader = sorted(reader, key=key, reverse=True)
+
         for row in reader:
             # GRAB DATA
-            semester = row[CLASS_IDX]
-            name = row[NAME_IDX]
-            major = row[MAJOR_IDX]
-            hometown = row[HOMETOWN_IDX]
-            linkedin = row[LINKEDIN_IDX]
+            semester = row[CLASS_IDX].strip()
+            name = row[NAME_IDX].strip()
+            major = row[MAJOR_IDX].strip()
+            hometown = row[HOMETOWN_IDX].strip()
+            linkedin = row[LINKEDIN_IDX].strip()
             alumni = row[ALUMNI_IDX]
 
             print("Currently grabbing {}'s data!".format(name))
 
             # Check if we already processed it
-            processed_name = name.lower().replace(' ', '_')
+            processed_name = name.lower().replace(' ', '_')``
             processed_name = processed_name.lower().replace('(', '')
             processed_name = processed_name.lower().replace(')', '')
             if not os.path.isfile("{}{}{}".format(BROTHERS_IMG_DIR, processed_name, '.jpg')):
@@ -151,6 +154,10 @@ if __name__ == "__main__":
                 brother_data['pledge_class'] = semester
                 data['alumni'].append(brother_data)
 
+    # Sort active brothers by last name within pledge classes
+    for semester in data['actives']:
+        semester['members'].sort(key=lambda brother: brother['name'].split(' ')[-1])
+    # Sort alumni by pledge class
     data['alumni'].sort(key=lambda brother: index_of_class(brother['pledge_class']))
 
     # WRITE TO DATA
