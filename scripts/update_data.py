@@ -100,7 +100,7 @@ if __name__ == "__main__":
             print("Currently grabbing {}'s data!".format(name))
 
             # Check if we already processed it
-            processed_name = name.lower().replace(' ', '_')``
+            processed_name = name.lower().replace(' ', '_')
             processed_name = processed_name.lower().replace('(', '')
             processed_name = processed_name.lower().replace(')', '')
             if not os.path.isfile("{}{}{}".format(BROTHERS_IMG_DIR, processed_name, '.jpg')):
