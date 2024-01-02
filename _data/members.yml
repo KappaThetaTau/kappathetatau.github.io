@@ -1,5 +1,42 @@
 actives:
 - members:
+  - hometown: Chicago, IL
+    linkedin: https://linkedin.com/in/adara-adhikari-59684b22b
+    major: Civil Engineering
+    name: Adara Adhikari
+    picture: /assets/imgs/brothers/adara_adhikari.jpg
+  - hometown: Rehoboth, MA
+    linkedin: https://www.linkedin.com/in/nicholas-karamanian-390717241
+    major: Mechanical Engineering
+    name: Nicholas Karamanian
+    picture: /assets/imgs/brothers/nicholas_karamanian.jpg
+  - hometown: Chicago, IL
+    linkedin: https://www.linkedin.com/in/garv-khera-435287254/
+    major: Computer Engineering
+    name: Garv Khera
+    picture: /assets/imgs/brothers/garv_khera.jpg
+  - hometown: Bangkok, Thailand
+    linkedin: https://www.linkedin.com/in/songkrit-kwanpracha
+    major: Systems Engineering and Design
+    name: Songkrit (Man) Kwanpracha
+    picture: /assets/imgs/brothers/songkrit_man_kwanpracha.jpg
+  - hometown: North Aurora, IL
+    linkedin: https://www.linkedin.com/in/julielima/
+    major: Computer Science
+    name: Julie Lima
+    picture: /assets/imgs/brothers/julie_lima.jpg
+  - hometown: Edison, NJ
+    linkedin: https://www.linkedin.com/in/lukas-ping/
+    major: Electrical Engineering
+    name: Lukas Ping
+    picture: /assets/imgs/brothers/lukas_ping.jpg
+  - hometown: South Brunswick, NJ
+    linkedin: https://www.linkedin.com/in/harshitha-thota/
+    major: Aerospace Engineering
+    name: Harshitha Thota
+    picture: /assets/imgs/brothers/harshitha_thota.jpg
+  semester: Fall 2023
+- members:
   - hometown: Lemont, IL
     linkedin: https://www.linkedin.com/in/tamara-bader
     major: Civil Engineering
@@ -123,7 +160,7 @@ actives:
     name: Shannon Ji
     picture: /assets/imgs/brothers/shannon_ji.jpg
   - hometown: Elmhurst, IL
-    linkedin: www.linkedin.com/in/megan-juneman
+    linkedin: https://www.linkedin.com/in/megan-juneman
     major: Civil and Environmental Engineering
     name: Megan Juneman
     picture: /assets/imgs/brothers/megan_juneman.jpg
@@ -133,7 +170,7 @@ actives:
     name: Navika Kagathi
     picture: /assets/imgs/brothers/navika_kagathi.jpg
   - hometown: Los Gatos, CA
-    linkedin: https://www.linkedin.com/akmin04
+    linkedin: https://www.linkedin.com/in/akmin04
     major: Computer Engineering
     name: Andy Min
     picture: /assets/imgs/brothers/andy_min.jpg
@@ -143,7 +180,7 @@ actives:
     name: Meera Patel
     picture: /assets/imgs/brothers/meera_patel.jpg
   - hometown: Lake Zurich, IL
-    linkedin: www.linkedin.com/in/tiffany-pham-a946a8230
+    linkedin: https://www.linkedin.com/in/tiffany-pham-a946a8230
     major: Chemical Engineering
     name: Tiffany Pham
     picture: /assets/imgs/brothers/tiffany_pham.jpg
@@ -158,7 +195,7 @@ actives:
     name: Eric Shih
     picture: /assets/imgs/brothers/eric_shih.jpg
   - hometown: St. Charles, IL
-    linkedin: www.linkedin.com/in/abbey-steele-115710253
+    linkedin: https://www.linkedin.com/in/abbey-steele-115710253
     major: Agricultural and Biological engineering
     name: Abbey Steele
     picture: /assets/imgs/brothers/abbey_steele.jpg
