@@ -10,6 +10,6 @@ navigation:
   - item: Blog
     link: /blog
   - item: FAQ
-    link: /2022/faq
+    link: /2024/faq/
   - item: Contact Us
     link: "/#contact"
