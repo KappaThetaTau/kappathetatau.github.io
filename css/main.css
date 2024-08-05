@@ -594,11 +594,11 @@
       from(rgba(0, 0, 0, 0.3)),
       to(rgba(0, 0, 0, 0.4))
     ),
-    url("/assets/imgs/hero.jpg");
+    url("/assets/imgs/hero-Spring-2024.jpg");
   background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url("/assets/imgs/hero.jpg");
+    url("/assets/imgs/hero-Spring-2024.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url("/assets/imgs/hero.jpg");
+    url("/assets/imgs/hero-Spring-2024.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
