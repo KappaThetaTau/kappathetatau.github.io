@@ -6,8 +6,8 @@
   left: 50%;
   position: absolute;
   -webkit-transform: translate(-50%, -95%);
-  -ms-transform: translate(-50%, -95%);
-  transform: translate(-50%, -95%);
+      -ms-transform: translate(-50%, -95%);
+          transform: translate(-50%, -95%);
   font-size: 1.25em;
 }
 .header-socials #ilogo {
@@ -148,7 +148,7 @@
   color: #93a1a1;
 } /* Name.Attribute */
 .highlight .nb {
-  color: #b58900;
+  color: #B58900;
 } /* Name.Builtin */
 .highlight .nc {
   color: #268bd2;
@@ -260,18 +260,9 @@
   height: 25em;
   padding: none;
   font-size: 1.2em;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.3)),
-      to(rgba(0, 0, 0, 0.4))
-    ),
-    url("/assets/imgs/blog-page-spring-2022.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url("/assets/imgs/blog-page-spring-2022.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url("/assets/imgs/blog-page-spring-2022.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.4))), url("/assets/imgs/blog-page-spring-2022.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/blog-page-spring-2022.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/blog-page-spring-2022.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -289,8 +280,8 @@
   text-align: center;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 100%;
   font-size: 3.5em;
 }
@@ -318,14 +309,14 @@
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   -webkit-box-shadow: #bbbbbb 0px 2px 5px;
-  box-shadow: #bbbbbb 0px 2px 5px;
+          box-shadow: #bbbbbb 0px 2px 5px;
 }
 #blog #posts .post-preview:hover {
   -webkit-transform: translate(0px, -2px);
-  -ms-transform: translate(0px, -2px);
-  transform: translate(0px, -2px);
+      -ms-transform: translate(0px, -2px);
+          transform: translate(0px, -2px);
   -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
-  box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+          box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
 }
 #blog #posts .post-preview .thumbnail {
   width: 100%;
@@ -335,7 +326,7 @@
   display: block;
   background-position: 50% 50%;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 #blog #posts .post-preview .content {
   padding: 1em;
@@ -389,7 +380,7 @@
   background-color: white;
   font-size: 1em;
   -webkit-box-shadow: #bbbbbb 0px 2px 5px;
-  box-shadow: #bbbbbb 0px 2px 5px;
+          box-shadow: #bbbbbb 0px 2px 5px;
 }
 .post-banner {
   width: 100%;
@@ -425,12 +416,10 @@
   white-space: nowrap;
   padding: 6px 13px;
 }
-.post table tr th :first-child,
-.post table tr td :first-child {
+.post table tr th :first-child, .post table tr td :first-child {
   margin-top: 0;
 }
-.post table tr th :last-child,
-.post table tr td :last-child {
+.post table tr th :last-child, .post table tr td :last-child {
   margin-bottom: 0;
 }
 .post .meta {
@@ -444,7 +433,7 @@
   display: block;
   margin: auto;
   -webkit-box-shadow: #bbbbbb 0px 2px 5px;
-  box-shadow: #bbbbbb 0px 2px 5px;
+          box-shadow: #bbbbbb 0px 2px 5px;
 }
 .post .content p {
   margin-top: 1em;
@@ -454,8 +443,8 @@
   overflow-wrap: break-word;
   word-wrap: break-word;
   -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
 }
 .post .content pre {
   padding: 1em;
@@ -510,7 +499,7 @@
 }
 #home .image-button {
   -webkit-box-shadow: #bbbbbb 0px 2px 5px;
-  box-shadow: #bbbbbb 0px 2px 5px;
+          box-shadow: #bbbbbb 0px 2px 5px;
   overflow: hidden;
   display: block;
   position: relative;
@@ -530,8 +519,8 @@
   -o-transition: 0.3s;
   transition: 0.3s;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   text-decoration: none;
   color: white;
 }
@@ -555,8 +544,8 @@
   -o-transition: 0.3s;
   transition: 0.3s;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   text-decoration: none;
   color: white;
   opacity: 0;
@@ -587,18 +576,9 @@
   height: 25em;
   padding: none;
   font-size: 1.2em;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.3)),
-      to(rgba(0, 0, 0, 0.4))
-    ),
-    url("/assets/imgs/hero-Spring-2024.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url("/assets/imgs/hero-Spring-2024.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url("/assets/imgs/hero-Spring-2024.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.4))), url("/assets/imgs/hero-Spring-2024.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/hero-Spring-2024.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/hero-Spring-2024.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -616,8 +596,8 @@
   text-align: center;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 100%;
   font-size: 3.5em;
 }
@@ -652,18 +632,9 @@
 }
 #home #brothers {
   height: 25em;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.15)),
-      to(rgba(0, 0, 0, 0.15))
-    ),
-    url("/assets/imgs/brothers-spring-2022.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("/assets/imgs/brothers-spring-2022.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("/assets/imgs/brothers-spring-2022.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/brothers-spring-2022.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/brothers-spring-2022.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/brothers-spring-2022.jpg");
   font-weight: 200;
   background-position: center;
   background-repeat: no-repeat;
@@ -673,18 +644,9 @@
 }
 #home #posts {
   height: 25em;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.15)),
-      to(rgba(0, 0, 0, 0.15))
-    ),
-    url("/assets/imgs/blog-spring-2022.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("/assets/imgs/blog-spring-2022.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("/assets/imgs/blog-spring-2022.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/blog-spring-2022.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/blog-spring-2022.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/blog-spring-2022.jpg");
   font-weight: 200;
   background-position: center;
   background-repeat: no-repeat;
@@ -694,18 +656,9 @@
 }
 #home #faq {
   height: 25em;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.15)),
-      to(rgba(0, 0, 0, 0.15))
-    ),
-    url("/assets/imgs/faq-fall-2023.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("/assets/imgs/faq-fall-2023.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("/assets/imgs/faq-fall-2023.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/faq-fall-2023.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/faq-fall-2023.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/faq-fall-2023.jpg");
   font-weight: 200;
   background-position: center;
   background-repeat: no-repeat;
@@ -715,18 +668,9 @@
 }
 #home #rush {
   height: 25em;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.15)),
-      to(rgba(0, 0, 0, 0.15))
-    ),
-    url("/assets/imgs/rush-spring-2022.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("/assets/imgs/rush-spring-2022.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("/assets/imgs/rush-spring-2022.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/rush-spring-2022.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/rush-spring-2022.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/rush-spring-2022.jpg");
   font-weight: 200;
   background-position: center;
   background-repeat: no-repeat;
@@ -766,7 +710,7 @@
   display: grid;
   grid-area: brotherhood-slides;
   -webkit-box-shadow: #bbbbbb 0px 2px 5px;
-  box-shadow: #bbbbbb 0px 2px 5px;
+          box-shadow: #bbbbbb 0px 2px 5px;
   margin-bottom: 2em;
 }
 #home #brotherhood-slides .slide-1 {
@@ -820,7 +764,7 @@
   display: grid;
   grid-area: service-slides;
   -webkit-box-shadow: #bbbbbb 0px 2px 5px;
-  box-shadow: #bbbbbb 0px 2px 5px;
+          box-shadow: #bbbbbb 0px 2px 5px;
 }
 #home #service-slides .slide-1 {
   background-image: url("/assets/imgs/service-spring-2022.jpg");
@@ -925,10 +869,10 @@
 }
 #home #portfolio img:hover {
   -webkit-box-shadow: #bbbbbb 0px 2px 5px;
-  box-shadow: #bbbbbb 0px 2px 5px;
+          box-shadow: #bbbbbb 0px 2px 5px;
   -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
   cursor: pointer;
 }
 #home #portfolio .photobanner-scroll {
@@ -938,7 +882,7 @@
 }
 #home #portfolio .photobanner-scroll #company-1 {
   -webkit-animation: bannermove 60s linear infinite;
-  animation: bannermove 60s linear infinite;
+          animation: bannermove 60s linear infinite;
 }
 #home #portfolio .photobanner-show-all {
   text-align: center;
@@ -948,7 +892,7 @@
 }
 #home #portfolio .photobanner-show-all #company-1 {
   -webkit-animation: none;
-  animation: none;
+          animation: none;
 }
 #home #portfolio .photobanner-show-all .company-after {
   display: none;
@@ -956,32 +900,14 @@
 #home #portfolio .tgl {
   display: none;
 }
-#home #portfolio .tgl,
-#home #portfolio .tgl:after,
-#home #portfolio .tgl:before,
-#home #portfolio .tgl *,
-#home #portfolio .tgl *:after,
-#home #portfolio .tgl *:before,
-#home #portfolio .tgl + .tgl-btn {
+#home #portfolio .tgl, #home #portfolio .tgl:after, #home #portfolio .tgl:before, #home #portfolio .tgl *, #home #portfolio .tgl *:after, #home #portfolio .tgl *:before, #home #portfolio .tgl + .tgl-btn {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
-#home #portfolio .tgl::-moz-selection,
-#home #portfolio .tgl:after::-moz-selection,
-#home #portfolio .tgl:before::-moz-selection,
-#home #portfolio .tgl *::-moz-selection,
-#home #portfolio .tgl *:after::-moz-selection,
-#home #portfolio .tgl *:before::-moz-selection,
-#home #portfolio .tgl + .tgl-btn::-moz-selection {
+#home #portfolio .tgl::-moz-selection, #home #portfolio .tgl:after::-moz-selection, #home #portfolio .tgl:before::-moz-selection, #home #portfolio .tgl *::-moz-selection, #home #portfolio .tgl *:after::-moz-selection, #home #portfolio .tgl *:before::-moz-selection, #home #portfolio .tgl + .tgl-btn::-moz-selection {
   background: none;
 }
-#home #portfolio .tgl::selection,
-#home #portfolio .tgl:after::selection,
-#home #portfolio .tgl:before::selection,
-#home #portfolio .tgl *::selection,
-#home #portfolio .tgl *:after::selection,
-#home #portfolio .tgl *:before::selection,
-#home #portfolio .tgl + .tgl-btn::selection {
+#home #portfolio .tgl::selection, #home #portfolio .tgl:after::selection, #home #portfolio .tgl:before::selection, #home #portfolio .tgl *::selection, #home #portfolio .tgl *:after::selection, #home #portfolio .tgl *:before::selection, #home #portfolio .tgl + .tgl-btn::selection {
   background: none;
 }
 #home #portfolio .tgl + .tgl-btn {
@@ -993,12 +919,11 @@
   position: relative;
   cursor: pointer;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
-#home #portfolio .tgl + .tgl-btn:after,
-#home #portfolio .tgl + .tgl-btn:before {
+#home #portfolio .tgl + .tgl-btn:after, #home #portfolio .tgl + .tgl-btn:before {
   position: relative;
   display: block;
   content: "";
@@ -1017,10 +942,9 @@
 #home #portfolio .tgl-flip + .tgl-btn {
   padding: 2px;
   -webkit-perspective: 100px;
-  perspective: 100px;
+          perspective: 100px;
 }
-#home #portfolio .tgl-flip + .tgl-btn:after,
-#home #portfolio .tgl-flip + .tgl-btn:before {
+#home #portfolio .tgl-flip + .tgl-btn:after, #home #portfolio .tgl-flip + .tgl-btn:before {
   display: inline-block;
   -webkit-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -1035,14 +959,14 @@
   top: 0;
   left: 0;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+          backface-visibility: hidden;
   border-radius: 2px;
 }
 #home #portfolio .tgl-flip + .tgl-btn:after {
   content: attr(data-tg-on);
   background: #02c66f;
   -webkit-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
 }
 #home #portfolio .tgl-flip + .tgl-btn:before {
   content: attr(data-tg-off);
@@ -1050,21 +974,21 @@
 }
 #home #portfolio .tgl-flip + .tgl-btn:active:before {
   -webkit-transform: rotateY(-20deg);
-  transform: rotateY(-20deg);
+          transform: rotateY(-20deg);
 }
 #home #portfolio .tgl-flip:checked + .tgl-btn:before {
   -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 #home #portfolio .tgl-flip:checked + .tgl-btn:after {
   -webkit-transform: rotateY(0);
-  transform: rotateY(0);
+          transform: rotateY(0);
   left: 0;
   background: #ff3a19;
 }
 #home #portfolio .tgl-flip:checked + .tgl-btn:active:after {
   -webkit-transform: rotateY(20deg);
-  transform: rotateY(20deg);
+          transform: rotateY(20deg);
 }
 #home #sponsors {
   grid-area: sponsors;
@@ -1134,7 +1058,7 @@
   }
   #home #portfolio #photobanner:hover #company-1 {
     -webkit-animation-play-state: paused;
-    animation-play-state: paused;
+            animation-play-state: paused;
   }
 }
 /* Slideshow container */
@@ -1157,15 +1081,14 @@
   width: 100%;
   height: 100%;
 }
-.slideshow-container .prev,
-.slideshow-container .next {
+.slideshow-container .prev, .slideshow-container .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
   padding: 1em;
   color: white;
   font-weight: bold;
@@ -1179,8 +1102,7 @@
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-.slideshow-container .prev:hover,
-.slideshow-container .next:hover {
+.slideshow-container .prev:hover, .slideshow-container .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 .slideshow-container .numbertext {
@@ -1231,7 +1153,7 @@ header a {
 }
 header a:hover {
   text-decoration: underline;
-  color: #8b0000;
+  color: #8B0000;
 }
 header .header-nav {
   float: right;
@@ -1339,18 +1261,9 @@ header img {
   height: 25em;
   padding: none;
   font-size: 1.2em;
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.3)),
-      to(rgba(0, 0, 0, 0.4))
-    ),
-    url("/assets/imgs/brothers-page-spring-2022.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url("/assets/imgs/brothers-page-spring-2022.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
-    url("/assets/imgs/brothers-page-spring-2022.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.4))), url("/assets/imgs/brothers-page-spring-2022.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/brothers-page-spring-2022.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/brothers-page-spring-2022.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1368,8 +1281,8 @@ header img {
   text-align: center;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 100%;
   font-size: 3.5em;
 }
@@ -1400,7 +1313,7 @@ header img {
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-box-shadow: #bbbbbb 0px 2px 5px;
-  box-shadow: #bbbbbb 0px 2px 5px;
+          box-shadow: #bbbbbb 0px 2px 5px;
   color: white;
   position: relative;
   margin: 10px;
@@ -1414,23 +1327,9 @@ header img {
 #brothers .brothers-wrapper .brother::after {
   position: absolute;
   top: 0px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(0, 0, 0, 0.2)),
-    to(rgba(0, 0, 0, 0))
-  );
-  background-image: -o-linear-gradient(
-    top,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0)
-  );
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0)));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
   display: block;
   content: "";
   height: 100%;
@@ -1464,7 +1363,7 @@ header img {
   border-radius: 0 0 2px 2px;
   background-color: rgba(0, 0, 0, 0.6);
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 #brothers .brothers-wrapper .brother .overlay .major {
   font-size: 0.74em;
