@@ -1,52 +1,55 @@
 executive_members:
-  - email: ariette2@illinois.edu
-    name: Ariette Kaberlein
-    title: Regent
-  - email: ahosny2@illinois.edu
-    name: Alexandra Hosny
-    title: Vice Regent
-  - email: nkaga2@illinois.edu & ptshih2@illinois.edu
-    name: Navika Kagathi & Eric Shih
-    title: Scribes
   - email: rosefh2@illinois.edu
     name: Rose Henderson
+    title: Regent
+  - email: sarahho2@illinois.edu
+    name: Sarah O’Sullivan
+    title: Vice Regent
+  - email: lukasp2@illinois.edu & collinm6@illinois.edu
+    name: Lukas Ping & Collin McCormick
+    title: Scribes
+  - email: nat4@illinois.edu
+    name: Nathanael Tewodros
     title: Treasurer
-  - email: reaganmaddalone@gmail.com & ipalm2@illinois.edu
-    name: Reagan Maddalone & Isabella Palm
+  - email: lucadf2@illinois.edu
+    name: Luca Franceschina
     title: Social Chairs
-  - email: nscriba2@illinois.edu
-    name: Nate Scriba
+  - email: haughey4@illinois.edu
+    name: Michael Haughey
     title: Corresponding Secretary
-  - email: embleck2@illinois.edu
-    name: Emma Bleck
+  - email: rosehm2@illinois.edu
+    name: Rose Menichini
     title: Pledge Marshal
-  - email: mm76@illinois.edu
-    name: Meghana Mangalvedhe
-    title: Professional Chair
-  - email: alkuhn3@illinois.edu & tqpham2@illinois.edu
-    name: Abby Kuhn & Tiffany Pham
+  - email: bkunkel3@illinois.edu
+    name: Benjamin Kunkel
+    title: External Professional Chair
+  - email: aashkad2@illinois.edu
+    name: Aashka Dayal
+    title: Internal Professional Chair
+  - email: adaraaa2@illinois.edu & mpate331@illinois.edu
+    name: Adara Adhikari & Meera Patel
     title: Historians
-  - email: abigale3@illinois.edu
-    name: Abbey Steele
+  - email: rpras3@illinois.edu
+    name: Riya Prasade
     title: Philanthropy Chair
-  - email: aidantr2@illinois.edu
-    name: Aidan Rogers
+  - email: sohyunl4@illinois.edu
+    name: Hana Lee
     title: Rush Chair
-  - email: mpate331@illinois.edu
-    name: Meera Patel
+  - email: emilys13@illinois.edu
+    name: Emily Simon
     title: Fundraising Chair
-  - email: ethanjf3@illinois.edu
-    name: Ethan Fritsche
+  - email: nk34@illinois.edu
+    name: Nicholas Karamanian
     title: Projects Chair
-  - email: akmin2@illinois.edu & pmc4@illinois.edu
-    name: Andy Min & Patrick Cunningham
+  - email: mank3@illinois.edu
+    name: Man Kwanpracha
     title: Tech Chairs
-  - email: mileymb2@illinois.edu & juneman3@illinois.edu
-    name: Miley Brunner & Megan Juneman
+  - email: onh3@illinois.edu
+    name: Olivia Hunsberger
     title: Bernays Chairs
-  - email: jasondj2@illinois.edu
-    name: Jason Jung
+  - email: nkaga2@illinois.edu
+    name: Navika Kagathi
     title: Diversity Chair
-  - email: ljkim2@illinois.edu
-    name: Leejun Kim
+  - email: ariette2@illinois.edu
+    name: Ariette Kaberlein
     title: Delegate at Large
