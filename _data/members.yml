@@ -266,7 +266,7 @@ actives:
     picture: /assets/imgs/brothers/dion_shen.jpg
   - hometown: Wilmette, IL
     linkedin: https://www.linkedin.com/in/sia-shetkar
-    major: Chemical Engineering
+    major: Industrial Engineering
     name: Sia Shetkar
     picture: /assets/imgs/brothers/sia_shetkar.jpeg
   - hometown: Fort Belvoir, VA
@@ -346,6 +346,11 @@ actives:
     major: Chemical Engineering
     name: Tiffany Pham
     picture: /assets/imgs/brothers/tiffany_pham.jpg
+  - hometown: Arlington Height, IL
+    linkedin: https://www.linkedin.com/in/reagan-maddalone-1b54ba248/
+    major: Chemical Engineering
+    name: Reagan Maddalone
+    picture: /assets/imgs/brothers/reagan_maddalone.jpg
   - hometown: Western Springs, IL
     linkedin: https://www.linkedin.com/in/nate-scriba-33bba2188
     major: Materials Science Engineering
@@ -385,7 +390,7 @@ actives:
     picture: /assets/imgs/brothers/abby_kuhn.jpg
   - hometown: Bloomington, IL
     linkedin: https://www.linkedin.com/in/collin-mccormick-8433a7235/
-    major: PREP
+    major: Computer Science
     name: Collin McCormick
     picture: /assets/imgs/brothers/collin_mccormick.jpg
   - hometown: Acton, MA
@@ -407,7 +412,7 @@ actives:
     picture: /assets/imgs/brothers/emma_emmy_bleck.jpg
   - hometown: Lemont, IL
     linkedin: https://www.linkedin.com/in/michael-haughey-uiuc
-    major: Engineering Undeclared
+    major: Mechanical Engineering
     name: Michael Haughey
     picture: /assets/imgs/brothers/michael_haughey.jpg
   - hometown: Elmhurst, IL
@@ -417,7 +422,7 @@ actives:
     picture: /assets/imgs/brothers/rose_menichini.jpg
   - hometown: Glen Ellyn, IL
     linkedin: https://www.linkedin.com/in/andrewyatzkan
-    major: Engineering Undeclared
+    major: Computer Science
     name: Andrew Yatzkan
     picture: /assets/imgs/brothers/andrew_yatzkan.jpg
   semester: Fall 2021
