@@ -65,6 +65,11 @@ actives:
     major: Electrical Engineering
     name: Aidan Moran
     picture: /assets/imgs/brothers/aidan_moran.jpg
+  - hometown: Potomac, MD
+    linkedin: https://www.linkedin.com/in/nargolraissi1313
+    major: Materials Science and Engineering
+    name: Nargol Raissi
+    picture: /assets/imgs/brothers/nargol_raissi.jpg
   - hometown: Des Plaines, IL
     linkedin: https://www.linkedin.com/in/marc-rizkalla-meche/
     major: Mechanical Engineering
@@ -103,7 +108,7 @@ actives:
     name: Suchir Baradwaj
     picture: /assets/imgs/brothers/suchir_baradwaj.jpg
   - hometown: O'Fallon, IL
-    linkedin: www.linkedin.com/in/olivia-crabtree-24
+    linkedin: https://www.linkedin.com/in/olivia-crabtree-24
     major: Industrial Engineering
     name: Olivia Crabtree
     picture: /assets/imgs/brothers/olivia_crabtree.jpg
@@ -223,7 +228,7 @@ actives:
     linkedin: https://www.linkedin.com/in/olivia-hunsberger
     major: Nuclear, Plasma, and Radiological Engineering
     name: Olivia Hunsberger
-    picture: /assets/imgs/brothers/olivia_hunsberger.jpeg
+    picture: /assets/imgs/brothers/olivia_hunsberger.jpg
   - hometown: Barrington, IL
     linkedin: https://www.linkedin.com/in/nisha-janamanchi
     major: Bioengineering
@@ -268,7 +273,7 @@ actives:
     linkedin: https://www.linkedin.com/in/sia-shetkar
     major: Industrial Engineering
     name: Sia Shetkar
-    picture: /assets/imgs/brothers/sia_shetkar.jpeg
+    picture: /assets/imgs/brothers/sia_shetkar.jpg
   - hometown: Fort Belvoir, VA
     linkedin: https://www.linkedin.com/in/nathanael-tewodros/
     major: Computer Science
@@ -283,7 +288,7 @@ actives:
 - members:
   - hometown: Miami, FL
     linkedin: https://www.linkedin.com/in/avibenza
-    major: Electrical Engineering
+    major: Computer Engineering
     name: Abraham Benzaquen
     picture: /assets/imgs/brothers/abraham_benzaquen.jpg
   - hometown: Cupertino, CA
@@ -346,11 +351,6 @@ actives:
     major: Chemical Engineering
     name: Tiffany Pham
     picture: /assets/imgs/brothers/tiffany_pham.jpg
-  - hometown: Arlington Height, IL
-    linkedin: https://www.linkedin.com/in/reagan-maddalone-1b54ba248/
-    major: Chemical Engineering
-    name: Reagan Maddalone
-    picture: /assets/imgs/brothers/reagan_maddalone.jpg
   - hometown: Western Springs, IL
     linkedin: https://www.linkedin.com/in/nate-scriba-33bba2188
     major: Materials Science Engineering
@@ -390,9 +390,14 @@ actives:
     picture: /assets/imgs/brothers/abby_kuhn.jpg
   - hometown: Bloomington, IL
     linkedin: https://www.linkedin.com/in/collin-mccormick-8433a7235/
-    major: Computer Science
+    major: PREP
     name: Collin McCormick
     picture: /assets/imgs/brothers/collin_mccormick.jpg
+  - hometown: ''
+    linkedin: https://www.linkedin.com/in/devak-nanda/
+    major: Computer Science
+    name: Devak Nanda
+    picture: /assets/imgs/brothers/devak_nanda.jpg
   - hometown: Acton, MA
     linkedin: https://www.linkedin.com/in/sarah-o%E2%80%99sullivan-072988218/
     major: Computer Science + Linguistics
@@ -412,7 +417,7 @@ actives:
     picture: /assets/imgs/brothers/emma_emmy_bleck.jpg
   - hometown: Lemont, IL
     linkedin: https://www.linkedin.com/in/michael-haughey-uiuc
-    major: Mechanical Engineering
+    major: Engineering Undeclared
     name: Michael Haughey
     picture: /assets/imgs/brothers/michael_haughey.jpg
   - hometown: Elmhurst, IL
@@ -422,7 +427,7 @@ actives:
     picture: /assets/imgs/brothers/rose_menichini.jpg
   - hometown: Glen Ellyn, IL
     linkedin: https://www.linkedin.com/in/andrewyatzkan
-    major: Computer Science
+    major: Engineering Undeclared
     name: Andrew Yatzkan
     picture: /assets/imgs/brothers/andrew_yatzkan.jpg
   semester: Fall 2021
@@ -463,18 +468,6 @@ actives:
 - members: []
   semester: Fall 2012
 alumni:
-- hometown: ''
-  linkedin: https://www.linkedin.com/in/devak-nanda/
-  major: Computer Science
-  name: Devak Nanda
-  picture: /assets/imgs/brothers/devak_nanda.jpg
-  pledge_class: Spring 2022
-- hometown: Hoffman Estates, IL
-  linkedin: https://www.linkedin.com/in/brian-yang36
-  major: Computer Engineering
-  name: Brian Yang
-  picture: /assets/imgs/brothers/brian_yang.jpg
-  pledge_class: Spring 2022
 - hometown: Edison, NJ
   linkedin: https://www.linkedin.com/in/jeevanantham-murugan-84862a178/
   major: Computer Engineering
@@ -492,6 +485,12 @@ alumni:
   major: Aerospace Engineering
   name: Dev Dhanesh Shah
   picture: /assets/imgs/brothers/dev_dhanesh_shah.jpg
+  pledge_class: Spring 2022
+- hometown: Hoffman Estates, IL
+  linkedin: https://www.linkedin.com/in/brian-yang36/
+  major: Computer Engineering
+  name: Brian Yang
+  picture: /assets/imgs/brothers/brian_yang.jpg
   pledge_class: Spring 2022
 - hometown: Naperville, IL
   linkedin: https://www.linkedin.com/in/isabella-palm-91937b21a/
