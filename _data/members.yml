@@ -214,11 +214,6 @@ actives:
     major: Computer Science
     name: Aashka Dayal
     picture: /assets/imgs/brothers/aashka_dayal.jpg
-  - hometown: St. Charles, IL
-    linkedin: https://www.linkedin.com/in/ryanfore/
-    major: Computer Science
-    name: Ryan Forester
-    picture: /assets/imgs/brothers/ryan_forester.jpg
   - hometown: Boca Raton, FL
     linkedin: https://www.linkedin.com/in/samuelgerstein
     major: Computer Science; Statistics
@@ -288,7 +283,7 @@ actives:
 - members:
   - hometown: Miami, FL
     linkedin: https://www.linkedin.com/in/avibenza
-    major: Computer Engineering
+    major: Electrical Engineering
     name: Abraham Benzaquen
     picture: /assets/imgs/brothers/abraham_benzaquen.jpg
   - hometown: Cupertino, CA
