@@ -1,7 +1,7 @@
 actives:
 - members:
   - hometown: Hickory Hills, IL
-    linkedin: https://linkedin.com/in/ybopeya
+    linkedin: http://linkedin.com/in/ybopeya
     major: Computer Science
     name: Yohali Bopeya
     picture: /assets/imgs/brothers/yohali_bopeya.jpg
@@ -10,8 +10,13 @@ actives:
     major: Computer Science
     name: Ellie Fulkerson
     picture: /assets/imgs/brothers/ellie_fulkerson.jpg
+  - hometown: Bolingbrook, IL
+    linkedin: www.linkedin.com/in/noahisaiahguzman
+    major: Neural Engineering
+    name: Noah Isaiah Guzman
+    picture: /assets/imgs/brothers/noah_isaiah_guzman.jpg
   - hometown: Bloomington, IL
-    linkedin: https://www.linkedin.com/in/mitch-hayes/
+    linkedin: http://linkedin.com/in/mitch-hayes
     major: Mechanical Engineering
     name: Mitchell Hayes
     picture: /assets/imgs/brothers/mitchell_hayes.jpg
@@ -25,6 +30,11 @@ actives:
     major: Materials Science & Engineering
     name: Louis Hodges
     picture: /assets/imgs/brothers/louis_hodges.jpg
+  - hometown: Chicago, IL
+    linkedin: www.linkedin.com/in/luke-hower-841919299
+    major: Civil Engineering
+    name: Luke Hower
+    picture: /assets/imgs/brothers/luke_hower.jpg
   - hometown: Providence, RI
     linkedin: https://www.linkedin.com/in/mylesljohnson/
     major: Systems Engineering and Design
@@ -41,7 +51,7 @@ actives:
     name: Sophie Li
     picture: /assets/imgs/brothers/sophie_li.jpg
   - hometown: Naperville, IL
-    linkedin: https://www.linkedin.com/in/michaelmilowski
+    linkedin: https://www.linkedin.com/in/michaelmilowski/
     major: Aerospace Engineering
     name: Michael Milowski
     picture: /assets/imgs/brothers/michael_milowski.jpg
@@ -55,6 +65,11 @@ actives:
     major: Computer Engineering
     name: Arnav Rajesh
     picture: /assets/imgs/brothers/arnav_rajesh.jpg
+  - hometown: Glen Carbon, IL
+    linkedin: http://linkedin.com/cooperer/
+    major: Civil and Environmental Engineering
+    name: Cooper Rutledge
+    picture: /assets/imgs/brothers/cooper_rutledge.jpg
   - hometown: Skokie, IL
     linkedin: https://www.linkedin.com/in/rosalie-shearer-48b5b2290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
     major: Civil Engineering
@@ -238,7 +253,7 @@ actives:
     linkedin: ''
     major: Civil/Environmental Engineering
     name: Tara O'Sullivan
-    picture: /assets/imgs/brothers/tara_o'sullivan.jpg
+    picture: /assets/imgs/brothers/tara_osullivan.jpg
   - hometown: Edison, NJ
     linkedin: https://www.linkedin.com/in/lukas-ping/
     major: Electrical Engineering
