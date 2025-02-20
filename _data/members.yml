@@ -11,7 +11,7 @@ actives:
     name: Ellie Fulkerson
     picture: /assets/imgs/brothers/ellie_fulkerson.jpg
   - hometown: Bolingbrook, IL
-    linkedin: www.linkedin.com/in/noahisaiahguzman
+    linkedin: https://www.linkedin.com/in/noahisaiahguzman
     major: Neural Engineering
     name: Noah Isaiah Guzman
     picture: /assets/imgs/brothers/noah_isaiah_guzman.jpg
@@ -512,6 +512,12 @@ actives:
     major: Engineering Undeclared
     name: Andrew Yatzkan
     picture: /assets/imgs/brothers/andrew_yatzkan.jpg
+  - hometown: Lemont, IL
+    linkedin: https://www.linkedin.com/in/michael-haughey-uiuc
+    major: Engineering Undeclared
+    name: Michael Haughey
+    picture: /assets/imgs/brothers/michael_haughey.jpg
+  
   semester: Fall 2021
 - members: []
   semester: Spring 2021
@@ -663,12 +669,6 @@ alumni:
   major: Electrical Engineering
   name: Subhi Sharma
   picture: /assets/imgs/brothers/subhi_sharma.jpg
-  pledge_class: Fall 2021
-- hometown: Lemont, IL
-  linkedin: https://www.linkedin.com/in/michael-haughey-uiuc
-  major: Engineering Undeclared
-  name: Michael Haughey
-  picture: /assets/imgs/brothers/michael_haughey.jpg
   pledge_class: Fall 2021
 - hometown: Naperville, IL
   linkedin: https://www.linkedin.com/in/isha-akella-a13ba2200/

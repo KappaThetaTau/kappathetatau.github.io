@@ -3,4 +3,4 @@ message: >-
   Check out our rush page <a href="/2025/spring-rush-2025/">here</a>.
 date: 01/10/2025
 # TODO change show to true after updating
-show: true
+show: false
