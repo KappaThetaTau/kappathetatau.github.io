@@ -1,101 +1,111 @@
 exec_board:
   - name: Riya Prasade
     title: Regent
-    class: 2026
-    major: Chemical Engineering
-    image: /assets/imgs/brothers/riya_prasade.jpg
-  - name: Sarah O'Sullivan
-    title: Vice Regent
-    class: 2025
-    major: Computer Science + Linguistic
-    image: /assets/imgs/brothers/sarah_o’sullivan.jpg
-  - name: Collin McCormick
-    title: Scribe
-    class: 2025
-    major: Computer Science
-    image: /assets/imgs/brothers/collin_mccormick.jpg
-  - name: Lukas Ping
-    title: Scribe
-    class: 2026
-    major: Electrical Engineering
-    image: /assets/imgs/brothers/lukas_ping.jpg
-  - name: Nathanael Tewodros
-    title: Treasurer
-    class: 2026
-    major: Chemical Engineering
-    image: /assets/imgs/brothers/nathanael_tewodros.jpg
-  - name: Michael Haughey
-    title: Corresponding Secretary
-    class: 2025
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/michael_haughey.jpg
-  - name: Ben Kunkel
-    title: External Professional Chair
-    class: 2026
-    major: Engineering Mechanic
-    image: /assets/imgs/brothers/benjamin_kunkel.jpg
-  - name: Aashka Dayal
-    title: Internal Professional Chair
-    class: 2026
-    major: Computer Science
-    image: /assets/imgs/brothers/aashka_dayal.jpg
-  - name: Riya Prasade
-    title: Philanthropy Chair
     class: 2027
     major: Bioengineering
     image: /assets/imgs/brothers/riya_prasade.jpg
-  - name: Luca Franceschina
-    title: Social Chair
-    class: 2025
-    major: Civil Engieering
-    image: /assets/imgs/brothers/luca_franceschina.jpg
-  - name: Navika Kagathi
-    title: Diversity Chair
+  - name: Lukas Ping
+    title: Vice Regent
     class: 2026
-    major: Industrial Engineering
-    image: /assets/imgs/brothers/navika_kagathi.jpg
-  - name: Hana Lee
-    title: Rush Chair
-    class: 2025
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/hana_lee.jpg
-  - name: Rose Menichini
-    title: PNM Marshal
-    class: 2025
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/rose_menichini.jpg
-  - name: Emily Simon
-    title: Fundraising Chair
-    class: 2026
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/emily_simon.jpg
-  - name: Nick Karamanian
-    title: Projects Chair
-    class: 2027
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/nicholas_karamanian.jpg
-  - name: Man Kwanpracha
-    title: Tech Chair
-    class: 2027
-    major: Systems Engineering and Design
-    image: /assets/imgs/brothers/songkrit_man_kwanpracha.jpg
+    major: Electrical Engineering
+    image: /assets/imgs/brothers/lukas_ping.jpg
   - name: Adara Adhikari
-    title: Historian
+    title: Scribe
     class: 2026
     major: Civil Engineering
     image: /assets/imgs/brothers/adara_adhikari.jpg
-  - name: Meera Patel
-    title: Historian
+  - name: Joe Temple
+    title: Treasurer
+    class: 2028
+    major: Electrical Engineering
+    image: /assets/imgs/brothers/joe_temple.jpg
+  - name: Nadia Ludwig
+    title: Corresponding Secretary
     class: 2026
+    major: Computer Science
+    image: /assets/imgs/brothers/nadia_ludwig.jpg
+  - name: Shreyas Shah
+    title: External Professional Chair
+    class: 2027
+    major: Computer Engineering
+    image: /assets/imgs/brothers/shreyas_shah.jpg
+  - name: Nicholas Karamanian
+    title: Internal Professional Chair
+    class: 2027
     major: Mechanical Engineering
-    image: /assets/imgs/brothers/meera_patel.jpg
-  - name: Olivia Hunsberger
+    image: /assets/imgs/brothers/nicholas_karamanian.jpg
+  - name: Jade Lavallee
+    title: Internal Professional Chair
+    class: 2027
+    major: Computer Science
+    image: /assets/imgs/brothers/jade_lavallee.jpg
+  - name: Sophia Florek Carlson
+    title: Philanthropy Chair
+    class: 2026
+    major: Bioengineering
+    image: /assets/imgs/brothers/sophia_florek_carlson.jpg
+  - name: Aidan Gazda
+    title: Social Chair
+    class: 2027
+    major: Chemical Engieering
+    image: /assets/imgs/brothers/aidan_gazda.jpg
+  - name: Tara O'Sullivan
+    title: Social Chair
+    class: 2027
+    major: Civil Engieering
+    image: /assets/imgs/brothers/tara_osullivan.jpg
+  - name: Noah Guzman
+    title: Diversity Chair
+    class: 2027
+    major: Neural Engineering
+    image: /assets/imgs/brothers/noah_guzman.jpg
+  - name: Shane Bodhanwala
+    title: Rush Chair
+    class: 2026
+    major: Chemical Engineering
+    image: /assets/imgs/brothers/shane_bodhanwala.jpg
+  - name: Maggie Liu
+    title: PNM Marshal
+    class: 2027
+    major: Bioengineering
+    image: /assets/imgs/brothers/maggie_liu.jpg
+  - name: Roxana Jafari Haddadian
+    title: Fundraising Chair
+    class: 2027
+    major: Neural Engineering
+    image: /assets/imgs/brothers/roxana_jafari_haddadian.jpg
+  - name: Mitchell Hayes
+    title: Projects Chair
+    class: 2028
+    major: Mechanical Engineering
+    image: /assets/imgs/brothers/mitchell_hayes.jpg
+  - name: Julie Lima
+    title: Tech Chair
+    class: 2026
+    major: Computer Science
+    image: /assets/imgs/brothers/julie_lima.jpg
+  - name: Cooper Rutledge
+    title: Historian
+    class: 2027
+    major: Civil Engineering
+    image: /assets/imgs/brothers/cooper_rutledge.jpg
+  - name: Darian Tabrizi
+    title: Historian
+    class: 2027
+    major: Biongineering
+    image: /assets/imgs/brothers/darian_tabrizi.jpg
+  - name: Katherine Chen
     title: Bernays Chair
-    class: 2025
-    major: NPRE
-    image: /assets/imgs/brothers/olivia_hunsberger.jpeg
-  - name: Ariette Kaberlain
+    class: 2027
+    major: Mechanical Engineering
+    image: /assets/imgs/brothers/katherine_chen.jpeg
+  - name: Sam Zajczenko
+    title: Bernays Chair
+    class: 2027
+    major: Mechanical Engineering
+    image: /assets/imgs/brothers/sam_zajczenko.jpeg
+  - name: Rose Henderson
     title: Delegate at Large
-    class: 2024
-    major: Aerospace Engineering
-    image: /assets/imgs/brothers/ariette_kaberlein.jpg
+    class: 2026
+    major: Chemical Engineering
+    image: /assets/imgs/brothers/rose_henderson.jpg
