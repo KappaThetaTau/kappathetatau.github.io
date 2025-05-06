@@ -14,11 +14,11 @@ exec_board:
     class: 2026
     major: Civil Engineering
     image: /assets/imgs/brothers/adara_adhikari.jpg
-  - name: Joe Temple
+  - name: Joseph Temple
     title: Treasurer
     class: 2028
     major: Electrical Engineering
-    image: /assets/imgs/brothers/joe_temple.jpg
+    image: /assets/imgs/brothers/joseph_temple.jpg
   - name: Nadia Ludwig
     title: Corresponding Secretary
     class: 2026
@@ -54,11 +54,11 @@ exec_board:
     class: 2027
     major: Civil Engieering
     image: /assets/imgs/brothers/tara_osullivan.jpg
-  - name: Noah Guzman
+  - name: Noah Isaiah Guzman
     title: Diversity Chair
     class: 2027
     major: Neural Engineering
-    image: /assets/imgs/brothers/noah_guzman.jpg
+    image: /assets/imgs/brothers/noah_isaiah_guzman.jpg
   - name: Shane Bodhanwala
     title: Rush Chair
     class: 2026
@@ -98,12 +98,12 @@ exec_board:
     title: Bernays Chair
     class: 2027
     major: Mechanical Engineering
-    image: /assets/imgs/brothers/katherine_chen.jpeg
+    image: /assets/imgs/brothers/katherine_chen.jpg
   - name: Sam Zajczenko
     title: Bernays Chair
     class: 2027
     major: Mechanical Engineering
-    image: /assets/imgs/brothers/sam_zajczenko.jpeg
+    image: /assets/imgs/brothers/sam_zajczenko.jpg
   - name: Rose Henderson
     title: Delegate at Large
     class: 2026
