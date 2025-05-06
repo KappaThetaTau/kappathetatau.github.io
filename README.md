@@ -19,7 +19,7 @@ This is the documentation for Kappa Theta Tau's main website.
 To clone this repo, simply git clone and cd into it.
 
 ```shell
-$ git clone https://github.com/KappaThetaTau/kappathetatau.github.io.git & cd kappathetatai.github.io
+$ git clone https://github.com/KappaThetaTau/kappathetatau.github.io.git & cd kappathetatau.github.io
 ```
 
 ## Pushing Changes
