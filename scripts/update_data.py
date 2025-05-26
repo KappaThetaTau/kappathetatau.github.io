@@ -24,6 +24,7 @@ ALUMNI_IDX = 8
 
 data = {
     'actives': [
+        {'semester': 'Spring 2025', 'members': []},
         {'semester': 'Fall 2024', 'members': []},
         {'semester': 'Spring 2024', 'members': []},
         {'semester': 'Fall 2023', 'members': []},
@@ -124,6 +125,8 @@ if __name__ == "__main__":
                 print('Already downloaded image for {}'.format(name))
 
             # Add check to ensure that linkedin starts with https://www. - otherwise link won't work
+            if linkedin and not linkedin.startswith(("https://www.", "http://www.")):
+                linkedin = "http://www." + linkedin[linkedin.find("linkedin.com/"):]
 
             # Create brother info dictionary
             if not row[IMAGE_IDX]:
