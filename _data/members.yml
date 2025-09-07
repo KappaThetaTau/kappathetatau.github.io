@@ -75,11 +75,21 @@ actives:
     major: Mechanical Engineering
     name: Ayan Saha
     picture: /assets/imgs/brothers/ayan_saha.jpg
-  - hometown: St. Charles, IL
-    linkedin: http://www.linkedin.com/in/priyansha-shah
+  - hometown: St. Charles
+    linkedin: https://www.linkedin.com/in/priyansha-shah-158392344/
     major: Computer Engineering
     name: Priyansha Shah
     picture: /assets/imgs/brothers/priyansha_shah.jpg
+  - hometown: Saint Charles, IL
+    linkedin: http://www.linkedin.com/in/amandastepien
+    major: Computer Science
+    name: Amanda Stepien
+    picture: /assets/imgs/brothers/amanda_stepien.jpg
+  - hometown: Champaign, IL
+    linkedin: ''
+    major: Bioengineering
+    name: Tessa Waldhoff
+    picture: /assets/imgs/brothers/tessa_waldhoff.jpg
   semester: Spring 2025
 - members:
   - hometown: Hickory Hills, IL
@@ -162,9 +172,9 @@ actives:
     major: Bioengineering
     name: Darian Tabrizi
     picture: /assets/imgs/brothers/darian_tabrizi.jpg
-  - hometown: Plymouth, MN
+  - hometown: Wayzata, MN
     linkedin: https://www.linkedin.com/in/viraj-taneja/
-    major: Mechanical Engineering
+    major: Computer Engineering
     name: Viraj Taneja
     picture: /assets/imgs/brothers/viraj_taneja.jpg
   - hometown: Palatine, Illinois
@@ -313,7 +323,7 @@ actives:
     picture: /assets/imgs/brothers/garv_khera.jpg
   - hometown: Bangkok, Thailand
     linkedin: https://www.linkedin.com/in/songkrit-kwanpracha
-    major: Systems Engineering and Design
+    major: Computer Science and Statistics
     name: Songkrit (Man) Kwanpracha
     picture: /assets/imgs/brothers/songkrit_man_kwanpracha.jpg
   - hometown: North Aurora, IL
