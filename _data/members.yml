@@ -1,5 +1,52 @@
 actives:
 - members:
+  - hometown: Beach Park, Il
+    linkedin: https://www.linkedin.com/in/trayvonn-foster
+    major: Mechanical Engineering
+    name: Trayvonn Foster
+    picture: /assets/imgs/brothers/trayvonn_foster.jpg
+  - hometown: Chicago, IL
+    linkedin: https://www.linkedin.com/in/jeremiahgatlin
+    major: Computer Science + Crop Science
+    name: Jeremiah Gatlin
+    picture: /assets/imgs/brothers/jeremiah_gatlin.jpg
+  - hometown: West Chicago, IL
+    linkedin: https://www.linkedin.com/in/graham-johnson05/
+    major: Electrical Engineering
+    name: Graham Johnson
+    picture: /assets/imgs/brothers/graham_johnson.jpg
+  - hometown: Libertyville, IL
+    linkedin: http://www.linkedin.com/in/margaret-mcgormley
+    major: Bioengineering
+    name: Margaret McGormley
+    picture: /assets/imgs/brothers/margaret_mcgormley.jpg
+  - hometown: Chicago, IL
+    linkedin: https://www.linkedin.com/in/yasmin-navarro-/
+    major: Civil Engineering
+    name: Yasmin Navarro
+    picture: /assets/imgs/brothers/yasmin_navarro.jpg
+  - hometown: Aurora, IL
+    linkedin: https://www.linkedin.com/in/ananayak/
+    major: Neural Engineering
+    name: Ananya Nayak
+    picture: /assets/imgs/brothers/ananya_nayak.jpg
+  - hometown: Princeton, NJ
+    linkedin: https://www.linkedin.com/in/veer-sehgal/
+    major: Mechanical Engineering
+    name: Veer Sehgal
+    picture: /assets/imgs/brothers/veer_sehgal.jpg
+  - hometown: Libertyville, IL
+    linkedin: https://www.linkedin.com/in/maryam-sellami
+    major: Bioengineering
+    name: Maryam Sellami
+    picture: /assets/imgs/brothers/maryam_sellami.jpg
+  - hometown: Buffalo Grove, IL
+    linkedin: https://www.linkedin.com/in/ethan-h-yao
+    major: Computer Science + Bioengineering
+    name: Ethan Yao
+    picture: /assets/imgs/brothers/ethan_yao.jpg
+  semester: Fall 2025
+- members:
   - hometown: Chicago
     linkedin: https://www.linkedin.com/in/cal-anderson-9157262b0
     major: Computer Science
@@ -12,7 +59,7 @@ actives:
     picture: /assets/imgs/brothers/katie_armstrong.jpg
   - hometown: San Diego, CA
     linkedin: https://www.linkedin.com/in/nathaniel-capule-9379482b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
-    major: Civil Engineering
+    major: Aerospace Engineering
     name: Nathaniel Capule
     picture: /assets/imgs/brothers/nathaniel_capule.jpg
   - hometown: Lisle, IL
@@ -177,6 +224,11 @@ actives:
     major: Computer Engineering
     name: Viraj Taneja
     picture: /assets/imgs/brothers/viraj_taneja.jpg
+  - hometown: Palatine, IL
+    linkedin: https://www.linkedin.com/in/joe-temple-60772a308/
+    major: Electrical Engineering
+    name: Joe Temple
+    picture: /assets/imgs/brothers/joe_temple.jpg
   - hometown: Palatine, Illinois
     linkedin: https://www.linkedin.com/in/joe-temple-60772a308/
     major: Electrical Engineering
