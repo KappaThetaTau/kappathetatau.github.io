@@ -229,11 +229,6 @@ actives:
     major: Electrical Engineering
     name: Joe Temple
     picture: /assets/imgs/brothers/joe_temple.jpg
-  - hometown: Palatine, Illinois
-    linkedin: https://www.linkedin.com/in/joe-temple-60772a308/
-    major: Electrical Engineering
-    name: Joseph Temple
-    picture: /assets/imgs/brothers/joseph_temple.jpg
   semester: Fall 2024
 - members:
   - hometown: Wheeling, IL

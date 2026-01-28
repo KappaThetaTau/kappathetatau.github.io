@@ -14,11 +14,11 @@ exec_board:
     class: 2026
     major: Civil Engineering
     image: /assets/imgs/brothers/adara_adhikari.jpg
-  - name: Joseph Temple
+  - name: Joe Temple
     title: Treasurer
     class: 2028
     major: Electrical Engineering
-    image: /assets/imgs/brothers/joseph_temple.jpg
+    image: /assets/imgs/brothers/joe_temple.jpg
   - name: Nadia Ludwig
     title: Corresponding Secretary
     class: 2026
