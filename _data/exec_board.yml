@@ -1,111 +1,116 @@
 exec_board:
-  - name: Riya Prasade
-    title: Regent
-    class: 2027
-    major: Bioengineering
-    image: /assets/imgs/brothers/riya_prasade.jpg
-  - name: Lukas Ping
-    title: Vice Regent
-    class: 2026
-    major: Electrical Engineering
-    image: /assets/imgs/brothers/lukas_ping.jpg
-  - name: Adara Adhikari
-    title: Scribe
-    class: 2026
-    major: Civil Engineering
-    image: /assets/imgs/brothers/adara_adhikari.jpg
   - name: Joe Temple
-    title: Treasurer
+    title: Regent
     class: 2028
     major: Electrical Engineering
     image: /assets/imgs/brothers/joe_temple.jpg
-  - name: Nadia Ludwig
-    title: Corresponding Secretary
-    class: 2026
-    major: Computer Science
-    image: /assets/imgs/brothers/nadia_ludwig.jpg
-  - name: Shreyas Shah
-    title: External Professional Chair
+  - name: Kaitlyn Regnier
+    title: Vice Regent
     class: 2027
-    major: Computer Engineering
-    image: /assets/imgs/brothers/shreyas_shah.jpg
-  - name: Nicholas Karamanian
-    title: Internal Professional Chair
-    class: 2027
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/nicholas_karamanian.jpg
-  - name: Jade Lavallee
-    title: Internal Professional Chair
-    class: 2027
-    major: Computer Science
-    image: /assets/imgs/brothers/jade_lavallee.jpg
-  - name: Sophia Florek Carlson
-    title: Philanthropy Chair
-    class: 2026
-    major: Bioengineering
-    image: /assets/imgs/brothers/sophia_florek_carlson.jpg
-  - name: Aidan Gazda
-    title: Social Chair
-    class: 2027
-    major: Chemical Engieering
-    image: /assets/imgs/brothers/aidan_gazda.jpg
-  - name: Tara O'Sullivan
-    title: Social Chair
-    class: 2027
-    major: Civil Engieering
-    image: /assets/imgs/brothers/tara_osullivan.jpg
-  - name: Noah Isaiah Guzman
-    title: Diversity Chair
-    class: 2027
-    major: Neural Engineering
-    image: /assets/imgs/brothers/noah_isaiah_guzman.jpg
-  - name: Shane Bodhanwala
-    title: Rush Chair
-    class: 2026
     major: Chemical Engineering
-    image: /assets/imgs/brothers/shane_bodhanwala.jpg
-  - name: Maggie Liu
-    title: PNM Marshal
+    image: /assets/imgs/brothers/kaitlyn_regnier.jpg
+  - name: Hollis Hays
+    title: Scribe
     class: 2027
-    major: Bioengineering
-    image: /assets/imgs/brothers/maggie_liu.jpg
-  - name: Roxana Jafari Haddadian
-    title: Fundraising Chair
+    major: Civil Engineering
+    image: /assets/imgs/brothers/hollis_hays.jpg
+  - name: Bitania Negash
+    title: Treasurer
     class: 2027
-    major: Neural Engineering
-    image: /assets/imgs/brothers/roxana_jafari_haddadian.jpg
+    major: Agricultural & BioEngineering
+    image: /assets/imgs/brothers/bitania_negash.jpg
+  - name: Myles Johnson
+    title: Corresponding Secretary
+    class: 2028
+    major: Systems Engineering & Design
+    image: /assets/imgs/brothers/myles_johnson.jpg
+  - name: Priyansha Shah
+    title: External Professional Chair
+    class: 2028
+    major: Computer Engineering
+    image: /assets/imgs/brothers/priyansha_shah.jpg
+  - name: Viraj Taneja
+    title: External Professional Chair
+    class: 2028
+    major: Computer Engineering
+    image: /assets/imgs/brothers/viraj_taneja.jpg
+  - name: Sumedha Chaudhuri
+    title: Internal Professional Chair
+    class: 2028
+    major: Computer Engineering
+    image: /assets/imgs/brothers/sumedha_chaudhuri.jpg
+  - name: Graham Johnson
+    title: Internal Professional Chair
+    class: 2028
+    major: Electrical Engineering
+    image: /assets/imgs/brothers/graham_johnson.jpg
+  - name: Veer Seghal
+    title: Philanthropy Chair
+    class: 2028
+    major: Mechanical Engineering
+    image: /assets/imgs/brothers/veer_seghal.jpg
+  - name: Tessa Waldhoff
+    title: Philanthropy Chair
+    class: 2028
+    major: BioEngineering
+    image: /assets/imgs/brothers/tessa_waldhoff.jpg
+  - name: Louis Hodges
+    title: Social Chair
+    class: 2028
+    major: Materials Science & Engineering
+    image: /assets/imgs/brothers/louis_hodges.jpg
   - name: Mitchell Hayes
-    title: Projects Chair
+    title: Social Chair
     class: 2028
     major: Mechanical Engineering
     image: /assets/imgs/brothers/mitchell_hayes.jpg
-  - name: Julie Lima
-    title: Tech Chair
-    class: 2026
-    major: Computer Science
-    image: /assets/imgs/brothers/julie_lima.jpg
+  - name: Yasmin Navarro
+    title: Diversity Chair
+    class: 2029
+    major: Civil Engineering
+    image: /assets/imgs/brothers/yasmin_navarro.jpg
+  - name:  Brendan Clancy
+    title: Rush Chair
+    class: 2027
+    major: Civil Engineering
+    image: /assets/imgs/brothers/brendan_clancy.jpg
   - name: Cooper Rutledge
-    title: Historian
+    title: PNM Marshal
     class: 2027
     major: Civil Engineering
     image: /assets/imgs/brothers/cooper_rutledge.jpg
-  - name: Darian Tabrizi
+  - name: Maryam Sellami
+    title: Fundraising Chair
+    class: 2029
+    major: BioEngineering
+    image: /assets/imgs/brothers/maryam_sellami.jpg
+  - name: Tray Foster
+    title: Projects Chair
+    class: 2028
+    major: Mechanical Engineering
+    image: /assets/imgs/brothers/tray_foster.jpg
+  - name: Yohali Bopeya
+    title: Tech Chair
+    class: 2028
+    major: Computer Science
+    image: /assets/imgs/brothers/yohali_bopeya.jpg
+  - name: Ethan Yao
+    title: Tech Chair
+    class: 2029
+    major: Computer Science + BioEngineering
+    image: /assets/imgs/brothers/ethan_yao.jpg
+  - name: Ananya Nayak
     title: Historian
-    class: 2027
-    major: Biongineering
-    image: /assets/imgs/brothers/darian_tabrizi.jpg
-  - name: Katherine Chen
+    class: 2029
+    major: Neural Engineering
+    image: /assets/imgs/brothers/ananya_nayak.jpg
+  - name: Ela Cayirli
     title: Bernays Chair
-    class: 2027
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/katherine_chen.jpg
-  - name: Sam Zajczenko
-    title: Bernays Chair
-    class: 2027
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/sam_zajczenko.jpg
-  - name: Rose Henderson
+    class: 2028
+    major: Undeclared Engineering
+    image: /assets/imgs/brothers/ela_cayirli.jpg
+  - name: Riya Prasade
     title: Delegate at Large
-    class: 2026
-    major: Chemical Engineering
-    image: /assets/imgs/brothers/rose_henderson.jpg
+    class: 2027
+    major: BioEngineering
+    image: /assets/imgs/brothers/riya_prasade.jpg
