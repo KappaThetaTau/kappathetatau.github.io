@@ -24,6 +24,7 @@ ALUMNI_IDX = 8
 
 data = {
     'actives': [
+        {'semester': 'Spring 2026', 'members': []},
         {'semester': 'Fall 2025', 'members': []},
         {'semester': 'Spring 2025', 'members': []},
         {'semester': 'Fall 2024', 'members': []},

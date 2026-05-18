@@ -1,5 +1,102 @@
 actives:
 - members:
+  - hometown: Glenview, IL
+    linkedin: https://www.linkedin.com/in/solange-battamir-630271369
+    major: Engineering Undeclared
+    name: Solange Battamir
+    picture: /assets/imgs/brothers/solange_battamir.jpg
+  - hometown: Lemont, IL
+    linkedin: http://www.linkedin.com/in/andrew-jack-davey
+    major: Electrical Engineering
+    name: Jack Davey
+    picture: /assets/imgs/brothers/jack_davey.jpg
+  - hometown: Naperville, IL
+    linkedin: http://www.linkedin.com/in/jackson-falk
+    major: Environmental Engineering
+    name: Jackson Falk
+    picture: /assets/imgs/brothers/jackson_falk.jpg
+  - hometown: Brooklyn, NY
+    linkedin: https://www.linkedin.com/in/nathanielrho/?skipRedirect=true
+    major: Industrial Engineering
+    name: Nathaniel Ho
+    picture: /assets/imgs/brothers/nathaniel_ho.jpg
+  - hometown: Bloomingdale, IL
+    linkedin: https://www.linkedin.com/in/akkhaira/
+    major: Environmental Engineering
+    name: Asees Khaira
+    picture: /assets/imgs/brothers/asees_khaira.jpg
+  - hometown: Lake Bluff, IL
+    linkedin: http://www.linkedin.com/in/ryan-knight-uiuc
+    major: Chemical Engineering
+    name: Ryan Knight
+    picture: /assets/imgs/brothers/ryan_knight.jpg
+  - hometown: Wayne, NJ
+    linkedin: https://www.linkedin.com/in/sienna-kornhaber-9b939934b/
+    major: Engineering Mechanics
+    name: Sienna Kornhaber
+    picture: /assets/imgs/brothers/sienna_kornhaber.jpg
+  - hometown: Litchfield, IL
+    linkedin: https://www.linkedin.com/in/zach-leitschuh
+    major: Aerospace Engineering
+    name: Zachary Leitschuh
+    picture: /assets/imgs/brothers/zachary_leitschuh.jpg
+  - hometown: Syosset, NY
+    linkedin: http://www.linkedin.com/in/roko-markovic
+    major: Chemical Engineering
+    name: Roko Markovic
+    picture: /assets/imgs/brothers/roko_markovic.jpg
+  - hometown: Seneca, IL
+    linkedin: https://www.linkedin.com/in/payton-mcdonald/
+    major: Computer Science
+    name: Payton McDonald
+    picture: /assets/imgs/brothers/payton_mcdonald.jpg
+  - hometown: Barrington, IL
+    linkedin: https://www.linkedin.com/in/sarahrampurwala?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+    major: Chemical Engineering + Data Science
+    name: Sarah Rampurwala
+    picture: /assets/imgs/brothers/sarah_rampurwala.jpg
+  - hometown: Dallas, TX
+    linkedin: https://www.linkedin.com/in/catherine-seay-398394374?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+    major: Chemical Engineering
+    name: Catherine Seay
+    picture: /assets/imgs/brothers/catherine_seay.jpg
+  - hometown: Northbrook, IL
+    linkedin: https://www.linkedin.com/in/lilyslutzky/
+    major: Computer Science
+    name: Lily Slutzky
+    picture: /assets/imgs/brothers/lily_slutzky.jpg
+  - hometown: Champaign, IL
+    linkedin: https://www.linkedin.com/in/ssarah-su
+    major: Bioengineering
+    name: Sarah Su
+    picture: /assets/imgs/brothers/sarah_su.jpg
+  - hometown: Barrington, IL
+    linkedin: http://www.linkedin.com/in/sydneysukel
+    major: Bioengineering
+    name: Sydney Sukel
+    picture: /assets/imgs/brothers/sydney_sukel.jpg
+  - hometown: Brimfield, IL
+    linkedin: https://www.linkedin.com/in/micahdthompson29/
+    major: Industrial Engineering
+    name: Micah Thompson
+    picture: /assets/imgs/brothers/micah_thompson.jpg
+  semester: Spring 2026
+- members:
+  - hometown: Millburn, NJ
+    linkedin: https://www.linkedin.com/in/ela-cayirli
+    major: Civil Engineering
+    name: Ela Cayirli
+    picture: /assets/imgs/brothers/ela_cayirli.jpg
+  - hometown: Aurora, IL
+    linkedin: https://www.linkedin.com/in/sumedhauc/
+    major: Computer Engineering
+    name: Sumedha Chaudhari
+    picture: /assets/imgs/brothers/sumedha_chaudhari.jpg
+  - hometown: Hartland, Wi
+    linkedin: https://www.linkedin.com/in/gavin-dai-0a80aa338
+    major: Electrical Engineering
+    name: Gavin Dai
+    picture: /assets/imgs/brothers/gavin_dai.jpg
   - hometown: Beach Park, Il
     linkedin: https://www.linkedin.com/in/trayvonn-foster
     major: Mechanical Engineering
@@ -15,21 +112,41 @@ actives:
     major: Electrical Engineering
     name: Graham Johnson
     picture: /assets/imgs/brothers/graham_johnson.jpg
+  - hometown: Naperville, IL
+    linkedin: https://www.linkedin.com/in/ayden-lau?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+    major: Systems Engineering and Design
+    name: Ayden Lau
+    picture: /assets/imgs/brothers/ayden_lau.jpg
   - hometown: Libertyville, IL
     linkedin: http://www.linkedin.com/in/margaret-mcgormley
     major: Bioengineering
     name: Margaret McGormley
     picture: /assets/imgs/brothers/margaret_mcgormley.jpg
+  - hometown: Mount Prospect, IL
+    linkedin: https://www.linkedin.com/in/damian-mogielnicki-1a8339347/
+    major: Civil Engineering
+    name: Damian Mogielnicki
+    picture: /assets/imgs/brothers/damian_mogielnicki.jpg
   - hometown: Chicago, IL
     linkedin: https://www.linkedin.com/in/yasmin-navarro-/
     major: Civil Engineering
     name: Yasmin Navarro
     picture: /assets/imgs/brothers/yasmin_navarro.jpg
+  - hometown: Niles, IL
+    linkedin: http://www.linkedin.com/in/isabellenawara
+    major: Civil Engineering
+    name: Iza Nawara
+    picture: /assets/imgs/brothers/iza_nawara.jpg
   - hometown: Aurora, IL
     linkedin: https://www.linkedin.com/in/ananayak/
     major: Neural Engineering
     name: Ananya Nayak
     picture: /assets/imgs/brothers/ananya_nayak.jpg
+  - hometown: Long Grove, IL
+    linkedin: https://www.linkedin.com/in/alisonnazaruk
+    major: Aerospace Engineering
+    name: Alison Nazaruk
+    picture: /assets/imgs/brothers/alison_nazaruk.jpg
   - hometown: Princeton, NJ
     linkedin: https://www.linkedin.com/in/veer-sehgal/
     major: Mechanical Engineering
@@ -194,6 +311,11 @@ actives:
     major: Aerospace Engineering
     name: Michael Milowski
     picture: /assets/imgs/brothers/michael_milowski.jpg
+  - hometown: Elmhurst, IL
+    linkedin: https://www.linkedin.com/in/nicholas-musgrave/
+    major: Civil Engineering
+    name: Nicholas Musgrave
+    picture: /assets/imgs/brothers/nicholas_musgrave.jpg
   - hometown: Allentown, NJ
     linkedin: https://www.linkedin.com/in/vanishanagali/
     major: Computer Science
@@ -387,7 +509,7 @@ actives:
     linkedin: ''
     major: Civil/Environmental Engineering
     name: Tara O'Sullivan
-    picture: /assets/imgs/brothers/tara_osullivan.jpg
+    picture: /assets/imgs/brothers/tara_o'sullivan.jpg
   - hometown: Edison, NJ
     linkedin: https://www.linkedin.com/in/lukas-ping/
     major: Electrical Engineering
@@ -674,8 +796,8 @@ alumni:
 - hometown: Acton, MA
   linkedin: https://www.linkedin.com/in/sarah-o%E2%80%99sullivan-072988218/
   major: Computer Science + Linguistics
-  name: "Sarah O\u2019Sullivan"
-  picture: "/assets/imgs/brothers/sarah_o\u2019sullivan.jpg"
+  name: "Sarah O\xE2\u20AC\u2122Sullivan"
+  picture: "/assets/imgs/brothers/sarah_o\xE2\u20AC\u2122sullivan.jpg"
   pledge_class: Spring 2022
 - hometown: Edison, NJ
   linkedin: https://www.linkedin.com/in/jeevanantham-murugan-84862a178/
@@ -743,7 +865,7 @@ alumni:
   name: Deeya Bansal
   picture: /assets/imgs/brothers/deeya_bansal.jpg
   pledge_class: Spring 2022
-- hometown: "O\u2019Fallon, IL"
+- hometown: "O\xE2\u20AC\u2122Fallon, IL"
   linkedin: https://www.linkedin.com/in/miley-brunner-111a341b5
   major: Computer Science
   name: Miley Brunner
