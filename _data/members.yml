@@ -457,6 +457,8 @@ actives:
     picture: /assets/imgs/brothers/sam_zajczenko.jpg
   semester: Fall 2023
 - members: []
+  semester: Spring 2023
+- members: []
   semester: Fall 2022
 - members: []
   semester: Spring 2022
@@ -589,8 +591,6 @@ alumni:
   major: Civil and Environmental Engineering
   name: Max Zhu
   picture: /assets/imgs/brothers/max_zhu.jpg
-semester: Spring 2023
-- members:
 - hometown: Cupertino, CA
   linkedin: https://www.linkedin.com/in/bhuvana-betini/
   major: Computer Science
@@ -761,8 +761,8 @@ semester: Spring 2023
 - hometown: Acton, MA
   linkedin: https://www.linkedin.com/in/sarah-o%E2%80%99sullivan-072988218/
   major: Computer Science + Linguistics
-  name: "Sarah O\xE2\u20AC\u2122Sullivan"
-  picture: "/assets/imgs/brothers/sarah_o\xE2\u20AC\u2122sullivan.jpg"
+  name: "Sarah O'Sullivan"
+  picture: "/assets/imgs/brothers/sarah_o'sullivan.jpg"
   pledge_class: Spring 2022
 - hometown: Edison, NJ
   linkedin: https://www.linkedin.com/in/jeevanantham-murugan-84862a178/
