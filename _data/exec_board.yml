@@ -34,21 +34,21 @@ exec_board:
     class: 2028
     major: Computer Engineering
     image: /assets/imgs/brothers/viraj_taneja.jpg
-  - name: Sumedha Chaudhuri
+  - name: Sumedha Chaudhari
     title: Internal Professional Chair
     class: 2028
     major: Computer Engineering
-    image: /assets/imgs/brothers/sumedha_chaudhuri.jpg
+    image: /assets/imgs/brothers/sumedha_chaudhari.jpg
   - name: Graham Johnson
     title: Internal Professional Chair
     class: 2028
     major: Electrical Engineering
     image: /assets/imgs/brothers/graham_johnson.jpg
-  - name: Veer Seghal
+  - name: Veer Sehgal
     title: Philanthropy Chair
     class: 2028
     major: Mechanical Engineering
-    image: /assets/imgs/brothers/veer_seghal.jpg
+    image: /assets/imgs/brothers/veer_sehgal.jpg
   - name: Tessa Waldhoff
     title: Philanthropy Chair
     class: 2028
@@ -84,11 +84,11 @@ exec_board:
     class: 2029
     major: BioEngineering
     image: /assets/imgs/brothers/maryam_sellami.jpg
-  - name: Tray Foster
+  - name: Trayvonn Foster
     title: Projects Chair
     class: 2028
     major: Mechanical Engineering
-    image: /assets/imgs/brothers/tray_foster.jpg
+    image: /assets/imgs/brothers/trayvonn_foster.jpg
   - name: Yohali Bopeya
     title: Tech Chair
     class: 2028
