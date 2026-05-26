@@ -632,9 +632,9 @@
 }
 #home #brothers {
   height: 25em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/brothers-main-2024.jpeg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/brothers-main-2024.jpeg");
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/brothers-main-2024.jpeg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/2026-brothers-site.JPG");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-brothers-site.JPG");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-brothers-site.JPG");
   font-weight: 200;
   background-position: center;
   background-repeat: no-repeat;
@@ -644,9 +644,9 @@
 }
 #home #posts {
   height: 25em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/blog-2024.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/blog-2024.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/blog-2024.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/2026-blog-site.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-blog-site.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-blog-site.jpg");
   font-weight: 200;
   background-position: center;
   background-repeat: no-repeat;
@@ -656,9 +656,9 @@
 }
 #home #faq {
   height: 25em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/faq-fall-2023.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/faq-fall-2023.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/faq-fall-2023.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/2026-faq-site.JPG");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-faq-site.JPG");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-faq-site.JPG");
   font-weight: 200;
   background-position: center;
   background-repeat: no-repeat;
@@ -668,9 +668,9 @@
 }
 #home #rush {
   height: 25em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/faq-2024.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/faq-2024.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/faq-2024.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/2026-rush-site.JPG");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-rush-site.JPG");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-rush-site.JPG");
   font-weight: 200;
   background-position: center;
   background-repeat: no-repeat;
@@ -717,22 +717,22 @@
   background-image: url("/assets/imgs/brotherhood-2024-2.jpg");
 }
 #home #brotherhood-slides .slide-2 {
-  background-image: url("/assets/imgs/brotherhood-2024-1.jpg");
+  background-image: url("/assets/imgs/2026-slideshow-bros.jpeg");
 }
 #home #brotherhood-slides .slide-3 {
-  background-image: url("/assets/imgs/brotherhood-2024-3.jpg");
+  background-image: url("/assets/imgs/2026-slideshow-bance.JPG");
 }
 #home #brotherhood-slides .slide-4 {
-  background-image: url("/assets/imgs/brotherhood-2024-4.jpeg");
+  background-image: url("/assets/imgs/2026-slideshow-regionals.JPG");
 }
 #home #brotherhood-slides .slide-5 {
   background-image: url("/assets/imgs/brotherhood-2024-5.jpeg");
 }
 #home #brotherhood-slides .slide-6 {
-  background-image: url("/assets/imgs/brotherhood_6.jpg");
+  background-image: url("/assets/imgs/2026-slideshow-fa24.JPG");
 }
 #home #brotherhood-slides .slide-7 {
-  background-image: url("/assets/imgs/brotherhood_7.jpg");
+  background-image: url("/assets/imgs/blog-2024.jpg");
 }
 #home #brotherhood-slides .slide-8 {
   background-image: url("/assets/imgs/brotherhood_8.jpg");
@@ -770,16 +770,16 @@
   background-image: url("/assets/imgs/service-2024-1.jpeg");
 }
 #home #service-slides .slide-2 {
-  background-image: url("/assets/imgs/service-2024-2.jpeg");
+  background-image: url("/assets/imgs/2026-service-3.png");
 }
 #home #service-slides .slide-3 {
-  background-image: url("/assets/imgs/service-2024-3.jpeg");
+  background-image: url("/assets/imgs/2026-service-2.png");
 }
 #home #service-slides .slide-4 {
-  background-image: url("/assets/imgs/service-2024-4.jpeg");
+  background-image: url("/assets/imgs/2026-service.JPG");
 }
 #home #service-slides .slide-5 {
-  background-image: url("/assets/imgs/service-2024-5.jpg");
+  background-image: url("/assets/imgs/2026-service-1.png");
 }
 #home #service-slides .slide-6 {
   background-image: url("/assets/imgs/service_6.jpg");
