@@ -81,7 +81,7 @@
   }
 
   #hero {
-    @include hero-styling("/assets/imgs/hero-fall-2024.jpg", 57%);
+    @include hero-styling("/assets/imgs/2026-full-frat.JPG", 57%);
   }
 
   #announcement {
@@ -112,7 +112,7 @@
   #brothers {
     height: 25em;
     @include background-button-image-style(
-      "/assets/imgs/brothers-main-2024.jpeg"
+      "/assets/imgs/2026-brothers-site.JPG"
     );
     position: relative;
     grid-area: brothers;
@@ -120,21 +120,21 @@
 
   #posts {
     height: 25em;
-    @include background-button-image-style("/assets/imgs/blog-2024.jpg");
+    @include background-button-image-style("/assets/imgs/2026-blog-site.jpg");
     position: relative;
     grid-area: posts;
   }
 
   #faq {
     height: 25em;
-    @include background-button-image-style("/assets/imgs/faq-fall-2023.jpg");
+    @include background-button-image-style("/assets/imgs/2026-faq-site.JPG");
     position: relative;
     grid-area: faq;
   }
 
   #rush {
     height: 25em;
-    @include background-button-image-style("/assets/imgs/faq-2024.jpg");
+    @include background-button-image-style("/assets/imgs/2026-rush-site.JPG");
     position: relative;
     grid-area: rush;
   }
@@ -178,22 +178,22 @@
       background-image: url("/assets/imgs/brotherhood-2024-2.jpg");
     }
     .slide-2 {
-      background-image: url("/assets/imgs/brotherhood-2024-1.jpg");
+      background-image: url("/assets/imgs/2026-slideshow-bros.jpeg");
     }
     .slide-3 {
-      background-image: url("/assets/imgs/brotherhood-2024-3.jpg");
+      background-image: url("/assets/imgs/2026-slideshow-fa24.JPG");
     }
     .slide-4 {
-      background-image: url("/assets/imgs/brotherhood-2024-4.jpeg");
+      background-image: url("/assets/imgs/2026-slideshow-regionals.JPG");
     }
     .slide-5 {
       background-image: url("/assets/imgs/brotherhood-2024-5.jpeg");
     }
     .slide-6 {
-      background-image: url("/assets/imgs/brotherhood_6.jpg");
+      background-image: url("/assets/imgs/2026-slideshow-fa24.JPG");
     }
     .slide-7 {
-      background-image: url("/assets/imgs/brotherhood_7.jpg");
+      background-image: url("/assets/imgs/blog-2024.jpg");
     }
     .slide-8 {
       background-image: url("/assets/imgs/brotherhood_8.jpg");
@@ -229,19 +229,19 @@
     grid-area: service-slides;
     @include box-shadow();
     .slide-1 {
-      background-image: url("/assets/imgs/service-2024-1.jpeg");
+      background-image: url("/assets/imgs/2026-service-3.png");
     }
     .slide-2 {
-      background-image: url("/assets/imgs/service-2024-2.jpeg");
+      background-image: url("/assets/imgs/service-2024-1.jpeg");
     }
     .slide-3 {
-      background-image: url("/assets/imgs/service-2024-3.jpeg");
+      background-image: url("/assets/imgs/2026-service-2.png");
     }
     .slide-4 {
-      background-image: url("/assets/imgs/service-2024-4.jpeg");
+      background-image: url("/assets/imgs/2026-service.JPG");
     }
     .slide-5 {
-      background-image: url("/assets/imgs/service-2024-5.jpg");
+      background-image: url("/assets/imgs/2026-service-1.png");
     }
     .slide-6 {
       background-image: url("/assets/imgs/service_6.jpg");
