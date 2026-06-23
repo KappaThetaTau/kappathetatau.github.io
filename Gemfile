@@ -9,3 +9,10 @@ gem "bigdecimal"
 gem "ostruct"
 gem "abbrev"
 gem "stringio"
+
+# Required for Ruby 3.4+ (these were removed from default gems)
+gem "base64"
+gem "bigdecimal"
+gem "csv"
+gem "logger"
+gem "webrick"

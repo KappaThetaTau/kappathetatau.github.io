@@ -57,9 +57,12 @@ $ python scripts/update_data.py
 
 ### System Preparation
 
-1. [Ruby 2.3.6](https://rvm.io/)
-2. [NodeJS 6.17.1](https://github.com/nvm-sh/nvm)
-3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
+1. **Ruby 3.0+** (tested through 3.4) — Windows: [RubyInstaller](https://rubyinstaller.org/downloads/) (pick a "Ruby+Devkit" build). macOS/Linux: [rbenv](https://github.com/rbenv/rbenv) or [RVM](https://rvm.io/).
+2. **Node 18** — install via [nvm](https://github.com/nvm-sh/nvm) (macOS/Linux) or [nvm-windows](https://github.com/coreybutler/nvm-windows).
+3. **Bundler** — `$ gem install bundler`
+4. **Gulp CLI** — `$ npm install -g gulp-cli` (mac users may need sudo)
+
+> **Windows + Ruby 3.4 note:** Ruby 3.4 ships with an outdated default Bundler. If `bundle install` fails with a `DidYouMean::SPELL_CHECKERS` error, run `bundle _4.0.14_ install` once to force the newer Bundler (subsequent `bundle` calls will pick it up automatically via `Gemfile.lock`).
 
 ### Local Installation
 
@@ -72,7 +75,7 @@ $ python scripts/update_data.py
 
 **development mode**
 
-This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
+This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc. The site will be served at [http://localhost:3000](http://localhost:3000).
 
 ```shell
 $ gulp
@@ -80,7 +83,11 @@ $ gulp
 
 **jekyll**
 
-As this is just a Jekyll project, you can use any of the commands listed in their [docs](http://jekyllrb.com/docs/usage/)
+As this is just a Jekyll project, you can use any of the commands listed in their [docs](http://jekyllrb.com/docs/usage/). Since Jekyll is installed via Bundler, prefix commands with `bundle exec`, e.g.:
+
+```shell
+$ bundle exec jekyll serve --livereload
+```
 
 ## Contact
 
