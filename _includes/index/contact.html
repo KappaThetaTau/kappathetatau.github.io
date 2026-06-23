@@ -1,12 +1,164 @@
 <div id="contact">
-    <h1> Contact Us </h1>
-    <ul id="list">
-        {% for exec in site.data.executives.executive_members %}
-        <li>
-            <span class="title">{{exec.title}}</span> -
-            <span class="name">{{exec.name}}</span> -
-            <span class="email">{{exec.email}}</span>
-        </li>
-        {% endfor %}
-    </ul>
+    <h1>Contact Us</h1>
+    <span class="line"></span>
+    <p class="contact-intro">
+        Whether you're a prospective member, an alum, or a company looking to connect with
+        our chapter — send us a message below or reach an officer directly.
+    </p>
+
+    <div class="contact-grid">
+
+        <!-- Message form -->
+        <div class="contact-form-wrap">
+            <h2>Send us a message</h2>
+
+            <!--
+              This form uses Web3Forms, which works on GitHub Pages (no backend, no account).
+              Setup: go to web3forms.com, enter the inbox that should receive chapter messages
+              (e.g. kappa.thetatau@gmail.com), and they email you a free Access Key. Paste it
+              into ACCESS_KEY in the script below and commit. That's it.
+            -->
+            <form id="contact-form" class="contact-form">
+                <!-- spam honeypot: hidden from people, bots fill it in -->
+                <input type="checkbox" name="botcheck" class="cf-hp" style="display:none !important" tabindex="-1" autocomplete="off">
+
+                <div class="field-row">
+                    <div class="field">
+                        <label for="cf-name">Your name</label>
+                        <input id="cf-name" name="name" type="text" placeholder="Jane Smith" required>
+                    </div>
+                    <div class="field">
+                        <label for="cf-email">Email address</label>
+                        <input id="cf-email" name="email" type="email" placeholder="jane@illinois.edu" required>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label for="cf-topic">Topic</label>
+                    <select id="cf-topic" name="topic">
+                        <option value="rush">Rush / recruitment</option>
+                        <option value="alumni">Alumni reconnection</option>
+                        <option value="corporate">Corporate partnership</option>
+                        <option value="general">General inquiry</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="cf-message">Message</label>
+                    <textarea id="cf-message" name="message" rows="6"
+                        placeholder="Tell us a bit about yourself and what you're looking for..." required></textarea>
+                </div>
+
+                <p class="cf-error" id="cf-error">
+                    Something went wrong — please email us directly at
+                    <a href="mailto:temple5@illinois.edu">temple5@illinois.edu</a>.
+                </p>
+
+                <button type="submit" class="cf-submit" id="cf-submit">Send message</button>
+
+                <p class="cf-fine">
+                    Tell us the topic and we'll make sure your message reaches the right officer.
+                    We aim to respond within 48 hours.
+                </p>
+            </form>
+
+            <div class="cf-success" id="cf-success">
+                <h3>Message sent</h3>
+                <p>Thanks for reaching out — we'll get back to you within a couple of days.
+                   If you don't hear from us, check your spam folder.</p>
+                <button type="button" class="cf-link" id="cf-reset">Send another message</button>
+            </div>
+        </div>
+
+        <!-- Officers -->
+        <div class="contact-officers">
+            <h2>Chapter officers</h2>
+            <ul id="list">
+                {% for exec in site.data.executives.executive_members %}
+                <li class="officer-card">
+                    <span class="title">{{ exec.title }}</span>
+                    <span class="name">{{ exec.name }}</span>
+                    <span class="email">
+                        {% assign emails = exec.email | split: " & " %}
+                        {% for email in emails %}<a href="mailto:{{ email | strip }}">{{ email | strip }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
+                    </span>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+    </div>
 </div>
+
+<script>
+  (function () {
+    var form = document.getElementById("contact-form");
+    if (!form) return;
+
+    // ---- Paste your free Web3Forms access key here (https://web3forms.com) ----
+    var ACCESS_KEY = "YOUR_ACCESS_KEY";
+    var ENDPOINT = "https://api.web3forms.com/submit";
+
+    var topicLabels = {
+      rush: "Rush / recruitment",
+      alumni: "Alumni reconnection",
+      corporate: "Corporate partnership",
+      general: "General inquiry"
+    };
+
+    var btn = document.getElementById("cf-submit");
+    var errorEl = document.getElementById("cf-error");
+    var success = document.getElementById("cf-success");
+
+    function reset() {
+      btn.disabled = false;
+      btn.textContent = "Send message";
+    }
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      errorEl.style.display = "none";
+      btn.disabled = true;
+      btn.textContent = "Sending\u2026";
+
+      var name = document.getElementById("cf-name").value;
+      var email = document.getElementById("cf-email").value;
+      var topic = document.getElementById("cf-topic").value;
+      var label = topicLabels[topic] || topic;
+
+      fetch(ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({
+          access_key: ACCESS_KEY,
+          subject: "[Theta Tau] " + label + " from " + name,
+          from_name: "Theta Tau Website",
+          replyto: email,
+          name: name,
+          email: email,
+          topic: label,
+          message: document.getElementById("cf-message").value
+        })
+      }).then(function (res) {
+        return res.json();
+      }).then(function (data) {
+        reset();
+        if (data && data.success) {
+          form.style.display = "none";
+          success.style.display = "block";
+          form.reset();
+        } else {
+          errorEl.style.display = "block";
+        }
+      }).catch(function () {
+        reset();
+        errorEl.style.display = "block";
+      });
+    });
+
+    document.getElementById("cf-reset").addEventListener("click", function () {
+      success.style.display = "none";
+      form.style.display = "block";
+    });
+  })();
+</script>

@@ -261,18 +261,19 @@
   padding: none;
   font-size: 1.2em;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.4))), url("/assets/imgs/2026-blog-pic.JPG");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/2026-blog-pic.JPG");
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/2026-blog-pic.JPG");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  color: white;
 }
 @media screen and (min-width: 800px) {
   #blog #hero {
     background-attachment: fixed;
   }
+}
+#blog #hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
 }
 #blog #hero #title {
   top: 50%;
@@ -306,10 +307,7 @@
   position: relative;
   overflow: hidden;
   -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  -webkit-box-shadow: #bbbbbb 0px 2px 5px;
-          box-shadow: #bbbbbb 0px 2px 5px;
 }
 #blog #posts .post-preview:hover {
   -webkit-transform: translate(0px, -2px);
@@ -317,6 +315,10 @@
           transform: translate(0px, -2px);
   -webkit-box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
           box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+}
+#blog #posts .post-preview {
+  -webkit-box-shadow: #bbbbbb 0px 2px 5px;
+          box-shadow: #bbbbbb 0px 2px 5px;
 }
 #blog #posts .post-preview .thumbnail {
   width: 100%;
@@ -373,6 +375,9 @@
   background-color: #f8f8f8;
 }
 
+.post-banner {
+  width: 100%;
+}
 .post {
   padding: 20px;
   font-weight: 300;
@@ -381,9 +386,6 @@
   font-size: 1em;
   -webkit-box-shadow: #bbbbbb 0px 2px 5px;
           box-shadow: #bbbbbb 0px 2px 5px;
-}
-.post-banner {
-  width: 100%;
 }
 .post table {
   padding: 0;
@@ -442,9 +444,8 @@
 .post .content a {
   overflow-wrap: break-word;
   word-wrap: break-word;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  -ms-hyphens: auto;
+      hyphens: auto;
 }
 .post .content pre {
   padding: 1em;
@@ -470,7 +471,6 @@
   text-decoration: none;
   opacity: 0.7;
   -webkit-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
   color: rgb(173, 181, 189);
 }
@@ -506,7 +506,6 @@
   margin: 0.5em;
   cursor: pointer;
   -webkit-transition: all 0.3s;
-  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 #home .image-button .text {
@@ -516,7 +515,6 @@
   top: 50%;
   left: 50%;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -531,7 +529,6 @@
   top: 0;
   right: -50px;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 #home .image-button .sub-text {
@@ -541,7 +538,6 @@
   top: 65%;
   left: 55%;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -577,18 +573,19 @@
   padding: none;
   font-size: 1.2em;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.4))), url("/assets/imgs/2026-full-frat.JPG");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/2026-full-frat.JPG");
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/2026-full-frat.JPG");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  color: white;
 }
 @media screen and (min-width: 800px) {
   #home #hero {
     background-attachment: fixed;
   }
+}
+#home #hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
 }
 #home #hero #title {
   top: 57%;
@@ -633,7 +630,6 @@
 #home #brothers {
   height: 25em;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/2026-brothers-site.JPG");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-brothers-site.JPG");
   background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-brothers-site.JPG");
   font-weight: 200;
   background-position: center;
@@ -645,7 +641,6 @@
 #home #posts {
   height: 25em;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/2026-blog-site.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-blog-site.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-blog-site.jpg");
   font-weight: 200;
   background-position: center;
@@ -657,7 +652,6 @@
 #home #faq {
   height: 25em;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/2026-faq-site.JPG");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-faq-site.JPG");
   background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-faq-site.JPG");
   font-weight: 200;
   background-position: center;
@@ -669,7 +663,6 @@
 #home #rush {
   height: 25em;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.15)), to(rgba(0, 0, 0, 0.15))), url("/assets/imgs/2026-rush-site.JPG");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-rush-site.JPG");
   background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/assets/imgs/2026-rush-site.JPG");
   font-weight: 200;
   background-position: center;
@@ -804,7 +797,7 @@
   background-position: 50% 50%;
 }
 #home #stats h1 {
-  grid-column: 1/3;
+  grid-column: 1/-1;
   margin-bottom: 1em;
 }
 #home #stats .data {
@@ -829,24 +822,189 @@
 #home #contact {
   margin: 0 !important;
   grid-area: contact;
-  padding: 1em 20px;
-  font-size: 0.8em;
+  padding: 2.7em 20px;
+  text-align: center;
 }
-#home #contact #list {
-  list-style: none;
+#home #contact .line {
+  width: 60px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.8);
+  display: block;
+  margin: 0.75em auto 1.5em;
 }
-#home #contact #list .title {
+#home #contact .contact-intro {
+  max-width: 620px;
+  margin: 0 auto 2.5em;
+  opacity: 0.85;
+}
+#home #contact h2 {
   font-weight: 500;
-  font-size: 1.05em;
+  font-size: 1.4em;
+  margin-bottom: 1em;
 }
-#home #contact #list .name {
+#home #contact .contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5em;
+  max-width: 1120px;
+  margin: 0 auto;
+  text-align: left;
+}
+#home #contact .contact-form .field-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+#home #contact .contact-form .field {
+  margin-bottom: 14px;
+}
+#home #contact .contact-form label {
+  display: block;
+  font-size: 0.8em;
+  margin-bottom: 0.4em;
+  opacity: 0.6;
+}
+#home #contact .contact-form input,
+#home #contact .contact-form select,
+#home #contact .contact-form textarea {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: inherit;
+  font-size: 0.95em;
+  color: #714d4d;
+  background: #fff;
+  border: 1px solid #e2d6d6;
+  border-radius: 4px;
+  padding: 11px 13px;
+  -webkit-transition: border-color 0.15s ease;
+  transition: border-color 0.15s ease;
+}
+#home #contact .contact-form input:focus,
+#home #contact .contact-form select:focus,
+#home #contact .contact-form textarea:focus {
+  outline: none;
+  border-color: #714d4d;
+}
+#home #contact .contact-form textarea {
+  resize: vertical;
+}
+#home #contact .contact-form select {
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+#home #contact .cf-submit {
+  -webkit-box-shadow: #bbbbbb 0px 2px 5px;
+          box-shadow: #bbbbbb 0px 2px 5px;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 0.95em;
+  color: #fff;
+  background: #714d4d;
+  border: none;
+  border-radius: 4px;
+  padding: 11px 26px;
+  cursor: pointer;
+  -webkit-transition: background 0.15s ease;
+  transition: background 0.15s ease;
+}
+#home #contact .cf-submit:hover {
+  background: #5d4040;
+}
+#home #contact .cf-submit:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+#home #contact .cf-error {
+  display: none;
+  margin-bottom: 1em;
+  font-size: 0.85em;
+  color: #b3261e;
+}
+#home #contact .cf-error a {
+  color: #b3261e;
+}
+#home #contact .cf-fine {
+  margin-top: 1em;
+  font-size: 0.78em;
+  opacity: 0.55;
+  line-height: 1.5;
+}
+#home #contact .cf-success {
+  display: none;
+  -webkit-box-shadow: #bbbbbb 0px 2px 5px;
+          box-shadow: #bbbbbb 0px 2px 5px;
+  background: #fbf7f7;
+  border: 1px solid #e2d6d6;
+  border-radius: 6px;
+  padding: 1.75em;
+}
+#home #contact .cf-success h3 {
+  font-weight: 500;
+  margin-bottom: 0.4em;
+}
+#home #contact .cf-success p {
+  opacity: 0.8;
+  margin-bottom: 1em;
+}
+#home #contact .cf-success .cf-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  color: #714d4d;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#home #contact .contact-officers #list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#home #contact .officer-card {
+  padding: 12px 2px;
+  border-bottom: 1px solid #eee5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2px;
+}
+#home #contact .officer-card:last-child {
+  border-bottom: none;
+}
+#home #contact .officer-card .title {
+  font-weight: 500;
+  font-size: 1.02em;
+}
+#home #contact .officer-card .name {
   font-weight: 400;
+  opacity: 0.85;
 }
-#home #contact #list .email {
+#home #contact .officer-card .email {
   font-weight: 300;
+  font-size: 0.9em;
 }
-#home #contact ul li {
-  margin: 0.25em;
+#home #contact .officer-card .email a {
+  color: #714d4d;
+  text-decoration: none;
+  opacity: 0.7;
+  word-break: break-word;
+}
+#home #contact .officer-card .email a:hover {
+  opacity: 1;
+  text-decoration: underline;
 }
 #home #portfolio {
   grid-area: portfolio;
@@ -864,7 +1022,6 @@
   margin: 5px 20px;
   height: 128px;
   -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 #home #portfolio img:hover {
@@ -947,7 +1104,6 @@
 #home #portfolio .tgl-flip + .tgl-btn:after, #home #portfolio .tgl-flip + .tgl-btn:before {
   display: inline-block;
   -webkit-transition: all 1s ease;
-  -o-transition: all 1s ease;
   transition: all 1s ease;
   width: 100%;
   text-align: center;
@@ -1020,7 +1176,7 @@
 @media screen and (min-width: 800px) {
   #home {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "announcement announcement" "hero hero" "about about" "brotherhood service" "brotherhood-slides service-slides" "portfolio portfolio" "brothers posts" "faq rush" "stats contact" "sponsors sponsors";
+    grid-template-areas: "announcement announcement" "hero hero" "about about" "brotherhood service" "brotherhood-slides service-slides" "portfolio portfolio" "brothers posts" "faq rush" "stats stats" "contact contact" "sponsors sponsors";
   }
   #home #hero {
     font-size: 1.6em;
@@ -1048,10 +1204,20 @@
   #home #contact {
     margin: 0 !important;
     font-size: 1em;
+    padding: 4.5em 0 2.7em;
+  }
+  #home #contact .contact-grid {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 4em;
+    padding: 0 40px;
+  }
+  #home #contact .contact-form .field-row {
+    grid-template-columns: 1fr 1fr;
   }
   #home #stats {
     padding: 1em;
     font-size: 1.2em;
+    grid-template-columns: repeat(4, 1fr);
   }
   #home #portfolio {
     padding: 4.5em 0em;
@@ -1070,16 +1236,14 @@
   width: 100%;
   max-width: 600px;
   max-height: 400px;
-  /* Next & previous buttons */
-  /* Position the "next button" to the right */
-  /* On hover, add a black background color with a little bit see-through */
-  /* Number text (1/3 etc) */
-  /* Fading animation */
 }
 .slideshow-container .slide {
   display: none;
   width: 100%;
   height: 100%;
+}
+.slideshow-container {
+  /* Next & previous buttons */
 }
 .slideshow-container .prev, .slideshow-container .next {
   cursor: pointer;
@@ -1093,17 +1257,25 @@
   color: white;
   font-weight: bold;
   -webkit-transition: 0.6s ease;
-  -o-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   background-color: rgba(0, 0, 0, 0.4);
+}
+.slideshow-container {
+  /* Position the "next button" to the right */
 }
 .slideshow-container .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
+.slideshow-container {
+  /* On hover, add a black background color with a little bit see-through */
+}
 .slideshow-container .prev:hover, .slideshow-container .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+.slideshow-container {
+  /* Number text (1/3 etc) */
 }
 .slideshow-container .numbertext {
   font-size: 1em;
@@ -1112,6 +1284,9 @@
   font-weight: bold;
   position: absolute;
   top: 0;
+}
+.slideshow-container {
+  /* Fading animation */
 }
 .slideshow-container .fade {
   -webkit-animation-name: fade;
@@ -1262,18 +1437,19 @@ header img {
   padding: none;
   font-size: 1.2em;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.4))), url("/assets/imgs/brotherhood-2024.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/brotherhood-2024.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("/assets/imgs/brotherhood-2024.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  color: white;
 }
 @media screen and (min-width: 800px) {
   #brothers #hero {
     background-attachment: fixed;
   }
+}
+#brothers #hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
 }
 #brothers #hero #title {
   top: 50%;
@@ -1328,7 +1504,6 @@ header img {
   position: absolute;
   top: 0px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0)));
-  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
   display: block;
   content: "";
@@ -1347,7 +1522,6 @@ header img {
   margin: 5px;
   opacity: 0.7;
   -webkit-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
 #brothers .brothers-wrapper .brother a .link:hover {
