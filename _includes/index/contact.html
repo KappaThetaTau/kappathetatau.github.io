@@ -1,12 +1,28 @@
-<div id="contact">
-    <h1> Contact Us </h1>
-    <ul id="list">
-        {% for exec in site.data.executives.executive_members %}
-        <li>
-            <span class="title">{{exec.title}}</span> -
-            <span class="name">{{exec.name}}</span> -
-            <span class="email">{{exec.email}}</span>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
+<section id="contact">
+  <div class="section-heading">
+    <div class="hero-eyebrow">Get in touch</div>
+    <h2>Send us a message</h2>
+  </div>
+
+  <form id="contact-form" class="contact-form" method="POST">
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="_replyto" placeholder="you@example.com" required>
+    </div>
+    <div>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="What's on your mind?" required></textarea>
+    </div>
+
+    <!-- honeypot, keep hidden -->
+    <input type="text" name="_gotcha" style="display:none">
+
+    <button type="submit">Send message</button>
+
+    <p id="form-status" class="form-status" aria-live="polite"></p>
+  </form>
+</section>

@@ -1,100 +1,173 @@
-$nav-opacity: .95;
+// ============================================================
+// SITE HEADER / NAVIGATION BAR (redesigned)
+// Burgundy-dark background, gold bottom border, nav links
+// truly centered via absolute positioning + transform.
+// ============================================================
+
+$nav-opacity: 1;
 
 header{
-    width:100%; 
-    opacity: $nav-opacity;
-    background:#ffffff; 
-    height:$navbar-height; 
-    line-height:$navbar-height;
-    top: 0;
-    z-index: 10000;
-    position: fixed;
-    border-bottom: $navbar-border-height solid #dddddd;
-    a {
-        text-decoration: none;
-        color: $text-color;
-    }
-    a:hover {
-        text-decoration: underline;
-        color: #8B0000;
-    }
-    .header-nav {
-        float: right;
-        padding-right: 20px;
-    }
-    img {
-        height: 75%;
-        margin-left: 20px;
-        margin-right: 5px;
-        vertical-align: middle;
-    }
-}
-.hamburger{
-    @include icon-styling();
-}
-.cross{
-    @include icon-styling();
-    display: none;
-}
-.menu {
-    z-index:1000000;
-    top: $navbar-height + $navbar-border-height;
-    font-weight: 500;
-    font-size:0.8em;
-    width:100%;
-    background:#f1f1f1;
-    opacity: $nav-opacity;
-    display: none;
-    position:fixed;
-    text-align:center;
-    font-size:12px;
+  width:100%;
+  opacity: $nav-opacity;
+  background:$header-bg;
+  height:$navbar-height;
+  line-height:$navbar-height;
+  top: 0;
+  z-index: 10000;
+  position: fixed;
+  border-bottom: $navbar-border-height solid $gold;
 
-    ul {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        list-style-image: none;
+  .logo {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: $cream;
+    text-decoration: none;
+    margin-left: 20px;
+
+    span {
+      color: $gold-light;
     }
-    li {
+  }
+
+  a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #D8CFC8;
+  }
+
+  a.active {
+    color: $link-hover-color;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: $link-hover-color;
+  }
+
+ 
+
+  // Nav links now truly centered regardless of how many items
+  // there are or how wide the logo is - previously this used
+  // float: right, which only pushed links to one side
+  .header-nav {
+    float: right;
+    padding-right: 20px;
+  
+    > a,
+    > .dropdown {
+      margin-left: 22px;   // gap between nav items
+    }
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      min-width: 180px;
+      background: $header-bg;
+      border: 1px solid rgba($gold, 0.3);
+      border-top: 2px solid $gold;
+      z-index: 10001;
+  
+      a {
         display: block;
-        padding:15px 0 15px 0;
-        border-bottom:#dddddd 1px solid;
-        a {
-            text-decoration:none;
-            margin: 0px;
-            color:$text-color;
+        padding: 0 16px;
+        line-height: 2.8em;  // beats the navbar-height line-height
+        white-space: nowrap;
+  
+        &:hover {
+          background: rgba($gold, 0.1);
+          color: $gold-light;
         }
-        a:hover {
-            color: $text-color;
-            text-decoration:none;
-        }
+      }
     }
-    li:hover {
-        display: block;
-        background:#ffffff;
-        padding:15px 0 15px 0;
-        border-bottom:#dddddd 1px solid;
+  
+    &:hover .dropdown-content {
+      display: block;
     }
-    a{
-        text-decoration:none;
-        color:$text-color;
+  }
+
+  // Site logo in the header
+  img {
+    height: 75%;
+    margin-left: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+}
+
+.hamburger{
+  @include icon-styling();
+}
+
+.cross{
+  @include icon-styling();
+  display: none;
+}
+
+.menu {
+  z-index:1000000;
+  top: $navbar-height + $navbar-border-height;
+  font-weight: 500;
+  font-size:0.8em;
+  width:100%;
+  background:$menu-bg;
+  opacity: $nav-opacity;
+  display: none;
+  position:fixed;
+  text-align:center;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+  }
+
+  li {
+    display: block;
+    padding:15px 0 15px 0;
+    border-bottom: rgba($gold, 0.3) 1px solid;
+
+    a {
+      text-decoration:none;
+      margin: 0px;
+      color: $cream;
     }
     a:hover {
-        text-decoration:none;
-        color:$text-color;
+      color: $gold-light;
+      text-decoration:none;
     }
+
+    li a.active {
+        color: $link-hover-color;
+      }
+    
+  }
+
+  li:hover {
+    display: block;
+    background: rgba($gold, 0.1);
+    padding:15px 0 15px 0;
+    border-bottom: rgba($gold, 0.3) 1px solid;
+  }
 }
 
 @media screen and (min-width: $desktop-trigger) {
-    .hamburger {
-        display: none;
-    }
+  .hamburger {
+    display: none;
+  }
 }
 
 @media screen and (max-width: $desktop-trigger) {
-    header {
-        .header-nav {
-            display: none;
-        }
+  header {
+    .header-nav {
+      display: none;
     }
+  }
 }

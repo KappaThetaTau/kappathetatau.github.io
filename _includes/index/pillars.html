@@ -1,0 +1,39 @@
+<section id="pillars">
+    <div class="section-heading">
+      <div class="hero-eyebrow">What we stand for</div>
+      <h2>Three pillars, one brotherhood</h2>
+    </div>
+  
+    <div class="pillars-grid">
+      <div class="pillar-card">
+        <div class="pillar-photo" style="background-image: url('/assets/imgs/2026-slideshow-fa24.JPG');">
+        </div>
+        <div class="pillar-body">
+          <h3>Brotherhood</h3>
+          <p>Lifelong friendships built through shared challenges, traditions, and everyday moments together.</p>
+          {% assign link = site.data.navigation.navigation | where:"item","Brothers" %}
+          <a href="{{link[0].link}}">Meet The Brothers &rarr;</a>
+        </div>
+      </div>
+  
+      <div class="pillar-card">
+        <div class="pillar-photo" style="background-image: url('/assets/imgs/service-2024-1.jpeg');">
+        </div>
+        <div class="pillar-body">
+          <h3>Service</h3>
+          <p>Hundreds of hours given back to our campus and community every year, from donating to volunteering.</p>
+          <a href="#service">See our impact &rarr;</a>
+        </div>
+      </div>
+  
+      <div class="pillar-card">
+        <div class="pillar-photo" style="background-image: url('/assets/imgs/2026-hero-full.JPG');">
+        </div>
+        <div class="pillar-body">
+          <h3>Professionalism</h3>
+          <p>Mentorship, networking, and career support that lasts well beyond graduation.</p>
+          <a href="#portfolio">Where we work&rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>

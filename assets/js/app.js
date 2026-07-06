@@ -124,3 +124,48 @@ $(document).ready(function(){
 particlesJS.load('particles', '/assets/js/particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
+
+
+// Form contact submission using Formspree
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("contact-form");
+    const status = document.getElementById("form-status");
+    const endpoint = "https://formspree.io/f/xykqvelo"; // your Formspree form ID
+  
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+  
+      const submitBtn = form.querySelector("button[type=submit]");
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Sending...";
+  
+      fetch(endpoint, {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" }
+      })
+        .then((response) => {
+          if (response.ok) {
+            form.reset();
+            status.textContent = "Thanks — your message has been sent!";
+            status.className = "form-status success";
+          } else {
+            return response.json().then((data) => {
+              const msg =
+                data.errors?.map((err) => err.message).join(", ") ||
+                "Something went wrong. Please try again.";
+              status.textContent = msg;
+              status.className = "form-status error";
+            });
+          }
+        })
+        .catch(() => {
+          status.textContent = "Network error — please try again.";
+          status.className = "form-status error";
+        })
+        .finally(() => {
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Send message";
+        });
+    });
+  });

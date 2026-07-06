@@ -1,21 +1,4 @@
 <div id="actives">
-<!--    TODO uncomment this for exec pictures-->
-    <div class="class">
-        <span class="title" style="color: #8B0000"><b>Executive Board</b></span>
-        <div class="brothers-wrapper">
-
-            {% for exec in site.data.exec_board.exec_board %}
-            <div class="brother" style="background-image: url({{exec.image}});">
-                <div class="overlay">
-                    <span class="name"> {{exec.name}}<br /> </span>
-                    <span class="exec-title"> {{exec.title}} </span>
-                </div>
-            </div>
-            {% endfor %}
-
-        </div>
-    </div>
-
     {% for class in site.data.members.actives %}
     {% if class.members.size > 0 %}
 
@@ -25,7 +8,8 @@
 
         <div class="brothers-wrapper">
 
-            {% for brother in class.members %}
+            {% assign sorted_members = class.members | sort_natural: "name" %}
+            {% for brother in sorted_members %}
             <div class="brother" style="background-image: url({{brother.picture}});">
                 {% if brother.linkedin != '' %}
                 <a target="blank" href="{{brother.linkedin}}">
@@ -47,6 +31,7 @@
     {% endif %}
     {% endfor %}
 </div>
+
 
 <div id="alumni">
     <span class="title"> Alumni </span>

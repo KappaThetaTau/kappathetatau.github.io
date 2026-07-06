@@ -1,0 +1,17 @@
+<div class="class">
+    <div class="brothers-wrapper">
+      {% for exec in site.data.exec_board.exec_board %}
+        <div class="exec-card">
+          <div class="exec-photo" style="background-image: url({{ exec.image }});"></div>
+          <div class="exec-details">
+            <span class="name">{{ exec.name }}</span>
+            <span class="exec-title">{{ exec.title }}</span>
+            <span class="exec-detail">{{ exec.major }} · Class of {{ exec.class }}</span>
+            {% if exec.email %}
+              <a class="exec-email" href="mailto:{{ exec.email }}">{{ exec.email }}</a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
