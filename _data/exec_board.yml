@@ -4,113 +4,136 @@ exec_board:
     class: 2028
     major: Electrical Engineering
     image: /assets/imgs/brothers/joe_temple.jpg
+    email: temple5@illinois.edu
   - name: Kaitlyn Regnier
     title: Vice Regent
     class: 2027
     major: Chemical Engineering
     image: /assets/imgs/brothers/kaitlyn_regnier.jpg
+    email: kr54@illinois.edu
   - name: Hollis Hays
     title: Scribe
     class: 2027
     major: Civil Engineering
     image: /assets/imgs/brothers/hollis_hays.jpg
+    email: hhays2@illinois.edu
   - name: Bitania Negash
     title: Treasurer
     class: 2027
     major: Agricultural & BioEngineering
     image: /assets/imgs/brothers/bitania_negash.jpg
+    email: bnega2@illinois.edu
   - name: Myles Johnson
     title: Corresponding Secretary
     class: 2028
     major: Systems Engineering & Design
     image: /assets/imgs/brothers/myles_johnson.jpg
-  - name: Priyansha Shah
-    title: External Professional Chair
-    class: 2028
-    major: Computer Engineering
-    image: /assets/imgs/brothers/priyansha_shah.jpg
-  - name: Viraj Taneja
-    title: External Professional Chair
-    class: 2028
-    major: Computer Engineering
-    image: /assets/imgs/brothers/viraj_taneja.jpg
-  - name: Sumedha Chaudhari
-    title: Internal Professional Chair
-    class: 2028
-    major: Computer Engineering
-    image: /assets/imgs/brothers/sumedha_chaudhari.jpg
-  - name: Graham Johnson
-    title: Internal Professional Chair
-    class: 2028
-    major: Electrical Engineering
-    image: /assets/imgs/brothers/graham_johnson.jpg
-  - name: Veer Sehgal
-    title: Philanthropy Chair
-    class: 2028
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/veer_sehgal.jpg
-  - name: Tessa Waldhoff
-    title: Philanthropy Chair
-    class: 2028
-    major: BioEngineering
-    image: /assets/imgs/brothers/tessa_waldhoff.jpg
-  - name: Louis Hodges
-    title: Social Chair
-    class: 2028
-    major: Materials Science & Engineering
-    image: /assets/imgs/brothers/louis_hodges.jpg
-  - name: Mitchell Hayes
-    title: Social Chair
-    class: 2028
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/mitchell_hayes.jpg
-  - name: Yasmin Navarro
-    title: Diversity Chair
-    class: 2029
-    major: Civil Engineering
-    image: /assets/imgs/brothers/yasmin_navarro.jpg
+    email: myleslj2@illinois.edu
   - name:  Brendan Clancy
     title: Rush Chair
     class: 2027
     major: Civil Engineering
     image: /assets/imgs/brothers/brendan_clancy.jpg
+    email: bc45@illinois.edu
   - name: Cooper Rutledge
     title: New Member Educator
     class: 2027
     major: Civil Engineering
     image: /assets/imgs/brothers/cooper_rutledge.jpg
-  - name: Maryam Sellami
-    title: Fundraising Chair
-    class: 2029
-    major: BioEngineering
-    image: /assets/imgs/brothers/maryam_sellami.jpg
-  - name: Trayvonn Foster
-    title: Projects Chair
+    email: cooperer@illinois.edu  
+  - name: Priyansha Shah
+    title: External Professional Chair
     class: 2028
-    major: Mechanical Engineering
-    image: /assets/imgs/brothers/trayvonn_foster.jpg
+    major: Computer Engineering
+    image: /assets/imgs/brothers/priyansha_shah.jpg
+    email: pps7@illinois.edu
+  - name: Viraj Taneja
+    title: External Professional Chair
+    class: 2028
+    major: Computer Engineering
+    image: /assets/imgs/brothers/viraj_taneja.jpg
+    email: virajjt2@illinois.edu
+  - name: Sumedha Chaudhari
+    title: Internal Professional Chair
+    class: 2028
+    major: Computer Engineering
+    image: /assets/imgs/brothers/sumedha_chaudhari.jpg
+    email: suc3@illinois.edu
+  - name: Graham Johnson
+    title: Internal Professional Chair
+    class: 2028
+    major: Electrical Engineering
+    image: /assets/imgs/brothers/graham_johnson.jpg
+    email: grahamj2@illinois.edu
   - name: Yohali Bopeya
     title: Tech Chair
     class: 2028
     major: Computer Science
     image: /assets/imgs/brothers/yohali_bopeya.jpg
+    email: ybopeya2@illinois.edu
   - name: Ethan Yao
     title: Tech Chair
     class: 2029
     major: Computer Science + BioEngineering
     image: /assets/imgs/brothers/ethan_yao.jpg
+    email: ehyao2@illinois.edu
+  - name: Veer Sehgal
+    title: Philanthropy Chair
+    class: 2028
+    major: Mechanical Engineering
+    image: /assets/imgs/brothers/veer_sehgal.jpg
+    email: veerss2@illinois.edu
+  - name: Tessa Waldhoff
+    title: Philanthropy Chair
+    class: 2028
+    major: BioEngineering
+    image: /assets/imgs/brothers/tessa_waldhoff.jpg
+    email: tessacw2@illinois.edu
+  - name: Louis Hodges
+    title: Social Chair
+    class: 2028
+    major: Materials Science & Engineering
+    image: /assets/imgs/brothers/louis_hodges.jpg
+    email: louish3@illinois.edu
+  - name: Mitchell Hayes
+    title: Social Chair
+    class: 2028
+    major: Mechanical Engineering
+    image: /assets/imgs/brothers/mitchell_hayes.jpg
+    email: mhaye29@illinois.edu
+  - name: Yasmin Navarro
+    title: Diversity Chair
+    class: 2029
+    major: Civil Engineering
+    image: /assets/imgs/brothers/yasmin_navarro.jpg
+    email: ynava9@illinois.edu
+  - name: Maryam Sellami
+    title: Fundraising Chair
+    class: 2029
+    major: BioEngineering
+    image: /assets/imgs/brothers/maryam_sellami.jpg
+    email: sellami3@illinois.edu
+  - name: Trayvonn Foster
+    title: Projects Chair
+    class: 2028
+    major: Mechanical Engineering
+    image: /assets/imgs/brothers/trayvonn_foster.jpg
+    email: tfost@illinois.edu
   - name: Ananya Nayak
     title: Historian
     class: 2029
     major: Neural Engineering
     image: /assets/imgs/brothers/ananya_nayak.jpg
+    email: anaya25@illinois.edu
   - name: Ela Cayirli
     title: Bernays Chair
     class: 2028
     major: Undeclared Engineering
     image: /assets/imgs/brothers/ela_cayirli.jpg
+    email: cayirli2@illinois.edu
   - name: Riya Prasade
     title: Delegate at Large
     class: 2027
     major: BioEngineering
     image: /assets/imgs/brothers/riya_prasade.jpg
+    email: rpras3@illinois.edu

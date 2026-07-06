@@ -4,12 +4,12 @@
         {% assign image_files = site.static_files | where: "company_image", true %}
         {% for myimage in image_files %}
         <a target="blank" href="http://www.google.com/search?q={{myimage.basename}}&btnI">
-            <img id="company-{{forloop.index}}" src="{{ myimage.path }}">
+            <img id="company-{{forloop.index}}" src="{{ myimage.path }}" alt="">
         </a>
         {% endfor %}
         {% for myimage in image_files %}
         <a target="blank" href="http://www.google.com/search?q={{myimage.basename}}&btnI">
-            <img class="company-after" src="{{ myimage.path }}">
+            <img class="company-after" src="{{ myimage.path }}" alt="">
         </a>
         {% endfor %}
     </div>

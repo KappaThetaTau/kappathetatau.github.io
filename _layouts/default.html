@@ -44,23 +44,61 @@
   <div id="nav-wrapper">
     <header>
       <a href="/"
-        ><img src="/assets/imgs/thetatau.png" /><big>Theta Tau | UIUC</big></a
+        ><img src="/assets/imgs/thetatau.png" alt=""/><big>Theta Tau | UIUC</big></a
       >
       <button class="hamburger">&#9776;</button>
-      <a href="/#contact" class="header-nav">Contact Us</a>
-      <a href="/2025/faq" class="header-nav">FAQ</a>
-      <a href="/blog" class="header-nav">Blog</a>
-      <a href="/brothers" class="header-nav">Brothers</a>
-      <a href="/2026/fall-rush-2026/" class="header-nav">Rush</a>
-      <a href="/#about" class="header-nav">About Us</a>
-      <a href="/" class="header-nav">Home</a>
+      <nav class="header-nav">
+        {% for link in site.data.navigation.navigation %}
+          {% if link.sublinks %}
+            {% assign parent_active = false %}
+            {% if page.url == link.link %}
+              {% assign parent_active = true %}
+            {% endif %}
+            {% for sub in link.sublinks %}
+              {% if page.url == sub.link %}
+                {% assign parent_active = true %}
+              {% endif %}
+            {% endfor %}
+            <div class="dropdown">
+              <a href="{{ link.link }}" class="dropbtn {% if parent_active %}active{% endif %}">{{ link.item }}</a>
+              <div class="dropdown-content">
+                {% for sub in link.sublinks %}
+                  <a href="{{ sub.link }}" class="{% if page.url == sub.link %}active{% endif %}">{{ sub.item }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          {% else %}
+            <a href="{{ link.link }}" class="{% if page.url == link.link %}active{% endif %}">{{ link.item }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
       <button class="cross">x</button>
     </header>
 
     <div class="menu">
       <ul>
         {% for link in site.data.navigation.navigation %}
-        <a href="{{link.link}}"><li>{{link.item}}</li></a>
+          {% assign parent_active = false %}
+          {% if page.url == link.link %}
+            {% assign parent_active = true %}
+          {% endif %}
+          {% if link.sublinks %}
+            {% for sub in link.sublinks %}
+              {% if page.url == sub.link %}
+                {% assign parent_active = true %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          <li>
+            <a href="{{ link.link }}" class="{% if parent_active %}active{% endif %}">{{ link.item }}</a>
+          </li>
+          {% if link.sublinks %}
+            {% for sub in link.sublinks %}
+              <li class="sub-item">
+                <a href="{{ sub.link }}" class="{% if page.url == sub.link %}active{% endif %}">{{ sub.item }}</a>
+              </li>
+            {% endfor %}
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
@@ -80,6 +118,25 @@
         })
       }
     </script>
+    <!--stay gold while scrolling on home page-->
+    <script>
+      const sections = document.querySelectorAll("#contact, #pillars");
+      const navLinks = document.querySelectorAll(".header-nav a[href*='/#']");
+
+      const spy = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          const link = document.querySelector(`.header-nav a[href='/#${entry.target.id}']`);
+          if (!link) return;
+          if (entry.isIntersecting) {
+            navLinks.forEach((l) => l.classList.remove("active"));
+            link.classList.add("active");
+          }
+        });
+      }, { rootMargin: "-40% 0px -55% 0px" });
+    
+      sections.forEach((s) => spy.observe(s));
+    </script>
+
   </body>
 
   {% include footer.html %}

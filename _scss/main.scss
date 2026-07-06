@@ -9,6 +9,8 @@
 @import "slideshow";
 @import "navbar";
 @import "brothers";
+@import "leadership";
+@import "faq";
 
 //HTML Should reach the corner of the windows!
 * {
@@ -17,7 +19,7 @@
 }
 
 body {
-  background: white;
+  background: $header-bg;
   font-family: "rawline", Helvetica;
   font-weight: 300;
   padding-top: $navbar-height + $navbar-border-height;

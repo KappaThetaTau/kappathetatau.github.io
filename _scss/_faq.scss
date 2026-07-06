@@ -1,0 +1,67 @@
+#faq-page {
+    background: white;
+    padding-bottom: 4rem;
+
+
+    #hero {
+      @include hero-styling('/assets/imgs/2026-faq-site.JPG', 50%);
+    }
+    .faq-item {
+      border-bottom: 1px solid #E2D9C8;
+    
+      summary {
+        font-family: 'Fraunces', serif;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: $burgundy;
+        padding: 1.1rem 0;
+        cursor: pointer;
+    
+        &:hover { color: $gold; }
+      }
+    
+      // stays gold while expanded
+      &[open] summary {
+        color: $gold;
+      }
+    
+      .faq-answer {
+        padding: 0 0 1.25rem;
+        color: $ink-soft;
+        line-height: 1.6;
+      }
+    }
+
+    .faq-list {
+      max-width: 720px;
+      margin: 3rem auto 0;
+      padding: 0 2rem;
+    }
+  
+    .faq-item {
+      border-bottom: 1px solid #E2D9C8;
+  
+      summary {
+        font-family: 'rawline', serif;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: $burgundy;
+        padding: 1.1rem 0;
+        cursor: pointer;
+  
+        &:hover { color: $gold; }
+      }
+  
+      .faq-answer {
+        padding: 0 0 1.25rem;
+        color: $ink-soft;
+        line-height: 1.6;
+      }
+    }
+  }
+  
+  @media screen and (min-width: $desktop-trigger) {
+    #faq-page #hero {
+      font-size: $hero-desktop-font-size;
+    }
+  }

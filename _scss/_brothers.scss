@@ -21,11 +21,10 @@
 
         .brother {
             @include background-image-base();
-            @include box-shadow();
             color: white;
             position: relative;
             margin: 10px;
-            border-radius: 2px;
+            border: 2px solid $gold; 
             display: inline-block;
             text-align: initial;
             width: 145px;
@@ -100,9 +99,11 @@
         .class {
             padding-top: 1em;
             padding-bottom: 1em;
+            color: white;
 
             &:nth-child(even) {
-                background-color: #f8f8f8;
+                color: $burgundy-dark;
+                background-color: white;
                 border-top: 1px solid #f2f2f2;
                 border-bottom: 1px solid #f2f2f2;
             }

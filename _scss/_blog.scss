@@ -1,6 +1,7 @@
 #blog {
   display: grid;
   grid-template-columns: 1fr;
+  background: white;
 
   #hero {
     @include hero-styling("/assets/imgs/2026-blog-pic.JPG", 50%);

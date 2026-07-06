@@ -1,3 +1,10 @@
+// ============================================================
+// SITE-WIDE VARIABLES & MIXINS
+// Add this file's new variables/mixins alongside your existing
+// ones (don't delete $text-color, $navbar-height, etc. - just
+// add these new entries near them).
+// ============================================================
+
 $hero-mobile-font-size: 1.2em;
 $hero-desktop-font-size: 1.6em;
 $title-fontsize: 3em;
@@ -7,6 +14,23 @@ $desktop-trigger: 800px;
 $navbar-height: 60px;
 $navbar-border-height: 2px;
 
+// ------------------------------------------------------------
+// NEW: brand redesign colors (burgundy + gold)
+// ------------------------------------------------------------
+$burgundy: #5C1A24;
+$burgundy-dark: #3A0F16;
+$gold: #C9A227;
+$gold-light: #E4C769;
+$cream: #F4F1EA;
+$ink: #2C2420;
+$ink-soft: #6B5F58;
+
+// Navbar-specific colors (kept separate so header can be tuned
+// independently of general body text colors)
+$header-bg: $burgundy-dark;
+$border-color: #dddddd;
+$link-hover-color: $gold-light;
+$menu-bg: $burgundy-dark;
 
 @mixin background-image-base() {
     background-position: center;
@@ -30,7 +54,7 @@ $navbar-border-height: 2px;
     position:absolute;
     top:0;
     right:0;
-    color: $text-color;
+    color: $cream;
     border:0;
     cursor:pointer;
     outline:none;
@@ -56,13 +80,13 @@ $navbar-border-height: 2px;
     height: 25em;
     padding: none;
     font-size: $hero-mobile-font-size;
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4) ), url($background-image);
+    background: linear-gradient( rgba(58, 15, 22, 0.55), rgba(58, 15, 22, 0.7) ), url($background-image);
     @media screen and (min-width: $desktop-trigger) {
         background-attachment: fixed;
     }
     @include background-image-base();
     position: relative;
-    color: white;
+    color: $cream;
 
     #title {
         top: $distance-from-top;
@@ -80,6 +104,121 @@ $navbar-border-height: 2px;
         #subtitle {
             display: block;
             font-size: 0.25em;
+        }
+    }
+}
+
+// ------------------------------------------------------------
+// NEW: mixins for the redesigned homepage sections
+// ------------------------------------------------------------
+
+// Small eyebrow label used above section headings (e.g. "Life
+// as a brother", "Giving back", "Get in touch")
+@mixin section-eyebrow($color: $gold-light) {
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: $color;
+    margin-bottom: 0.75em;
+    font-weight: 500;
+}
+
+// Centered heading block used above the pillars, brotherhood,
+// service, and contact sections
+@mixin section-heading-block() {
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto 2.5em;
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+
+// Photo-header treatment for the three pillar cards: a cropped
+// photo with a dark gradient fade at the bottom and a small
+// gold badge circle overlapping the photo/text boundary
+@mixin pillar-photo-header() {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(180deg, rgba(58,15,22,0) 40%, rgba(58,15,22,0.55) 100%);
+    }
+
+    .pillar-icon {
+        position: absolute;
+        bottom: -20px;
+        left: 20px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: $gold;
+        color: $burgundy-dark;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Fraunces', serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        z-index: 3;
+        border: 3px solid $cream;
+    }
+}
+
+// Large photo + 4-thumbnail strip layout, shared by the
+// Brotherhood and Service sections
+@mixin photo-strip-section() {
+    .main-photo {
+        height: 380px;
+        border-radius: 4px;
+        overflow: hidden;
+        @include background-image-base();
+        margin-bottom: 1em;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    }
+
+    .photo-strip {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1em;
+
+        .thumb {
+            height: 160px;
+            border-radius: 4px;
+            overflow: hidden;
+            @include background-image-base();
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: $desktop-trigger) {
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 }
