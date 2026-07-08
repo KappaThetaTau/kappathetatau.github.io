@@ -118,22 +118,36 @@
         })
       }
     </script>
-    <!--stay gold while scrolling on home page-->
+    <!-- Highlight navigation links while scrolling -->
     <script>
+      // Select all sections with IDs "contact" and "pillars" 
       const sections = document.querySelectorAll("#contact, #pillars");
+    
+      // Select all navigation links in the header that point to anchors 
       const navLinks = document.querySelectorAll(".header-nav a[href*='/#']");
-
+    
+      // Create an IntersectionObserver to track when sections come into view
       const spy = new IntersectionObserver((entries) => {
+        let activeFound = false; // Track if an active section is found
         entries.forEach((entry) => {
           const link = document.querySelector(`.header-nav a[href='/#${entry.target.id}']`);
-          if (!link) return;
-          if (entry.isIntersecting) {
+          if (!link) return; // Skip if no matching link is found
+          if (entry.isIntersecting) { // Check if the section is in view
+            activeFound = true; // Mark that an active section is found
+            // Remove the "active" class from all navigation links
             navLinks.forEach((l) => l.classList.remove("active"));
+            // Add the "active" class to the link corresponding to the section in view
             link.classList.add("active");
           }
         });
-      }, { rootMargin: "-40% 0px -55% 0px" });
     
+        // If no sections are in view, remove "active" from all links
+        if (!activeFound) {
+          navLinks.forEach((l) => l.classList.remove("active"));
+        }
+      }, { threshold: 0.5 }); // Adjust threshold to trigger when 50% of the section is visible
+    
+      // Observe each section to track when it enters or exits the viewport
       sections.forEach((s) => spy.observe(s));
     </script>
 
