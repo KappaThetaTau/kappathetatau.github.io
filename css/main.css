@@ -1280,6 +1280,157 @@ html {
 #home #contact .contact-form button:hover {
   background: #3A0F16;
 }
+#home #contact {
+  grid-area: contact;
+  background: #3A0F16;
+  padding: 5rem 2rem;
+}
+#home #contact .contact-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+@media screen and (max-width: 800px) {
+  #home #contact .contact-inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+#home #contact .contact-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+#home #contact .contact-left .hero-eyebrow {
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #E4C769;
+  margin-bottom: 0.75em;
+  font-weight: 500;
+}
+#home #contact .contact-left h2 {
+  font-family: "Fraunces", serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #F4F1EA;
+  line-height: 1.1;
+  margin: 0;
+}
+#home #contact .contact-left p {
+  font-size: 0.95rem;
+  color: #D8CFC8;
+  line-height: 1.6;
+  margin: 0;
+}
+#home #contact .contact-left .contact-email {
+  font-size: 0.9rem;
+  color: #E4C769;
+  text-decoration: underline;
+  font-weight: 500;
+}
+#home #contact .contact-left .contact-email:hover {
+  color: #C9A227;
+}
+#home #contact .contact-left .contact-photo {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 260px;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+}
+#home #contact .contact-right .contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.25rem;
+}
+#home #contact .contact-right .contact-form label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #F4F1EA;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+#home #contact .contact-right .contact-form input,
+#home #contact .contact-right .contact-form textarea {
+  width: 100%;
+  background: rgba(244, 241, 234, 0.06);
+  border: 1px solid rgba(201, 162, 39, 0.4);
+  border-radius: 2px;
+  padding: 0.8rem 1rem;
+  font-size: 0.95rem;
+  color: #F4F1EA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#home #contact .contact-right .contact-form input::-webkit-input-placeholder, #home #contact .contact-right .contact-form textarea::-webkit-input-placeholder {
+  color: rgba(244, 241, 234, 0.4);
+}
+#home #contact .contact-right .contact-form input::-moz-placeholder, #home #contact .contact-right .contact-form textarea::-moz-placeholder {
+  color: rgba(244, 241, 234, 0.4);
+}
+#home #contact .contact-right .contact-form input:-ms-input-placeholder, #home #contact .contact-right .contact-form textarea:-ms-input-placeholder {
+  color: rgba(244, 241, 234, 0.4);
+}
+#home #contact .contact-right .contact-form input::-ms-input-placeholder, #home #contact .contact-right .contact-form textarea::-ms-input-placeholder {
+  color: rgba(244, 241, 234, 0.4);
+}
+#home #contact .contact-right .contact-form input::placeholder,
+#home #contact .contact-right .contact-form textarea::placeholder {
+  color: rgba(244, 241, 234, 0.4);
+}
+#home #contact .contact-right .contact-form input:focus,
+#home #contact .contact-right .contact-form textarea:focus {
+  outline: none;
+  border-color: #C9A227;
+  background: rgba(244, 241, 234, 0.1);
+}
+#home #contact .contact-right .contact-form textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+#home #contact .contact-right .contact-form button {
+  background: #C9A227;
+  color: #3A0F16;
+  border: none;
+  padding: 0.9rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  transition: background 0.2s;
+}
+#home #contact .contact-right .contact-form button:hover {
+  background: #E4C769;
+}
+#home #contact .contact-right .contact-form .form-status {
+  font-size: 0.85rem;
+  color: #E4C769;
+  min-height: 1.2em;
+}
 #home #sponsors {
   grid-area: sponsors;
   background: white;
