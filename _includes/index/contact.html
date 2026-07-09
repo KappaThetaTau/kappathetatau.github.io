@@ -1,28 +1,32 @@
 <section id="contact">
-  <div class="section-heading">
-    <div class="hero-eyebrow">Get in touch</div>
-    <h2>Send us a message</h2>
+  <div class="contact-inner">
+
+    <div class="contact-left">
+      <div class="hero-eyebrow">Get in touch</div>
+      <h2>Send us a message</h2>
+      <p>Have questions about Theta Tau? We're happy to help. For inquiries about rush, membership, or general information, reach out using the form or email us directly.</p>
+      <a href="mailto:temple5@illinois.edu" class="contact-email">temple5@illinois.edu</a>
+      <div class="contact-photo" style="background-image: url('/assets/imgs/blog-2024.jpg');"></div>
+    </div>
+
+    <div class="contact-right">
+      <form id="contact-form" class="contact-form" method="POST">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="_replyto" placeholder="you@illinois.edu" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Type your message here" required></textarea>
+        </div>
+        <input type="text" name="_gotcha" style="display:none">
+        <button type="submit">Send message</button>
+        <p id="form-status" class="form-status" aria-live="polite"></p>
+      </form>
+    </div>
   </div>
-
-  <form id="contact-form" class="contact-form" method="POST">
-    <div>
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Your name" required>
-    </div>
-    <div>
-      <label for="email">Email</label>
-      <input type="email" id="email" name="_replyto" placeholder="you@illinois.edu" required>
-    </div>
-    <div>
-      <label for="message">Message</label>
-      <textarea id="message" name="message" placeholder="Type your message here" required></textarea>
-    </div>
-
-    <!-- honeypot, keep hidden -->
-    <input type="text" name="_gotcha" style="display:none">
-
-    <button type="submit">Send message</button>
-
-    <p id="form-status" class="form-status" aria-live="polite"></p>
-  </form>
 </section>
