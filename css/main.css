@@ -495,12 +495,44 @@ html {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.2em;
-  grid-template-areas: "hero" "stats" "pillars" "portfolio" "brotherhood" "brotherhood-slides" "service" "service-slides" "stats2" "brothers" "posts" "faq" "rush" "contact" "sponsors";
+  grid-template-areas: "announcement" "hero" "stats" "pillars" "portfolio" "brotherhood" "brotherhood-slides" "service" "service-slides" "stats2" "brothers" "posts" "faq" "rush" "contact" "sponsors";
   background: #3A0F16;
   color: #2C2420;
 }
 #home p {
   font-size: 1.0625em;
+}
+#home #announcement {
+  grid-area: announcement;
+  margin: 0.25rem auto;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+#home #announcement h1 {
+  font-family: "Fraunces", serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #F4F1EA;
+  margin-bottom: 0.5rem;
+}
+#home #announcement img {
+  max-width: 1100px;
+  height: auto;
+  border-radius: 2px;
+  margin: 0.5rem 0;
+}
+#home #announcement p {
+  font-size: 0.95rem;
+  color: #F4F1EA;
+  margin: 0;
+}
+#home #announcement p a {
+  color: #F4F1EA;
+  font-weight: 600;
+  text-decoration: underline;
+}
+#home #announcement p a:hover {
+  color: #C9A227;
 }
 #home #hero {
   grid-area: hero;
@@ -1469,7 +1501,7 @@ html {
 @media screen and (min-width: 800px) {
   #home {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "hero hero" "stats stats" "pillars pillars" "portfolio portfolio" "brotherhood service" "brotherhood-slides service-slides" "stats2 stats2" "brothers posts" "faq rush" "contact contact" "sponsors sponsors";
+    grid-template-areas: "announcement announcement" "hero hero" "stats stats" "pillars pillars" "portfolio portfolio" "brotherhood service" "brotherhood-slides service-slides" "stats2 stats2" "brothers posts" "faq rush" "contact contact" "sponsors sponsors";
   }
   #home p {
     font-size: 1.3125em;
