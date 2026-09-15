@@ -16,7 +16,14 @@ html {
 }
 #home {
   display: grid;
-  grid-template-columns: 1fr;
+  // minmax(0, 1fr) instead of a bare 1fr (which is minmax(auto, 1fr)): the
+  // auto minimum of a 1fr track is each item's min-content contribution, so
+  // one oversized child used to stretch every homepage section to ~1164px
+  // and phones zoomed out to a shrunken "desktop" layout. The fix for that
+  // child is the percentage width on the announcement image (see below);
+  // this is defence in depth so a future oversized child can only overflow
+  // its own section instead of widening the whole page.
+  grid-template-columns: minmax(0, 1fr);
   gap: 0.2em;
   grid-template-areas:
     "announcement"
@@ -38,6 +45,19 @@ html {
 
   background: $burgundy-dark;
   color: $ink;
+  // Last-resort mask (Safari 16+ / Chrome 90+; older browsers ignore it): if
+  // something still overflows a section it is clipped at the viewport edge
+  // instead of making phones zoom out. Still fix the overflowing element.
+  overflow-x: clip;
+
+  // Replaced content must scale down with its section. A fixed pixel
+  // max-width on an <img> (the 1920px rush graphic capped at 1100px) is what
+  // blew the phone layout out in the first place.
+  img,
+  iframe,
+  video {
+    max-width: 100%;
+  }
 
   p {
     font-size: 1.0625em;
@@ -62,6 +82,10 @@ html {
     }
 
     img {
+      // A replaced element's percentage width contributes 0 to its parent's
+      // min-content size (CSS Sizing 3 s5.2.1), so the 1920px graphic can
+      // shrink to the phone width; the 1100px cap still applies on desktop.
+      width: 100%;
       max-width: 1100px;
       height: auto;
       border-radius: 2px;
@@ -990,7 +1014,7 @@ html {
 // Desktop styling
 @media screen and (min-width: $desktop-trigger) {
   #home {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-template-areas:
      "announcement announcement" 
       "hero hero"
