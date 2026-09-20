@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import "https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css";
 @import url("https://fonts.googleapis.com/css?family=Roboto:400");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600..900&display=swap");
 .header-socials {
   top: 95%;
   left: 50%;
@@ -436,6 +437,17 @@
   -webkit-box-shadow: #bbbbbb 0px 2px 5px;
           box-shadow: #bbbbbb 0px 2px 5px;
 }
+.post .rush-closed {
+  text-align: center;
+  padding: 2.5em 1em 2em;
+}
+.post .rush-closed h2 {
+  margin-bottom: 0.5em;
+}
+.post .rush-closed p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 .post .content p {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -495,7 +507,7 @@ html {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 0.2em;
-  grid-template-areas: "announcement" "hero" "stats" "pillars" "portfolio" "brotherhood" "brotherhood-slides" "service" "service-slides" "stats2" "brothers" "posts" "faq" "rush" "contact" "sponsors";
+  grid-template-areas: "announcement" "hero" "stats" "pillars" "portfolio" "brotherhood" "brotherhood-slides" "service" "service-slides" "stats2" "brothers" "posts" "faq" "rush" "contact" "sponsors" "donate";
   background: #3A0F16;
   color: #2C2420;
   overflow-x: clip;
@@ -593,7 +605,7 @@ html {
 #home #hero h1 {
   font-family: "Fraunces", serif;
   font-size: 3.2rem;
-  font-weight: 600;
+  font-weight: 900;
   line-height: 1.05;
   margin-bottom: 1rem;
 }
@@ -1504,11 +1516,71 @@ html {
   max-height: 50px;
   max-width: 120px;
 }
+#home #donate {
+  grid-area: donate;
+  background: #3A0F16;
+  padding: 4.5rem 2rem;
+  text-align: center;
+}
+#home #donate .donate-inner {
+  max-width: 620px;
+  margin: 0 auto;
+}
+#home #donate .hero-eyebrow {
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #E4C769;
+  margin-bottom: 0.75em;
+  font-weight: 500;
+}
+#home #donate h2 {
+  font-family: "Fraunces", serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #F4F1EA;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+#home #donate p {
+  font-size: 0.95rem;
+  color: #D8CFC8;
+  line-height: 1.6;
+}
+#home #donate .donate-cta {
+  display: inline-block;
+  background: #C9A227;
+  color: #3A0F16;
+  margin: 2rem 0 1.5rem;
+  padding: 0.9rem 2.75rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 2px;
+  -webkit-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  transition: background 0.2s;
+}
+#home #donate .donate-cta:hover {
+  background: #E4C769;
+}
+#home #donate .donate-cta:focus-visible {
+  outline: 2px solid #F4F1EA;
+  outline-offset: 3px;
+}
+#home #donate .donate-note {
+  font-size: 0.8rem;
+  color: rgba(244, 241, 234, 0.7);
+  max-width: 480px;
+  margin: 0 auto;
+}
 
 @media screen and (min-width: 800px) {
   #home {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-template-areas: "announcement announcement" "hero hero" "stats stats" "pillars pillars" "portfolio portfolio" "brotherhood service" "brotherhood-slides service-slides" "stats2 stats2" "brothers posts" "faq rush" "contact contact" "sponsors sponsors";
+    grid-template-areas: "announcement announcement" "hero hero" "stats stats" "pillars pillars" "portfolio portfolio" "brotherhood service" "brotherhood-slides service-slides" "stats2 stats2" "brothers posts" "faq rush" "contact contact" "sponsors sponsors" "donate donate";
   }
   #home p {
     font-size: 1.3125em;

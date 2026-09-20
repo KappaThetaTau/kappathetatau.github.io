@@ -4,7 +4,7 @@ navigation:
   - item: About Us
     link: "/#pillars"
   - item: Rush
-    link: /2026/fall-rush-2026/
+    link: /rush/
   - item: Brothers
     link: /brothers/
     sublinks:

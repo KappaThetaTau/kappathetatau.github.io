@@ -4,6 +4,10 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "R
 include: ["_redirects"]
 permalink: /:year/:title/
 
+# Stripe Payment Link for the homepage donate section (Stripe Dashboard ->
+# Payment Links). Leave blank to hide the section.
+donate_url: https://buy.stripe.com/7sY14n9pw97U2NsbzbaEE00
+
 defaults:
   - scope:
       path: "assets/imgs/companies"

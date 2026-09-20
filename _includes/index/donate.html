@@ -1,0 +1,15 @@
+{% comment %}
+  Renders only when donate_url is set in _config.yml (a Stripe Payment Link).
+  Checkout happens on Stripe's hosted page - no card data touches this site.
+{% endcomment %}
+{% if site.donate_url %}
+<section id="donate">
+  <div class="donate-inner">
+    <div class="hero-eyebrow">Support the chapter</div>
+    <h2>Help us build better engineers</h2>
+    <p>Gifts from alumni, families, and friends help fund the professional development, service, and brotherhood events that Kappa Chapter hosts every semester.</p>
+    <a href="{{ site.donate_url }}" class="donate-cta" target="_blank" rel="noopener noreferrer">Donate</a>
+    <p class="donate-note">Payments are processed securely by Stripe.</p>
+  </div>
+</section>
+{% endif %}
