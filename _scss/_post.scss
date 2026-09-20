@@ -77,6 +77,20 @@ $post-font-color: rgba(0,0,0,.84);
         @include box-shadow();
     }
 
+    // Between-rushes message under the banner on /rush/ (rush.html)
+    .rush-closed {
+        text-align: center;
+        padding: 2.5em 1em 2em;
+
+        h2 {
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            @include margin-top-bottom();
+        }
+    }
+
     .content {
         p {
             @include margin-top-bottom();

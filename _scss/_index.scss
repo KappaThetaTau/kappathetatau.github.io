@@ -41,7 +41,8 @@ html {
     "faq"
     "rush"
     "contact"
-    "sponsors";
+    "sponsors"
+    "donate";
 
   background: $burgundy-dark;
   color: $ink;
@@ -153,7 +154,7 @@ html {
     h1 {
       font-family: 'Fraunces', serif;
       font-size: 3.2rem;
-      font-weight: 600;
+      font-weight: 900;
       line-height: 1.05;
       margin-bottom: 1rem;
     }
@@ -1009,6 +1010,73 @@ html {
       }
     }
   }
+
+  // ------------------------------------------------------------
+  // DONATE (closing band; hidden unless donate_url is set in _config.yml)
+  // Expects: <section id="donate"><div class="donate-inner">
+  //   <div class="hero-eyebrow">...</div><h2>...</h2><p>...</p>
+  //   <a class="donate-cta">Donate</a><p class="donate-note">...</p>
+  //   </div></section>
+  // ------------------------------------------------------------
+  #donate {
+    grid-area: donate;
+    background: $burgundy-dark;
+    padding: 4.5rem 2rem;
+    text-align: center;
+
+    .donate-inner {
+      max-width: 620px;
+      margin: 0 auto;
+    }
+
+    .hero-eyebrow {
+      @include section-eyebrow($gold-light);
+    }
+
+    h2 {
+      font-family: 'Fraunces', serif;
+      font-size: 2.2rem;
+      font-weight: 600;
+      color: $cream;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: #D8CFC8;
+      line-height: 1.6;
+    }
+
+    .donate-cta {
+      display: inline-block;
+      background: $gold;
+      color: $burgundy-dark;
+      margin: 2rem 0 1.5rem;
+      padding: 0.9rem 2.75rem;
+      font-weight: 700;
+      font-size: 0.9rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 2px;
+      transition: background 0.2s;
+
+      &:hover { background: $gold-light; }
+
+      &:focus-visible {
+        outline: 2px solid $cream;
+        outline-offset: 3px;
+      }
+    }
+
+    .donate-note {
+      font-size: 0.8rem;
+      color: rgba($cream, 0.7);
+      max-width: 480px;
+      margin: 0 auto;
+    }
+  }
 }
 
 // Desktop styling
@@ -1027,7 +1095,8 @@ html {
       "brothers posts"
       "faq rush"
       "contact contact"
-      "sponsors sponsors";
+      "sponsors sponsors"
+      "donate donate";
 
     p {
       font-size: 1.3125em;

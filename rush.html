@@ -1,0 +1,40 @@
+---
+layout: default
+title: Rush
+permalink: /rush/
+# The navbar "Rush" link and kappathetatau.org/rush both land here.
+# While a rush is running, set active_post to that semester's post URL
+# (e.g. /2027/spring-rush-2027/) and this page shows that post. Leave it
+# blank between rushes to show the banner + message below instead. Past
+# rush posts stay in _posts/ either way.
+active_post:
+banner: /assets/imgs/rush_graphics/fall-2026/header.png
+heading: Fall Rush 2026 has concluded
+message: Thank you to everyone who came out this semester. Check back for Spring Rush 2027!
+---
+{% if page.active_post %}
+  {% assign rush_post = site.posts | where: "url", page.active_post | first %}
+{% endif %}
+<div class="post-wrapper">
+    <div class="post">
+        {% if rush_post %}
+        {% if rush_post.image %}
+        <img class="post-banner" src="{{ rush_post.image }}">
+        {% endif %}
+        <h2>
+            {{ rush_post.title }}
+        </h2>
+        <p class="meta">{{ rush_post.date | date_to_string }}</p>
+        <div class="content">
+            {{ rush_post.content }}
+        </div>
+        {% else %}
+        <img class="post-banner" src="{{ page.banner }}" alt="Theta Tau rush banner">
+        <div class="rush-closed">
+            <h2>{{ page.heading }}</h2>
+            <p>{{ page.message }}</p>
+            <p>In the meantime, read our <a href="/faq/">FAQ</a>, follow <a href="https://www.instagram.com/kappathetatau/">@kappathetatau</a> on Instagram, or <a href="/#contact">send us a message</a>.</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
