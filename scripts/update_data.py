@@ -160,7 +160,9 @@ if __name__ == "__main__":
                     exit(1)
             else:
                 brother_data['pledge_class'] = semester
-                data['alumni'].append(brother_data)
+                # Skip older submissions from the same brother
+                if not any(brother['name'] == brother_data['name'] for brother in data['alumni']):
+                    data['alumni'].append(brother_data)
 
     # Sort active brothers by last name within pledge classes
     for semester in data['actives']:
