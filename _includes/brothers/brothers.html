@@ -10,7 +10,7 @@
 
             {% assign sorted_members = class.members | sort_natural: "name" %}
             {% for brother in sorted_members %}
-            <div class="brother" style="background-image: url({{brother.picture}});">
+            <div class="brother" style='background-image: url("{{ brother.picture | escape }}");'>
                 {% if brother.linkedin != '' %}
                 <a target="blank" href="{{brother.linkedin}}">
                     <i class="link fab fa-linkedin"></i>
@@ -38,7 +38,7 @@
     <div class="brothers-wrapper">
 
         {% for brother in site.data.members.alumni %}
-        <div class="brother" style="background-image: url({{brother.picture}});">
+        <div class="brother" style='background-image: url("{{ brother.picture | escape }}");'>
             {% if brother.linkedin != '' %}
             <a target="blank" href="{{brother.linkedin}}">
                 <i class="link fab fa-linkedin"></i>

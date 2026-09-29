@@ -43,7 +43,7 @@ if __name__ == "__main__":
     gfile = drive.CreateFile({'id': CSV_ID})
     gfile.GetContentFile(CSV_NAME, mimetype='text/csv')
 
-    with open(CSV_NAME, 'r') as csvfile:
+    with open(CSV_NAME, 'r', encoding='utf-8') as csvfile:
         reader = csv.reader(csvfile)
         next(reader, None)
         for row in reader:
@@ -68,7 +68,7 @@ if __name__ == "__main__":
                     data['directory']['active'][email]['privileged'] = True
 
     # WRITE TO DATA
-    with open(DIRECTORY_FILE_PATH, 'w') as outfile:
-        json.dump(data, outfile)
+    with open(DIRECTORY_FILE_PATH, 'w', encoding='utf-8') as outfile:
+        json.dump(data, outfile, ensure_ascii=False)
 
     print('Successfully updated directory.json')
