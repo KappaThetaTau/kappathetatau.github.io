@@ -2,7 +2,7 @@
     <div class="brothers-wrapper">
       {% for exec in site.data.exec_board.exec_board %}
         <div class="exec-card">
-          <div class="exec-photo" style="background-image: url({{ exec.image }});"></div>
+          <div class="exec-photo" style='background-image: url("{{ exec.image | escape }}");'></div>
           <div class="exec-details">
             <span class="name">{{ exec.name }}</span>
             <span class="exec-title">{{ exec.title }}</span>

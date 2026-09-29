@@ -86,7 +86,7 @@ if __name__ == "__main__":
     gfile = drive.CreateFile({'id': CSV_ID})
     gfile.GetContentFile(CSV_NAME, mimetype='text/csv')
 
-    with open(CSV_NAME, 'r') as csvfile:
+    with open(CSV_NAME, 'r', encoding='utf-8') as csvfile:
         reader = csv.reader(csvfile)
         next(reader, None)  # header row
 
@@ -171,7 +171,7 @@ if __name__ == "__main__":
     data['alumni'].sort(key=lambda brother: index_of_class(brother['pledge_class']))
 
     # WRITE TO DATA
-    with open(MEMBERS_FILE_PATH, 'w') as outfile:
-        yaml.dump(data, outfile, default_flow_style=False)
+    with open(MEMBERS_FILE_PATH, 'w', encoding='utf-8') as outfile:
+        yaml.dump(data, outfile, default_flow_style=False, allow_unicode=True)
 
     print('Successfully updated members.yml and added images to {}'.format(BROTHERS_IMG_LOCATION))

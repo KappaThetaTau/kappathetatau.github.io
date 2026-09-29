@@ -70,7 +70,7 @@ if __name__ == "__main__":
     GFILE = DRIVE.CreateFile({'id': CSV_ID})
     GFILE.GetContentFile(CSV_NAME, mimetype='text/csv')
 
-    with open(CSV_NAME, 'r') as csvfile:
+    with open(CSV_NAME, 'r', encoding='utf-8') as csvfile:
         READER = csv.reader(csvfile)
 
         for i, row in enumerate(READER):
@@ -125,7 +125,7 @@ if __name__ == "__main__":
                         data['events'][data_idx]['excused'].append(email)
 
     # WRITE TO DATA
-    with open(OUTPUT_FILE_PATH, 'w') as outfile:
-        json.dump(data, outfile)
+    with open(OUTPUT_FILE_PATH, 'w', encoding='utf-8') as outfile:
+        json.dump(data, outfile, ensure_ascii=False)
 
     print('Successfully updated', OUTPUT_FILE_NAME)
